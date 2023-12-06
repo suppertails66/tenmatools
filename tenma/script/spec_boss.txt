@@ -1,0 +1,1942 @@
+#STARTREGION("boss_sec_61380")
+
+//===================================
+// boss 0xEFC4 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61380")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xEFC4_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+#IMPORT("boss_0xEFC4_intro_0")
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xEFC4_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$68><$8A><$24><$00><$00><$20>
+#IMPORT("boss_0xEFC4_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xEFC4_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$2A><$8A><$0C><$00><$91><$5B>
+#IMPORT("boss_0xEFC4_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$36><$8A><$0F><$00><$E0><$76>
+#IMPORT("boss_0xEFC4_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$45><$8A><$23><$00><$00><$18>
+#IMPORT("boss_0xEFC4_win_7")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x173)
+#ADDFREESPACE(0x3FD, 0x403)
+#STARTREGION("boss_sec_61419")
+
+//===================================
+// boss 0xEFEB dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61419")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xEFEB_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+#IMPORT("boss_0xEFEB_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xEFEB_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$3D><$A0><$16><$00><$98><$AB>
+#IMPORT("boss_0xEFEB_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xEFEB_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$FC><$9F><$17><$00><$08><$B4>
+#IMPORT("boss_0xEFEB_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$13><$A0><$18><$00><$18><$B8>
+#IMPORT("boss_0xEFEB_win_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x12B)
+#ADDFREESPACE(0x3D1, 0x42F)
+#STARTREGION("boss_sec_61432")
+
+//===================================
+// boss 0xEFF8 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61432")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xEFF8_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$42><$8D><$25><$00><$00><$28>
+#IMPORT("boss_0xEFF8_intro_1")
+#BOXPAUSE()
+#IMPORT("boss_0xEFF8_intro_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x75)
+#ADDFREESPACE(0x260, 0x5A0)
+#STARTREGION("boss_sec_61445")
+
+//===================================
+// boss 0xF005 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61445")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF005_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$AF><$79><$14><$00><$07><$9F>
+#IMPORT("boss_0xF005_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$C3><$79><$24><$00><$00><$20>
+#IMPORT("boss_0xF005_intro_4")
+#BOXPAUSE()
+[adpcm]<$00><$E7><$79><$14><$00><$1B><$99>
+#IMPORT("boss_0xF005_intro_7")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF005_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$FB><$79><$1F><$00><$F0><$F1>
+#IMPORT("boss_0xF005_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF005_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$1A><$7A><$20><$00><$5B><$FE>
+#IMPORT("boss_0xF005_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF005_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x201)
+#ADDFREESPACE(0x709, 0xF7)
+#STARTREGION("boss_sec_61458")
+
+//===================================
+// boss 0xF012 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61458")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF012_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$80><$9B><$2B><$00><$00><$58>
+#IMPORT("boss_0xF012_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF012_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$C0><$9B><$1B><$00><$F4><$D5>
+#IMPORT("boss_0xF012_lose_1")
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF012_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$AB><$9B><$15><$00><$54><$A6>
+#IMPORT("boss_0xF012_win_1")
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xC8)
+#ADDFREESPACE(0x2B6, 0x54A)
+#STARTREGION("boss_sec_61471")
+
+//===================================
+// boss 0xF01F dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61471")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF01F_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$DB><$9B><$23><$00><$00><$18>
+#IMPORT("boss_0xF01F_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF01F_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$FE><$9B><$1A><$00><$8A><$C9>
+#IMPORT("boss_0xF01F_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xAA)
+#ADDFREESPACE(0x2D2, 0x52E)
+#STARTREGION("boss_sec_61484")
+
+//===================================
+// boss 0xF02C dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61484")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF02C_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$18><$9C><$33><$00><$00><$98>
+#IMPORT("boss_0xF02C_intro_1")
+#BOXPAUSE()
+[f3]<$01>
+#IMPORT("boss_0xF02C_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF02C_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$6A><$9C><$26><$00><$00><$30>
+#IMPORT("boss_0xF02C_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF02C_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$4B><$9C><$1F><$00><$B8><$F7>
+#IMPORT("boss_0xF02C_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF02C_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x16C)
+#ADDFREESPACE(0x589, 0x277)
+#STARTREGION("boss_sec_61497")
+
+//===================================
+// boss 0xF039 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61497")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF039_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$86><$7B><$1F><$00><$BE><$F3>
+#IMPORT("boss_0xF039_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF039_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$A5><$7B><$0B><$00><$21><$51>
+#IMPORT("boss_0xF039_lose_1")
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF039_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$2B><$7C><$1B><$00><$60><$D4>
+#IMPORT("boss_0xF039_win_1")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xE8)
+#ADDFREESPACE(0x304, 0x4FC)
+#STARTREGION("boss_sec_61510")
+
+//===================================
+// boss 0xF046 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61510")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF046_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$F2><$71><$18><$00><$19><$BC>
+#IMPORT("boss_0xF046_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF046_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$D9><$71><$19><$00><$D0><$C3>
+#IMPORT("boss_0xF046_win_1")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xAC)
+#ADDFREESPACE(0x2FA, 0x506)
+#STARTREGION("boss_sec_61523")
+
+//===================================
+// boss 0xF053 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61523")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF053_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$3F><$72><$13><$00><$40><$93>
+#IMPORT("boss_0xF053_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF053_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$25><$72><$1A><$00><$01><$CA>
+#IMPORT("boss_0xF053_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF053_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xF7)
+#ADDFREESPACE(0x30C, 0x4F4)
+#STARTREGION("boss_sec_61536")
+
+//===================================
+// boss 0xF060 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61536")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF060_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$75><$72><$20><$00><$C1><$FF>
+#IMPORT("boss_0xF060_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$95><$72><$18><$00><$A8><$BE>
+#IMPORT("boss_0xF060_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF060_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$C3><$72><$12><$00><$64><$8E>
+#IMPORT("boss_0xF060_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF060_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$AD><$72><$16><$00><$C8><$AD>
+#IMPORT("boss_0xF060_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF060_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x1A0)
+#ADDFREESPACE(0x376, 0x48A)
+#STARTREGION("boss_sec_61549")
+
+//===================================
+// boss 0xF06D dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61549")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF06D_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$B0><$8A><$1E><$00><$F2><$EB>
+#IMPORT("boss_0xF06D_intro_1")
+#BOXPAUSE()
+[f3]<$01>
+#IMPORT("boss_0xF06D_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF06D_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$04><$8B><$2A><$00><$00><$50>
+#IMPORT("boss_0xF06D_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF06D_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$EA><$8A><$1A><$00><$58><$CF>
+#IMPORT("boss_0xF06D_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF06D_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x162)
+#ADDFREESPACE(0x3FC, 0x404)
+#STARTREGION("boss_sec_61562")
+
+//===================================
+// boss 0xF07A dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61562")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF07A_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$26><$A2><$14><$00><$30><$9F>
+#IMPORT("boss_0xF07A_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF07A_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$5D><$A2><$23><$00><$00><$18>
+#IMPORT("boss_0xF07A_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF07A_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$3A><$A2><$23><$00><$00><$18>
+#IMPORT("boss_0xF07A_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF07A_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x163)
+#ADDFREESPACE(0x430, 0x3D0)
+#STARTREGION("boss_sec_61575")
+
+//===================================
+// boss 0xF087 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61575")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF087_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$F0><$69><$12><$00><$18><$8E>
+#IMPORT("boss_0xF087_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF087_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$02><$6A><$27><$00><$00><$38>
+#IMPORT("boss_0xF087_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF087_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xD9)
+#ADDFREESPACE(0x3B3, 0x44D)
+#STARTREGION("boss_sec_61588")
+
+//===================================
+// boss 0xF094 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61588")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF094_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$65><$9D><$1E><$00><$68><$E9>
+#IMPORT("boss_0xF094_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$83><$9D><$20><$00><$80><$FD>
+#IMPORT("boss_0xF094_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF094_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$A3><$9D><$17><$00><$08><$B6>
+#IMPORT("boss_0xF094_lose_1")
+#BOXPAUSE()
+[adpcm]<$00><$BA><$9D><$17><$00><$18><$B2>
+#IMPORT("boss_0xF094_lose_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x16C)
+#ADDFREESPACE(0x403, 0x3FD)
+#STARTREGION("boss_sec_61601")
+
+//===================================
+// boss 0xF0A1 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61601")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF0A1_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$00><$89><$1F><$00><$80><$F5>
+#IMPORT("boss_0xF0A1_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$1F><$89><$18><$00><$20><$BF>
+#IMPORT("boss_0xF0A1_intro_4")
+#BOXPAUSE()
+[adpcm]<$00><$37><$89><$17><$00><$41><$B4>
+#IMPORT("boss_0xF0A1_intro_7")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF0A1_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$6A><$89><$17><$00><$A1><$B4>
+#IMPORT("boss_0xF0A1_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF0A1_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$4E><$89><$1C><$00><$B0><$DB>
+#IMPORT("boss_0xF0A1_win_1")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x1D0)
+#ADDFREESPACE(0x37B, 0x485)
+#STARTREGION("boss_sec_61614")
+
+//===================================
+// boss 0xF0AE dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61614")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF0AE_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$81><$89><$20><$00><$C0><$FD>
+#IMPORT("boss_0xF0AE_intro_1")
+#BOXPAUSE()
+[f3]<$01>
+#IMPORT("boss_0xF0AE_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF0AE_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$C4><$89><$12><$00><$C8><$8A>
+#IMPORT("boss_0xF0AE_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF0AE_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$A1><$89><$23><$00><$00><$18>
+#IMPORT("boss_0xF0AE_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF0AE_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x188)
+#ADDFREESPACE(0x499, 0x367)
+#STARTREGION("boss_sec_61679")
+
+//===================================
+// boss 0xF0EF dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61679")
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF0EF_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+#IMPORT("boss_0xF0EF_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x24)
+#ADDFREESPACE(0x2DD, 0x523)
+#STARTREGION("boss_sec_61692")
+
+//===================================
+// boss 0xF0FC dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61692")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF0FC_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$E7><$74><$1C><$00><$10><$DD>
+#IMPORT("boss_0xF0FC_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF0FC_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$CE><$75><$15><$00><$18><$A1>
+#IMPORT("boss_0xF0FC_win_1")
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x74)
+#ADDFREESPACE(0x258, 0x5A8)
+#STARTREGION("boss_sec_61705")
+
+//===================================
+// boss 0xF109 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61705")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF109_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$03><$75><$1A><$00><$68><$CE>
+#IMPORT("boss_0xF109_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$1D><$75><$0D><$00><$1B><$63>
+#IMPORT("boss_0xF109_intro_4")
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF109_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$CE><$75><$15><$00><$18><$A1>
+#IMPORT("boss_0xF109_win_1")
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x97)
+#ADDFREESPACE(0x27B, 0x585)
+#STARTREGION("boss_sec_61718")
+
+//===================================
+// boss 0xF116 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61718")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF116_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$2A><$75><$23><$00><$00><$18>
+#IMPORT("boss_0xF116_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF116_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$CE><$75><$15><$00><$18><$A1>
+#IMPORT("boss_0xF116_win_1")
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x78)
+#ADDFREESPACE(0x26C, 0x594)
+#STARTREGION("boss_sec_61731")
+
+//===================================
+// boss 0xF123 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61731")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF123_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$9E><$75><$0C><$00><$60><$5E>
+#IMPORT("boss_0xF123_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$AA><$75><$24><$00><$00><$20>
+[f3]<$01>
+#IMPORT("boss_0xF123_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF123_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+#IMPORT("boss_0xF123_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF123_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$CE><$75><$15><$00><$18><$A1>
+#IMPORT("boss_0xF123_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF123_win_3")
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x148)
+#ADDFREESPACE(0x412, 0x3EE)
+#STARTREGION("boss_sec_61744")
+
+//===================================
+// boss 0xF130 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61744")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF130_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$D2><$67><$14><$00><$78><$9A>
+#IMPORT("boss_0xF130_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$E6><$67><$12><$00><$06><$8D>
+#IMPORT("boss_0xF130_intro_4")
+#BOXPAUSE()
+[f3]<$01>
+#IMPORT("boss_0xF130_intro_7")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF130_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$06><$68><$15><$00><$CE><$A4>
+#IMPORT("boss_0xF130_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF130_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$F8><$67><$0E><$00><$F1><$6C>
+#IMPORT("boss_0xF130_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF130_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x17B)
+#ADDFREESPACE(0x471, 0x38F)
+#STARTREGION("boss_sec_61757")
+
+//===================================
+// boss 0xF13D dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61757")
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF13D_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+#IMPORT("boss_0xF13D_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x5A)
+#ADDFREESPACE(0x3A9, 0x457)
+#STARTREGION("boss_sec_61770")
+
+//===================================
+// boss 0xF14A dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61770")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF14A_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$8C><$98><$15><$00><$60><$A2>
+#IMPORT("boss_0xF14A_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$A1><$98><$2D><$00><$00><$68>
+#IMPORT("boss_0xF14A_intro_4")
+#BOXPAUSE()
+[adpcm]<$00><$CE><$98><$20><$00><$62><$FC>
+#IMPORT("boss_0xF14A_intro_7")
+#BOXPAUSE()
+[adpcm]<$00><$EE><$98><$16><$00><$98><$AC>
+#IMPORT("boss_0xF14A_intro_10")
+#BOXPAUSE()
+[adpcm]<$00><$04><$99><$17><$00><$F7><$B0>
+#IMPORT("boss_0xF14A_intro_13")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF14A_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$1B><$99><$17><$00><$91><$B7>
+#IMPORT("boss_0xF14A_lose_1")
+#BOXPAUSE()
+[adpcm]<$00><$32><$99><$11><$00><$D6><$86>
+#IMPORT("boss_0xF14A_lose_4")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF14A_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$61><$99><$33><$00><$00><$98>
+#IMPORT("boss_0xF14A_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$94><$99><$23><$00><$00><$18>
+#IMPORT("boss_0xF14A_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$B7><$99><$2F><$00><$00><$78>
+#IMPORT("boss_0xF14A_win_7")
+#BOXPAUSE()
+[adpcm]<$00><$E6><$99><$23><$00><$00><$18>
+#IMPORT("boss_0xF14A_win_10")
+#BOXPAUSE()
+[f2]
+#IMPORT("boss_0xF14A_win_13")
+#BOXPAUSE()
+[f2]
+#IMPORT("boss_0xF14A_win_16")
+#BOXPAUSE()
+[f2]
+#IMPORT("boss_0xF14A_win_19")
+[adpcm]<$00><$17><$0E><$19><$00><$61><$C2>
+[fa]
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x442, 0x3BE)
+#STARTREGION("boss_sec_61783")
+
+//===================================
+// boss 0xF157 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61783")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF157_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$0F><$71><$33><$00><$00><$98>
+#IMPORT("boss_0xF157_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF157_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$0C><$70><$2F><$00><$00><$78>
+#IMPORT("boss_0xF157_win_1")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x74, 0xBA)
+#ADDFREESPACE(0x5DA, 0x226)
+#STARTREGION("boss_sec_61809")
+
+//===================================
+// boss 0xF171 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61809")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF171_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$B5><$A3><$1C><$00><$90><$DB>
+[f3]<$00>
+#IMPORT("boss_0xF171_intro_1")
+[f3]<$01>
+#IMPORT("boss_0xF171_intro_3")
+#BOXPAUSE()
+[adpcm]<$00><$D1><$A3><$11><$00><$C0><$80>
+#IMPORT("boss_0xF171_intro_6")
+#BOXPAUSE()
+[adpcm]<$00><$E2><$A3><$0F><$00><$38><$71>
+#IMPORT("boss_0xF171_intro_9")
+[adpcm]<$00><$F1><$A3><$0B><$00><$D0><$52>
+#IMPORT("boss_0xF171_intro_11")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF171_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$F6><$68><$16><$00><$A0><$AD>
+#IMPORT("boss_0xF171_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF171_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$0C><$69><$08><$00><$0A><$3C>
+#IMPORT("boss_0xF171_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$14><$69><$13><$00><$98><$97>
+#IMPORT("boss_0xF171_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$27><$69><$15><$00><$B0><$A5>
+#IMPORT("boss_0xF171_win_7")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x226)
+#ADDFREESPACE(0x3C3, 0x43D)
+#STARTREGION("boss_sec_61822")
+
+//===================================
+// boss 0xF17E dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61822")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF17E_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$C5><$74><$06><$00><$10><$28>
+#IMPORT("boss_0xF17E_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$CB><$74><$1C><$00><$B0><$DF>
+#IMPORT("boss_0xF17E_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x83)
+#ADDFREESPACE(0x21A, 0x5E6)
+#STARTREGION("boss_sec_61835")
+
+//===================================
+// boss 0xF18B dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61835")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF18B_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$02><$76><$06><$00><$B0><$28>
+#IMPORT("boss_0xF18B_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$08><$76><$23><$00><$00><$18>
+#IMPORT("boss_0xF18B_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x7B)
+#ADDFREESPACE(0x20D, 0x5F3)
+#STARTREGION("boss_sec_61848")
+
+//===================================
+// boss 0xF198 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61848")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF198_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$04><$84><$06><$00><$30><$29>
+#IMPORT("boss_0xF198_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$0A><$84><$26><$00><$00><$30>
+#IMPORT("boss_0xF198_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x7D)
+#ADDFREESPACE(0x2C6, 0x53A)
+#STARTREGION("boss_sec_61861")
+
+//===================================
+// boss 0xF1A5 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61861")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF1A5_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+#IMPORT("boss_0xF1A5_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF1A5_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$23><$8E><$1A><$00><$18><$CD>
+#IMPORT("boss_0xF1A5_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF1A5_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$3D><$8E><$20><$00><$18><$FF>
+#IMPORT("boss_0xF1A5_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$5D><$8E><$17><$00><$58><$B5>
+#IMPORT("boss_0xF1A5_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$74><$8E><$18><$00><$11><$BA>
+#IMPORT("boss_0xF1A5_win_7")
+#BOXPAUSE()
+[adpcm]<$00><$8C><$8E><$1A><$00><$2C><$C8>
+#IMPORT("boss_0xF1A5_win_10")
+#BOXPAUSE()
+[adpcm]<$00><$A6><$8E><$17><$00><$B8><$B2>
+#IMPORT("boss_0xF1A5_win_13")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x244)
+#ADDFREESPACE(0x66D, 0x193)
+#STARTREGION("boss_sec_61874")
+
+//===================================
+// boss 0xF1B2 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61874")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF1B2_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$95><$67><$13><$00><$9B><$91>
+#IMPORT("boss_0xF1B2_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF1B2_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$A8><$67><$0D><$00><$B4><$64>
+#IMPORT("boss_0xF1B2_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$B5><$67><$0E><$00><$CB><$68>
+#IMPORT("boss_0xF1B2_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$C3><$67><$0F><$00><$55><$75>
+#IMPORT("boss_0xF1B2_win_7")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0xEE)
+#ADDFREESPACE(0x388, 0x478)
+#STARTREGION("boss_sec_61991")
+
+//===================================
+// boss 0xF227 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "61991")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF227_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$E9><$9D><$1F><$00><$F0><$F1>
+#IMPORT("boss_0xF227_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF227_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$08><$9E><$19><$00><$28><$C2>
+#IMPORT("boss_0xF227_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF227_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$21><$9E><$23><$00><$00><$18>
+#IMPORT("boss_0xF227_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF227_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x143)
+#ADDFREESPACE(0x40D, 0x3F3)
+#STARTREGION("boss_sec_62030")
+
+//===================================
+// boss 0xF24E dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62030")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF24E_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$1A><$6F><$25><$00><$00><$28>
+#IMPORT("boss_0xF24E_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$3F><$6F><$27><$00><$00><$38>
+#IMPORT("boss_0xF24E_intro_4")
+#BOXPAUSE()
+[adpcm]<$00><$66><$6F><$26><$00><$00><$30>
+#IMPORT("boss_0xF24E_intro_7")
+#BOXPAUSE()
+[adpcm]<$00><$8C><$6F><$1B><$00><$25><$D4>
+#IMPORT("boss_0xF24E_intro_10")
+#BOXPAUSE()
+[adpcm]<$00><$A7><$6F><$23><$00><$00><$18>
+#IMPORT("boss_0xF24E_intro_13")
+#BOXPAUSE()
+[adpcm]<$00><$CA><$6F><$29><$00><$00><$48>
+#IMPORT("boss_0xF24E_intro_16")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF24E_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$5F><$70><$29><$00><$00><$48>
+#IMPORT("boss_0xF24E_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF24E_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$E4><$70><$2B><$00><$00><$58>
+#IMPORT("boss_0xF24E_win_1")
+#BOXPAUSE()
+#IMPORT("boss_0xF24E_win_3")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x31C)
+#ADDFREESPACE(0x5EB, 0x215)
+#STARTREGION("boss_sec_62043")
+
+//===================================
+// boss 0xF25B dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62043")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF25B_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$F3><$6F><$19><$00><$0B><$C6>
+#IMPORT("boss_0xF25B_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF25B_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$88><$70><$08><$00><$08><$39>
+#IMPORT("boss_0xF25B_win_1")
+[adpcm]<$00><$90><$70><$18><$00><$4B><$B8>
+#IMPORT("boss_0xF25B_win_3")
+#BOXPAUSE()
+#IMPORT("boss_0xF25B_win_5")
+[adpcm]<$00><$A8><$70><$0F><$00><$0A><$71>
+#IMPORT("boss_0xF25B_win_7")
+#BOXPAUSE()
+[adpcm]<$00><$B7><$70><$1F><$00><$92><$F2>
+#IMPORT("boss_0xF25B_win_10")
+#BOXPAUSE()
+[adpcm]<$00><$D6><$70><$0E><$00><$08><$6D>
+#IMPORT("boss_0xF25B_win_13")
+#ENDSTRING()
+
+#ADDFREESPACE(0x5C, 0x15B)
+#ADDFREESPACE(0x67E, 0x182)
+#STARTREGION("boss_sec_62056")
+
+//===================================
+// boss 0xF268 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62056")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF268_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$8D><$74><$15><$00><$A0><$A3>
+#IMPORT("boss_0xF268_lose_1")
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF268_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$1D><$74><$1A><$00><$16><$CD>
+#IMPORT("boss_0xF268_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$37><$74><$23><$00><$00><$18>
+#IMPORT("boss_0xF268_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$5A><$74><$33><$00><$00><$98>
+#IMPORT("boss_0xF268_win_7")
+#BOXPAUSE()
+#IMPORT("boss_0xF268_win_9")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x188)
+#ADDFREESPACE(0x35E, 0x4A2)
+#STARTREGION("boss_sec_62069")
+
+//===================================
+// boss 0xF275 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62069")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF275_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$36><$73><$20><$00><$30><$F9>
+#IMPORT("boss_0xF275_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF275_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$56><$73><$1A><$00><$E0><$CA>
+#IMPORT("boss_0xF275_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$70><$73><$1D><$00><$90><$E4>
+#IMPORT("boss_0xF275_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$8D><$73><$19><$00><$68><$C3>
+#IMPORT("boss_0xF275_win_7")
+#BOXPAUSE()
+[adpcm]<$00><$A6><$73><$17><$00><$98><$B3>
+#IMPORT("boss_0xF275_win_10")
+#BOXPAUSE()
+#IMPORT("boss_0xF275_win_12")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x1F4)
+#ADDFREESPACE(0x50D, 0x2F3)
+#STARTREGION("boss_sec_62082")
+
+//===================================
+// boss 0xF282 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62082")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF282_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$0C><$9F><$18><$00><$40><$B9>
+#IMPORT("boss_0xF282_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF282_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$8A><$9E><$1C><$00><$A8><$DB>
+#IMPORT("boss_0xF282_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$A6><$9E><$23><$00><$00><$18>
+#IMPORT("boss_0xF282_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$C9><$9E><$14><$00><$88><$9D>
+#IMPORT("boss_0xF282_win_7")
+#BOXPAUSE()
+[adpcm]<$00><$DD><$9E><$14><$00><$48><$9B>
+#IMPORT("boss_0xF282_win_10")
+#BOXPAUSE()
+[adpcm]<$00><$F1><$9E><$1B><$00><$90><$D0>
+#IMPORT("boss_0xF282_win_13")
+#BOXPAUSE()
+#IMPORT("boss_0xF282_win_15")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x263)
+#ADDFREESPACE(0x3CD, 0x433)
+#STARTREGION("boss_sec_62095")
+
+//===================================
+// boss 0xF28F dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62095")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF28F_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$04><$96><$24><$00><$00><$20>
+#IMPORT("boss_0xF28F_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF28F_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$A6><$95><$18><$00><$F3><$BE>
+#IMPORT("boss_0xF28F_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$BE><$95><$1F><$00><$B7><$F5>
+#IMPORT("boss_0xF28F_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$DD><$95><$27><$00><$00><$38>
+#IMPORT("boss_0xF28F_win_7")
+#BOXPAUSE()
+#IMPORT("boss_0xF28F_win_9")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x1BB)
+#ADDFREESPACE(0x35F, 0x4A1)
+#STARTREGION("boss_sec_62147")
+
+//===================================
+// boss 0xF2C3 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62147")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF2C3_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$45><$78><$06><$00><$30><$29>
+#IMPORT("boss_0xF2C3_intro_1")
+#BOXPAUSE()
+[adpcm]<$00><$4B><$78><$24><$00><$00><$20>
+#IMPORT("boss_0xF2C3_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x6F)
+#ADDFREESPACE(0x1EF, 0x611)
+#STARTREGION("boss_sec_62160")
+
+//===================================
+// boss 0xF2D0 dialogue
+//===================================
+
+#SETREGIONPROPERTY("originSector", "62160")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xF2D0_intro")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0xE")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$4E><$69><$16><$00><$27><$A8>
+#IMPORT("boss_0xF2D0_intro_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xF2D0_lose")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x10")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$F6><$68><$16><$00><$A0><$AD>
+#IMPORT("boss_0xF2D0_lose_1")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xF2D0_win")
+#SETSTRINGPROPERTY("directRedirect_msgId", "0x3")
+#SETSTRINGPROPERTY("directRedirect_ptrBase", "0xC000")
+#SETSTRINGPROPERTY("directRedirect_ptrOffset", "0x12")
+#SETSTRINGPROPERTY("isDirectRedirect", "1")
+[adpcm]<$00><$0C><$69><$08><$00><$0A><$3C>
+#IMPORT("boss_0xF2D0_win_1")
+#BOXPAUSE()
+[adpcm]<$00><$14><$69><$13><$00><$98><$97>
+#IMPORT("boss_0xF2D0_win_4")
+#BOXPAUSE()
+[adpcm]<$00><$27><$69><$15><$00><$B0><$A5>
+#IMPORT("boss_0xF2D0_win_7")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x16, 0x15A)
+#ADDFREESPACE(0x2C9, 0x537)

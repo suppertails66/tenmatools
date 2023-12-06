@@ -1,0 +1,413 @@
+#STARTREGION("menu_kernel")
+
+//===================================
+// kernel menus
+//===================================
+
+//=====
+// character select menu placeholder
+//=====
+
+#STARTSTRING("str-0x17AB")
+#SETORIGINALPOS(0x17AB, 0x13)
+#IMPORT("str-0x17AB")
+#ENDSTRING()
+
+//=====
+// character names, top row
+//=====
+
+#STARTSTRING("str-0x1893")
+#SETORIGINALPOS(0x1893, 0xB)
+#IMPORT("str-0x1893")
+#ENDSTRING()
+
+#STARTSTRING("str-0x189E")
+#SETORIGINALPOS(0x189E, 0xB)
+#IMPORT("str-0x189E")
+#ENDSTRING()
+
+#STARTSTRING("str-0x18A9")
+#SETORIGINALPOS(0x18A9, 0xB)
+#IMPORT("str-0x18A9")
+#ENDSTRING()
+
+//=====
+// character names, bottom row
+//=====
+
+#STARTSTRING("str-0x18B4")
+#SETORIGINALPOS(0x18B4, 0xB)
+#IMPORT("str-0x18B4")
+#ENDSTRING()
+
+#STARTSTRING("str-0x18BF")
+#SETORIGINALPOS(0x18BF, 0xB)
+#IMPORT("str-0x18BF")
+#ENDSTRING()
+
+#STARTSTRING("str-0x18CA")
+#SETORIGINALPOS(0x18CA, 0xB)
+#IMPORT("str-0x18CA")
+#ENDSTRING()
+
+//=====
+// character name/HP/TP display
+//=====
+
+#STARTSTRING("str-0x18D5")
+#SETORIGINALPOS(0x18D5, 0xB)
+#IMPORT("str-0x18D5")
+#ENDSTRING()
+
+#STARTSTRING("str-0x18E0")
+#SETORIGINALPOS(0x18E0, 0xB)
+#IMPORT("str-0x18E0")
+#ENDSTRING()
+
+#STARTSTRING("str-0x18EB")
+#SETORIGINALPOS(0x18EB, 0xB)
+#IMPORT("str-0x18EB")
+#ENDSTRING()
+
+#STARTSTRING("str-0x18F6")
+#SETORIGINALPOS(0x18F6, 0x2)
+#IMPORT("str-0x18F6")
+#ENDSTRING()
+
+#STARTREGION("orochimaru_name")
+
+//===================================
+// orochimaru name patches
+//===================================
+
+//=====
+// bottom row normal
+//=====
+
+#STARTSTRING("rawstr-0xD9E")
+#SETORIGINALPOS(0xD9E, 0x5)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("rawstr-0xD9E")
+#ENDSTRING()
+
+//=====
+// top row normal
+//=====
+
+#STARTSTRING("rawstr-0xDA8")
+#SETORIGINALPOS(0xDA8, 0x1)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("rawstr-0xDA8")
+#ENDSTRING()
+
+//=====
+// bottom row kuroi kage
+//=====
+
+#STARTSTRING("rawstr-0xDA3")
+#SETORIGINALPOS(0xDA3, 0x5)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("rawstr-0xDA3")
+#ENDSTRING()
+
+//=====
+// top row kuroi kage
+//=====
+
+#STARTSTRING("rawstr-0xDA9")
+#SETORIGINALPOS(0xDA9, 0x1)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("rawstr-0xDA9")
+#ENDSTRING()
+
+#STARTREGION("menu_overw")
+
+//===================================
+// overworld menus
+//===================================
+
+//=====
+// ?
+//=====
+
+#STARTSTRING("str-0x1E6A")
+#SETORIGINALPOS(0x1E6A, 0xE)
+#IMPORT("str-0x1E6A")
+#ENDSTRING()
+
+#STARTSTRING("str-0x1F06")
+#SETORIGINALPOS(0x1F06, 0x13)
+#IMPORT("str-0x1F06")
+#ENDSTRING()
+
+//=====
+// main menu
+//=====
+
+#STARTSTRING("str-0x2712")
+#SETORIGINALPOS(0x2712, 0x69)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x2712")
+#ENDSTRING()
+
+//=====
+// use/give menu
+//=====
+
+#STARTSTRING("str-0x27B2")
+#SETORIGINALPOS(0x27B2, 0x19)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x27B2")
+#ENDSTRING()
+
+//=====
+// use/give/drop menu
+//=====
+
+#STARTSTRING("str-0x2829")
+#SETORIGINALPOS(0x2829, 0x25)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x2829")
+#ENDSTRING()
+
+//=====
+// status display: top window
+//=====
+
+#STARTSTRING("str-0x2B0E")
+#SETORIGINALPOS(0x2B0E, 0xB)
+#IMPORT("str-0x2B0E")
+#ENDSTRING()
+
+#STARTSTRING("str-0x2B19")
+#SETORIGINALPOS(0x2B19, 0x2)
+#IMPORT("str-0x2B19")
+#ENDSTRING()
+
+#STARTSTRING("str-0x2B1B")
+#SETORIGINALPOS(0x2B1B, 0xB)
+#IMPORT("str-0x2B1B")
+#ENDSTRING()
+
+#STARTSTRING("str-0x2B26")
+#SETORIGINALPOS(0x2B26, 0xB)
+#IMPORT("str-0x2B26")
+#ENDSTRING()
+
+//=====
+// status display: bottom window
+//=====
+
+#STARTSTRING("str-0x2C2E")
+#SETORIGINALPOS(0x2C2E, 0x25)
+#IMPORT("str-0x2C2E")
+#ENDSTRING()
+
+#STARTSTRING("str-0x2C53")
+#SETORIGINALPOS(0x2C53, 0x9)
+#IMPORT("str-0x2C53")
+#ENDSTRING()
+
+#STARTSTRING("str-0x2C5C")
+#SETORIGINALPOS(0x2C5C, 0x9)
+#IMPORT("str-0x2C5C")
+#ENDSTRING()
+
+#STARTSTRING("str-0x2C65")
+#SETORIGINALPOS(0x2C65, 0xED)
+#IMPORT("str-0x2C65")
+#ENDSTRING()
+
+//=====
+// settings menu
+//=====
+
+#STARTSTRING("str-0x2D9C")
+#SETORIGINALPOS(0x2D9C, 0x51)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x2D9C")
+#ENDSTRING()
+
+//=====
+// text speed menu
+//=====
+
+#STARTSTRING("str-0x2E14")
+#SETORIGINALPOS(0x2E14, 0x25)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x2E14")
+#ENDSTRING()
+
+//=====
+// setting on/off menu
+//=====
+
+#STARTSTRING("str-0x2E5F")
+#SETORIGINALPOS(0x2E5F, 0x19)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x2E5F")
+#ENDSTRING()
+
+//=====
+// walk type menu
+//=====
+
+#STARTSTRING("str-0x2E97")
+#SETORIGINALPOS(0x2E97, 0x29)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x2E97")
+#ENDSTRING()
+
+//=====
+// map name window
+//=====
+
+#STARTSTRING("str-0x2EFE")
+#SETORIGINALPOS(0x2EFE, 0x43)
+#IMPORT("str-0x2EFE")
+#ENDSTRING()
+
+#STARTREGION("menu_shop")
+
+//===================================
+// shop menus
+//===================================
+
+//=====
+// buy/sell menu
+//=====
+
+#STARTSTRING("str-0x9CD")
+#SETORIGINALPOS(0x9CD, 0x29)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x9CD")
+#ENDSTRING()
+
+//=====
+// buyable item list entry
+//=====
+
+#STARTSTRING("str-0xC53")
+#SETORIGINALPOS(0xC53, 0x2D)
+#IMPORT("str-0xC53")
+#ENDSTRING()
+
+//=====
+// player money window
+//=====
+
+#STARTSTRING("str-0xD06")
+#SETORIGINALPOS(0xD06, 0x16)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0xD06")
+#ENDSTRING()
+
+//=====
+// storage menu
+//=====
+
+#STARTSTRING("str-0x1925")
+#SETORIGINALPOS(0x1925, 0xB8)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x1925")
+#ENDSTRING()
+
+//=====
+// storage money window
+//=====
+
+#STARTSTRING("str-0x1D7A")
+#SETORIGINALPOS(0x1D7A, 0x1B)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x1D7A")
+#ENDSTRING()
+
+#STARTREGION("menu_battle")
+
+//===================================
+// battle menus
+//===================================
+
+//=====
+// action menu: ziria
+//=====
+
+#STARTSTRING("str-0x131")
+#SETORIGINALPOS(0x131, 0x5B)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x131")
+#ENDSTRING()
+
+//=====
+// action menu: orochimaru
+//=====
+
+#STARTSTRING("str-0x227")
+#SETORIGINALPOS(0x227, 0x59)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x227")
+#ENDSTRING()
+
+//=====
+// action menu: tsunade
+//=====
+
+#STARTSTRING("str-0x294")
+#SETORIGINALPOS(0x294, 0x59)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x294")
+#ENDSTRING()
+
+#STARTREGION("menu_saveload")
+
+//===================================
+// save/load menus
+//===================================
+
+//=====
+// file continue/copy/erase menu
+//=====
+
+#STARTSTRING("str-0xC2C")
+#SETORIGINALPOS(0xC2C, 0x2B)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0xC2C")
+#ENDSTRING()
+
+//=====
+// file select menu 1
+//=====
+
+#STARTSTRING("str-0xFCE")
+#SETORIGINALPOS(0xFCE, 0x19D)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0xFCE")
+#ENDSTRING()
+
+//=====
+// file select menu 2
+//=====
+
+#STARTSTRING("str-0x116B")
+#SETORIGINALPOS(0x116B, 0x19D)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x116B")
+#ENDSTRING()
+
+#STARTREGION("menu_info")
+
+//===================================
+// item/technique info menus
+//===================================
+
+//=====
+// item/technique select menu
+//=====
+
+#STARTSTRING("str-0x6B")
+#SETORIGINALPOS(0x6B, 0x47)
+#SETSTRINGPROPERTY("noTerminator", "1")
+#IMPORT("str-0x6B")
+#ENDSTRING()
+

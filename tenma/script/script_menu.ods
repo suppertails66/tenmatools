@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><dc:language>en-US</dc:language><dc:date>2023-11-30T01:36:45.122825842</dc:date><meta:editing-cycles>118</meta:editing-cycles><meta:editing-duration>PT15H26M34S</meta:editing-duration><meta:generator>LibreOffice/4.3.3.2$Linux_X86_64 LibreOffice_project/430m0$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="271" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">45547</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">204117</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="script_menu">
+       <config:config-item config:name="CursorPositionX" config:type="int">5</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">30</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">24</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">script_menu</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">270</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">qgH+/0Rlc2tqZXQtRjQ0MDAtc2VyaWVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpEZXNramV0LUY0NDAwLXNlcmllcwAAAAAAAAAWAAMAzAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9RGVza2pldC1GNDQwMC1zZXJpZXMKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgBJbnB1dFNsb3Q6QXV0bwAAEgBDT01QQVRfRFVQTEVYX01PREUOAERVUExFWF9VTktOT1dO</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Deskjet-F4400-series</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Courier New" svg:font-family="&apos;Courier New&apos;" style:font-family-generic="modern"/>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Fallback1" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="0.5in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:language="en" fo:country="US" style:font-name-asian="DejaVu Sans" style:language-asian="ja" style:country-asian="JP" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N104P0" style:volatile="true">
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N104">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N104P0"/>
+  </number:currency-style>
+  <number:time-style style:name="N121">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N122" number:truncate-on-overflow="false">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N123">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long" number:decimal-places="1"/>
+  </number:time-style>
+  <number:number-style style:name="N124">
+   <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N10121P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10121" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10121P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N10122P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10122" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10122P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N10124P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10124" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10124P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N10125P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10125" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10125P0"/>
+  </number:currency-style>
+  <number:date-style style:name="N10126" number:language="en" number:country="US">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+  </number:date-style>
+  <number:date-style style:name="N10127" number:language="en" number:country="US">
+   <number:day/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:date-style style:name="N10128" number:language="en" number:country="US">
+   <number:day/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+  </number:date-style>
+  <number:date-style style:name="N10129" number:language="en" number:country="US">
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:time-style style:name="N10130" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
+  </number:time-style>
+  <number:time-style style:name="N10131" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
+  </number:time-style>
+  <number:time-style style:name="N10132" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N10133" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:date-style style:name="N10134" number:language="en" number:country="US">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+   <number:text> </number:text>
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+  </number:date-style>
+  <number:number-style style:name="N10136P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N10136" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10136P0"/>
+  </number:number-style>
+  <number:number-style style:name="N10138P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N10138" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N10138P0"/>
+  </number:number-style>
+  <number:number-style style:name="N10142P0" style:volatile="true" number:language="en" number:country="US">
+   <loext:fill-character> </loext:fill-character>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N10142P1" style:volatile="true" number:language="en" number:country="US">
+   <loext:fill-character> </loext:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N10142P2" style:volatile="true" number:language="en" number:country="US">
+   <loext:fill-character> </loext:fill-character>
+   <number:text>- </number:text>
+  </number:number-style>
+  <number:text-style style:name="N10142" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N10142P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N10142P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N10142P2"/>
+  </number:text-style>
+  <number:currency-style style:name="N10146P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <loext:fill-character> </loext:fill-character>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10146P1" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <loext:fill-character> </loext:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10146P2" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <loext:fill-character> </loext:fill-character>
+   <number:text>- </number:text>
+  </number:currency-style>
+  <number:text-style style:name="N10146" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N10146P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N10146P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N10146P2"/>
+  </number:text-style>
+  <number:number-style style:name="N10150P0" style:volatile="true" number:language="en" number:country="US">
+   <loext:fill-character> </loext:fill-character>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N10150P1" style:volatile="true" number:language="en" number:country="US">
+   <loext:fill-character> </loext:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:number-style>
+  <number:number-style style:name="N10150P2" style:volatile="true" number:language="en" number:country="US">
+   <loext:fill-character> </loext:fill-character>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:text-style style:name="N10150" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N10150P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N10150P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N10150P2"/>
+  </number:text-style>
+  <number:currency-style style:name="N10154P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <loext:fill-character> </loext:fill-character>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10154P1" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <loext:fill-character> </loext:fill-character>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N10154P2" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <loext:fill-character> </loext:fill-character>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="0"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:text-style style:name="N10154" number:language="en" number:country="US">
+   <number:text-content/>
+   <number:text> </number:text>
+   <style:map style:condition="value()&gt;0" style:apply-style-name="N10154P0"/>
+   <style:map style:condition="value()&lt;0" style:apply-style-name="N10154P1"/>
+   <style:map style:condition="value()=0" style:apply-style-name="N10154P2"/>
+  </number:text-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:table-cell-properties style:rotation-align="none" style:vertical-align="bottom"/>
+   <style:text-properties style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="swiss" style:font-name-asian="Droid Sans Fallback1" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N104"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.4701in"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.9709in"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.2in"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.3437in"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.2547in"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.2209in"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.4799in"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.4362in"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.4866in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.3311in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="0.178in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.1965in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro5" style:family="table-row">
+   <style:table-row-properties style:row-height="3.161in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro6" style:family="table-row">
+   <style:table-row-properties style:row-height="1.461in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro7" style:family="table-row">
+   <style:table-row-properties style:row-height="1.948in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro8" style:family="table-row">
+   <style:table-row-properties style:row-height="7.2402in" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro9" style:family="table-row">
+   <style:table-row-properties style:row-height="2.4563in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro10" style:family="table-row">
+   <style:table-row-properties style:row-height="2.1972in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro11" style:family="table-row">
+   <style:table-row-properties style:row-height="0.9535in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro12" style:family="table-row">
+   <style:table-row-properties style:row-height="0.6425in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro13" style:family="table-row">
+   <style:table-row-properties style:row-height="2.0417in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro14" style:family="table-row">
+   <style:table-row-properties style:row-height="7.9492in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro15" style:family="table-row">
+   <style:table-row-properties style:row-height="2.498in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro16" style:family="table-row">
+   <style:table-row-properties style:row-height="2.3217in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro17" style:family="table-row">
+   <style:table-row-properties style:row-height="2.3008in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro18" style:family="table-row">
+   <style:table-row-properties style:row-height="1.9689in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro19" style:family="table-row">
+   <style:table-row-properties style:row-height="4.8402in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro20" style:family="table-row">
+   <style:table-row-properties style:row-height="1.8339in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="PageStyle_5f_script_5f_menu">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:text-style style:name="N100">
+   <number:text-content/>
+  </number:text-style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:rotation-align="none"/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="bottom" loext:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:rotation-align="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Fallback" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="bottom" loext:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Droid Sans Fallback" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+   <style:table-cell-properties style:rotation-align="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:rotation-align="none"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Courier New" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="bottom" loext:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Courier New" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:font-name="Courier New" style:font-name-asian="Droid Sans Fallback1" style:font-name-complex="FreeSans"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:first-page-number="continue" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in" fo:border="2.49pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in" fo:border="2.49pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm3">
+   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:print-page-order="ttb" style:first-page-number="1" style:scale-to="100%" style:writing-mode="lr-tb" style:print="charts drawings objects zero-values"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2374in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2374in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:font-name="Arial" fo:font-size="10pt" fo:font-weight="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-style="normal" style:text-outline="false" fo:text-shadow="none" style:text-position="0%" style:font-size-asian="10pt" style:font-size-complex="10pt" style:font-weight-asian="normal" style:font-weight-complex="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties style:font-style-complex="normal" style:font-name="Arial" style:font-style-asian="normal" style:font-weight-complex="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-size-asian="10pt" style:text-position="0%" fo:text-shadow="none" style:text-outline="false" fo:font-style="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-weight="normal" fo:font-size="10pt"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties style:font-style-complex="normal" style:font-style-asian="normal" style:font-weight-complex="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-size-asian="10pt" style:text-position="0%" fo:text-shadow="none" style:text-outline="false" fo:font-style="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-weight="normal" fo:font-size="10pt" style:font-name="Droid Sans Fallback" style:font-name-asian="Droid Sans Fallback"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties style:font-style-complex="normal" style:font-style-asian="normal" style:font-weight-complex="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-size-asian="10pt" style:text-position="0%" fo:text-shadow="none" style:text-outline="false" fo:font-style="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-weight="normal" fo:font-size="10pt" style:font-name="Arial"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:font-size="10pt" style:font-style-complex="normal" style:font-style-asian="normal" style:font-weight-complex="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-size-asian="10pt" style:text-position="0%" fo:text-shadow="none" style:text-outline="false" fo:font-style="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-weight="normal" style:font-name="Arial"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties fo:font-size="10pt" style:font-style-complex="normal" style:font-style-asian="normal" style:font-weight-complex="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-size-asian="10pt" style:text-position="0%" fo:text-shadow="none" style:text-outline="false" fo:font-style="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-weight="normal" style:font-name="Droid Sans Fallback" style:font-name-asian="Droid Sans Fallback"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties style:font-name="Droid Sans Fallback" fo:font-size="10pt" fo:font-weight="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-style="normal" style:text-outline="false" fo:text-shadow="none" style:text-position="0%" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="10pt" style:font-size-complex="10pt" style:font-weight-asian="normal" style:font-weight-complex="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties fo:font-size="10pt" fo:font-weight="normal" style:text-underline-style="none" style:text-underline-color="font-color" fo:font-style="normal" style:text-outline="false" fo:text-shadow="none" style:text-position="0%" style:font-size-asian="10pt" style:font-size-complex="10pt" style:font-weight-asian="normal" style:font-weight-complex="normal" style:font-style-asian="normal" style:font-style-complex="normal" style:font-name="Arial"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties style:font-name-asian="Droid Sans Fallback"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Arial1" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2023-11-30">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="01:34:26.419382481">00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="PageStyle_5f_script_5f_menu" style:display-name="PageStyle_script_menu" style:page-layout-name="pm3">
+   <style:header>
+    <text:p><text:span text:style-name="T10"><text:sheet-name>???</text:sheet-name></text:span></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p><text:span text:style-name="T10">Page </text:span><text:span text:style-name="T10"><text:page-number>1</text:page-number></text:span></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:case-sensitive="false" table:automatic-find-labels="false" table:use-regular-expressions="false"/>
+   <table:table table:name="script_menu" table:style-name="ta1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co3" table:number-columns-repeated="2" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce6"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="ce1"/>
+    <table:table-column table:style-name="co3" table:number-columns-repeated="1012" table:default-cell-style-name="ce1"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// kernel menus</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// character select menu placeholder</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x17AB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>        \n</text:p><text:p>!#      \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F3]=[.I3]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// character names, top row</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x1893</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>ﾞ <text:s text:c="7"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="10"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F5]=[.I5]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x189E</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="10"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F6]=[.I6]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18A9</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="3"/>ﾞ <text:s text:c="5"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="10"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F7]=[.I7]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// character names, bottom row</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18B4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p> ｼﾗｲｱ  <text:span text:style-name="T1">$2(</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>[ziria_1][ziria_2][ziria_3][ziria_4][ziria_5] ($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>[ziria_1][ziria_2][ziria_3][ziria_4][ziria_5] ($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F9]=[.I9]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18BF</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p> ｵﾛﾁﾏﾙ <text:span text:style-name="T1">$2(</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>[orochi_1][orochi_2][orochi_3][orochi_4][orochi_5][orochi_6]($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>[orochi_1][orochi_2][orochi_3][orochi_4][orochi_5] ($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F10]=[.I10]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18CA</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string"><text:p> ﾂﾅﾃ   <text:span text:style-name="T1">$2(</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>[tsunade_1][tsunade_2][tsunade_3][tsunade_4][tsunade_5] ($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>[tsunade_1][tsunade_2][tsunade_3][tsunade_4][tsunade_5] ($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F11]=[.I11]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// character name/HP/TP display</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18D5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="10"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;DUPE: &quot;&amp;ADDRESS(ROW([.F6]); COLUMN([.F6]); 4)" office:value-type="string" office:string-value="DUPE: F6" calcext:value-type="string">
+      <text:p>DUPE: F6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18E0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>^_ $3 <text:s text:c="3"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F14]=[.I14]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18EB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>\] $3 <text:s text:c="3"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F15]=[.I15]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x18F6</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>\n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F16]=[.I16]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// orochimaru name patches</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// bottom row normal</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>rawstr-0xD9E</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
+      <text:p>ｵﾛﾁﾏﾙ</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>[orochi_1][orochi_2][orochi_3][orochi_4][orochi_5][orochi_6]</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p>[orochi_1][orochi_2][orochi_3][orochi_4][orochi_5]</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F19]=[.I19]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// top row normal</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>rawstr-0xDA8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F21]=[.I21]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// bottom row kuroi kage</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>rawstr-0xDA3</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
+      <text:p>ｸﾛｲｶｹ</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>[shadow_1][shadow_2][shadow_3][shadow_4][shadow_5] </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p>[shadow_1][shadow_2][shadow_3][shadow_4][shadow_5]</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F23]=[.I23]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// top row kuroi kage</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>rawstr-0xDA9</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce3" office:value-type="string" calcext:value-type="string">
+      <text:p>ﾞ</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F25]=[.I25]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// overworld menus</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// ?</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x1E6A</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="12"/>\n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F28]=[.I28]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x1F06</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>        \n</text:p><text:p>#       \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F29]=[.I29]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// main menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro5">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2712</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce4" office:value-type="string" calcext:value-type="string"><text:p>       ﾞ  <text:span text:style-name="T1">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾊﾅｽ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｺｶﾏ </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ ﾞ    ﾞ </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾄｳｸ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｿｳﾋ </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ      ﾞ </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ｼｭﾂ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｼﾗﾍﾙ</text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5">        </text:span><text:span text:style-name="T6">ﾞ </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾂﾖｻ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ﾓｰﾄ </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$7B&gt;&lt;$B7&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$52&gt;&lt;$BD&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$01&gt;&lt;$B8&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$15&gt;&lt;$B9&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$8D&gt;&lt;$B7&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$81&gt;&lt;$B7&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$43&gt;&lt;$B9&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$84&gt;&lt;$BD&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>              \n</text:p><text:p>!Talk  !Kogama\n</text:p><text:p>\n</text:p><text:p>!Items !Equip \n</text:p><text:p>\n</text:p><text:p>!Jutsu !Check \n</text:p><text:p>\n</text:p><text:p>!Status!Mode  \n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$7B&gt;&lt;$B7&gt;</text:p><text:p>&lt;$52&gt;&lt;$BD&gt;</text:p><text:p>&lt;$01&gt;&lt;$B8&gt;</text:p><text:p>&lt;$15&gt;&lt;$B9&gt;</text:p><text:p>&lt;$8D&gt;&lt;$B7&gt;</text:p><text:p>&lt;$81&gt;&lt;$B7&gt;</text:p><text:p>&lt;$43&gt;&lt;$B9&gt;</text:p><text:p>&lt;$84&gt;&lt;$BD&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>               \n</text:p><text:p>!Talk   !Kogama\n</text:p><text:p>               \n</text:p><text:p>!Item   !Equip \n</text:p><text:p>               \n</text:p><text:p>!Tech   !Check \n</text:p><text:p>               \n</text:p><text:p>!Status !Mode  \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F31]=[.I31]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// use/give menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x27B2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>    \n</text:p><text:p>!<text:span text:style-name="T7">ﾂｶｳ</text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">    \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾜﾀｽ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$CB&gt;&lt;$B7&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$D7&gt;&lt;$B7&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$06&gt;\n</text:p><text:p>!Use\n</text:p><text:p>\n</text:p><text:p>!Give\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$CB&gt;&lt;$B7&gt;</text:p><text:p>&lt;$D7&gt;&lt;$B7&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F33]=[.I33]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// use/give/drop menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro7">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2829</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>    \n</text:p><text:p>!<text:span text:style-name="T7">ﾂｶｳ</text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">    \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾜﾀｽ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">    \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｽﾃﾙ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$4E&gt;&lt;$B8&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$83&gt;&lt;$B8&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$88&gt;&lt;$B8&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>     \n</text:p><text:p>!Use\n</text:p><text:p>\n</text:p><text:p>!Give\n</text:p><text:p>\n</text:p><text:p>!Drop\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$4E&gt;&lt;$B8&gt;</text:p><text:p>&lt;$83&gt;&lt;$B8&gt;</text:p><text:p>&lt;$88&gt;&lt;$B8&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F35]=[.I35]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// status display: top window</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2B0E</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="5"/>$3 <text:s text:c="2"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F37]=[.I37]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2B19</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>\n</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=T([.F16])">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;DUPE: &quot;&amp;ADDRESS(ROW([.F16]); COLUMN([.F16]); 4)" office:value-type="string" office:string-value="DUPE: F16" calcext:value-type="string">
+      <text:p>DUPE: F16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2B1B</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="2"/>^_ --- <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F39]=[.I39]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2B26</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="2"/>\] --- <text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:formula="of:=IF([.F40]=[.I40]; &quot;UNTRANSLATED&quot;; &quot;&quot;)" office:value-type="string" office:string-value="UNTRANSLATED" calcext:value-type="string">
+      <text:p>UNTRANSLATED</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// status display: bottom window</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2C2E</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>                      \n</text:p><text:p> #      $2(  </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>                        \n</text:p><text:p> #        ($2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F42]=[.I42]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2C53</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>) $5 <text:s text:c="2"/>@</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="4"/>$5 <text:s text:c="2"/>@</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F43]=[.I43]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2C5C</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s text:c="8"/></text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F44]=[.I44]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro8">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2C65</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p> \n</text:p><text:p>   <text:span text:style-name="T7">ﾞ                  </text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ｿｳﾋ          </text:span><text:span text:style-name="T5">$7      \n</text:span></text:p><text:p><text:span text:style-name="T5">           </text:span><text:span text:style-name="T6">徳 </text:span><text:span text:style-name="T5">------- \n</text:span></text:p><text:p><text:span text:style-name="T1"> #            $7      \n</text:span></text:p><text:p><text:span text:style-name="T1">                      \n</text:span></text:p><text:p><text:span text:style-name="T5"> #         </text:span><text:span text:style-name="T6">攻撃力  </text:span><text:span text:style-name="T5">$3  \n</text:span></text:p><text:p><text:span text:style-name="T1">                      \n</text:span></text:p><text:p><text:span text:style-name="T5"> #         </text:span><text:span text:style-name="T6">守備力  </text:span><text:span text:style-name="T5">$3  \n</text:span></text:p><text:p><text:span text:style-name="T1">                      \n</text:span></text:p><text:p><text:span text:style-name="T5"> #         </text:span><text:span text:style-name="T6">すばやさ </text:span><text:span text:style-name="T5">$3  \n</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>\n</text:p><text:p>\n</text:p><text:p> [equip_1][equip_2][equip_3][equip_4][equip_5][equip_6][equip_7][equip_8]       $7      \n</text:p><text:p>           </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Virtue</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>     -------\n</text:p><text:p> [#narrow_item]              $7      \n</text:p><text:p>\n</text:p><text:p> [#narrow_item]         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Attack</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>         $3  \n</text:p><text:p>\n</text:p><text:p> [#narrow_item]         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Defense</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>         $3  \n</text:p><text:p>\n</text:p><text:p> [#narrow_item]         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Speed</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>         $3  \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>\n</text:p><text:p>\n</text:p><text:p> Equip        $7      \n</text:p><text:p>           徳 ------- \n</text:p><text:p> #            $7      \n</text:p><text:p>\n</text:p><text:p> #         攻撃力  $3  \n</text:p><text:p>\n</text:p><text:p> #         守備力  $3  \n</text:p><text:p>\n</text:p><text:p> #         すばやさ $3  \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F45]=[.I45]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>\n</text:p><text:p>\n</text:p><text:p> Equip          $7      \n</text:p><text:p>           </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Virtue</text:p><text:p>[end]</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p> ------- \n</text:p><text:p> #            $7      \n</text:p><text:p>\n</text:p><text:p> #         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Attack</text:p><text:p>[end]</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>  $3  \n</text:p><text:p>\n</text:p><text:p> #         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Defense</text:p><text:p>[end]</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>  $3  \n</text:p><text:p>\n</text:p><text:p> #         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Speed</text:p><text:p>[end]</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p> $3  \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>\n</text:p><text:p>\n</text:p><text:p> Equip         $7      \n</text:p><text:p>             #  -------\n</text:p><text:p> #             $7      \n</text:p><text:p>\n</text:p><text:p> #           #     $3  \n</text:p><text:p>\n</text:p><text:p> #           #     $3  \n</text:p><text:p>\n</text:p><text:p> #           #     $3  \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>\n</text:p><text:p>\n</text:p><text:p> Equipment      $7      \n</text:p><text:p>           </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Virtue</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>     -------\n</text:p><text:p> [#narrow_item]              $7      \n</text:p><text:p>\n</text:p><text:p> [#narrow_item]         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Attack</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>         $3  \n</text:p><text:p>\n</text:p><text:p> [#narrow_item]         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Defense</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>         $3  \n</text:p><text:p>\n</text:p><text:p> [#narrow_item]         </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Speed</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>[embed]</text:p><text:p>         $3  \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1012"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// settings menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro9">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2D9C</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>        \n</text:p><text:p>!<text:span text:style-name="T7">ｶｲｾﾂ   </text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">        \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｱﾙｷｶﾀ  </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">        \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｾﾘﾌﾉﾊﾔｻ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T5">       </text:span><text:span text:style-name="T6">ﾟ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｾﾘﾌｽｷｯﾌ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C0&gt;&lt;$BE&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$78&gt;&lt;$BE&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$ED&gt;&lt;$BD&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$39&gt;&lt;$BE&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$0E&gt;\n</text:p><text:p>!Descriptions\n</text:p><text:p>\n</text:p><text:p>!Walk|Type\n</text:p><text:p>\n</text:p><text:p>!Text|Speed\n</text:p><text:p>\n</text:p><text:p>!Text|Skip\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$C0&gt;&lt;$BE&gt;</text:p><text:p>&lt;$78&gt;&lt;$BE&gt;</text:p><text:p>&lt;$ED&gt;&lt;$BD&gt;</text:p><text:p>&lt;$39&gt;&lt;$BE&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F47]=[.I47]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// text speed menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro10">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2E14</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>    \n</text:p><text:p>!<text:span text:style-name="T7">ｵｿｲ</text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">    \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾌﾂｳ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">    \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾊﾔｲ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$BE&gt;&lt;$57&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C1&gt;&lt;$57&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C6&gt;&lt;$57&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$08&gt;\n</text:p><text:p>!Slow\n</text:p><text:p>\n</text:p><text:p>!Normal\n</text:p><text:p>\n</text:p><text:p>!Fast\n</text:p><text:p>\n</text:p><text:p>!Turbo\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$BE&gt;&lt;$57&gt;</text:p><text:p>&lt;$C1&gt;&lt;$57&gt;</text:p><text:p>&lt;$C6&gt;&lt;$57&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$08&gt;\n</text:p><text:p>!Slow\n</text:p><text:p>\n</text:p><text:p>!Normal\n</text:p><text:p>\n</text:p><text:p>!Fast\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$BE&gt;&lt;$57&gt;</text:p><text:p>&lt;$C1&gt;&lt;$57&gt;</text:p><text:p>&lt;$C6&gt;&lt;$57&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F49]=[.I49]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// setting on/off menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2E5F</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>    \n</text:p><text:p>!<text:span text:style-name="T7">ｱﾘ </text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">    \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾅｼ </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$BE&gt;&lt;$57&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C1&gt;&lt;$57&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>    \n</text:p><text:p>!On\n</text:p><text:p>\n</text:p><text:p>!Off\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$BE&gt;&lt;$57&gt;</text:p><text:p>&lt;$C1&gt;&lt;$57&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F51]=[.I51]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// walk type menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2E97</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>        \n</text:p><text:p>!<text:span text:style-name="T7">ﾌﾂｳ    </text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">        \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾅﾅﾒｱﾙｷ </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C1&gt;&lt;$57&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$BE&gt;&lt;$57&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p>!Normal\n</text:p><text:p>\n</text:p><text:p>!Diagonal\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$C1&gt;&lt;$57&gt;</text:p><text:p>&lt;$BE&gt;&lt;$57&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F53]=[.I53]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// map name window</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro11">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x2EFE</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p>          \n</text:p><text:p> #        \n</text:p><text:p>          \n</text:p><text:p> ) $5   @ \n</text:p><text:p>          \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>            \n</text:p><text:p>    \n</text:p><text:p> [#narrow_mapname]          \n</text:p><text:p>          \n</text:p><text:p>     $5   @ \n</text:p><text:p>          \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p>          \n</text:p><text:p> #        \n</text:p><text:p>          \n</text:p><text:p>   $5   @ \n</text:p><text:p>          \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F55]=[.I55]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p>          \n</text:p><text:p> [#narrow_mapname]        \n</text:p><text:p>          \n</text:p><text:p>   $5   @ \n</text:p><text:p>          \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// shop menus</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// buy/sell menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x9CD</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>        \n</text:p><text:p>!<text:span text:style-name="T7">ｳﾘﾓﾉｦｶｳ</text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">        \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾓﾁﾓﾉｦｳﾙ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$A7&gt;&lt;$CA&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$F6&gt;&lt;$C9&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$10&gt;\n</text:p><text:p>!Buy|Wares\n</text:p><text:p>\n</text:p><text:p>!Sell|Belongings\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$A7&gt;&lt;$CA&gt;</text:p><text:p>&lt;$F6&gt;&lt;$C9&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T9">[spacemenu]&lt;$0C&gt;\n</text:span></text:p><text:p><text:span text:style-name="T9">!Buy|wares\n</text:span></text:p><text:p><text:span text:style-name="T9">\n</text:span></text:p><text:p><text:span text:style-name="T9">!Sell|items\n</text:span></text:p><text:p><text:span text:style-name="T9">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T9">// parameters</text:span></text:p><text:p><text:span text:style-name="T9">&lt;$A7&gt;&lt;$CA&gt;</text:span></text:p><text:p><text:span text:style-name="T9">&lt;$F6&gt;&lt;$C9&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F58]=[.I58]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// buyable item list entry</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro12">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0xC53</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p>          \n</text:p><text:p>!#        \n</text:p><text:p>   $5   @ \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p>          \n</text:p><text:p>![#narrow_item]        \n</text:p><text:p>   $5   @ \n</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F60]=[.I60]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// player money window</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro13">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0xD06</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>        \n</text:p><text:p><text:span text:style-name="T7">金</text:span><text:span text:style-name="T8">$5   @\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$01&gt;&lt;$C0&gt;&lt;$27&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$08&gt;\n</text:p><text:p> </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Money</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p> $5   @\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$01&gt;&lt;$C0&gt;&lt;$27&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>Money   \n</text:p><text:p>  $5   @\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$01&gt;&lt;$C0&gt;&lt;$27&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F62]=[.I62]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$06&gt;\n</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Money</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p>$5   @\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$01&gt;&lt;$C0&gt;&lt;$27&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1014"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// storage menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro14">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x1925</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>            \n</text:p><text:p>!<text:span text:style-name="T7">貯金する     </text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">貯金おろす   </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">道具　預ける  </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">道具　引き取る</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">術　預ける   </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">術　引き取る  </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$DD&gt;&lt;$D9&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$37&gt;&lt;$DA&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$83&gt;&lt;$DA&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$F8&gt;&lt;$DA&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$22&gt;&lt;$DB&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$86&gt;&lt;$DB&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>            \n</text:p><text:p>!</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Store Money</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p>!</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Withdraw Money</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p>!</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Store Items</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p>!</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Withdraw Items</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p>!</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Store Jutsu</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p>!</text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Withdraw Jutsu</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$DD&gt;&lt;$D9&gt;</text:p><text:p>&lt;$37&gt;&lt;$DA&gt;</text:p><text:p>&lt;$83&gt;&lt;$DA&gt;</text:p><text:p>&lt;$F8&gt;&lt;$DA&gt;</text:p><text:p>&lt;$22&gt;&lt;$DB&gt;</text:p><text:p>&lt;$86&gt;&lt;$DB&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:formula="of:=IF([.F64]=[.I64]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// storage money window</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro13">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x1D7A</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p><text:span text:style-name="T7">貯金</text:span><text:span text:style-name="T8">$5   @ \n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$01&gt;&lt;$C2&gt;&lt;$27&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$08&gt;\n</text:p><text:p> </text:p><text:p>[embed]</text:p><text:p>#LOADTABLE(&quot;table/tenma_std_en.tbl&quot;)</text:p><text:p>Savings</text:p><text:p>#LOADTABLE(&quot;table/tenma_menu_en.tbl&quot;)</text:p><text:p>\n</text:p><text:p>\n</text:p><text:p> $5   @\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$01&gt;&lt;$C2&gt;&lt;$27&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>Stored    \n</text:p><text:p>   $5   @ \n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$01&gt;&lt;$C2&gt;&lt;$27&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=IF([.F66]=[.I66]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// battle menus</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// action menu: ziria</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro15">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x131</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce4" office:value-type="string" calcext:value-type="string"><text:p>       ﾞ    <text:span text:style-name="T1">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾀﾀｶｳ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｼｭﾂ  </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ ﾞ        </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾄｳｸ  </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ﾇｽﾑ  </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5">        </text:span><text:span text:style-name="T6">ﾞ   </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾏﾓﾙ  </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ﾆｹﾙ  </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$8C&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C1&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$DC&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$04&gt;&lt;$C2&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$F7&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$21&gt;&lt;$C2&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>              \n</text:p><text:p>!Attack!Jutsu\n</text:p><text:p>\n</text:p><text:p>!Item  !Steal\n</text:p><text:p>\n</text:p><text:p>!Defend!Flee\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$8C&gt;&lt;$C1&gt;</text:p><text:p>&lt;$C1&gt;&lt;$C1&gt;</text:p><text:p>&lt;$DC&gt;&lt;$C1&gt;</text:p><text:p>&lt;$04&gt;&lt;$C2&gt;</text:p><text:p>&lt;$F7&gt;&lt;$C1&gt;</text:p><text:p>&lt;$21&gt;&lt;$C2&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F69]=[.I69]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// action menu: orochimaru</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro16">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x227</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce4" office:value-type="string" calcext:value-type="string"><text:p>       ﾞ    <text:span text:style-name="T1">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾀﾀｶｳ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｼｭﾂ  </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ ﾞ    ﾞ   </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾄｳｸ  </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ﾅｶｼﾒ </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾏﾓﾙ        </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$8C&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C1&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$DC&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$80&gt;&lt;$C2&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$F7&gt;&lt;$C1&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>              \n</text:p><text:p>!Attack!Jutsu\n</text:p><text:p>\n</text:p><text:p>!Item  !Flirt\n</text:p><text:p>\n</text:p><text:p>!Defend\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$8C&gt;&lt;$C1&gt;</text:p><text:p>&lt;$C1&gt;&lt;$C1&gt;</text:p><text:p>&lt;$DC&gt;&lt;$C1&gt;</text:p><text:p>&lt;$80&gt;&lt;$C2&gt;</text:p><text:p>&lt;$F7&gt;&lt;$C1&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F71]=[.I71]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// action menu: tsunade</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro17">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x294</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce4" office:value-type="string" calcext:value-type="string"><text:p>       ﾞ    <text:span text:style-name="T1">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾀﾀｶｳ </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｼｭﾂ  </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ ﾞ        </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T2">!</text:span><text:span text:style-name="T3">ﾄｳｸ  </text:span><text:span text:style-name="T4">!</text:span><text:span text:style-name="T3">ｳｿﾅｷ </text:span><text:span text:style-name="T4">\n</text:span></text:p><text:p><text:span text:style-name="T1">            \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾏﾓﾙ        </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$8C&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C1&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$DC&gt;&lt;$C1&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$ED&gt;&lt;$C2&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$F7&gt;&lt;$C1&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>              \n</text:p><text:p>!Attack!Jutsu\n</text:p><text:p>\n</text:p><text:p>!Item  !Cry\n</text:p><text:p>\n</text:p><text:p>!Defend\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$8C&gt;&lt;$C1&gt;</text:p><text:p>&lt;$C1&gt;&lt;$C1&gt;</text:p><text:p>&lt;$DC&gt;&lt;$C1&gt;</text:p><text:p>&lt;$ED&gt;&lt;$C2&gt;</text:p><text:p>&lt;$F7&gt;&lt;$C1&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F73]=[.I73]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// save/load menus</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// file continue/copy/erase menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro18">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0xC2C</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce4" office:value-type="string" calcext:value-type="string"><text:p>  ﾞ  <text:span text:style-name="T1">\n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾊｼﾒﾙ</text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">     \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｳﾂｽ </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">     \n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｹｽ  </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$57&gt;&lt;$9C&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C2&gt;&lt;$9C&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$98&gt;&lt;$9D&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>      \n</text:p><text:p>!Start\n</text:p><text:p>\n</text:p><text:p>!Copy\n</text:p><text:p>\n</text:p><text:p>!Erase\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$57&gt;&lt;$9C&gt;</text:p><text:p>&lt;$C2&gt;&lt;$9C&gt;</text:p><text:p>&lt;$98&gt;&lt;$9D&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F76]=[.I76]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// file select menu 1</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro19">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0xFCE</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>                       \n</text:p><text:p>  BACKUP RAM DATA      \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI1 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI2 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI3 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI4 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$1F&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$20&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;&lt;$21&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;</text:p><text:p>&lt;$22&gt;&lt;$3B&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;&lt;$A3&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>                       \n</text:p><text:p>  Backup RAM Data      \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI1 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI2 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI3 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI4 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$1F&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$20&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;&lt;$21&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;</text:p><text:p>&lt;$22&gt;&lt;$3B&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;&lt;$A3&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F78]=[.I78]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// file select menu 2</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro19">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x116B</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>                       \n</text:p><text:p>  BACKUP RAM DATA      \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI5 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI6 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI7 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI8 #       $2(   \n</text:p><text:p>                       \n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$23&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$24&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;&lt;$25&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;</text:p><text:p>&lt;$26&gt;&lt;$3B&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;&lt;$A3&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>                       \n</text:p><text:p>  Backup RAM Data      \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI5 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI6 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI7 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>                       \n</text:p><text:p>!TENGAI8 #       ($2   \n</text:p><text:p>                       \n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$23&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;&lt;$A7&gt;</text:p><text:p>&lt;$00&gt;&lt;$24&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;&lt;$25&gt;</text:p><text:p>&lt;$3B&gt;&lt;$1A&gt;</text:p><text:p>&lt;$A7&gt;&lt;$00&gt;</text:p><text:p>&lt;$26&gt;&lt;$3B&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;</text:p><text:p>&lt;$A3&gt;&lt;$08&gt;&lt;$A3&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F80]=[.I80]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//==================================</text:p><text:p>// item/technique info menus</text:p><text:p>//==================================</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="Default" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>//=====</text:p><text:p>// item/technique select menu</text:p><text:p>//=====</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro20">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>string</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>str-0x6B</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string"><text:p>          \n</text:p><text:p><text:span text:style-name="T7">ﾓﾁﾓﾉ ｶｲｾﾂ </text:span><text:span text:style-name="T8">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ ﾞ      </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ﾄｳｸ      </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T5"> </text:span><text:span text:style-name="T6">ﾞ        </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T5">!</text:span><text:span text:style-name="T6">ｼｭﾂ      </text:span><text:span text:style-name="T5">\n</text:span></text:p><text:p><text:span text:style-name="T1">[end]</text:span></text:p><text:p/><text:p><text:span text:style-name="T1">// parameters</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$B2&gt;&lt;$C0&gt;</text:span></text:p><text:p><text:span text:style-name="T1">&lt;$C6&gt;&lt;$C0&gt;</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string"><text:p>[spacemenu]&lt;$0C&gt;\n</text:p><text:p>Descriptions\n</text:p><text:p>\n</text:p><text:p>!Items\n</text:p><text:p>\n</text:p><text:p>!Jutsu\n</text:p><text:p>[end]</text:p><text:p/><text:p>// parameters</text:p><text:p>&lt;$B2&gt;&lt;$C0&gt;</text:p><text:p>&lt;$C6&gt;&lt;$C0&gt;</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:formula="of:=IF([.F83]=[.I83]; &quot;UNTRANSLATED&quot;; &quot;&quot;)">
+      <text:p/>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3" table:number-rows-repeated="1048492">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

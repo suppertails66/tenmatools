@@ -1,0 +1,375 @@
+#SETSIZE(-1, -1)
+//===================================
+// generic shop messages
+//===================================
+
+#STARTSTRING("str-0x230")
+#SETORIGINALPOS(0x230, 0x41)
+#IMPORT("str-0x230_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x271")
+#SETORIGINALPOS(0x271, 0x1D)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x271_0")
+
+[prompt]<$8E><$C2><$8E><$C2>
+#ENDSTRING()
+
+#STARTSTRING("str-0x28E")
+#SETORIGINALPOS(0x28E, 0x2)
+[fa]
+#ENDSTRING()
+
+#STARTSTRING("str-0x290")
+#SETORIGINALPOS(0x290, 0x69)
+#IMPORT("str-0x290_0")
+#BOXPAUSE()
+#IMPORT("str-0x290_2")
+[ef]
+#ENDSTRING()
+
+#STARTSTRING("str-0x2F9")
+#SETORIGINALPOS(0x2F9, 0x6B)
+#IMPORT("str-0x2F9_0")
+#BOXPAUSE()
+#IMPORT("str-0x2F9_2")
+[ef]
+#ENDSTRING()
+
+#STARTSTRING("str-0x364")
+#SETORIGINALPOS(0x364, 0x24)
+#IMPORT("str-0x364_0")
+[fa]
+#ENDSTRING()
+
+#STARTSTRING("str-0x388")
+#SETORIGINALPOS(0x388, 0x1D)
+#IMPORT("str-0x388_0")
+#ENDSTRING()
+
+#STARTSTRING("str-0x3A5")
+#SETORIGINALPOS(0x3A5, 0x27)
+#IMPORT("str-0x3A5_0")
+[ef]
+#ENDSTRING()
+
+#STARTSTRING("str-0x3CC")
+#SETORIGINALPOS(0x3CC, 0xE)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x3CC_0")
+
+[prompt]<$8E><$C2><$8E><$C2>
+#ENDSTRING()
+
+#STARTSTRING("str-0x3DA")
+#SETORIGINALPOS(0x3DA, 0x32)
+#IMPORT("str-0x3DA_0")
+[fa]
+#ENDSTRING()
+
+//===================================
+// orochimaru letter 1
+//===================================
+
+#STARTSTRING("str-0x40F")
+#SETORIGINALPOS(0x40F, 0x216)
+[adpcm]<$00><$55><$90><$08><$00><$B0><$3B>
+#IMPORT("str-0x40F_1")
+#BOXPAUSE()
+[adpcm]<$00><$5D><$90><$14><$00><$11><$98>
+#IMPORT("str-0x40F_4")
+#BOXPAUSE()
+[adpcm]<$00><$71><$90><$20><$00><$91><$F8>
+#IMPORT("str-0x40F_7")
+#BOXPAUSE()
+[adpcm]<$00><$91><$90><$14><$00><$22><$9C>
+#IMPORT("str-0x40F_10")
+#BOXPAUSE()
+[adpcm]<$00><$A5><$90><$1B><$00><$E8><$D7>
+#IMPORT("str-0x40F_13")
+#BOXPAUSE()
+[adpcm]<$00><$C0><$90><$0F><$00><$2C><$75>
+#IMPORT("str-0x40F_16")
+#BOXEND()
+#ENDSTRING()
+
+//===================================
+// orochimaru letter 2
+//===================================
+
+#STARTSTRING("str-0x628")
+#SETORIGINALPOS(0x628, 0x2C3)
+[adpcm]<$00><$CF><$90><$09><$00><$50><$41>
+#IMPORT("str-0x628_1")
+#BOXPAUSE()
+[adpcm]<$00><$D8><$90><$1B><$00><$B0><$D4>
+#IMPORT("str-0x628_4")
+#BOXPAUSE()
+[adpcm]<$00><$F3><$90><$14><$00><$B0><$9F>
+#IMPORT("str-0x628_7")
+#BOXPAUSE()
+[adpcm]<$00><$07><$91><$14><$00><$C4><$99>
+#IMPORT("str-0x628_10")
+#BOXPAUSE()
+[adpcm]<$00><$1B><$91><$16><$00><$D0><$AC>
+#IMPORT("str-0x628_13")
+#BOXPAUSE()
+[adpcm]<$00><$31><$91><$16><$00><$7A><$AB>
+#IMPORT("str-0x628_16")
+#BOXPAUSE()
+[adpcm]<$00><$47><$91><$11><$00><$70><$81>
+#IMPORT("str-0x628_19")
+[adpcm]<$00><$58><$91><$15><$00><$C2><$A7>
+#IMPORT("str-0x628_21")
+#BOXPAUSE()
+#IMPORT("str-0x628_23")
+#ENDSTRING()
+
+//===================================
+// examining toubei plans
+//===================================
+
+#STARTSTRING("str-0x8EE")
+#SETORIGINALPOS(0x8EE, 0x22)
+#IMPORT("str-0x8EE_0")
+#ENDSTRING()
+
+//===================================
+// gambling game
+//===================================
+
+#STARTSTRING("str-0xD1F")
+#SETORIGINALPOS(0xD1F, 0x48)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0xD1F_0")
+
+[prompt]<$FE><$CE><$67><$CD>
+#ENDSTRING()
+
+#STARTSTRING("str-0xD6A")
+#SETORIGINALPOS(0xD6A, 0x5D)
+#IMPORT("str-0xD6A_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0xDCA")
+#SETORIGINALPOS(0xDCA, 0x1E)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+[fa]
+#IMPORT("str-0xDCA_1")
+
+[prompt]<$FE><$CE><$FE><$CE>
+#ENDSTRING()
+
+#STARTSTRING("str-0xDEB")
+#SETORIGINALPOS(0xDEB, 0x2F)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+[fa]
+#IMPORT("str-0xDEB_1")
+
+[prompt]<$FE><$CE><$FE><$CE>
+#ENDSTRING()
+
+#STARTSTRING("str-0xE1D")
+#SETORIGINALPOS(0xE1D, 0x53)
+#IMPORT("str-0xE1D_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0xE73")
+#SETORIGINALPOS(0xE73, 0x49)
+#IMPORT("str-0xE73_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0xEBF")
+#SETORIGINALPOS(0xEBF, 0x14)
+[fa]
+#IMPORT("str-0xEBF_1")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0xED6")
+#SETORIGINALPOS(0xED6, 0x28)
+#IMPORT("str-0xED6_0")
+[fa]
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0xF01")
+#SETORIGINALPOS(0xF01, 0x2)
+[fa]
+#ENDSTRING()
+
+#STARTSTRING("str-0xF06")
+#SETORIGINALPOS(0xF06, 0x40)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0xF06_0")
+
+[prompt]<$FE><$CE><$FE><$CE>
+#ENDSTRING()
+
+#STARTSTRING("str-0xF49")
+#SETORIGINALPOS(0xF49, 0x3E)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0xF49_0")
+
+[prompt]<$FE><$CE><$FE><$CE>
+#ENDSTRING()
+
+//===================================
+// storage area
+//===================================
+
+#STARTSTRING("str-0x12D2")
+#SETORIGINALPOS(0x12D2, 0x46)
+#IMPORT("str-0x12D2_0")
+[fa]
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x1319")
+#SETORIGINALPOS(0x1319, 0x5B)
+#IMPORT("str-0x1319_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x1375")
+#SETORIGINALPOS(0x1375, 0x3E)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x1375_0")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x13B4")
+#SETORIGINALPOS(0x13B4, 0x44)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x13B4_0")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x13F9")
+#SETORIGINALPOS(0x13F9, 0x3D)
+#IMPORT("str-0x13F9_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x1437")
+#SETORIGINALPOS(0x1437, 0x67)
+#IMPORT("str-0x1437_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x149F")
+#SETORIGINALPOS(0x149F, 0x32)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x149F_0")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x14D2")
+#SETORIGINALPOS(0x14D2, 0x48)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x14D2_0")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x151B")
+#SETORIGINALPOS(0x151B, 0x59)
+#IMPORT("str-0x151B_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x1575")
+#SETORIGINALPOS(0x1575, 0x39)
+#IMPORT("str-0x1575_0")
+[ef]
+#ENDSTRING()
+
+#STARTSTRING("str-0x15AF")
+#SETORIGINALPOS(0x15AF, 0x36)
+#IMPORT("str-0x15AF_0")
+#ENDSTRING()
+
+#STARTSTRING("str-0x15E6")
+#SETORIGINALPOS(0x15E6, 0x82)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x15E6_0")
+#BOXPAUSE()
+#IMPORT("str-0x15E6_2")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x1669")
+#SETORIGINALPOS(0x1669, 0x63)
+#IMPORT("str-0x1669_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x16CD")
+#SETORIGINALPOS(0x16CD, 0x29)
+#IMPORT("str-0x16CD_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x16F7")
+#SETORIGINALPOS(0x16F7, 0x32)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x16F7_0")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x172A")
+#SETORIGINALPOS(0x172A, 0x68)
+#IMPORT("str-0x172A_0")
+#BOXPAUSE()
+#IMPORT("str-0x172A_2")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x1793")
+#SETORIGINALPOS(0x1793, 0x2B)
+#IMPORT("str-0x1793_0")
+[ef]
+#ENDSTRING()
+
+#STARTSTRING("str-0x17BF")
+#SETORIGINALPOS(0x17BF, 0x34)
+#IMPORT("str-0x17BF_0")
+#ENDSTRING()
+
+#STARTSTRING("str-0x17F4")
+#SETORIGINALPOS(0x17F4, 0x8F)
+#SETSTRINGPROPERTY("terminatedByPrompt", "1")
+#IMPORT("str-0x17F4_0")
+#BOXPAUSE()
+#IMPORT("str-0x17F4_2")
+
+[prompt]<$F5><$D8><$F5><$D8>
+#ENDSTRING()
+
+#STARTSTRING("str-0x1884")
+#SETORIGINALPOS(0x1884, 0x29)
+#IMPORT("str-0x1884_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x18AE")
+#SETORIGINALPOS(0x18AE, 0x47)
+#IMPORT("str-0x18AE_0")
+#BOXEND()
+#ENDSTRING()
+
+#STARTSTRING("str-0x18F6")
+#SETORIGINALPOS(0x18F6, 0x2)
+[fa]
+#ENDSTRING()
+

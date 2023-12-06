@@ -1,0 +1,26 @@
+set basepattern=0x1C0
+set patternoffset=0
+
+set xorigin=128
+set yorigin=118
+
+# act
+add x=0x40  y=0x50 w=32 h=16 pri=1 pal=0
+add x=0x60  y=0x50 w=32 h=16 pri=1 pal=0
+add x=0x80  y=0x50 w=32 h=16 pri=1 pal=0
+add x=0xA0  y=0x50 w=32 h=16 pri=1 pal=0
+
+# title
+add x=0x20  y=0x69 w=32 h=16 pri=1 pal=0
+add x=0x40  y=0x69 w=32 h=16 pri=1 pal=0
+add x=0x60  y=0x69 w=32 h=16 pri=1 pal=0
+add x=0x80  y=0x69 w=32 h=16 pri=1 pal=0
+add x=0xA0  y=0x69 w=32 h=16 pri=1 pal=0
+add x=0xC0  y=0x69 w=32 h=16 pri=1 pal=0
+
+# subtitle
+add x=0x60  y=0x80 w=32 h=16 pri=1 pal=0
+add x=0x80  y=0x80 w=32 h=16 pri=1 pal=0
+
+outputSprites "out/grp/theater_acts_2_sprite.bin"
+#outputPreviewGrp "test_preview.png"

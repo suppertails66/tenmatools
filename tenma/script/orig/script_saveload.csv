@@ -1,0 +1,83 @@
+"","","","","//==================================
+// save/load menu + restart after party defeated
+//==================================","","","",""
+"string","str-0x171A_0","","","つかえない","",,"=IF(F2=I2, ""UNTRANSLATED"", """")",""
+"string","str-0x1725_0","","","最初から　","",,"=IF(F3=I3, ""UNTRANSLATED"", """")",""
+"string","str-0x1730_0","","","　筑波　　","",,"=IF(F4=I4, ""UNTRANSLATED"", """")",""
+"string","str-0x173B_0","","","　磐毛　　","",,"=IF(F5=I5, ""UNTRANSLATED"", """")",""
+"string","str-0x1746_0","","","　陸羽　　","",,"=IF(F6=I6, ""UNTRANSLATED"", """")",""
+"string","str-0x1751_0","","","　陸奥　　","",,"=IF(F7=I7, ""UNTRANSLATED"", """")",""
+"string","str-0x175C_0","","","　信濃　　","",,"=IF(F8=I8, ""UNTRANSLATED"", """")",""
+"string","str-0x1767_0","","","　富士　　","",,"=IF(F9=I9, ""UNTRANSLATED"", """")",""
+"string","str-0x1772_0","","","　相模　　","",,"=IF(F10=I10, ""UNTRANSLATED"", """")",""
+"string","str-0x177D_0","","","　千葉　　","",,"=IF(F11=I11, ""UNTRANSLATED"", """")",""
+"string","str-0x1788_0","","","　武蔵　　","",,"=IF(F12=I12, ""UNTRANSLATED"", """")",""
+"string","str-0x1793_0","","","ＴＥＮＧＡＩ１","",,"=IF(F13=I13, ""UNTRANSLATED"", """")",""
+"string","str-0x17A2_0","","","ＴＥＮＧＡＩ２","",,"=IF(F14=I14, ""UNTRANSLATED"", """")",""
+"string","str-0x17B1_0","","","ＴＥＮＧＡＩ３","",,"=IF(F15=I15, ""UNTRANSLATED"", """")",""
+"string","str-0x17C0_0","","","ＴＥＮＧＡＩ４","",,"=IF(F16=I16, ""UNTRANSLATED"", """")",""
+"string","str-0x17CF_0","","","ＴＥＮＧＡＩ５","",,"=IF(F17=I17, ""UNTRANSLATED"", """")",""
+"string","str-0x17DE_0","","","ＴＥＮＧＡＩ６","",,"=IF(F18=I18, ""UNTRANSLATED"", """")",""
+"string","str-0x17ED_0","","","ＴＥＮＧＡＩ７","",,"=IF(F19=I19, ""UNTRANSLATED"", """")",""
+"string","str-0x17FC_0","","","ＴＥＮＧＡＩ８","",,"=IF(F20=I20, ""UNTRANSLATED"", """")",""
+"string","str-0x180B_1","","","よみこむデータを選んでください","",,"=IF(F21=I21, ""UNTRANSLATED"", """")",""
+"string","str-0x182B_1","","","[string]を\n
+よみこみ中です","",,"=IF(F22=I22, ""UNTRANSLATED"", """")",""
+"string","str-0x183F_1","","","データをかきこむ場所を選んでください","",,"=IF(F23=I23, ""UNTRANSLATED"", """")",""
+"string","str-0x1865_1","","","[string]に\n
+かきこみ中です","",,"=IF(F24=I24, ""UNTRANSLATED"", """")",""
+"string","str-0x1879_0","","","かきこみ終了しました\n
+　　　　　　　　　　\n
+　　　　　　　　　　","",,"=IF(F25=I25, ""UNTRANSLATED"", """")",""
+"string","str-0x18B9_1","","","データを　よみこんで\n
+前回　かきこんだところから\n
+はじめます","",,"=IF(F26=I26, ""UNTRANSLATED"", """")",""
+"string","str-0x18F5_1","","","データが記憶されていないので\n
+最初から　はじめます","",,"=IF(F27=I27, ""UNTRANSLATED"", """")",""
+"string","str-0x1928_0","","","ＢＡＣＫＵＰ　ＲＡＭの\n
+データが　多すぎます\n
+このデータは　つかえません","",,"=IF(F28=I28, ""UNTRANSLATED"", """")",""
+"string","str-0x1928_2","","","このデータを　つかいたいときの\n
+方法を　説明します","",,"=IF(F29=I29, ""UNTRANSLATED"", """")",""
+"string","str-0x1928_4","","","ＣＤ－ＲＯＭ　ＳＹＳＴＥＭの\n
+タイトル画面で\n
+セレクト　ボタンを押してください","",,"=IF(F30=I30, ""UNTRANSLATED"", """")",""
+"string","str-0x1928_6","","","そこでＢＡＣＫＵＰ　ＲＡＭの\n
+「削除」を選ぶと　記憶されている\n
+データが　すべて表示されます","",,"=IF(F31=I31, ""UNTRANSLATED"", """")",""
+"string","str-0x1928_8","","","その中で　もう必要のないデータを\n
+選んで　Ιボタンで消します","",,"=IF(F32=I32, ""UNTRANSLATED"", """")",""
+"string","str-0x1928_10","","","天外魔境では　「ＴＥＮＧＡＩ１」から\n
+「ＴＥＮＧＡＩ４」の名前で\n
+データを　記憶しています","",,"=IF(F33=I33, ""UNTRANSLATED"", """")",""
+"string","str-0x1AE0_0","","","このデータは　あなたがつかっている\n
+データではありません","",,"=IF(F34=I34, ""UNTRANSLATED"", """")",""
+"string","str-0x1AE0_2","","","ここにあるデータを　けして\n
+かきこんでよろしいですか","",,"=IF(F35=I35, ""UNTRANSLATED"", """")",""
+"string","str-0x1B53_0","","","このデータは　あなたがつかっている\n
+データではありません","=T(F34)","=""DUPE: ""&ADDRESS(ROW(F34), COLUMN(F34), 4)",,
+"string","str-0x1B53_2","","","ここに　かきこんでよろしいですか\n","",,"=IF(F37=I37, ""UNTRANSLATED"", """")",""
+"string","str-0x1BB2_0","","","このデータは　あなたがつかっている\n
+データではありません","=T(F34)","=""DUPE: ""&ADDRESS(ROW(F34), COLUMN(F34), 4)",,
+"string","str-0x1BB2_2","","","ＢＡＣＫＵＰ　ＲＡＭの\n
+データが　多すぎますので\n
+ここには　かきこめません","",,"=IF(F39=I39, ""UNTRANSLATED"", """")",""
+"string","str-0x1BB2_4","","","他のデータを　えらんでください","",,"=IF(F40=I40, ""UNTRANSLATED"", """")",""
+"string","str-0x1C55_0","","","データを　どこにもかきこまなくて\n
+よろしいのですか","",,"=IF(F41=I41, ""UNTRANSLATED"", """")",""
+"string","str-0x1C8B_1","","","どのデータを　うつしますか","",,"=IF(F42=I42, ""UNTRANSLATED"", """")",""
+"string","str-0x1CA7_0","","","ここには　まだ　データを\n
+かきこんでいません","",,"=IF(F43=I43, ""UNTRANSLATED"", """")",""
+"string","str-0x1CD3_0","","","[string]のデータを\n
+どこにうつしますか","",,"=IF(F44=I44, ""UNTRANSLATED"", """")",""
+"string","str-0x1CF2_0","","","ＢＡＣＫＵＰ　ＲＡＭの\n
+データが　多すぎますので\n
+ここには　かきこめません","=T(F39)","=""DUPE: ""&ADDRESS(ROW(F39), COLUMN(F39), 4)",,
+"string","str-0x1D3B_0","","","[string]に[string]の\n
+データを記憶させてよろしいですか","",,"=IF(F46=I46, ""UNTRANSLATED"", """")",""
+"string","str-0x1D67_1","","","どのデータを　けしますか","",,"=IF(F47=I47, ""UNTRANSLATED"", """")",""
+"string","str-0x1D81_0","","","[string]のデータを\n
+けしてよろしいですか","",,"=IF(F48=I48, ""UNTRANSLATED"", """")",""
+"string","str-0x1DA6_0","[color]<$01>","","ジライアは　新たな戦いに　そなえ\n
+持ち金の半分を　使い\n
+キズを　完全に　なおした！！","",,"=IF(F49=I49, ""UNTRANSLATED"", """")",""

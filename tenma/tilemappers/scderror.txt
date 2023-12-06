@@ -1,0 +1,23 @@
+#******************************************************************************
+# scderror tilemap generator
+#******************************************************************************
+
+[Properties]
+palette=out/rsrc_raw/pal/scderror.pal
+#freepalettes=
+dest=out/grp/scderror.bin
+#paldest=out/rsrc_raw/pal/carderror.pal
+loadAddr=0x80
+#minTiles=0x185
+maxTiles=0x200
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/grp/scderror.png
+dest=out/maps/scderror.bin
+transparency=0
+

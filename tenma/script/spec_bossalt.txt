@@ -1,0 +1,513 @@
+#STARTREGION("battle_altboss")
+
+#STARTREGION("bossalt_sec_2749")
+
+//===================================
+// ??? altboss 0xABD dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2749")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xABD_intro")
+#SETORIGINALPOS(0x42, 0x25)
+#IMPORT("boss_0xABD_intro_0")
+#ENDSTRING()
+
+#ADDFREESPACE(0x592, 0x26E)
+#STARTREGION("bossalt_sec_2752")
+
+//===================================
+// ??? altboss 0xAC0 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2752")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAC0_intro")
+#SETORIGINALPOS(0x42, 0xF)
+#IMPORT("boss_0xAC0_intro_0")
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAC0_lose")
+#SETORIGINALPOS(0xDD, 0x39)
+#IMPORT("boss_0xAC0_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAC0_win")
+#SETORIGINALPOS(0x52, 0x8A)
+#IMPORT("boss_0xAC0_win_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAC0_win_2")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x50A, 0x2F6)
+#STARTREGION("bossalt_sec_2753")
+
+//===================================
+// ??? altboss 0xAC1 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2753")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAC1_intro")
+#SETORIGINALPOS(0x49, 0x4A)
+#IMPORT("boss_0xAC1_intro_0")
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAC1_lose")
+#SETORIGINALPOS(0x174, 0x2D)
+#IMPORT("boss_0xAC1_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAC1_win")
+#SETORIGINALPOS(0x94, 0xDF)
+#IMPORT("boss_0xAC1_win_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAC1_win_2")
+#BOXPAUSE()
+#IMPORT("boss_0xAC1_win_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x66A, 0x196)
+#STARTREGION("bossalt_sec_2754")
+
+//===================================
+// ??? altboss 0xAC2 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2754")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAC2_intro")
+#SETORIGINALPOS(0x4C, 0x52)
+#IMPORT("boss_0xAC2_intro_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAC2_intro_2")
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAC2_lose")
+#SETORIGINALPOS(0xDB, 0x33)
+#IMPORT("boss_0xAC2_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAC2_win")
+#SETORIGINALPOS(0x9F, 0x3B)
+#IMPORT("boss_0xAC2_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x3BA, 0x446)
+#STARTREGION("bossalt_sec_2757")
+
+//===================================
+// ??? altboss 0xAC5 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2757")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAC5_intro")
+#SETORIGINALPOS(0x48, 0x33)
+#IMPORT("boss_0xAC5_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAC5_win")
+#SETORIGINALPOS(0x7C, 0x10B)
+#IMPORT("boss_0xAC5_win_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAC5_win_2")
+#BOXPAUSE()
+#IMPORT("boss_0xAC5_win_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x4E1, 0x31F)
+#STARTREGION("bossalt_sec_2758")
+
+//===================================
+// ??? altboss 0xAC6 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2758")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAC6_intro")
+#SETORIGINALPOS(0x48, 0x15)
+#IMPORT("boss_0xAC6_intro_0")
+#ENDSTRING()
+
+#ADDFREESPACE(0x3FC, 0x404)
+#STARTREGION("bossalt_sec_2761")
+
+//===================================
+// ??? altboss 0xAC9 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2761")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAC9_lose")
+#SETORIGINALPOS(0x48, 0x2D)
+#IMPORT("boss_0xAC9_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAC9_win")
+#SETORIGINALPOS(0x76, 0x4D)
+#IMPORT("boss_0xAC9_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x47B, 0x385)
+#STARTREGION("bossalt_sec_2767")
+
+//===================================
+// ??? altboss 0xACF dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2767")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xACF_intro")
+#SETORIGINALPOS(0x4E, 0x77)
+#IMPORT("boss_0xACF_intro_0")
+#BOXPAUSE()
+#IMPORT("boss_0xACF_intro_2")
+#ENDSTRING()
+
+#ADDFREESPACE(0x474, 0x38C)
+#STARTREGION("bossalt_sec_2768")
+
+//===================================
+// ??? altboss 0xAD0 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2768")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAD0_intro")
+#SETORIGINALPOS(0x48, 0x61)
+#IMPORT("boss_0xAD0_intro_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAD0_intro_2")
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAD0_win")
+#SETORIGINALPOS(0xAA, 0x47)
+#IMPORT("boss_0xAD0_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x589, 0x277)
+#STARTREGION("bossalt_sec_2773")
+
+//===================================
+// ??? altboss 0xAD5 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2773")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAD5_intro")
+#SETORIGINALPOS(0x42, 0x8B)
+#IMPORT("boss_0xAD5_intro_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAD5_intro_2")
+#BOXPAUSE()
+#IMPORT("boss_0xAD5_intro_4")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x56F, 0x291)
+#STARTREGION("bossalt_sec_2777")
+
+//===================================
+// ??? altboss 0xAD9 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2777")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAD9_intro")
+#SETORIGINALPOS(0x4F, 0x59)
+#IMPORT("boss_0xAD9_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAD9_win")
+#SETORIGINALPOS(0xA9, 0x15)
+#IMPORT("boss_0xAD9_win_0")
+#ENDSTRING()
+
+#ADDFREESPACE(0x47D, 0x383)
+#STARTREGION("bossalt_sec_2784")
+
+//===================================
+// ??? altboss 0xAE0 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2784")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAE0_intro")
+#SETORIGINALPOS(0x4E, 0x59)
+#IMPORT("boss_0xAE0_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAE0_lose")
+#SETORIGINALPOS(0xA8, 0x53)
+#IMPORT("boss_0xAE0_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAE0_win")
+#SETORIGINALPOS(0xFC, 0xAC)
+#IMPORT("boss_0xAE0_win_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAE0_win_2")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x593, 0x26D)
+#STARTREGION("bossalt_sec_2786")
+
+//===================================
+// ??? altboss 0xAE2 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2786")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAE2_lose")
+#SETORIGINALPOS(0x48, 0x2E)
+#IMPORT("boss_0xAE2_lose_0")
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAE2_win")
+#SETORIGINALPOS(0x77, 0x1B)
+#IMPORT("boss_0xAE2_win_0")
+#ENDSTRING()
+
+#ADDFREESPACE(0x5BA, 0x246)
+#STARTREGION("bossalt_sec_2788")
+
+//===================================
+// ??? altboss 0xAE4 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2788")
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAE4_lose")
+#SETORIGINALPOS(0x179, 0x49)
+#IMPORT("boss_0xAE4_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAE4_win")
+#SETORIGINALPOS(0x4E, 0x12A)
+#IMPORT("boss_0xAE4_win_0")
+#BOXPAUSE()
+#IMPORT("boss_0xAE4_win_2")
+#BOXPAUSE()
+#IMPORT("boss_0xAE4_win_4")
+#BOXPAUSE()
+#IMPORT("boss_0xAE4_win_6")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x7A9, 0x57)
+#ADDFREESPACE(0xE3E, 0x1C2)
+#STARTREGION("bossalt_sec_2798")
+
+//===================================
+// ??? altboss 0xAEE dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2798")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAEE_intro")
+#SETORIGINALPOS(0x48, 0x37)
+#IMPORT("boss_0xAEE_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAEE_win")
+#SETORIGINALPOS(0x80, 0x4B)
+#IMPORT("boss_0xAEE_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x93C, 0x6C4)
+#STARTREGION("bossalt_sec_2807")
+
+//===================================
+// ??? altboss 0xAF7 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2807")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAF7_intro")
+#SETORIGINALPOS(0x48, 0x2D)
+#IMPORT("boss_0xAF7_intro_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x412, 0x3EE)
+#STARTREGION("bossalt_sec_2809")
+
+//===================================
+// ??? altboss 0xAF9 dialogue?
+//===================================
+
+#SETREGIONPROPERTY("originSector", "2809")
+
+//=====
+// intro
+//=====
+
+#STARTSTRING("boss_0xAF9_intro")
+#SETORIGINALPOS(0x54, 0x9)
+#IMPORT("boss_0xAF9_intro_0")
+#ENDSTRING()
+
+//=====
+// player lose
+//=====
+
+#STARTSTRING("boss_0xAF9_lose")
+#SETORIGINALPOS(0x5E, 0x31)
+#IMPORT("boss_0xAF9_lose_0")
+#BOXEND()
+#ENDSTRING()
+
+//=====
+// player win
+//=====
+
+#STARTSTRING("boss_0xAF9_win")
+#SETORIGINALPOS(0x90, 0x49)
+#IMPORT("boss_0xAF9_win_0")
+#BOXEND()
+#ENDSTRING()
+
+#ADDFREESPACE(0x8EC, 0x714)

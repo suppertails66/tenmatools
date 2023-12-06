@@ -1,0 +1,14 @@
+,,,,"//==================================
+// dialogue yes/no prompt
+//==================================",,,
+string,yesno_prompt,,,はい[00][00]いいえ,Yes<$00>No,,
+,,,,"//==================================
+// sent to gokumon event
+//==================================",,,
+string,str-0x187E_0,,,"ハハハハハ\n
+ジライアよ！　くやしいか？\n
+二度と　大門教に　さからわぬよう","Bwahahahaha! This is what happens when you defy the Cult of Daimon!\n
+Are you mad, Ziria? I bet you are!",,
+string,str-0x187E_2,,,"このムテキオーさまに　虫ケラのごとく\n
+ひねりつぶされた　きろくを\n
+みずからの手で　きざむが　よい！","I, Mutekiou, have crushed the Fire Hero like a bug! Such an overwhelming defeat deserves to be written down!",ZenkiTN: this prompts a save,

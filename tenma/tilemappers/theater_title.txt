@@ -1,0 +1,23 @@
+#******************************************************************************
+# theater title tilemap generator
+#******************************************************************************
+
+[Properties]
+palette=out/rsrc_raw/pal/theater_title.pal
+#freepalettes=
+dest=out/grp/theater_title.bin
+#paldest=out/rsrc_raw/pal/carderror.pal
+loadAddr=0x100
+#minTiles=0x185
+maxTiles=0x200
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/grp/theater_title.png
+dest=out/maps/theater_title.bin
+transparency=0
+

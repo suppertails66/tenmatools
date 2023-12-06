@@ -1,0 +1,89 @@
+,,,,"//==================================
+// save/load menu + restart after party defeated
+//==================================",,,
+string,str-0x171A_0,,,つかえない,Unusable,,
+string,str-0x1725_0,,,最初から　,New Game,,
+string,str-0x1730_0,,,　筑波　　,Tsukuba,,
+string,str-0x173B_0,,,　磐毛　　,Banmou,,
+string,str-0x1746_0,,,　陸羽　　,Rikuu,,
+string,str-0x1751_0,,,　陸奥　　,Mutsu,,
+string,str-0x175C_0,,,　信濃　　,Shinano,,
+string,str-0x1767_0,,,　富士　　,Fuji,,
+string,str-0x1772_0,,,　相模　　,Sagami,,
+string,str-0x177D_0,,,　千葉　　,Chiba,,
+string,str-0x1788_0,,,　武蔵　　,Musashi,,
+string,str-0x1793_0,,,ＴＥＮＧＡＩ１,TENGAI1,,
+string,str-0x17A2_0,,,ＴＥＮＧＡＩ２,TENGAI2,,
+string,str-0x17B1_0,,,ＴＥＮＧＡＩ３,TENGAI3,,
+string,str-0x17C0_0,,,ＴＥＮＧＡＩ４,TENGAI4,,
+string,str-0x17CF_0,,,ＴＥＮＧＡＩ５,TENGAI5,"NOTE: it appears the developers originally planned to allow you to have 8 save files. the final game only has 4, so these extra ones aren't used.",
+string,str-0x17DE_0,,,ＴＥＮＧＡＩ６,TENGAI6,,
+string,str-0x17ED_0,,,ＴＥＮＧＡＩ７,TENGAI7,,
+string,str-0x17FC_0,,,ＴＥＮＧＡＩ８,TENGAI8,,
+string,str-0x180B_1,,,よみこむデータを選んでください,Choose a file to read.,,
+string,str-0x182B_1,,,"[string]を\n
+よみこみ中です",Now reading from [string].,,
+string,str-0x183F_1,,,データをかきこむ場所を選んでください,Choose where to write the file.,,
+string,str-0x1865_1,,,"[string]に\n
+かきこみ中です",Now writing to [string].,,
+string,str-0x1879_0,,,"かきこみ終了しました\n
+　　　　　　　　　　\n
+　　　　　　　　　　","Write complete.[space8px][space8px][space8px][space8px][space8px][space8px]\n
+[space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px]",NOTE: i think the two blank lines at the end of this are a quick hack to make the message display for longer before the screen fades out,
+string,str-0x18B9_1,,,"データを　よみこんで\n
+前回　かきこんだところから\n
+はじめます","The file will be read, and you will resume from where you last wrote it.",,
+string,str-0x18F5_1,,,"データが記憶されていないので\n
+最初から　はじめます","This file has not been written, so you will start from the beginning.[space8px][space8px][space8px][space8px][space8px][space8px]\n
+[space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px]","NOTE: a little pause would be a good idea here too, IMO",
+string,str-0x1928_0,,,"ＢＡＣＫＵＰ　ＲＡＭの\n
+データが　多すぎます\n
+このデータは　つかえません","There is too much data in the Backup RAM.\n
+This file cannot be used.",,
+string,str-0x1928_2,,,"このデータを　つかいたいときの\n
+方法を　説明します",Here is an explanation of how to use the file when you wish to.,,
+string,str-0x1928_4,,,"ＣＤ－ＲＯＭ　ＳＹＳＴＥＭの\n
+タイトル画面で\n
+セレクト　ボタンを押してください","At the CD-ROM System's title screen, press the Select Button.",,
+string,str-0x1928_6,,,"そこでＢＡＣＫＵＰ　ＲＡＭの\n
+「削除」を選ぶと　記憶されている\n
+データが　すべて表示されます","Then, choose the Backup RAM {Delete} option, and all stored data will be displayed.",,
+string,str-0x1928_8,,,"その中で　もう必要のないデータを\n
+選んで　Ιボタンで消します","Select data from among it that you no longer need, and erase it with the I Button.",,
+string,str-0x1928_10,,,"天外魔境では　「ＴＥＮＧＡＩ１」から\n
+「ＴＥＮＧＡＩ４」の名前で\n
+データを　記憶しています","For Tengai Makyou, data is stored under the names {TENGAI1} through {TENGAI4.}",,
+string,str-0x1AE0_0,,,"このデータは　あなたがつかっている\n
+データではありません",This is not the file you are using.,NOTE: this next set of messages is used when you try to save to a slot other than the one you loaded the game from,
+string,str-0x1AE0_2,,,"ここにあるデータを　けして\n
+かきこんでよろしいですか",Is it okay to erase the file that is here and write to it?,,
+string,str-0x1B53_0,,,"このデータは　あなたがつかっている\n
+データではありません",This is not the file you are using.,DUPE: F34,
+string,str-0x1B53_2,,,ここに　かきこんでよろしいですか\n,Is it okay to write to it?,,
+string,str-0x1BB2_0,,,"このデータは　あなたがつかっている\n
+データではありません",This is not the file you are using.,DUPE: F34,
+string,str-0x1BB2_2,,,"ＢＡＣＫＵＰ　ＲＡＭの\n
+データが　多すぎますので\n
+ここには　かきこめません","There is too much data in the Backup RAM, so you cannot write here.",,
+string,str-0x1BB2_4,,,他のデータを　えらんでください,Please select another file.,,
+string,str-0x1C55_0,,,"データを　どこにもかきこまなくて\n
+よろしいのですか",Is it okay not to write the data anywhere?,,
+string,str-0x1C8B_1,,,どのデータを　うつしますか,Which file will you copy?,,
+string,str-0x1CA7_0,,,"ここには　まだ　データを\n
+かきこんでいません",Data has not yet been written here.,,
+string,str-0x1CD3_0,,,"[string]のデータを\n
+どこにうつしますか","Where will you copy [string]'s\n
+data?",,
+string,str-0x1CF2_0,,,"ＢＡＣＫＵＰ　ＲＡＭの\n
+データが　多すぎますので\n
+ここには　かきこめません","There is too much data in the Backup RAM, so you cannot write here.",DUPE: F39,
+string,str-0x1D3B_0,,,"[string]に[string]の\n
+データを記憶させてよろしいですか","Is it okay to store to [string]\n
+the data from [string]?",,
+string,str-0x1D67_1,,,どのデータを　けしますか,Which file will you erase?,,
+string,str-0x1D81_0,,,"[string]のデータを\n
+けしてよろしいですか","Is it okay to erase the data in\n
+[string]?",,
+string,str-0x1DA6_0,[color]<$01>,,"ジライアは　新たな戦いに　そなえ\n
+持ち金の半分を　使い\n
+キズを　完全に　なおした！！","In preparation for a new battle, Ziria used half his money to fully heal all wounds!","NOTE: the message shown when you lose a battle, which is stored with the save/load text for some reason",

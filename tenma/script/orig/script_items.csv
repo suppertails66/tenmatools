@@ -1,0 +1,215 @@
+"","","","","//==================================
+// item names (including technique scrolls)
+//==================================","","","",""
+"string","str-0x26D9","","","　","",,"=IF(F2=I2, ""UNTRANSLATED"", """")",""
+"string","str-0x26DC","","","あおいの剣","",,"=IF(F3=I3, ""UNTRANSLATED"", """")",""
+"string","str-0x26E7","","","トノ様の剣","",,"=IF(F4=I4, ""UNTRANSLATED"", """")",""
+"string","str-0x26F2","","","野太刀","",,"=IF(F5=I5, ""UNTRANSLATED"", """")",""
+"string","str-0x26F9","","","侍の刀","",,"=IF(F6=I6, ""UNTRANSLATED"", """")",""
+"string","str-0x2700","","","新月刀","",,"=IF(F7=I7, ""UNTRANSLATED"", """")",""
+"string","str-0x2707","","","円月刀","",,"=IF(F8=I8, ""UNTRANSLATED"", """")",""
+"string","str-0x270E","","","いざよい刀","",,"=IF(F9=I9, ""UNTRANSLATED"", """")",""
+"string","str-0x2719","","","夕なぎの剣","",,"=IF(F10=I10, ""UNTRANSLATED"", """")",""
+"string","str-0x2724","","","旋風刀","",,"=IF(F11=I11, ""UNTRANSLATED"", """")",""
+"string","str-0x272B","","","風林火山剣","",,"=IF(F12=I12, ""UNTRANSLATED"", """")",""
+"string","str-0x2736","","","風神の剣","",,"=IF(F13=I13, ""UNTRANSLATED"", """")",""
+"string","str-0x273F","","","妖刀村正","",,"=IF(F14=I14, ""UNTRANSLATED"", """")",""
+"string","str-0x2748","","","白羽の剣","",,"=IF(F15=I15, ""UNTRANSLATED"", """")",""
+"string","str-0x2751","","","大河の剣","",,"=IF(F16=I16, ""UNTRANSLATED"", """")",""
+"string","str-0x275A","","","大地の剣","",,"=IF(F17=I17, ""UNTRANSLATED"", """")",""
+"string","str-0x2763","","","白狼の剣","",,"=IF(F18=I18, ""UNTRANSLATED"", """")",""
+"string","str-0x276C","","","白虎の剣","",,"=IF(F19=I19, ""UNTRANSLATED"", """")",""
+"string","str-0x2775","","","天空の剣","",,"=IF(F20=I20, ""UNTRANSLATED"", """")",""
+"string","str-0x277E","","","神通の剣","",,"=IF(F21=I21, ""UNTRANSLATED"", """")",""
+"string","str-0x2787","","","♂","",,"=IF(F22=I22, ""UNTRANSLATED"", """")",""
+"string","str-0x278A","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x278D","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2790","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2793","","","木の弓","",,"=IF(F26=I26, ""UNTRANSLATED"", """")",""
+"string","str-0x279A","","","紅の弓","",,"=IF(F27=I27, ""UNTRANSLATED"", """")",""
+"string","str-0x27A1","","","白羽の弓","",,"=IF(F28=I28, ""UNTRANSLATED"", """")",""
+"string","str-0x27AA","","","黒炎の弓","",,"=IF(F29=I29, ""UNTRANSLATED"", """")",""
+"string","str-0x27B3","","","白狼の弓","",,"=IF(F30=I30, ""UNTRANSLATED"", """")",""
+"string","str-0x27BC","","","ぐれんの弓","",,"=IF(F31=I31, ""UNTRANSLATED"", """")",""
+"string","str-0x27C7","","","白虎の弓","",,"=IF(F32=I32, ""UNTRANSLATED"", """")",""
+"string","str-0x27D0","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x27D3","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x27D6","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x27D9","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x27DC","","","白光のオノ","",,"=IF(F37=I37, ""UNTRANSLATED"", """")",""
+"string","str-0x27E7","","","山賊のオノ","",,"=IF(F38=I38, ""UNTRANSLATED"", """")",""
+"string","str-0x27F2","","","いくさオノ","",,"=IF(F39=I39, ""UNTRANSLATED"", """")",""
+"string","str-0x27FD","","","力のオノ","",,"=IF(F40=I40, ""UNTRANSLATED"", """")",""
+"string","str-0x2806","","","天地のオノ","",,"=IF(F41=I41, ""UNTRANSLATED"", """")",""
+"string","str-0x2811","","","白羽のオノ","",,"=IF(F42=I42, ""UNTRANSLATED"", """")",""
+"string","str-0x281C","","","白狼のオノ","",,"=IF(F43=I43, ""UNTRANSLATED"", """")",""
+"string","str-0x2827","","","鬼神のオノ","",,"=IF(F44=I44, ""UNTRANSLATED"", """")",""
+"string","str-0x2832","","","白虎のオノ","",,"=IF(F45=I45, ""UNTRANSLATED"", """")",""
+"string","str-0x283D","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2840","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2843","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2846","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2849","","","布かたびら","",,"=IF(F50=I50, ""UNTRANSLATED"", """")",""
+"string","str-0x2854","","","忍かたびら","",,"=IF(F51=I51, ""UNTRANSLATED"", """")",""
+"string","str-0x285F","","","板のよろい","",,"=IF(F52=I52, ""UNTRANSLATED"", """")",""
+"string","str-0x286A","","","武者よろい","",,"=IF(F53=I53, ""UNTRANSLATED"", """")",""
+"string","str-0x2875","","","合戦よろい","",,"=IF(F54=I54, ""UNTRANSLATED"", """")",""
+"string","str-0x2880","","","地のよろい","",,"=IF(F55=I55, ""UNTRANSLATED"", """")",""
+"string","str-0x288B","","","鬼のよろい","",,"=IF(F56=I56, ""UNTRANSLATED"", """")",""
+"string","str-0x2896","","","竜のよろい","",,"=IF(F57=I57, ""UNTRANSLATED"", """")",""
+"string","str-0x28A1","","","火の胴","",,"=IF(F58=I58, ""UNTRANSLATED"", """")",""
+"string","str-0x28A8","","","白ジシの胴","",,"=IF(F59=I59, ""UNTRANSLATED"", """")",""
+"string","str-0x28B3","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28B6","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28B9","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28BC","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28BF","","","皮かぶと","",,"=IF(F64=I64, ""UNTRANSLATED"", """")",""
+"string","str-0x28C8","","","鉄かぶと","",,"=IF(F65=I65, ""UNTRANSLATED"", """")",""
+"string","str-0x28D1","","","ツノかぶと","",,"=IF(F66=I66, ""UNTRANSLATED"", """")",""
+"string","str-0x28DC","","","火のかぶと","",,"=IF(F67=I67, ""UNTRANSLATED"", """")",""
+"string","str-0x28E7","","","鬼はちがね","",,"=IF(F68=I68, ""UNTRANSLATED"", """")",""
+"string","str-0x28F2","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28F5","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28F8","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x28FB","","","縄わらじ","",,"=IF(F72=I72, ""UNTRANSLATED"", """")",""
+"string","str-0x2904","","","山わらじ","",,"=IF(F73=I73, ""UNTRANSLATED"", """")",""
+"string","str-0x290D","","","獣のわらじ","",,"=IF(F74=I74, ""UNTRANSLATED"", """")",""
+"string","str-0x2918","","","隼のわらじ","",,"=IF(F75=I75, ""UNTRANSLATED"", """")",""
+"string","str-0x2923","","","神風のくつ","",,"=IF(F76=I76, ""UNTRANSLATED"", """")",""
+"string","str-0x292E","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2931","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2934","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2937","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x293A","","","ガマの油","",,"=IF(F81=I81, ""UNTRANSLATED"", """")",""
+"string","str-0x2943","","","白ガマの油","",,"=IF(F82=I82, ""UNTRANSLATED"", """")",""
+"string","str-0x294E","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2951","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2954","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2957","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x295A","","","白ヘビの石","",,"=IF(F87=I87, ""UNTRANSLATED"", """")",""
+"string","str-0x2965","","","神通力の玉","",,"=IF(F88=I88, ""UNTRANSLATED"", """")",""
+"string","str-0x2970","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2973","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2976","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2979","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x297C","","","仙丹","",,"=IF(F93=I93, ""UNTRANSLATED"", """")",""
+"string","str-0x2981","","","神丹","",,"=IF(F94=I94, ""UNTRANSLATED"", """")",""
+"string","str-0x2986","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2989","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x298C","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x298F","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2992","","","どくけし","",,"=IF(F99=I99, ""UNTRANSLATED"", """")",""
+"string","str-0x299B","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x299E","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29A1","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29A4","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29A7","","","しゅりけん","",,"=IF(F104=I104, ""UNTRANSLATED"", """")",""
+"string","str-0x29B2","","","とびくない","",,"=IF(F105=I105, ""UNTRANSLATED"", """")",""
+"string","str-0x29BD","","","かやく玉","",,"=IF(F106=I106, ""UNTRANSLATED"", """")",""
+"string","str-0x29C6","","","月寝の粉","",,"=IF(F107=I107, ""UNTRANSLATED"", """")",""
+"string","str-0x29CF","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29D2","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29D5","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29D8","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x29DB","","","地雷火","",,"=IF(F112=I112, ""UNTRANSLATED"", """")",""
+"string","str-0x29E2","","","ガマ玉","",,"=IF(F113=I113, ""UNTRANSLATED"", """")",""
+"string","str-0x29E9","","","ヘビ玉","",,"=IF(F114=I114, ""UNTRANSLATED"", """")",""
+"string","str-0x29F0","","","なめくじ玉","",,"=IF(F115=I115, ""UNTRANSLATED"", """")",""
+"string","str-0x29FB","","","かんざし","",,"=IF(F116=I116, ""UNTRANSLATED"", """")",""
+"string","str-0x2A04","","","ヘビの弓矢","",,"=IF(F117=I117, ""UNTRANSLATED"", """")",""
+"string","str-0x2A0F","","","土偶ロボ","",,"=IF(F118=I118, ""UNTRANSLATED"", """")",""
+"string","str-0x2A18","","","天照の石","",,"=IF(F119=I119, ""UNTRANSLATED"", """")",""
+"string","str-0x2A21","","","手押ポンプ","",,"=IF(F120=I120, ""UNTRANSLATED"", """")",""
+"string","str-0x2A2C","","","白ツルの羽","",,"=IF(F121=I121, ""UNTRANSLATED"", """")",""
+"string","str-0x2A37","","","白キジの尾","",,"=IF(F122=I122, ""UNTRANSLATED"", """")",""
+"string","str-0x2A42","","","手紙１","",,"=IF(F123=I123, ""UNTRANSLATED"", """")",""
+"string","str-0x2A49","","","手紙２","",,"=IF(F124=I124, ""UNTRANSLATED"", """")",""
+"string","str-0x2A50","","","アト","",,"=IF(F125=I125, ""UNTRANSLATED"", """")",""
+"string","str-0x2A55","","","オルゴール","",,"=IF(F126=I126, ""UNTRANSLATED"", """")",""
+"string","str-0x2A60","","","てつぽう","",,"=IF(F127=I127, ""UNTRANSLATED"", """")",""
+"string","str-0x2A69","","","プディング","",,"=IF(F128=I128, ""UNTRANSLATED"", """")",""
+"string","str-0x2A74","","","ワイン","",,"=IF(F129=I129, ""UNTRANSLATED"", """")",""
+"string","str-0x2A7B","","","綱ギ５","",,"=IF(F130=I130, ""UNTRANSLATED"", """")",""
+"string","str-0x2A82","","","綱ギ６","",,"=IF(F131=I131, ""UNTRANSLATED"", """")",""
+"string","str-0x2A89","","","綱ギ７","",,"=IF(F132=I132, ""UNTRANSLATED"", """")",""
+"string","str-0x2A90","","","綱ギ８","",,"=IF(F133=I133, ""UNTRANSLATED"", """")",""
+"string","str-0x2A97","","","筑波の地図","",,"=IF(F134=I134, ""UNTRANSLATED"", """")",""
+"string","str-0x2AA2","","","磐毛の地図","",,"=IF(F135=I135, ""UNTRANSLATED"", """")",""
+"string","str-0x2AAD","","","陸羽の地図","",,"=IF(F136=I136, ""UNTRANSLATED"", """")",""
+"string","str-0x2AB8","","","陸奥の地図","",,"=IF(F137=I137, ""UNTRANSLATED"", """")",""
+"string","str-0x2AC3","","","信濃の地図","",,"=IF(F138=I138, ""UNTRANSLATED"", """")",""
+"string","str-0x2ACE","","","富士の地図","",,"=IF(F139=I139, ""UNTRANSLATED"", """")",""
+"string","str-0x2AD9","","","相模の地図","",,"=IF(F140=I140, ""UNTRANSLATED"", """")",""
+"string","str-0x2AE4","","","千葉の地図","",,"=IF(F141=I141, ""UNTRANSLATED"", """")",""
+"string","str-0x2AEF","","","武蔵の地図","",,"=IF(F142=I142, ""UNTRANSLATED"", """")",""
+"string","str-0x2AFA","","","たぬきカギ","",,"=IF(F143=I143, ""UNTRANSLATED"", """")",""
+"string","str-0x2B05","","","大ひげぬき","",,"=IF(F144=I144, ""UNTRANSLATED"", """")",""
+"string","str-0x2B10","","","鉄のカギ","",,"=IF(F145=I145, ""UNTRANSLATED"", """")",""
+"string","str-0x2B19","","","絵図面","",,"=IF(F146=I146, ""UNTRANSLATED"", """")",""
+"string","str-0x2B20","","","大カナヅチ","",,"=IF(F147=I147, ""UNTRANSLATED"", """")",""
+"string","str-0x2B2B","","","かみなり玉","",,"=IF(F148=I148, ""UNTRANSLATED"", """")",""
+"string","str-0x2B36","","","ねずみカギ","",,"=IF(F149=I149, ""UNTRANSLATED"", """")",""
+"string","str-0x2B41","","","さる酒","",,"=IF(F150=I150, ""UNTRANSLATED"", """")",""
+"string","str-0x2B48","","","氷の鏡","",,"=IF(F151=I151, ""UNTRANSLATED"", """")",""
+"string","str-0x2B4F","","","脱出のカギ","",,"=IF(F152=I152, ""UNTRANSLATED"", """")",""
+"string","str-0x2B5A","","","島ぬけカギ","",,"=IF(F153=I153, ""UNTRANSLATED"", """")",""
+"string","str-0x2B65","","","黄金","",,"=IF(F154=I154, ""UNTRANSLATED"", """")",""
+"string","str-0x2B6A","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B6D","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B70","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B73","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B76","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B79","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B7C","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B7F","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B82","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B85","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B88","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B8B","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B8E","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B91","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B94","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B97","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B9A","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2B9D","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BA0","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BA3","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BA6","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BA9","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BAC","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BAF","","","♂","=T(F22)","=""DUPE: ""&ADDRESS(ROW(F22), COLUMN(F22), 4)",,
+"string","str-0x2BB2","","","粉火","",,"=IF(F179=I179, ""UNTRANSLATED"", """")",""
+"string","str-0x2BB7","","","火天","",,"=IF(F180=I180, ""UNTRANSLATED"", """")",""
+"string","str-0x2BBC","","","神炎","",,"=IF(F181=I181, ""UNTRANSLATED"", """")",""
+"string","str-0x2BC1","","","雷光","",,"=IF(F182=I182, ""UNTRANSLATED"", """")",""
+"string","str-0x2BC6","","","迅雷","",,"=IF(F183=I183, ""UNTRANSLATED"", """")",""
+"string","str-0x2BCB","","","天雷","",,"=IF(F184=I184, ""UNTRANSLATED"", """")",""
+"string","str-0x2BD0","","","月寝","",,"=IF(F185=I185, ""UNTRANSLATED"", """")",""
+"string","str-0x2BD5","","","星寝","",,"=IF(F186=I186, ""UNTRANSLATED"", """")",""
+"string","str-0x2BDA","","","落花","",,"=IF(F187=I187, ""UNTRANSLATED"", """")",""
+"string","str-0x2BDF","","","落葉","",,"=IF(F188=I188, ""UNTRANSLATED"", """")",""
+"string","str-0x2BE4","","","泥虫","",,"=IF(F189=I189, ""UNTRANSLATED"", """")",""
+"string","str-0x2BE9","","","雲切","",,"=IF(F190=I190, ""UNTRANSLATED"", """")",""
+"string","str-0x2BEE","","","禁印","",,"=IF(F191=I191, ""UNTRANSLATED"", """")",""
+"string","str-0x2BF3","","","禁呪","",,"=IF(F192=I192, ""UNTRANSLATED"", """")",""
+"string","str-0x2BF8","","","雲海","",,"=IF(F193=I193, ""UNTRANSLATED"", """")",""
+"string","str-0x2BFD","","","淡雲","",,"=IF(F194=I194, ""UNTRANSLATED"", """")",""
+"string","str-0x2C02","","","若草","",,"=IF(F195=I195, ""UNTRANSLATED"", """")",""
+"string","str-0x2C07","","","息吹","",,"=IF(F196=I196, ""UNTRANSLATED"", """")",""
+"string","str-0x2C0C","","","有明","",,"=IF(F197=I197, ""UNTRANSLATED"", """")",""
+"string","str-0x2C11","","","影衣","",,"=IF(F198=I198, ""UNTRANSLATED"", """")",""
+"string","str-0x2C16","","","涼風","",,"=IF(F199=I199, ""UNTRANSLATED"", """")",""
+"string","str-0x2C1B","","","清水","",,"=IF(F200=I200, ""UNTRANSLATED"", """")",""
+"string","str-0x2C20","","","♀","",,"=IF(F201=I201, ""UNTRANSLATED"", """")",""
+"string","str-0x2C23","","","逃水","",,"=IF(F202=I202, ""UNTRANSLATED"", """")",""
+"string","str-0x2C28","","","春光","",,"=IF(F203=I203, ""UNTRANSLATED"", """")",""
+"string","str-0x2C2D","","","氷竜","",,"=IF(F204=I204, ""UNTRANSLATED"", """")",""
+"string","str-0x2C32","","","雨竜","",,"=IF(F205=I205, ""UNTRANSLATED"", """")",""
+"string","str-0x2C37","","","凍竜","",,"=IF(F206=I206, ""UNTRANSLATED"", """")",""
+"string","str-0x2C3C","","","風蛇","",,"=IF(F207=I207, ""UNTRANSLATED"", """")",""
+"string","str-0x2C41","","","火蛇","",,"=IF(F208=I208, ""UNTRANSLATED"", """")",""
+"string","str-0x2C46","","","石蛇","",,"=IF(F209=I209, ""UNTRANSLATED"", """")",""
+"string","str-0x2C4B","","","春風","",,"=IF(F210=I210, ""UNTRANSLATED"", """")",""
+"string","str-0x2C50","","","花壁","",,"=IF(F211=I211, ""UNTRANSLATED"", """")",""
+"string","str-0x2C55","","","雪解","",,"=IF(F212=I212, ""UNTRANSLATED"", """")",""
+"string","str-0x2C5A","","","♀","=T(F201)","=""DUPE: ""&ADDRESS(ROW(F201), COLUMN(F201), 4)",,

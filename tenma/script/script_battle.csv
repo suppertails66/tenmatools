@@ -1,0 +1,394 @@
+,,,,"//==================================
+// ally names
+//==================================",,,
+string,str-0x13F0,,,ジライア,Ziria,NOTE: party member names as shown in battle,
+string,str-0x13F9,,,オロチ丸,Orochimaru,,
+string,str-0x1402,,,ツナデ,Tsunade,,
+string,str-0x1409,,,黒い影,Black Shadow,,
+string,str-0x1410,,,あくろう王,King Akurou,,
+string,str-0x141B,,,ホテイ丸,Hoteimaru,"NOTE: ...wait, hoteimaru never shows up in a battle!",
+string,str-0x1424,,,坊主,Priest,,
+string,str-0x1429,,,コガマ,Kogama,,
+string,str-0x1430,,,土偶ロボ,Doguu Robot,,
+string,str-0x1439,,,ジライアたち,Ziria's party,,
+,,,,"//==================================
+// stat/technique/magic names
+//==================================",,,
+string,str-0x144C,,,攻撃力,Attack,,
+string,str-0x1453,,,守備力,Defense,,
+string,str-0x145A,,,すばやさ,Speed,,
+string,str-0x1463,,,術,jutsu,,
+string,str-0x1466,,,魔法,magic,,
+,,,,"//==================================
+// standard messages
+//==================================",,,
+string,str-0x1512_0,,,どうする？　[string]！,"What will you do,\n
+[string]?",,
+string,str-0x1524_0,,,[string]の攻撃！,[string]'s attack!,,
+string,str-0x152F_0,,,"[string]に\n
+[number]ポイントのダメージ！",[string] took [number] damage!,,
+string,str-0x154A_0,,,[string]を　打ち倒した！,Defeated [string]!,,
+string,str-0x155D_0,,,[string]が現れた,[string] appeared.,,
+string,str-0x1569_0,,,"[string]の\n
+体の力が\n
+[number]ポイント　回復した！",[string] recovered [number] HP!,,
+string,str-0x158D_0,,,"[string]に\n
+[string]の魔法が　きかない",[string] was unaffected by the [string] spell.,,
+string,str-0x15A6_0,,,"[string]は\n
+[string]の術を　つかった",[string] used the [string] jutsu.,,
+string,str-0x15BD_0,,,"[string]は\n
+[string]の魔法を　つかった",[string] used the [string] spell.,,
+string,str-0x15D6_0,,,"[string]は\n
+[string]を　つかった",[string] used the [string].,NOTE: for using items,
+string,str-0x15E9_0,,,"[string]は\n
+盗みの技を　つかった",[string] used a thievery technique.,,
+string,str-0x1603_0,,,[string]が　おそってきた！,[string] sprang forward!,,
+string,str-0x1618_0,,,"[string]は　おそれをなして\n
+逃げ出した",[string] fled in terror.,,
+string,str-0x1638_0,,,"[string]は　ウソ泣きをした！\n
+おおーっと　ついにツナデのウソ泣きが\n
+出たー！！一体何がおこるんだー！？","[string] cried false tears! Uh-oh!\n
+Here come Tsunade's crocodile tears! What's gonna happen NOW?!",,
+string,str-0x1697_0,,,"[string]は　流し目を送った！\n
+来た　来た！　背すじに来たゾー！","[string] threw a flirtatious glance!\n
+Ooh, I feel it! I feel it runnin' right down my spine!",,
+string,str-0x16CF_0,,,"[string]は\n
+仲間をよんだ",[string] called an ally.,,
+string,str-0x16E2_0,,,"[string]は\n
+仲間に裏切られた",[string]'s ally failed to appear.,,
+string,str-0x16F8_0,,,"[string]は\n
+逃げ出した",[string] fled.,,
+string,str-0x1708_0,,,"[string]は\n
+追いかけてきた",[string] raced in pursuit.,,
+string,str-0x171C_0,,,"[string]に\n
+[string]の術が　きかない",[string] was unaffected by the [string] jutsu.,,
+string,str-0x1733_0,,,技の力が　たりない,Not enough TP.,,
+string,str-0x1747_0,,,"[string]は\n
+身をかわした",[string] dodged.,,
+string,str-0x1759_0,,,"[string]は\n
+ねむっている",[string] is asleep.,,
+string,str-0x176B_0,,,"[string]に\n
+[string]が　効かない",[string] was unaffected by [string].,,
+string,str-0x177E_0,,,連続攻撃！！,Multiple strikes!,,
+string,str-0x178C_0,,,痛恨の一撃！！,Critical hit!,,
+string,str-0x179C_0,,,"[string]を\n
+ねむらせた！",Put [string] to sleep!,,
+string,str-0x17AE_0,,,"[string]は\n
+目をさました！",[string] woke up!,,
+string,str-0x17C2_0,,,"[string]は\n
+盗みに　失敗した",[string] failed to steal.,,
+string,str-0x17D8_0,,,"[string]には\n
+きかなかった",No effect on [string].,,
+string,str-0x17EC_0,,,しかし　何も　おこらなかった！,But nothing happened!,,
+string,str-0x180C_0,,,魔の力が　たりない,Not enough MP.,,
+string,str-0x1820_0,,,"[string]は　深いキズを負って\n
+たたかえなくなった",[string] received deep wounds and became unable to fight.,,
+string,str-0x184A_0,,,"ジライア達は全員\n
+深いキズを負って\n
+たたかえなくなった．．．",All members of Ziria's party received deep wounds and became unable to fight...,,
+string,str-0x184A_2,,,"ジライアは　明日のために\n
+勇気をもって退却を決断した！","For the sake of the future, Ziria gathered his courage and decided to retreat!",,
+string,str-0x18BC_0,,,"[string]は\n
+[number]両を　盗まれた",[string] had 両[number] stolen.,,
+string,str-0x18D1_0,,,"ジライアは　盗みに失敗した！\n
+敵は　いかりくるって\n
+攻撃力が　増した！","Ziria failed to steal!\n
+The enemy was enraged and gained increased Attack!",,
+string,str-0x1917_0,,,"[string]の魔の力を\n
+[number]ポイントうばった",[string] had [number] MP stolen.,,
+string,str-0x1936_0,,,効果が　なかった,No effect.,,
+string,str-0x1948_0,[color]<$01>,,"[string]は\n
+[number]両を手に入れた",[string] obtained 両[number].,,
+string,str-0x195F_0,,,"[string]は\n
+気分が　わるくなった",[string] felt sick.,"NOTE: a possible outcome of orochimaru's ""flirt"" command",
+string,str-0x1979_0,[color]<$01>,,"[string]は\n
+[string]を手に入れた",[string] obtained [string].,,
+string,str-0x198E_0,,,"[string]は\n
+[string]を盗まれた",[string] had [string] stolen.,,
+string,str-0x199F_0,,,"[string]は\n
+炎を　はいた",[string] spewed flame.,"ZenkiTN: I know the Clockwork Soldier releases fire from one arm, which is why ""breathed"" won't fit.",
+string,str-0x19B1_0,,,"[string]は\n
+毒を　はいた",[string] breathed poison.,,
+string,str-0x19C3_0,,,"[string]は\n
+毒を　うけてしまった",[string] was poisoned.,,
+string,str-0x19DD_0,,,"[string]の\n
+[string]を封じこめた",Sealed [string]'s [string].,,
+string,str-0x19F0_0,,,"[string]に　かけられていた\n
+魔法が　消え去った",The magic around [string] vanished.,,
+string,str-0x1A18_0,,,"[string]は\n
+[string]を　封じ込められている",[string]'s [string] is sealed.,"NOTE: can be ""magic"" or ""jutsu""",
+string,str-0x1A35_0,,,"[string]は\n
+[string]が　つかえるようになった",[string] regained the ability to use [string].,,
+string,str-0x1A54_0,,,[string]は　動くことができない,[string] can't move.,,
+string,str-0x1A6D,,,,,,
+string,str-0x1A6F_0,,,"[string]を\n
+白い光が　つつみこんだ！",A white light enveloped [string]!,,
+string,str-0x1A8D_0,,,"[string]のまわりを\n
+暗い影が　とりまいた！",A dark shadow enclosed [string]!,,
+string,str-0x1AB1_0,,,[string]の魔法が　きかない,[string]'s magic had no effect.,,
+string,str-0x1AC6_0,,,[string]の攻撃が　きかない,[string]'s attack had no effect.,,
+string,str-0x1ADB_0,,,"ジライアは\n
+まだ　盗みを　おぼえていない",Ziria hasn't learned to steal yet.,,
+string,str-0x1B04_0,,,"ジライアは\n
+[string]から\n
+[number]両　ぬすんだ","Ziria stole from [string].\n
+Got 両[number].",,
+string,str-0x1B24_0,,,"さらに\n
+動きをとめた",It also inflicted paralysis.,"NOTE: for the paralyzing effect of damage+paralysis attacks like Orochimaru's Touryuu jutsu. it's also displayed for attacks targeting the player's party, so despite earlier suggesting this could be rephrased to ""halted the enemy's movements"" or something, that won't work.",
+string,str-0x1B39_0,,,"[string]は\n
+敵の姿を見失った",[string] lost sight of the enemy.,,
+string,str-0x1B4F_0,,,"[string]は\n
+なぜか　こうふうんしてしまった\n
+攻撃力が倍になった！！","[string] was strangely aroused.\n
+Attack doubled!",,
+string,str-0x1B8A_0,,,"[string]は\n
+ヘロヘロになった！",[string] became utterly exhausted!,"NOTE: possible outcome of orochimaru's ""flirt"" command. causes enemy to flee.",
+string,str-0x1BA2_0,,,"ツナデは\n
+[string]の術を　つかおうとしたが\n
+むずかしい字が　読めなかった！","Tsunade tried to use the [string] jutsu, but she couldn't read the scroll's complicated characters!",,
+string,str-0x1BE5_0,,,"[string]の技の力が\n
+[number]ポイント　回復した！",[string]'s TP recovered by [number]!,,
+string,str-0x1C08_0,,,"なまぐさぼうずは\n
+「おんてき　たいさん！」と\n
+叫んだ！！","The corrupt priest cried, {Begone, foe!}",,
+string,str-0x1C40_0,,,てつぽうが　ぼうはつしてしまった！,The Gun spontaneously discharged!,"NOTE: if this happens, you lose the gun",
+string,str-0x1C64_0,,,"[string]は\n
+土偶ロボに　乗り込んだ",[string] climbed into the Doguu Robot.,,
+string,str-0x1C80_0,,,"ボクデン斬りだ！！\n
+剣が　するどさを増した！！","BOKUDEN SLASH!!\n
+The sword's sharpness increased!",,
+string,str-0x1CAF_0,,,"ムサシ斬りだ！！\n
+剣が　続けざまに\n
+敵を　切りつけた！！","MUSASHI SLASH!!\n
+The sword cleaved through the enemy again and again!",,
+string,str-0x1CE7_0,,,"ジュウベイ斬りだ！！\n
+剣が　旋風をおこし\n
+敵の　攻撃をはね返した！！","JUUBEI SLASH!!\n
+The sword caused a whirlwind and reflected the enemy's attack!",,
+string,str-0x1D2B_0,,,"シュウサク斬りだ！！\n
+剣に　力が宿り\n
+真紅に　きらめいた！！","SHUUSAKU SLASH!!\n
+Power lodged in the sword, and it gleamed deep crimson!",,
+string,str-0x1D67_0,,,体の力が　たりない,Not enough HP.,,
+string,str-0x1D7B_0,,,"[string]に　かかっていた\n
+[string]の術が　とけてしまった！",The effect on [string] from the [string] jutsu dissipated!,,
+string,str-0x1DA8_0,,,"[string]にかかっていた\n
+[string]の魔法が　とけた！",The effect on [string] from the [string] spell dissipated!,,
+string,str-0x1DCD_0,,,"[string]の[string]が\n
+倍になった",[string]'s [string] doubled.,,
+string,str-0x1DE0_0,,,"[string]の[string]が\n
+半分になった",[string]'s [string] was halved.,,
+string,str-0x1DF5_0,,,[string]も　ねむった,[string] also fell asleep.,,
+string,str-0x1E04_0,,,"[string]は　盗まれたものを\n
+とりかえした！",[string] recovered what was stolen!,,
+string,str-0x1E28_0,,,"[string]に　かかっていた\n
+[string]の　効果が　きれた！",The effect on [string] from the [string] ended!,"NOTE: used for items that have a jutsu effect (e.g. ""the effect on X from the Yuunagi Sword ended"")",
+string,str-0x1E51_0,,,"神通の剣に　力がやどり\n
+白く　かがやきはじめた！！\n
+攻撃力が　[number]ポイント　ふえた！！","Power lodged in the Sword of the Divine, and it began glowing white!\n
+Attack increased by [number]!",,
+string,str-0x1EA4_0,,,"神通の剣は　さらに　力強く\n
+白く　かがやいた！！\n
+攻撃力が　[number]ポイント　ふえた！！","The Sword of the Divine glowed even more strongly white!\n
+Attack increased by [number]!",,
+string,str-0x1EF5_0,,,"[string]の技の力を\n
+[number]ポイントうばった",[string] had [number] TP stolen.,,
+string,str-0x1F14_0,,,"しかし　三つの玉が\n
+マサカドの　攻撃を　防いだ！！",But the three orbs defended against Masakado's attack!,,
+string,str-0x1F47_0,,,[number]番目,Number [number],,
+string,str-0x1F4E_0,,,ＢＧ,BG,,
+string,str-0x1F54_0,,,失敗,Failure,,
+,,,,"//==================================
+// boss combat messages
+//==================================",,,
+string,str-0x19_0,,,"ゴーモンは\n
+催眠術をつかった！",Goumon cast a hypnotic spell!,,
+string,str-0x38_0,,,"ゴーモンがかけていた\n
+催眠術がとけた！",Goumon's hypnosis was broken!,,
+string,str-0x5F_0,,,[string]には　きかなかった！,No effect on [string]!,,
+string,str-0x76_0,,,"ゴーモンは\n
+全身から　地下の　水分を\n
+すいとった！",Goumon absorbed fluids from the grotto!,,
+string,str-0xA8_0,,,"ゴーモンは\n
+触角を　ふり回して\n
+たたきつけてきた！",Goumon swung his tentacles down!,,
+string,str-0xDA_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x109_0,,,"キュウビは\n
+呪いの毛を　まきちらした",Kyuubi scattered cursed hairs.,,
+string,str-0x12E_0,,,"[string]に無数の毛が\n
+生き物のようにからみついた","Countless hairs coiled around [string], writhing as if they were alive.",,
+string,str-0x158_0,,,"[string]は　呪いの毛を\n
+ふりほどいた！",[string] shook free from the cursed hairs!,,
+string,str-0x178_0,,,"[string]は　呪いの毛を\n
+ふりほどいた！",[string] shook free from the cursed hairs!,DUPE: F114,
+string,str-0x198_0,,,"キュウビは\n
+狐狸の霊を　よびよせた！",Kyuubi summoned trickster spirits!,,
+string,str-0x1BD_0,,,"[string]に\n
+霊が　とりついた！",[string] is haunted by spirits!,,
+string,str-0x1D5_0,,,"[string]は\n
+霊を　ふりほどいた！",[string] shook free from the spirits!,,
+string,str-0x1EF_0,,,"[string]は\n
+霊を　はね返した！",[string] repelled the spirits!,,
+string,str-0x207_0,,,"キュウビは\n
+９本の　しっぽから\n
+妖気を　はなった！",Kyuubi released demonic energy from her nine tails!,,
+string,str-0x239_0,,,"[string]は\n
+妖気を　はね返した！",[string] repelled the demonic energy!,,
+string,str-0x26B_0,,,"ハーメルンは\n
+くさった　だえきを　はきかけた！",Hamelin spat a rotten substance!,,
+string,str-0x29A_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x2B1_0,,,"ハーメルンは\n
+けがれた　針の毛を　突き立てた！",Hamelin thrust his rotten quills forward!,"ZenkiTN: Hamelin has the form of a giant rat, so he doesn't actually have quills, but ""needle fur"" seemed kinda weird.",
+string,str-0x2E0_0,,,"[string]は\n
+攻撃を　かわした！",[string] dodged the attack!,,
+string,str-0x2F8_0,,,"ハーメルンは\n
+持っていた　生肉を　食らった！",Hamelin ate the meat he was carrying!,,
+string,str-0x33D_0,,,"カーメンカーメンは\n
+生き霊の　たましいを　すいこんだ！",Khamen Khamen absorbed the nearby spirits!,,
+string,str-0x374_0,,,"カーメンカーメンは\n
+くさった息を　はいた！",Khamen Khamen exhaled toxic fumes!,,
+string,str-0x39F_0,,,"[string]は\n
+くさった息を　ふりはらった！",[string] repelled the toxic fumes!,,
+string,str-0x3C1_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x3D8_0,,,"カーメンカーメンは\n
+古代の剣を　ふりかざした！",Khamen Khamen raised his ancient blade!,"ZenkiTN: from what I could see in the longplay, this isn't the attack, but the ""intro"": that is, after raising the sword, the next line plays.",
+string,str-0x407_0,,,ミイラの霊が　おそいかかった！,A spirit in the shape of a mummy assaulted you!,"ZenkiTN: technitally this is a ""mummy's spirit"", but it seemed a little redundant",
+string,str-0x427_0,,,"[string]は\n
+霊を　かわした！",[string] avoided the spirit!,,
+string,str-0x455_0,,,"マントーは\n
+ウマシカの魔法を　となえた！",Manto cast the Umashika spell!,"ZenkiTN: I should remark that ""Umashika"" is a very untranslateable pun. The running joke about Manto being an idiot (馬鹿) reaches its climax here, where Manto can literally cast the Uma(馬)shika(鹿) spell. The etymology of ""baka"" comes from mistaking horses (uma) for deers (shika).",
+string,str-0x47E_0,,,"ウマと　シカの霊が　あらわれ\n
+よってたかって　[string]を\n
+けとばした！",Spirits of countless horses and deer trampled [string] in a stampede!,,
+string,str-0x4BD_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x4EC_0,,,"ドーマンは\n
+魔聖水を　飲んだ！",Douman drank unholy water!,,
+string,str-0x50B_0,,,"ドーマンは\n
+血しぶきの　かすみを　張った！",Douman released a bloody mist!,,
+string,str-0x536_0,,,"[string]は　かすみを\n
+ふりはらった！",[string] scattered the mist!,,
+string,str-0x554_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x56B_0,,,"ドーマンは\n
+あやしい　子守歌を　うたった！",Douman sang an eerie lullaby!,,
+string,str-0x596_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x5C5_0,,,"タランチェは\n
+ねばつく糸を　はいた！",Tarantul released a sticky web!,,
+string,str-0x5EA_0,,,"[string]は　糸を\n
+ふりほどいた！",[string] shook free from the web!,,
+string,str-0x604_0,,,"[string]は　糸を\n
+はね返した！",[string] repelled the web!,,
+string,str-0x61C_0,,,"タランチェは\n
+８本の足を　あやしく　うごかし\n
+クモの　のろいを　かけた！",Tarantul waved her eight limbs ominously. She cast a spider curse!,,
+string,str-0x664_0,,,"[string]に　かかっていた\n
+クモの　のろいが　とけた！",[string] broke free from the spider curse!,,
+string,str-0x692_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x6C1_0,,,"ゴーヨックは\n
+たいこ腹を　たたいた！",Gouyokku slapped his belly like a drum!,,
+string,str-0x6E6_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x715_0,,,"カーミラは\n
+やいばのウロコを　とばした！",Carmilla tossed her sharp scales!,,
+string,str-0x73E_0,,,"[string]は　\n
+ウロコをかわした！",[string] dodged the scales!,,
+string,str-0x758_0,,,"カーミラは　炎も　こおる\n
+冷気を　はいた！",Carmilla released a cold wave that could freeze fire!,,
+string,str-0x783_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0x79A_0,,,"カーミラは　口から\n
+無数の　ヘビを　はいた！",Countless snakes crawled from Carmilla's mouth!,,
+string,str-0x7C7_0,,,"ヘビが　体を　しめつける！\n
+[string]は　うごけない！",The snakes held [string] in place!,,
+string,str-0x7F5_0,,,"[string]は　こんしんの　力をこめて\n
+ヘビを　ふりほどいた！",[string] managed to break free from the snakes!,,
+string,str-0x829_0,,,"[string]は　ヘビを\n
+はね返した！",[string] repelled the snakes!,,
+string,str-0x85B_0,,,"ムテキオーは\n
+結界を　張った！",Mutekiou raised a barrier!,,
+string,str-0x87A_0,,,"ムテキオーの　張った　結界が\n
+とけてしまった！",Mutekiou's barrier has been lifted!,,
+string,str-0x8A9_0,,,"ムテキオーは　指先から\n
+稲妻を　ほとばしらせた！",Lightning bolts shot from Mutekiou's fingertip!,,
+string,str-0x8DA_0,,,"[string]は　稲妻を\n
+かわした！",[string] dodged the bolt!,,
+string,str-0x8F2_0,,,"ムテキオーは\n
+たつまきを　よんだ！",Mutekiou summoned a tornado!,,
+string,str-0x915_0,,,熱風が　[string]を　おそった！,[string] was buffeted by the fiery winds!,,
+string,str-0x92E_0,,,"[string]は　たつまきを\n
+かわした！",[string] moved out of the way of the tornado!,,
+string,str-0x962_0,,,"クラーケンは　きゅうばんから\n
+毒のきりを　ふき出した！",A toxic mist gushed from Kraken's suction pads!,,
+string,str-0x999_0,,,"[string]は\n
+身を　かわした！",[string] got out of the way!,,
+string,str-0x9AF_0,,,"クラーケンは　電気を　おびた\n
+触手を　からみつかせてきた！",Kraken extended his electricity-charged tentacles!,,
+string,str-0x9EA_0,,,"触手が　[string]を　しめつけ\n
+動けなくなった！","Caught by the tentacles, [string] was unable to move!",,
+string,str-0xA12_0,,,"[string]は　こんしんの　力を　こめて\n
+触手を　ふりほどいた！",[string] managed to break free from the tentacles!,,
+string,str-0xA48_0,,,"[string]は　触手を\n
+かわした！",[string] avoided the tentacles!,,
+string,str-0xA60_0,,,"クラーケンは\n
+にえたぎる　スミを　はいた！",Kraken released sizzling-hot ink!,,
+string,str-0xA8B_0,,,"[string]は\n
+身を　かわした！",[string] got out of the way!,DUPE: F167,
+string,str-0xAB9_0,,,"ベリエルは　異次元の　すきまに\n
+姿を　消した！",Beliel vanished into a dimensional gap!,,
+string,str-0xAE8_0,,,"[string]は　ベリエルの\n
+姿を　みつけた！",[string] found Beliel!,,
+string,str-0xB0A_0,,,"ベリエルは\n
+サタンの魔法を　となえた！",Beliel cast the Satan spell!,,
+string,str-0xB31_0,,,"ベリエルは\n
+墜天使の魔法を　となえた！",Beliel cast the Fallen Angel spell!,,
+string,str-0xB58_0,,,"[string]に　かかっていた\n
+墜天使の魔法が　とけた！",The effect on [string] from the Fallen Angel spell dissipated!,,
+string,str-0xB84_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xBB3_0,,,"邪神斎は\n
+手のひらを　こちらへ　向け\n
+怨霊の　邪気を　あびせた！","Jashinsai raised his hand towards you, releasing a wave of pure malice!",,
+string,str-0xBF3_0,,,"[string]は\n
+邪気を　ふりはらった！",[string] repelled the malice!,,
+string,str-0xC0F_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xC26_0,,,"邪心斎は\n
+目を　ぶきみに　光らせた！",Jashinsai's eyes shone with a ghastly light!,,
+string,str-0xC4B_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xC62_0,,,"邪心斎は\n
+地獄の　霊気を　頭上にあつめ\n
+いっきに　ときはなった！","Jashinsai gathered dark energy from Hell above his head, then released it all at once!",,
+string,str-0xCA2_0,,,"[string]は\n
+霊気を　かわした！",[string] avoided the dark energy!,,
+string,str-0xCD2_0,,,"ルシフェラーは\n
+魔界の　エネルギーを　すいこんだ！",Lucifeller absorbed energy from the Demon realm!,,
+string,str-0xD05_0,,,"ルシフェラーは\n
+つばさを　広げた！",Lucifeller spread his wings!,,
+string,str-0xD28_0,,,"つばさから　しっ黒の闇が　にじみ出し\n
+あたりは　くらやみに　つつまれた！","Pure darkness oozed out of the wings, covering the surrounding area!",,
+string,str-0xD71_0,,,"[string]は　しっ黒の闇から\n
+ぬけ出した！",[string] broke out of the darkness!,,
+string,str-0xD93_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xDAA_0,,,"ルシフェラーは\n
+凍った　闇の空気を\n
+うず巻かせてきた！",Lucifeller called forth freezing winds from the lightless void!,,
+string,str-0xDE0_0,,,"冷気が　とり巻く！\n
+[string]は　うごけない！","Trapped in the freezing storm, [string] cannot move!",,
+string,str-0xE06_0,,,"[string]は　こんしんの　力で\n
+冷気のうずから　ぬけだした！",[string] managed to break free from the freezing maelstrom!,,
+string,str-0xE3A_0,,,"[string]は　すばやく\n
+身を　かわした！",[string] nimbly stepped out of the way!,,
+string,str-0xE72_0,,,"マサカドは\n
+大地を　ゆるがす\n
+剛破の怒号を　ひびかせた！",The earth trembled as Masakado roared in rage!,,
+string,str-0xEAA_0,,,"[string]を　ゆるがしていた\n
+怒号が　消え去った！",[string] regained balance after the shock waves dissipated!,,
+string,str-0xED4_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xEEB_0,,,"マサカドは\n
+天空を　切りさく\n
+稲妻を　はしらせた！",Masakado's bolt of lightning cut through the heavens!,,
+string,str-0xF1D_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xF34_0,,,"マサカドは\n
+天地を　おおいつくす\n
+封気の暗雲を　わきたたせた！",Masakado's sealing dark clouds engulfed heaven and earth!,,
+string,str-0xF72_0,,,[string]には　きかなかった！,No effect on [string]!,DUPE: F108,
+string,str-0xF89_0,,,"ジライアは　ガマ玉を　かかげた！！\n
+オロチ丸は　ヘビ玉を　かかげた！！\n
+ツナデは　ナメクジ玉を　かかげた！！","Ziria raised the Toad Orb!\n
+Orochimaru raised the Snake Orb!\n
+Tsunade raised the Slug Orb!",,

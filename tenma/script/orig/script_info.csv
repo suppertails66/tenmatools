@@ -1,0 +1,280 @@
+"","","","","//==================================
+// item/technique info menu
+//==================================","","","",""
+"string","str-0x74C_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+？","",,"=IF(F2=I2, ""UNTRANSLATED"", """")",""
+"string","str-0x75C_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+装備すると　攻撃力が\n
+[number]ポイントあがります","",,"=IF(F3=I3, ""UNTRANSLATED"", """")",""
+"string","str-0x75C_2","","","ジライアが　装備すると\n
+さらに　攻撃力が\n
+[number]ポイントあがります","",,"=IF(F4=I4, ""UNTRANSLATED"", """")",""
+"string","str-0x7CE_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+装備すると　攻撃力が\n
+[number]ポイントあがります","=T(F3)","=""DUPE: ""&ADDRESS(ROW(F3), COLUMN(F3), 4)",,
+"string","str-0x7CE_2","","","オロチ丸が　装備すると\n
+さらに　攻撃力が\n
+[number]ポイントあがります","",,"=IF(F6=I6, ""UNTRANSLATED"", """")",""
+"string","str-0x840_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+装備すると　攻撃力が\n
+[number]ポイントあがります","=T(F3)","=""DUPE: ""&ADDRESS(ROW(F3), COLUMN(F3), 4)",,
+"string","str-0x840_2","","","ツナデが　装備すると\n
+さらに　攻撃力が\n
+[number]ポイントあがります","",,"=IF(F8=I8, ""UNTRANSLATED"", """")",""
+"string","str-0x8B0_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+装備すると　守備力が\n
+[number]ポイントあがります","",,"=IF(F9=I9, ""UNTRANSLATED"", """")",""
+"string","str-0x8E6_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+装備すると　すばやさが\n
+[number]ポイントあがります","",,"=IF(F10=I10, ""UNTRANSLATED"", """")",""
+"string","str-0x91E_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間１人の　体の力を\n
+[number]ポイント回復します","",,"=IF(F11=I11, ""UNTRANSLATED"", """")",""
+"string","str-0x954_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間１人の　体の力を\n
+完全回復します","",,"=IF(F12=I12, ""UNTRANSLATED"", """")",""
+"string","str-0x985_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員の　体の力を\n
+[number]ポイント回復します","",,"=IF(F13=I13, ""UNTRANSLATED"", """")",""
+"string","str-0x9BB_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員の　体の力を\n
+完全回復します","",,"=IF(F14=I14, ""UNTRANSLATED"", """")",""
+"string","str-0x9EC_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間１人の　技の力を\n
+[number]ポイント回復します","",,"=IF(F15=I15, ""UNTRANSLATED"", """")",""
+"string","str-0xA22_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間１人の　技の力を\n
+完全回復します","",,"=IF(F16=I16, ""UNTRANSLATED"", """")",""
+"string","str-0xA53_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間１人の\n
+敵に吹きかけられた毒を　消します","",,"=IF(F17=I17, ""UNTRANSLATED"", """")",""
+"string","str-0xA8C_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹を　眠らせます","",,"=IF(F18=I18, ""UNTRANSLATED"", """")",""
+"string","str-0xAAE_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員を　眠らせます","",,"=IF(F19=I19, ""UNTRANSLATED"", """")",""
+"string","str-0xAD0_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+１度訪れた雲切りの里に\n
+戻れます","",,"=IF(F20=I20, ""UNTRANSLATED"", """")",""
+"string","str-0xAFD_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+地下から\n
+地上に脱出できます","",,"=IF(F21=I21, ""UNTRANSLATED"", """")",""
+"string","str-0xB26_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+筑波の国の　地図です","",,"=IF(F22=I22, ""UNTRANSLATED"", """")",""
+"string","str-0xB48_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+磐毛の国の　地図です","",,"=IF(F23=I23, ""UNTRANSLATED"", """")",""
+"string","str-0xB6A_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+陸羽の国の　地図です","",,"=IF(F24=I24, ""UNTRANSLATED"", """")",""
+"string","str-0xB8C_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+陸奥の国の　地図です","",,"=IF(F25=I25, ""UNTRANSLATED"", """")",""
+"string","str-0xBAE_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+信濃の国の　地図です","",,"=IF(F26=I26, ""UNTRANSLATED"", """")",""
+"string","str-0xBD0_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+富士の国の　地図です","",,"=IF(F27=I27, ""UNTRANSLATED"", """")",""
+"string","str-0xBF2_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+相模の国の　地図です","",,"=IF(F28=I28, ""UNTRANSLATED"", """")",""
+"string","str-0xC14_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+千葉の国の　地図です","",,"=IF(F29=I29, ""UNTRANSLATED"", """")",""
+"string","str-0xC36_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+武蔵の国の　地図です","",,"=IF(F30=I30, ""UNTRANSLATED"", """")",""
+"string","str-0xC58_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹に　平均[number]ポイントの\n
+ダメージを　あたえます","",,"=IF(F31=I31, ""UNTRANSLATED"", """")",""
+"string","str-0xC96_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員に　平均[number]ポイントの\n
+ダメージを　あたえます","",,"=IF(F32=I32, ""UNTRANSLATED"", """")",""
+"string","str-0xCD4_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員に　平均[number]ポイントの\n
+ダメージを　あたえます","=T(F32)","=""DUPE: ""&ADDRESS(ROW(F32), COLUMN(F32), 4)",,
+"string","str-0xCD4_2","","","さらに　敵を\n
+うごけなくします","",,"=IF(F34=I34, ""UNTRANSLATED"", """")",""
+"string","str-0xD31_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員の　攻撃力を　倍にします","",,"=IF(F35=I35, ""UNTRANSLATED"", """")",""
+"string","str-0xD5F_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員の　守備力を　倍にします","",,"=IF(F36=I36, ""UNTRANSLATED"", """")",""
+"string","str-0xD8D_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹の　守備力を　半分にします","",,"=IF(F37=I37, ""UNTRANSLATED"", """")",""
+"string","str-0xDBB_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員の　守備力を　半分にします","",,"=IF(F38=I38, ""UNTRANSLATED"", """")",""
+"string","str-0xDE9_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹の　魔法を　封じます","",,"=IF(F39=I39, ""UNTRANSLATED"", """")",""
+"string","str-0xE11_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員の　魔法を　封じます","",,"=IF(F40=I40, ""UNTRANSLATED"", """")",""
+"string","str-0xE39_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹の　攻撃の　命中率を　さげます","",,"=IF(F41=I41, ""UNTRANSLATED"", """")",""
+"string","str-0xE6B_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員の　攻撃の　命中率を　さげます","",,"=IF(F42=I42, ""UNTRANSLATED"", """")",""
+"string","str-0xE9D_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員の　すばやさを　倍にします","",,"=IF(F43=I43, ""UNTRANSLATED"", """")",""
+"string","str-0xECD_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵全員の　すばやさを　半分にします","",,"=IF(F44=I44, ""UNTRANSLATED"", """")",""
+"string","str-0xEFD_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+一定歩数の間　毒の水の上を　歩いても\n
+体の力が　減らなくなります","",,"=IF(F45=I45, ""UNTRANSLATED"", """")",""
+"string","str-0xF4A_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+戦闘中に　敵から\n
+逃げることができます","",,"=IF(F46=I46, ""UNTRANSLATED"", """")",""
+"string","str-0xF7D_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員が　敵の攻撃を\n
+うけなくなります","",,"=IF(F47=I47, ""UNTRANSLATED"", """")",""
+"string","str-0xFB2_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間全員が\n
+敵の魔法を　受けなくなります","",,"=IF(F48=I48, ""UNTRANSLATED"", """")",""
+"string","str-0xFE7_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹の　魔力を　奪いとり\n
+自分の　技の力に　かえます","",,"=IF(F49=I49, ""UNTRANSLATED"", """")",""
+"string","str-0x102A_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+敵１匹の　攻撃力を　半分にします","",,"=IF(F50=I50, ""UNTRANSLATED"", """")",""
+"string","str-0x1058_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+仲間１人の　敵にかけられている\n
+魔法の効果を　消します","",,"=IF(F51=I51, ""UNTRANSLATED"", """")",""
+"string","str-0x109B_0","[color]<$01>","","[string]　／　[string][color]<$00>\n
+技の力を\n
+[number]ポイント　つかいます","",,"=IF(F52=I52, ""UNTRANSLATED"", """")",""
+"string","str-0x10C7_1","","","どの説明を　見ますか","",,"=IF(F53=I53, ""UNTRANSLATED"", """")",""
+"string","str-0x10DF_1","","","誰の道具を　見ますか","",,"=IF(F54=I54, ""UNTRANSLATED"", """")",""
+"string","str-0x10F7_1","","","誰の術を　見ますか","",,"=IF(F55=I55, ""UNTRANSLATED"", """")",""
+"string","str-0x110D","","","","",,,""
+"string","str-0x110E_0","","","あおいのけん","",,"=IF(F57=I57, ""UNTRANSLATED"", """")",""
+"string","str-0x111B_0","","","とのさまのけん","",,"=IF(F58=I58, ""UNTRANSLATED"", """")",""
+"string","str-0x112A_0","","","のだち","",,"=IF(F59=I59, ""UNTRANSLATED"", """")",""
+"string","str-0x1131_0","","","さむらいのかたな","",,"=IF(F60=I60, ""UNTRANSLATED"", """")",""
+"string","str-0x1142_0","","","しんげつとう","",,"=IF(F61=I61, ""UNTRANSLATED"", """")",""
+"string","str-0x114F_0","","","えんげつとう","",,"=IF(F62=I62, ""UNTRANSLATED"", """")",""
+"string","str-0x115C_0","","","いざよいとう","",,"=IF(F63=I63, ""UNTRANSLATED"", """")",""
+"string","str-0x1169_0","","","ゆうなぎのけん","",,"=IF(F64=I64, ""UNTRANSLATED"", """")",""
+"string","str-0x1178_0","","","せんぷうとう","",,"=IF(F65=I65, ""UNTRANSLATED"", """")",""
+"string","str-0x1185_0","","","ふうりんかざんけん","",,"=IF(F66=I66, ""UNTRANSLATED"", """")",""
+"string","str-0x1198_0","","","ふうじんのけん","",,"=IF(F67=I67, ""UNTRANSLATED"", """")",""
+"string","str-0x11A7_0","","","ようとうむらまさ","",,"=IF(F68=I68, ""UNTRANSLATED"", """")",""
+"string","str-0x11B8_0","","","しらはのつるぎ","",,"=IF(F69=I69, ""UNTRANSLATED"", """")",""
+"string","str-0x11C7_0","","","たいがのけん","",,"=IF(F70=I70, ""UNTRANSLATED"", """")",""
+"string","str-0x11D4_0","","","だいちのけん","",,"=IF(F71=I71, ""UNTRANSLATED"", """")",""
+"string","str-0x11E1_0","","","はくろうのつるぎ","",,"=IF(F72=I72, ""UNTRANSLATED"", """")",""
+"string","str-0x11F2_0","","","びゃっこのつるぎ","",,"=IF(F73=I73, ""UNTRANSLATED"", """")",""
+"string","str-0x1203_0","","","てんくうのけん","",,"=IF(F74=I74, ""UNTRANSLATED"", """")",""
+"string","str-0x1212_0","","","じんつうのつるぎ","",,"=IF(F75=I75, ""UNTRANSLATED"", """")",""
+"string","str-0x1223_0","","","きのゆみ","",,"=IF(F76=I76, ""UNTRANSLATED"", """")",""
+"string","str-0x122C_0","","","くれないのゆみ","",,"=IF(F77=I77, ""UNTRANSLATED"", """")",""
+"string","str-0x123B_0","","","しらはのゆみ","",,"=IF(F78=I78, ""UNTRANSLATED"", """")",""
+"string","str-0x1248_0","","","こくえんのゆみ","",,"=IF(F79=I79, ""UNTRANSLATED"", """")",""
+"string","str-0x1257_0","","","はくろうのゆみ","",,"=IF(F80=I80, ""UNTRANSLATED"", """")",""
+"string","str-0x1266_0","","","ぐれんのゆみ","",,"=IF(F81=I81, ""UNTRANSLATED"", """")",""
+"string","str-0x1273_0","","","びゃっこのゆみ","",,"=IF(F82=I82, ""UNTRANSLATED"", """")",""
+"string","str-0x1282_0","","","びゃっこうのおの","",,"=IF(F83=I83, ""UNTRANSLATED"", """")",""
+"string","str-0x1293_0","","","さんぞくのおの","",,"=IF(F84=I84, ""UNTRANSLATED"", """")",""
+"string","str-0x12A2_0","","","いくさおの","",,"=IF(F85=I85, ""UNTRANSLATED"", """")",""
+"string","str-0x12AD_0","","","ちからのおの","",,"=IF(F86=I86, ""UNTRANSLATED"", """")",""
+"string","str-0x12BA_0","","","てんちのおの","",,"=IF(F87=I87, ""UNTRANSLATED"", """")",""
+"string","str-0x12C7_0","","","しらはのおの","",,"=IF(F88=I88, ""UNTRANSLATED"", """")",""
+"string","str-0x12D4_0","","","はくろうのおの","",,"=IF(F89=I89, ""UNTRANSLATED"", """")",""
+"string","str-0x12E3_0","","","きしんのおの","",,"=IF(F90=I90, ""UNTRANSLATED"", """")",""
+"string","str-0x12F0_0","","","びゃっこのおの","",,"=IF(F91=I91, ""UNTRANSLATED"", """")",""
+"string","str-0x12FF_0","","","ぬのかたびら","",,"=IF(F92=I92, ""UNTRANSLATED"", """")",""
+"string","str-0x130C_0","","","しのびかたびら","",,"=IF(F93=I93, ""UNTRANSLATED"", """")",""
+"string","str-0x131B_0","","","いたのよろい","",,"=IF(F94=I94, ""UNTRANSLATED"", """")",""
+"string","str-0x1328_0","","","むしゃよろい","",,"=IF(F95=I95, ""UNTRANSLATED"", """")",""
+"string","str-0x1335_0","","","かっせんよろい","",,"=IF(F96=I96, ""UNTRANSLATED"", """")",""
+"string","str-0x1344_0","","","ちのよろい","",,"=IF(F97=I97, ""UNTRANSLATED"", """")",""
+"string","str-0x134F_0","","","おにのよろい","",,"=IF(F98=I98, ""UNTRANSLATED"", """")",""
+"string","str-0x135C_0","","","りゅうのよろい","",,"=IF(F99=I99, ""UNTRANSLATED"", """")",""
+"string","str-0x136B_0","","","ひのどう","",,"=IF(F100=I100, ""UNTRANSLATED"", """")",""
+"string","str-0x1374_0","","","しろじしのどう","",,"=IF(F101=I101, ""UNTRANSLATED"", """")",""
+"string","str-0x1383_0","","","かわかぶと","",,"=IF(F102=I102, ""UNTRANSLATED"", """")",""
+"string","str-0x138E_0","","","てつかぶと","",,"=IF(F103=I103, ""UNTRANSLATED"", """")",""
+"string","str-0x1399_0","","","つのかぶと","",,"=IF(F104=I104, ""UNTRANSLATED"", """")",""
+"string","str-0x13A4_0","","","ひのかぶと","",,"=IF(F105=I105, ""UNTRANSLATED"", """")",""
+"string","str-0x13AF_0","","","おにはちがね","",,"=IF(F106=I106, ""UNTRANSLATED"", """")",""
+"string","str-0x13BC_0","","","なわわらじ","",,"=IF(F107=I107, ""UNTRANSLATED"", """")",""
+"string","str-0x13C7_0","","","やまわらじ","",,"=IF(F108=I108, ""UNTRANSLATED"", """")",""
+"string","str-0x13D2_0","","","けもののわらじ","",,"=IF(F109=I109, ""UNTRANSLATED"", """")",""
+"string","str-0x13E1_0","","","はやぶさのわらじ","",,"=IF(F110=I110, ""UNTRANSLATED"", """")",""
+"string","str-0x13F2_0","","","かみかぜのくつ","",,"=IF(F111=I111, ""UNTRANSLATED"", """")",""
+"string","str-0x1401_0","","","がまのあぶら","",,"=IF(F112=I112, ""UNTRANSLATED"", """")",""
+"string","str-0x140E_0","","","しろがまのあぶら","",,"=IF(F113=I113, ""UNTRANSLATED"", """")",""
+"string","str-0x141F_0","","","しろへびのいし","",,"=IF(F114=I114, ""UNTRANSLATED"", """")",""
+"string","str-0x142E_0","","","じんつうりきのたま","",,"=IF(F115=I115, ""UNTRANSLATED"", """")",""
+"string","str-0x1441_0","","","せんたん","",,"=IF(F116=I116, ""UNTRANSLATED"", """")",""
+"string","str-0x144A_0","","","じんたん","",,"=IF(F117=I117, ""UNTRANSLATED"", """")",""
+"string","str-0x1453_0","","","どくけし","",,"=IF(F118=I118, ""UNTRANSLATED"", """")",""
+"string","str-0x145C_0","","","しゅりけん","",,"=IF(F119=I119, ""UNTRANSLATED"", """")",""
+"string","str-0x1467_0","","","とびくない","",,"=IF(F120=I120, ""UNTRANSLATED"", """")",""
+"string","str-0x1472_0","","","かやくだま","",,"=IF(F121=I121, ""UNTRANSLATED"", """")",""
+"string","str-0x147D_0","","","つきねのこな","",,"=IF(F122=I122, ""UNTRANSLATED"", """")",""
+"string","str-0x148A_0","","","じらいか","",,"=IF(F123=I123, ""UNTRANSLATED"", """")",""
+"string","str-0x1493_0","","","がまだま","",,"=IF(F124=I124, ""UNTRANSLATED"", """")",""
+"string","str-0x149C_0","","","へびだま","",,"=IF(F125=I125, ""UNTRANSLATED"", """")",""
+"string","str-0x14A5_0","","","なめくじだま","",,"=IF(F126=I126, ""UNTRANSLATED"", """")",""
+"string","str-0x14B2_0","","","かんざし","",,"=IF(F127=I127, ""UNTRANSLATED"", """")",""
+"string","str-0x14BB_0","","","へびのゆみや","",,"=IF(F128=I128, ""UNTRANSLATED"", """")",""
+"string","str-0x14C8_0","","","どぐうろぼ","",,"=IF(F129=I129, ""UNTRANSLATED"", """")",""
+"string","str-0x14D3_0","","","てんしょうのいし","",,"=IF(F130=I130, ""UNTRANSLATED"", """")",""
+"string","str-0x14E4_0","","","ておしぽんぷ","",,"=IF(F131=I131, ""UNTRANSLATED"", """")",""
+"string","str-0x14F1_0","","","はくつるのはね","",,"=IF(F132=I132, ""UNTRANSLATED"", """")",""
+"string","str-0x1500_0","","","しろきじのお","",,"=IF(F133=I133, ""UNTRANSLATED"", """")",""
+"string","str-0x150D_0","","","てがみ１","",,"=IF(F134=I134, ""UNTRANSLATED"", """")",""
+"string","str-0x1516_0","","","てがみ２","",,"=IF(F135=I135, ""UNTRANSLATED"", """")",""
+"string","str-0x151F","","","","",,,""
+"string","str-0x1520_0","","","おるごーる","",,"=IF(F137=I137, ""UNTRANSLATED"", """")",""
+"string","str-0x152B_0","","","てつぽう","",,"=IF(F138=I138, ""UNTRANSLATED"", """")",""
+"string","str-0x1534_0","","","ぷでぃんぐ","",,"=IF(F139=I139, ""UNTRANSLATED"", """")",""
+"string","str-0x153F_0","","","わいん","",,"=IF(F140=I140, ""UNTRANSLATED"", """")",""
+"string","str-0x1546","","","","",,,""
+"string","str-0x1547","","","","",,,""
+"string","str-0x1548","","","","",,,""
+"string","str-0x1549","","","","",,,""
+"string","str-0x154A_0","","","つくばのちず","",,"=IF(F145=I145, ""UNTRANSLATED"", """")",""
+"string","str-0x1557_0","","","ばんもうのちず","",,"=IF(F146=I146, ""UNTRANSLATED"", """")",""
+"string","str-0x1566_0","","","りくうのちず","",,"=IF(F147=I147, ""UNTRANSLATED"", """")",""
+"string","str-0x1573_0","","","むつのちず","",,"=IF(F148=I148, ""UNTRANSLATED"", """")",""
+"string","str-0x157E_0","","","しなののちず","",,"=IF(F149=I149, ""UNTRANSLATED"", """")",""
+"string","str-0x158B_0","","","ふじのちず","",,"=IF(F150=I150, ""UNTRANSLATED"", """")",""
+"string","str-0x1596_0","","","さがみのちず","",,"=IF(F151=I151, ""UNTRANSLATED"", """")",""
+"string","str-0x15A3_0","","","ちばのちず","",,"=IF(F152=I152, ""UNTRANSLATED"", """")",""
+"string","str-0x15AE_0","","","むさしのちず","",,"=IF(F153=I153, ""UNTRANSLATED"", """")",""
+"string","str-0x15BB_0","","","たぬきかぎ","",,"=IF(F154=I154, ""UNTRANSLATED"", """")",""
+"string","str-0x15C6_0","","","おおひげぬき","",,"=IF(F155=I155, ""UNTRANSLATED"", """")",""
+"string","str-0x15D3_0","","","てつのかぎ","",,"=IF(F156=I156, ""UNTRANSLATED"", """")",""
+"string","str-0x15DE_0","","","えずめん","",,"=IF(F157=I157, ""UNTRANSLATED"", """")",""
+"string","str-0x15E7_0","","","おおかなづち","",,"=IF(F158=I158, ""UNTRANSLATED"", """")",""
+"string","str-0x15F4_0","","","かみなりだま","",,"=IF(F159=I159, ""UNTRANSLATED"", """")",""
+"string","str-0x1601_0","","","ねずみかぎ","",,"=IF(F160=I160, ""UNTRANSLATED"", """")",""
+"string","str-0x160C_0","","","さるざけ","",,"=IF(F161=I161, ""UNTRANSLATED"", """")",""
+"string","str-0x1615_0","","","こおりのかがみ","",,"=IF(F162=I162, ""UNTRANSLATED"", """")",""
+"string","str-0x1624_0","","","だっしゅつのかぎ","",,"=IF(F163=I163, ""UNTRANSLATED"", """")",""
+"string","str-0x1635_0","","","しまぬけかぎ","",,"=IF(F164=I164, ""UNTRANSLATED"", """")",""
+"string","str-0x1642_0","","","おうごん","",,"=IF(F165=I165, ""UNTRANSLATED"", """")",""
+"string","str-0x164B","","","","",,,""
+"string","str-0x164C_0","","","こなび","",,"=IF(F167=I167, ""UNTRANSLATED"", """")",""
+"string","str-0x1653_0","","","かてん","",,"=IF(F168=I168, ""UNTRANSLATED"", """")",""
+"string","str-0x165A_0","","","じんえん","",,"=IF(F169=I169, ""UNTRANSLATED"", """")",""
+"string","str-0x1663_0","","","らいこう","",,"=IF(F170=I170, ""UNTRANSLATED"", """")",""
+"string","str-0x166C_0","","","じんらい","",,"=IF(F171=I171, ""UNTRANSLATED"", """")",""
+"string","str-0x1675_0","","","てんらい","",,"=IF(F172=I172, ""UNTRANSLATED"", """")",""
+"string","str-0x167E_0","","","つきね","",,"=IF(F173=I173, ""UNTRANSLATED"", """")",""
+"string","str-0x1685_0","","","ほしね","",,"=IF(F174=I174, ""UNTRANSLATED"", """")",""
+"string","str-0x168C_0","","","らっか","",,"=IF(F175=I175, ""UNTRANSLATED"", """")",""
+"string","str-0x1693_0","","","らくよう","",,"=IF(F176=I176, ""UNTRANSLATED"", """")",""
+"string","str-0x169C_0","","","どろむし","",,"=IF(F177=I177, ""UNTRANSLATED"", """")",""
+"string","str-0x16A5_0","","","くもぎり","",,"=IF(F178=I178, ""UNTRANSLATED"", """")",""
+"string","str-0x16AE_0","","","きんいん","",,"=IF(F179=I179, ""UNTRANSLATED"", """")",""
+"string","str-0x16B7_0","","","きんじゅ","",,"=IF(F180=I180, ""UNTRANSLATED"", """")",""
+"string","str-0x16C0_0","","","うんかい","",,"=IF(F181=I181, ""UNTRANSLATED"", """")",""
+"string","str-0x16C9_0","","","あわぐも","",,"=IF(F182=I182, ""UNTRANSLATED"", """")",""
+"string","str-0x16D2_0","","","わかくさ","",,"=IF(F183=I183, ""UNTRANSLATED"", """")",""
+"string","str-0x16DB_0","","","いぶき","",,"=IF(F184=I184, ""UNTRANSLATED"", """")",""
+"string","str-0x16E2_0","","","ありあけ","",,"=IF(F185=I185, ""UNTRANSLATED"", """")",""
+"string","str-0x16EB_0","","","かげぎぬ","",,"=IF(F186=I186, ""UNTRANSLATED"", """")",""
+"string","str-0x16F4_0","","","すずかぜ","",,"=IF(F187=I187, ""UNTRANSLATED"", """")",""
+"string","str-0x16FD_0","","","きよみず","",,"=IF(F188=I188, ""UNTRANSLATED"", """")",""
+"string","str-0x1706","","","","",,,""
+"string","str-0x1707_0","","","にげみず","",,"=IF(F190=I190, ""UNTRANSLATED"", """")",""
+"string","str-0x1710_0","","","しゅんこう","",,"=IF(F191=I191, ""UNTRANSLATED"", """")",""
+"string","str-0x171B_0","","","ひょうりゅう","",,"=IF(F192=I192, ""UNTRANSLATED"", """")",""
+"string","str-0x1728_0","","","うりゅう","",,"=IF(F193=I193, ""UNTRANSLATED"", """")",""
+"string","str-0x1731_0","","","とうりゅう","",,"=IF(F194=I194, ""UNTRANSLATED"", """")",""
+"string","str-0x173C_0","","","かざへび","",,"=IF(F195=I195, ""UNTRANSLATED"", """")",""
+"string","str-0x1745_0","","","ひへび","",,"=IF(F196=I196, ""UNTRANSLATED"", """")",""
+"string","str-0x174C_0","","","いしへび","",,"=IF(F197=I197, ""UNTRANSLATED"", """")",""
+"string","str-0x1755_0","","","はるかぜ","",,"=IF(F198=I198, ""UNTRANSLATED"", """")",""
+"string","str-0x175E_0","","","はなかべ","",,"=IF(F199=I199, ""UNTRANSLATED"", """")",""
+"string","str-0x1767_0","","","ゆきどけ","",,"=IF(F200=I200, ""UNTRANSLATED"", """")",""

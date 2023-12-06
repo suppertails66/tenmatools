@@ -1,0 +1,116 @@
+set basepattern=0x180
+set patternoffset=0
+
+set xorigin=128
+set yorigin=119
+
+# "script"
+add x=0x18  y=0x00 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0x00 w=32 h=16 pri=1 pal=0
+
+# "producer"
+add x=0x18  y=0x10 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0x10 w=32 h=16 pri=1 pal=0
+
+# "music"
+add x=0x18  y=0x20 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0x20 w=32 h=16 pri=1 pal=0
+
+# "programmer"
+add x=0x18  y=0x38 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0x38 w=32 h=16 pri=1 pal=0
+
+# "designers"
+add x=0x18  y=0x48 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0x48 w=32 h=16 pri=1 pal=0
+
+# "costumes"
+add x=0x18  y=0x90 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0x90 w=32 h=16 pri=1 pal=0
+
+# "stunts"
+add x=0x18  y=0xA0 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0xA0 w=32 h=16 pri=1 pal=0
+
+# "acting coach"
+add x=0x18  y=0xB0 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0xB0 w=32 h=16 pri=1 pal=0
+
+# "support"
+add x=0x18  y=0xC0 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0xC0 w=32 h=16 pri=1 pal=0
+
+# "director"
+add x=0x18  y=0xE8 w=32 h=16 pri=1 pal=0
+add x=0x38  y=0xE8 w=32 h=16 pri=1 pal=0
+
+
+
+# "masatuskasa" *2
+add x=0x78  y=0x00 w=32 h=32 pri=1 pal=0
+add x=0x98  y=0x00 w=32 h=32 pri=1 pal=0
+add x=0xB8  y=0x00 w=32 h=32 pri=1 pal=0
+add x=0xD8  y=0x00 w=32 h=32 pri=1 pal=0
+
+# "masatuskasa"
+#add x=0x78  y=0x10 w=32 h=16 pri=1 pal=0
+#add x=0x98  y=0x10 w=32 h=16 pri=1 pal=0
+#add x=0xB8  y=0x10 w=32 h=16 pri=1 pal=0
+#add x=0xD8  y=0x10 w=32 h=16 pri=1 pal=0
+
+# "musical plan"
+add x=0x78  y=0x20 w=32 h=16 pri=1 pal=0
+add x=0x98  y=0x20 w=32 h=16 pri=1 pal=0
+add x=0xB8  y=0x20 w=32 h=16 pri=1 pal=0
+add x=0xD8  y=0x20 w=32 h=16 pri=1 pal=0
+
+# "innocence" + "joseph"
+add x=0x78  y=0x38 w=32 h=32 pri=1 pal=0
+add x=0x98  y=0x38 w=32 h=32 pri=1 pal=0
+add x=0xB8  y=0x38 w=32 h=32 pri=1 pal=0
+#add x=0xD8  y=0x38 w=32 h=32 pri=1 pal=0
+
+# "marronnier"
+add x=0x78  y=0x58 w=32 h=16 pri=1 pal=0
+add x=0x98  y=0x58 w=32 h=16 pri=1 pal=0
+add x=0xB8  y=0x58 w=32 h=16 pri=1 pal=0
+add x=0xD8  y=0x58 w=32 h=16 pri=1 pal=0
+
+# "linda"
+#add x=0x78  y=0x68 w=32 h=16 pri=1 pal=0
+#add x=0x98  y=0x68 w=32 h=16 pri=1 pal=0
+#add x=0xB8  y=0x68 w=32 h=16 pri=1 pal=0
+
+# "jodtinktur"
+#add x=0x78  y=0x78 w=32 h=16 pri=1 pal=0
+#add x=0x98  y=0x78 w=32 h=16 pri=1 pal=0
+#add x=0xB8  y=0x78 w=32 h=16 pri=1 pal=0
+#add x=0xD8  y=0x78 w=32 h=16 pri=1 pal=0
+
+# "linda" + "jodtinktur"
+add x=0x78  y=0x68 w=32 h=32 pri=1 pal=0
+add x=0x98  y=0x68 w=32 h=32 pri=1 pal=0
+add x=0xB8  y=0x68 w=32 h=32 pri=1 pal=0
+
+# "drunkard" + "shinichi"
+add x=0x78  y=0x90 w=32 h=32 pri=1 pal=0
+add x=0x98  y=0x90 w=32 h=32 pri=1 pal=0
+add x=0xB8  y=0x90 w=32 h=32 pri=1 pal=0
+#add x=0xD8  y=0x90 w=32 h=32 pri=1 pal=0
+
+# "theater"
+add x=0x78  y=0xB0 w=32 h=16 pri=1 pal=0
+add x=0x98  y=0xB0 w=32 h=16 pri=1 pal=0
+add x=0xB8  y=0xB0 w=32 h=16 pri=1 pal=0
+add x=0xD8  y=0xB0 w=32 h=16 pri=1 pal=0
+
+# "4x4 soft"
+add x=0x78  y=0xC0 w=32 h=16 pri=1 pal=0
+add x=0x98  y=0xC0 w=32 h=16 pri=1 pal=0
+add x=0xB8  y=0xC0 w=32 h=16 pri=1 pal=0
+
+# octopus
+add x=0x80  y=0xE8 w=32 h=16 pri=1 pal=0
+
+outputSprites "out/grp/theater_credits_sprite.bin"
+#outputPreviewGrp "test_preview.png"

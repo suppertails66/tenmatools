@@ -1,0 +1,119 @@
+[Properties]
+#numChars=128
+numChars=96
+charsPerRow=16
+gridW=16
+gridH=12
+autoKerningOffset=0
+noKerning=1
+
+# space
+[char0000]
+glyphWidth=0
+advanceWidth=2
+# kerning is special-cased for this anyway,
+# so this doesn't really matter
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# digits
+
+[char0001]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0002]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0003]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0004]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0005]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0006]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0007]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0008]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char0009]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+[char000A]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# period
+[char003F]
+noKerningIfSecond=1
+
+# comma
+[char0040]
+noKerningIfSecond=1
+
+# question mark
+[char0042]
+noKerningIfSecond=1
+
+# apostrophe
+[char0043]
+noKerningIfSecond=1
+#firstKerningAgainstShortChars=-1
+#secondKerningAgainstShortChars=-1
+
+# semicolon
+[char0044]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# colon
+[char0045]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# open quote
+[char0048]
+noKerningIfFirst=1
+
+# close quote
+[char0049]
+noKerningIfSecond=1
+
+# hyphen
+[char004A]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# asterisk
+[char004B]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# em dash
+[char004D]
+noKerningIfFirst=1
+noKerningIfSecond=1
+
+# fixed spaces
+
+[char005C]
+advanceWidth=1
+
+[char005E]
+advanceWidth=8
+

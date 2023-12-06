@@ -1,0 +1,164 @@
+,,,,"//==================================
+// intro
+//==================================",,,
+string,str-0x13D5_1,[br4],,"　　遠い　遠い　はるか　昔・・・\n
+　　　　世界の東のはずれに\n
+　　ジパングと呼ばれる国があった","#SETPADANDCENTER(0, 216)
+Long, long ago, far, far away...[br4]
+On the eastern edge of the world,[br4]
+there lay a country called Jipang.",NOTE: i have traveled to the depths of hell and back to add a special mode that allows this opening scene to have four lines of text instead of the normal three in order to accomodate its flowery prose. (and it's still not quite enough sometimes!!) so please put up with the slightly ugly [br4] code that is used to trigger linebreaks in this special mode.,
+string,str-0x143E_1,[br4],,"　　ジパングは　周囲を海に囲まれ\n
+春夏秋冬　季節を問わず花が咲き乱れる\n
+　　　平和で美しい国であった","Jipang was a peaceful and beautiful[br4]
+land encircled by oceans, where the[br4]
+flowers blossomed all the year round --[br4]
+spring, summer, autumn, and winter.",,
+string,str-0x143E_5,[br4],,"　　　　　何千年もの昔から\n
+　　　　　　今に至るまで・・・","[br4]
+So was it from thousands of years[br4]
+past to the present day...",,
+string,str-0x14F2_1,[br4],,"　　　　しかし　そのジパングも\n
+　　　　　かつて　一度だけ\n
+　　　　滅びかけたことがあった","[br4]
+But, just once, there was a time[br4]
+when this Jipang fell into ruin.",,
+string,str-0x1557_1,,,"\n
+　　　　　この男のために！","\n
+...Because of this man!",NOTE: \n is used instead of [br4] here so that this line will be vertically centered in the text area,
+string,str-0x1580_1,,,"\n
+　　　その名を　マサカドという","\n
+His name was Masakado.",,
+string,str-0x1580_5,[br4],,"　　　　　　　マサカドは\n
+　　　　ジパングを　自らの望む\n
+　　　理想郷にしようと　もくろんだ","[br4]
+Masakado plotted to transform Jipang[br4]
+into his personal paradise.",,
+string,str-0x1580_9,[br4],,"　　　そして　その土台造りとして\n
+　　この国の　全てを　無に還すべく\n
+　　　　　破壊に破壊を重ねた","To lay the foundation, he wreaked[br4]
+such destruction after destruction upon[br4]
+the country as to reduce it to nothing.",,
+string,str-0x167D_1,[br4],,"　　　大地はひび割れ　めくれあがり\n
+　　　　川が枯れ　海が干上がり\n
+　　　　空は　漆黒の闇と化した","The earth cracked and split,[br4]
+the rivers withered, the seas dried,[br4]
+and the sky turned black as pitch.",,
+string,str-0x167D_5,[br4],,"そして　ごうごうと　どよもす風の中で\n
+　　　　　すべての　生き物が\n
+　　　死に絶えようと　した時・・・","And then, amidst thunderously[br4]
+howling winds, as every last living thing[br4]
+stood on the brink of annihilation...",,
+string,str-0x1759_1,[br4],,"　　火の一族と呼ばれる者たちが\n
+　　　いずこからともなく現れ\n
+　マサカドに　立ち向かったという","It is said that a people called the[br4]
+Fire Clan appeared -- from whence[br4]
+unknown -- and stood against Masakado.",,
+string,str-0x17C2_1,[br4],,"　　　火の一族と　マサカドの死闘は\n
+　　えんえん　百日の長きにわたって\n
+　　　　　　続いたという","The life-or-death struggle between the[br4]
+Fire Clan and Masakado is told to have[br4]
+raged, on and on, for a hundred days.",,
+string,str-0x183A_1,[br4],,"　　　その死闘のはて　ついに\n
+マサカドの霊を　地中に封印した時には\n
+火の一族の　ほとんどが死に絶えていた","At the conclusion of this mortal combat,[br4]
+as they at last sealed Masakado's[br4]
+spirit within the earth, nearly the entire[br4]
+Fire Clan perished.",,
+string,str-0x18AD_1,,,"　　　　かくして　ジパングは\n
+　　　　平和を　とりもどした","\n
+Thus did peace return to Jipang.",,
+string,str-0x18F3_1,[br4],,"　　光や水や　大地や雲が　よみがえり\n
+　　木の芽がふき　水がわき　花が咲き\n
+　　　空は　その青さを取り戻した","The light, the water, the earth, the clouds[br4]
+were restored; the trees budded;[br4]
+the water flowed; the flowers bloomed;[br4]
+and the sky regained its blue once more.",,
+string,str-0x196A_1,[br4],,"　　　　　だが　その安らぎも\n
+　　ほんの　わずかな時でしかなかった","[br4]
+But that tranquility[br4]
+was for but the briefest time.",,
+string,str-0x19B8_1,[br4],,"　　　ジパングを　我がものにせんと\n
+　　　　マサカドの復活をたくらむ\n
+　　　　　　　悪の一団が","An evil organization scheming to[br4]
+resurrect Masakado and make Jipang[br4]
+its own...",,
+string,str-0x19B8_5,[br4],,"　　　　　　その行動を\n
+　　　開始していたのだった・・・","[br4]
+...had begun putting its plans[br4]
+into motion...",,
+string,str-0x1A64_1,[br4],,"　　ジパングの筑波と　呼ばれる山に\n
+　　　　わずかばかり　残った\n
+　火の一族の　まつえいのひとりがいた","On a mountain in Jipang called Tsukuba,[br4]
+there lived one of the few remaining[br4]
+descendants of the Fire Clan.
+#DISABLEPADANDCENTER()",,
+string,str-0x1AD5_1,[br4],,ようっ！　ガマ仙人の　じっちゃま！！,"#SETWIDTH(216)
+Hey! Ol' Toad Hermit!",,
+string,str-0x1AD5_5,[br4],,"マサカドって　やつは\n
+そんなにすごいのか",Is this Masakado guy really that strong?,,
+string,str-0x1AD5_9,[br4],,"ふむ　きゃつが　動く時\n
+大木は倒れ　火が走り　その後には\n
+しかばねしか残らんと　言われておる","Indeed...They say that when he stirred, great trees fell, fires raged, and in the aftermath, naught was left but corpses.",,
+string,str-0x1AD5_13,[br4],,"へぇー！　そんなに　すごいやつが\n
+復活したら　この筑波山も\n
+消えて　なくなっちまうのか","Oh man! If a guy like THAT comes back, Mount Tsukuba here's gonna get wiped out, isn't it?",,
+string,str-0x1AD5_17,[br4],,そうじゃ！！,So it will!,,
+string,str-0x1AD5_21,[br4],,"筑波山の　鳥や　動物も　カエルたちも\n
+みんな　マサカドのやつに\n
+消されっちまうのか？","So Mount Tsukuba's birds and animals, its frogs -- Masakado'll obliterate them all?",,
+string,str-0x1AD5_25,[br4],,そうじゃ！！,He will!,DUPE: F25,
+string,str-0x1AD5_29,[br4],,"秋に実をつける　リンゴの木や\n
+栗の木も　菜の花も\n
+みんな　燃やされっちまうのか！！","The apple and chestnut trees that bear fruit in the fall, the rapeseed flowers -- he'll burn them ALL?!",,
+string,str-0x1AD5_33,[br4],,そうじゃ！！,He will!,DUPE: F25,
+string,str-0x1AD5_37,[br4],,そんなやつ　ゆるしておけねえなあ！！,We can't let him get away with it!,,
+string,str-0x1AD5_41,[br4],,うむ！！,Indeed!,,
+string,str-0x1AD5_45,[br4],,"ジライア！！\n
+それで　わしは　おまえに　今まで\n
+苦しい修行を　あたえてきたのだ！！","Ziria![br4]
+It is for this that I have put you through such harsh training up until now!",,
+string,str-0x1AD5_49,[br4],,"オイラに\n
+マサカドってやつが\n
+たおせるのか？",Will I be able to beat this Masakado?,,
+string,str-0x1AD5_53,[br4],,おそらく・・・無理じゃろう,Most likely...you will not.,,
+string,str-0x1AD5_57,[br4],,"だったら\n
+なんで　オイラは\n
+今まで　修行してきたんだよ！",Then why've I been training this whole time?!,,
+string,str-0x1AD5_61,[br4],,"おまえ　ひとりでは\n
+無理だと　いうことじゃ",What I mean is that you will not be able to do it alone.,,
+string,str-0x1AD5_65,[br4],,"しかし　おまえと\n
+同じ　さだめをもった者が\n
+あと　ふたりおる",But there are yet two others who hold the same destiny as you.,,
+string,str-0x1AD5_69,[br4],,"この　ふたりと　力を合わせれば\n
+マサカドの復活を\n
+阻止することができるじゃろう！","If you join forces with them, you should be able to prevent Masakado's return!",,
+string,str-0x1AD5_73,[br4],,"冗談じゃねえよ！！\n
+マサカドなんてやつ\n
+オイラ　ひとりで　十分だよ！","Screw that![br4]
+I'm enough to take down this Masakado nutjob all by myself!",,
+string,str-0x1AD5_77,[br4],,ならば　行ってこい！！,Then go!,,
+string,str-0x1AD5_81,[br4],,"しかし　火の一族　ふたりと\n
+力を合わせねば\n
+マサカドには　たちむかえぬぞ！！","But if you do not unite with the other two of the Fire Clan, you will never be able to stand against Masakado!
+#DISABLEPADANDCENTER()",,
+,,,,"//==================================
+// ending?
+//==================================",,,
+string,str-0x2002_1,,,"　　　ながい　戦いが　おわり\n
+　　ジパングに　平和が　訪れた　　　","#SETPADANDCENTER(0, 216)
+The long battle is over,\n
+and peace has returned to Jipang.",NOTE: unused text for an old ending sequence,
+string,str-0x2050_1,,,"　　　邪悪な　心が　消え去って\n
+　　ふたたび　山や　川や　湖が\n
+　　　輝きに　つつまれると","Evil has been vanquished, and the mountains, rivers, and lakes are once again bathed in light.",,
+string,str-0x20B5_1,,,"　　人々は　笑顔と　やさしさを\n
+　　　　取り戻したのだった　　　　　","Finally, people have regained their smiles and their kindness.",,
+string,str-0x2105_1,,,"　　　　　　　こうして\n
+　　　　火の勇者の　活躍は","With their deeds, the Fire Heroes",,
+string,str-0x2105_5,,,"　　　おおくの　人々の　心に\n
+　　勇気と　愛と　根性の　力を　　　\n
+ふかく　残していったのだった・・・","have filled the hearts of mankind with the power of courage, love, and determination.",,
+string,str-0x21B7_1,,,"　　　そして　いつの日か・・・\n
+　　　　平和が　あやういとき","They may return, one day...\n
+If peace is ever threatened again.
+#DISABLEPADANDCENTER()",,

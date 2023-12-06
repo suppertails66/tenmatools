@@ -1,0 +1,214 @@
+,,,,"//==================================
+// generic shop messages
+//==================================",,,
+string,str-0x230_0,,,"ジライアは　お金が\n
+足りないことに気がついた\n
+少し　はずかしかった",Ziria realized he didn't have enough money. It was a bit embarrassing.,,
+string,str-0x271_0,,,"[number]両ですが\n
+よろしいですか","That will be 両[number].\n
+How does that sound?",,
+string,str-0x290_0,,,"[string]ですか？\n
+それを　今　買うと　お客さんに\n
+うらまれそうな気がします","The [string]? I have a feeling that if you sell that, you'll come to regret it.",NOTE: when trying to sell plot-critical items like the orbs,
+string,str-0x290_2,,,"ほかにも　何か\n
+お売りに　なりますか？",Will you be selling anything else?,,
+string,str-0x2F9_0,,,"[string]ですか？\n
+それは　どれくらいの　値うちなのか\n
+ちょっと　わかりかねます",[string]? How much would that be worth? I'm afraid I can't really tell.,,
+string,str-0x2F9_2,,,"ほかにも　何か\n
+お売りに　なりますか",Will you be selling anything else?,,
+string,str-0x364_0,,,どなたの　道具を　売ってくれますか,Whose possessions are you selling?,,
+string,str-0x388_0,,,何を　お売りに　なりますか？,What will you be selling?,,
+string,str-0x3A5_0,,,"ほかにも　何か\n
+お売りに　なりますか？",Will you be selling anything else?,DUPE: F5,
+string,str-0x3CC_0,,,[string]ですね？,"[string], is it?",,
+string,str-0x3DA_0,,,"[number]両　いただきました\n
+ほかに　何か　お求めですか？","両[number], please.\n
+Would you like anything else?",,
+,,,,"//==================================
+// orochimaru letter 1
+//==================================",,,
+string,str-0x40F_1,,,　　　　　拝啓　ジライア殿,"#SETPADANDCENTER(0, 216)
+To: Ziria-dono",,
+string,str-0x40F_4,,,"　　さきほどは　ついとりみだし\n
+　きついことを　いいすぎたようだ\n
+　　　　　　許してくれ！","First, I wish to apologize for\n
+the way I addressed you earlier.\n
+I realize I was extremely rude.",,
+string,str-0x40F_7,,,"しかし　おれの気持ちもわかってくれ\n
+　ショーグンさまは　おれにとって\n
+育ての親　父のような　おかたなのだ","However, you must understand that the\n
+Shogun has raised me like his own flesh\n
+and blood. He is as a father to me.",,
+string,str-0x40F_10,,,"　　ショーグンさまの　信じている\n
+　　　大門教が　悪いくわだてを\n
+　　もっているとは　考えられない","If the Shogun has willingly joined the\n
+Cult of Daimon, then they cannot truly\n
+be as evil as you think.",,
+string,str-0x40F_13,,,"　　　　もう少し　時間をくれ！\n
+　おれ自身　なっとくの　いくまで\n
+　もっとくわしく　しらべて　みたい","I only ask you to give me some time.\n
+I must look into this matter on my own.",,
+string,str-0x40F_16,,,"　　　　また　どこかで　会おう\n
+\n
+　　　　　　　　　　　　　　オロチ丸","I'll see you soon.\n
+\n
+[space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px]Orochimaru
+#DISABLEPADANDCENTER()
+#SETWIDTH(-1)",,
+,,,,"//==================================
+// orochimaru letter 2
+//==================================",,,
+string,str-0x628_1,,,　　　　　拝啓　ジライア殿,"#SETPADANDCENTER(0, 216)
+To: Ziria-dono",DUPE: F14,
+string,str-0x628_4,,,"　どうやら　カーメン　カーメンも\n
+マントーも　無事　たおせたようだな\n
+さすがは　火の勇者と　いっておこう","I see you were able to defeat\n
+both Khamen Khamen and Manto.\n
+I suppose a {Fire Hero} would do no less.",,
+string,str-0x628_7,,,"　　　　各国を　めぐるうち\n
+　大門教の　たくらんでいることが\n
+　　　少しずつ　わかってきた","After a thorough investigation, I've\n
+finally reached a conclusion regarding\n
+the Cult of Daimon.",,
+string,str-0x628_10,,,"　　どうやら　おまえたちのほうが\n
+　　　　　正しいようだな！\n
+ショーグンさまにも　伝えておいたぞ","You were right all along:\n
+they truly are evil.\n
+Thus, I've decided to inform the Shogun.",,
+string,str-0x628_13,,,"　　　　安心しろ　ジライア！\n
+　　　すべて　ショーグンさまに\n
+　まかせて　おけば　うまくいくのだ","Worry not, Ziria!\n
+You can leave this matter in his hands.",,
+string,str-0x628_16,,,"　ショーグンさまが　立ち上がれば\n
+　　　　マサカドも　大門教も\n
+　　　たちどころに　おしまいだ！","As soon as the Shogun takes action,\n
+Masakado and the Daimonists alike\n
+will be vanquished at a stroke.",,
+string,str-0x628_19,,,"　　　それまでの　しんぼうだ！\n
+命を　大切に　しろよ！　ジライア！","Be patient. This will be over soon.\n
+Take care of yourself until then, Ziria!",,
+string,str-0x628_21,,,"// WARNING: continues previous box
+　では　また　どこかで　会おう！","\n
+I'll see you soon.",,
+string,str-0x628_23,,,"\n
+　　　　　　　　　　　　　　オロチ丸","\n
+[space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px][space8px]Orochimaru
+#DISABLEPADANDCENTER()
+#SETWIDTH(-1)",,
+,,,,"//==================================
+// examining toubei plans
+//==================================",,,
+string,str-0x8EE_0,,,"さすがは\n
+トウベイ先生の絵図面だ！",This is Toubei's masterpiece!,,
+,,,,"//==================================
+// gambling game
+//==================================",,,
+string,str-0xD1F_0,,,"一クチ　１０両で　１００両まで\n
+カケることができるよ　遊んでいくかい","A single bet is 両10!\n
+You can bet up to 両100! Are you in?",,
+string,str-0xD6A_0,,,"そうかい！　引きとめないよ！\n
+遊んでいる場合じゃないものね！\n
+また　気が向いたら　来ておくれ！","No time for games, huh? That's fine!\n
+Come back whenever you feel like it!",,
+string,str-0xDCA_1,,,とりあえず　１０両だね！,Let's start with a 両10 bet!,,
+string,str-0xDEB_1,,,"男だったら命がけ！\n
+もう一クチ　どうだい？","Real men risk it all!\n
+How about betting more?",,
+string,str-0xE1D_0,,,"ニイさん！　サイフの中を\n
+よーく　たしかめてごらん！\n
+いきおいだけじゃ　勝てないよ！","I like your spirit, friend!\n
+But you can't bet with an empty wallet!",,
+string,str-0xE73_0,,,"さあ　はった！　はった！！\n
+丁かた　ありませんか？\n
+半かた　ありませんか？","The dice have been rolled!\n
+So, what will be under the cup?\n
+Will it be even? Or will it be odd?",,
+string,str-0xEBF_1,[color]<$01>,,"　\n
+　　丁\n
+　　半","[space8px]\n
+[space8px][space8px][space8px]Even\n
+[space8px][space8px][space8px]Odd",,
+string,str-0xED6_0,,,"丁・半　そろいました！！\n
+入ります！！","The bet is in!\n
+Game on!",,
+string,str-0xF06_0,,,"サイの目も　火の勇者の味方だね！\n
+もう一勝負　やってくかい！","Luck is on your side, Fire Hero!\n
+How about one more game?",,
+string,str-0xF49_0,,,"冬が過ぎれば　春も来る！！\n
+さあ　もう一勝負やってくかい！","If winter comes, can spring be far behind? Let's play one more game!","ZenkiTN: the original line seems to be a reference to a song by Mifune Kazuko, ""Kono Fuyu Sugireba Haru Ga Kuru"", which happens to have a very similar meaning to one of the verses from ""Ode to the West Wind"" by Percy Bysshe Shelley (which is what I quoted). If you'd rather make this less poetic and more straightforward, it would be something like ""Don't lose hope, luck will come soon"".",
+,,,,"//==================================
+// storage area
+//==================================",,,
+string,str-0x12D2_0,,,"へい！　らっしゃい！\n
+ここは　預かり所だよ！\n
+ご用向きは　なんだい！？","Hey, welcome to the warehouse!\n
+How can I help ya?",,
+string,str-0x1319_0,,,"ウチは　全国ネットだ！！\n
+他の預かり所からも　出し入れできるよ\n
+便利だろ！　また　来てくれよ","Our service is nationwide! You can pick up anything from any other warehouse! Convenient, right? See ya!",,
+string,str-0x1375_0,,,"１０００両ずつ　６５０００両まで\n
+預かるよ　　預けるかい？","You can store 両1,000 at a time, up to a total of 両65,000. How about it?",,
+string,str-0x13B4_0,,,"１０００両　たしかに　預かった！\n
+もう　１０００両　預かろうか？","That's 両1,000!\n
+Will you leave more?",,
+string,str-0x13F9_0,,,"お客さん！！\n
+ちょっと　１０００両には\n
+足りない　みたいだね！","Looks like you don't have 両1,000 on you, friend!",,
+string,str-0x1437_0,,,"ありゃ！　いつのまにか　いっぱいだ！\n
+お客さん　ずいぶん　ためこんだね\n
+もう　預かれないよ！　ゴメンな！","How about that? You filled the coffers!\n
+You can't store any more! Sorry!",,
+string,str-0x149F_0,,,"１０００両ずつ　引き出せるよ\n
+引き出すのかい？","You can withdraw 両1,000 at a time.\n
+How about it?",,
+string,str-0x14D2_0,,,"１０００両　たしかに　返したよ\n
+もう１０００両　引き出していくかい？","Here's your 両1,000.\n
+Will you withdraw more?",,
+string,str-0x151B_0,,,"おっと　こっちの　手ちがいだ！\n
+お客さんからは　預かって　ないや\n
+期待させて　ゴメンな！！","Whoops! There's nothing to withdraw!\n
+Sorry to get your hopes up!",,
+string,str-0x1575_0,,,"お客さん！　何を　預かろうか？\n
+３２個まで　預かるよ　？","Want to leave something with us?\n
+You can store up to 32 items!",,
+string,str-0x15AF_0,,,"たしかに　預かったぜ！！\n
+他にも　なにか　預かろうか？","Gotcha!\n
+Will you store anything else?",,
+string,str-0x15E6_0,,,"[string]なんて　預かった日には\n
+大門教に　狙われちゃうよ\n
+そいつだけは　カンベンしてくれ！！","Can't help you there! If you left the [string] here, the Daimonists would come after me!",,
+string,str-0x15E6_2,,,"他の物なら　預かるよ\n
+なにか　預かろうか？",Is there anything else you'd like to store?,,
+string,str-0x1669_0,,,"ありゃ！、いつのまにか　いっぱいだ！\n
+お客さん　ずいぶん　ためこんだね\n
+もう　預かれないよ　ゴメンな","How about that? You've filled the storage!\n
+We can't keep anything else. Sorry!",,
+string,str-0x16CD_0,,,"よし！　何を　返そうか？\n
+えらんでくれ！",Sure thing! Tell me what you want to withdraw!,,
+string,str-0x16F7_0,,,"たしかに　返したぜ\n
+他にも　なにか　返そうか？","Here you go.\n
+Will you withdraw anything else?",,
+string,str-0x172A_0,,,"よし　何を　返そうか？\n
+えらんでくれ！！",Sure thing! Tell me what you want to withdraw!,,
+string,str-0x172A_2,,,"ありゃ　何もない\n
+さびしいから　何か　預けてくれよ\n
+お客さん！！","Whoops! There's nothing to withdraw!\n
+Why don't you leave something instead?",,
+string,str-0x1793_0,,,"さあ！　巻物を　預かろうか！\n
+預けるかい？",Which scroll would you like us to keep?,,
+string,str-0x17BF_0,,,"たしかに　預かったぜ！\n
+他にも　巻物を　預かろうか？","We'll keep it safe!\n
+Any other scrolls you want us to keep?",,
+string,str-0x17F4_0,,,"お客さん！　オロチ丸さんは\n
+自分の巻物を　預けたくないと\n
+おしゃってますよ！",Orochimaru-san doesn't want us to keep his scroll!,,
+string,str-0x17F4_2,,,"イヤがっているものは　しょうがないよ\n
+他の誰かのを　預かろうか？","No means no, you know?\n
+Any other scrolls we can keep?",,
+string,str-0x1884_0,,,"どの巻物を　返そうか？\n
+えらんでくれよ！",Which scroll would you like to withdraw?,,
+string,str-0x18AE_0,,,"よーく　思い出して　くれよ！！\n
+ジライアさん！！\n
+何も　預かってないよ！","C'mon, Ziria-san!\n
+There's nothing to withdraw!",,

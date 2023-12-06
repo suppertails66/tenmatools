@@ -1,0 +1,158 @@
+"","","","","//==================================
+// generic text (item use, etc.)
+//==================================","","","",""
+"string","str-0x0_0","","","マップ用スタックのエラーです","",,"=IF(F2=I2, ""UNTRANSLATED"", """")",""
+"string","str-0x1D_0","","","敵ナンバーのエラーです","",,"=IF(F3=I3, ""UNTRANSLATED"", """")",""
+"string","str-0x34_0","[color]<$01>","","とくに　かわったことは　ない","",,"=IF(F4=I4, ""UNTRANSLATED"", """")",""
+"string","str-0x53_0","[color]<$01>","","術は　もう持てません\n
+なにか捨てますか","",,"=IF(F5=I5, ""UNTRANSLATED"", """")",""
+"string","str-0x7B_0","[color]<$01>","","道具は　もう持てません\n
+なにか捨てますか","",,"=IF(F6=I6, ""UNTRANSLATED"", """")",""
+"string","str-0xA5_0","[color]<$01>","","[string]は\n
+[string]を　つかった！","",,"=IF(F7=I7, ""UNTRANSLATED"", """")",""
+"string","str-0xBB_0","[color]<$01>","","コガマは　いません","",,"=IF(F8=I8, ""UNTRANSLATED"", """")",""
+"string","str-0xD0_0","[color]<$01>","","ここでは　つかえません","",,"=IF(F9=I9, ""UNTRANSLATED"", """")",""
+"string","str-0xE9_0","[color]<$01>","","[number]両を　手に入れた！","",,"=IF(F10=I10, ""UNTRANSLATED"", """")",""
+"string","str-0xFF_0","[color]<$01>","","なにもありません","",,"=IF(F11=I11, ""UNTRANSLATED"", """")",""
+"string","str-0x112_1","","","[string]を手に入れます\n
+誰が持ちますか","",,"=IF(F12=I12, ""UNTRANSLATED"", """")",""
+"string","str-0x134_0","[color]<$01>","","[string]を手に入れます","",,"=IF(F13=I13, ""UNTRANSLATED"", """")",""
+"string","str-0x146_1","","","誰を　回復しますか","",,"=IF(F14=I14, ""UNTRANSLATED"", """")",""
+"string","str-0x15C_0","[color]<$01>","","いまは　つかえない","",,"=IF(F15=I15, ""UNTRANSLATED"", """")",""
+"string","str-0x171_0","[color]<$01>","","技の力が　たりない","",,"=IF(F16=I16, ""UNTRANSLATED"", """")",""
+"string","str-0x186_0","[color]<$01>","","しかし　何も　おこらなかった！","",,"=IF(F17=I17, ""UNTRANSLATED"", """")",""
+"string","str-0x1A7_0","[color]<$01>","","[string]の　体の力が\n
+[number]ポイント　回復した！","",,"=IF(F18=I18, ""UNTRANSLATED"", """")",""
+"string","str-0x1CD_0","[color]<$01>","","[string]の　技の力が\n
+[number]ポイント　回復した！","",,"=IF(F19=I19, ""UNTRANSLATED"", """")",""
+"string","str-0x1F3_0","[color]<$01>","","[string]の　体の力が\n
+尽きてしまった！","",,"=IF(F20=I20, ""UNTRANSLATED"", """")",""
+"string","str-0x214_0","[color]<$01>","","[string]を捨ててよろしいですか","",,"=IF(F21=I21, ""UNTRANSLATED"", """")",""
+"string","str-0x232_0","[color]<$01>","","[string]が[string]を\n
+持ちます","",,"=IF(F22=I22, ""UNTRANSLATED"", """")",""
+"string","str-0x244_1","","","[string]の[string]を\n
+誰に　わたしますか","",,"=IF(F23=I23, ""UNTRANSLATED"", """")",""
+"string","str-0x261_0","[color]<$01>","","[string]は持てません","",,"=IF(F24=I24, ""UNTRANSLATED"", """")",""
+"string","str-0x271_0","[color]<$01>","","[string]は術をてばなしません","",,"=IF(F25=I25, ""UNTRANSLATED"", """")",""
+"string","str-0x289_0","[color]<$01>","","[string]は　てばなせない","",,"=IF(F26=I26, ""UNTRANSLATED"", """")",""
+"string","str-0x29D_0","[color]<$01>","","[string]の　体から\n
+毒が　消えさった！","",,"=IF(F27=I27, ""UNTRANSLATED"", """")",""
+"string","str-0x2BE_0","[color]<$01>","","清水の術をつかった","",,"=IF(F28=I28, ""UNTRANSLATED"", """")",""
+"string","str-0x2D3_0","[color]<$01>","","[number]ポイントの　徳を　つんだ！","",,"=IF(F29=I29, ""UNTRANSLATED"", """")",""
+"string","str-0x2F1_0","[color]<$01>","","[string]の段があがった！！\n
+[number]段に　なった！！","",,"=IF(F30=I30, ""UNTRANSLATED"", """")",""
+"string","str-0x319_0","[color]<$01>","","攻撃力が　[number]ポイント　ふえた！！","",,"=IF(F31=I31, ""UNTRANSLATED"", """")",""
+"string","str-0x33B_0","[color]<$01>","","守備力が　[number]ポイント　ふえた！！","",,"=IF(F32=I32, ""UNTRANSLATED"", """")",""
+"string","str-0x35D_0","[color]<$01>","","すばやさが　[number]ポイント　ふえた！！","",,"=IF(F33=I33, ""UNTRANSLATED"", """")",""
+"string","str-0x381_0","[color]<$01>","","体の力　技の力が　全回復した！\n
+大門教打倒に\n
+また　一歩　近づいた","",,"=IF(F34=I34, ""UNTRANSLATED"", """")",""
+"string","str-0x3C4_0","[color]<$01>","","飲みなれない　ワインのために\n
+すっかり　よっぱらってしまった！","",,"=IF(F35=I35, ""UNTRANSLATED"", """")",""
+"string","str-0x404_0","[color]<$01>","","３人は　プディングを　食べた！\n
+全員の　体の力が\n
+１００ポイント　回復した！！","",,"=IF(F36=I36, ""UNTRANSLATED"", """")",""
+"string","str-0x404_3","","","という気が　しただけで\n
+プディングは　くさっていた！","",,"=IF(F37=I37, ""UNTRANSLATED"", """")",""
+"string","str-0x404_5","","","ジライアは　おなかをこわした！\n
+オロチ丸は　おなかをこわした！","",,"=IF(F38=I38, ""UNTRANSLATED"", """")",""
+"string","str-0x404_7","","","しかし　ツナデは\n
+まったく　平気だった！","",,"=IF(F39=I39, ""UNTRANSLATED"", """")",""
+"string","str-0x404_9","","","おなかが　すいていたので\n
+ジライアと　オロチ丸の　分も\n
+食べてしまった！","",,"=IF(F40=I40, ""UNTRANSLATED"", """")",""
+"string","str-0x538_0","[color]<$01>","","清水の　術の効果が　きれた！","",,"=IF(F41=I41, ""UNTRANSLATED"", """")",""
+"string","str-0x557_0","","","手にもつ","",,"=IF(F42=I42, ""UNTRANSLATED"", """")",""
+"string","str-0x560_0","","","体にきる","",,"=IF(F43=I43, ""UNTRANSLATED"", """")",""
+"string","str-0x569_0","","","頭にかぶる","",,"=IF(F44=I44, ""UNTRANSLATED"", """")",""
+"string","str-0x574_0","","","足にはく","",,"=IF(F45=I45, ""UNTRANSLATED"", """")",""
+"string","str-0x57D_0","","","本当に　ありがとう","",,"=IF(F46=I46, ""UNTRANSLATED"", """")",""
+"string","str-0x590_0","","","ありがとうございます","",,"=IF(F47=I47, ""UNTRANSLATED"", """")",""
+"string","str-0x5A5_0","","","ジライア","",,"=IF(F48=I48, ""UNTRANSLATED"", """")",""
+"string","str-0x5AE_0","","","オロチ丸","",,"=IF(F49=I49, ""UNTRANSLATED"", """")",""
+"string","str-0x5B7_0","","","オロチ丸","=T(F49)","=""DUPE: ""&ADDRESS(ROW(F49), COLUMN(F49), 4)",,
+"string","str-0x5C0_0","","","ツナデ","",,"=IF(F51=I51, ""UNTRANSLATED"", """")",""
+"string","str-0x5C7_0","","","黒い影","",,"=IF(F52=I52, ""UNTRANSLATED"", """")",""
+"","","","","//==================================
+// more use messages, plus placeholders?
+//==================================","","","",""
+"string","str-0xBFF_0","","","[string]は\n
+[string]を　投げた！","",,"=IF(F54=I54, ""UNTRANSLATED"", """")",""
+"string","str-0xC12_0","","","[string]に\n
+みごと　突きささった！","",,"=IF(F55=I55, ""UNTRANSLATED"", """")",""
+"string","str-0xC2E_0","","","かやく玉は　爆発した！","",,"=IF(F56=I56, ""UNTRANSLATED"", """")",""
+"string","str-0xC46_0","","","[string]は\n
+粉を　吸い込み\n
+たちまち　ねむりこんだ！","",,"=IF(F57=I57, ""UNTRANSLATED"", """")",""
+"string","str-0xC73_0","","","[string]は\n
+妖刀村正を　ふりかざした！\n
+刀から　まばゆい光が　あふれ出した！","",,"=IF(F58=I58, ""UNTRANSLATED"", """")",""
+"string","str-0xCB8_0","","","[string]を\n
+光が　つつみこんだ！","",,"=IF(F59=I59, ""UNTRANSLATED"", """")",""
+"string","str-0xCD2_0","","","[string]は\n
+鬼神のオノを　ふりかざした！\n
+暗雲から　雷鳴が　とどろいた！","",,"=IF(F60=I60, ""UNTRANSLATED"", """")",""
+"string","str-0xD13_0","","","[string]に\n
+雷が　落ちた！","",,"=IF(F61=I61, ""UNTRANSLATED"", """")",""
+"string","str-0xD27_0","","","[string]を\n
+炎が　つつみこんだ！","",,"=IF(F62=I62, ""UNTRANSLATED"", """")",""
+"string","str-0xD41_0","","","[string]は\n
+大カナヅチを　振り上げた！","",,"=IF(F63=I63, ""UNTRANSLATED"", """")",""
+"string","str-0xD61_0","","","[string]を\n
+ぶんなぐった！","",,"=IF(F64=I64, ""UNTRANSLATED"", """")",""
+"string","str-0xD75_0","","","ガマ玉から\n
+巨大な炎が\n
+いきおいよく　ふき出した！","",,"=IF(F65=I65, ""UNTRANSLATED"", """")",""
+"string","str-0xDA7_0","","","ナメクジ玉から\n
+二筋の光がはなたれ\n
+敵の前で　合わさった！","",,"=IF(F66=I66, ""UNTRANSLATED"", """")",""
+"string","str-0xDE1_0","","","ヘビ玉から　おびただしい\n
+霊気が　ほとばしった！","",,"=IF(F67=I67, ""UNTRANSLATED"", """")",""
+"string","str-0xE12_0","","","[string]は\n
+冷気で　凍りつき\n
+動かなくなった！","",,"=IF(F68=I68, ""UNTRANSLATED"", """")",""
+"string","str-0xE39_0","","","石は　目のくらむような　光を　放ち\n
+幻王丸の魔法を　封じこめた！","",,"=IF(F69=I69, ""UNTRANSLATED"", """")",""
+"string","str-0xE7A_0","","","[string]は\n
+てっぽうを　撃った！","",,"=IF(F70=I70, ""UNTRANSLATED"", """")",""
+"string","str-0xE94","","","","",,,""
+"string","str-0xE96_0","","","[string]の\n
+守備力が　もとにもどった！","",,"=IF(F72=I72, ""UNTRANSLATED"", """")",""
+"string","str-0xEB6_0","","","マントーは　あとさきを　考えず\n
+強力な魔法を　使ってしまったため\n
+いきなり　魔力を　使い果たした！","",,"=IF(F73=I73, ""UNTRANSLATED"", """")",""
+"","","","","//==================================
+// enemy spell/technique names
+//==================================","","","",""
+"string","str-0xF6B_0","","","？","",,"=IF(F75=I75, ""UNTRANSLATED"", """")",""
+"string","str-0xF6E_0","","","マーゴ","",,"=IF(F76=I76, ""UNTRANSLATED"", """")",""
+"string","str-0xF75_0","","","マグミー","",,"=IF(F77=I77, ""UNTRANSLATED"", """")",""
+"string","str-0xF7E_0","","","マグナルド","",,"=IF(F78=I78, ""UNTRANSLATED"", """")",""
+"string","str-0xF89_0","","","エレカ","",,"=IF(F79=I79, ""UNTRANSLATED"", """")",""
+"string","str-0xF90_0","","","エレドン","",,"=IF(F80=I80, ""UNTRANSLATED"", """")",""
+"string","str-0xF99_0","","","サンドラ","",,"=IF(F81=I81, ""UNTRANSLATED"", """")",""
+"string","str-0xFA2_0","","","スライプ","",,"=IF(F82=I82, ""UNTRANSLATED"", """")",""
+"string","str-0xFAB_0","","","スリーパ","",,"=IF(F83=I83, ""UNTRANSLATED"", """")",""
+"string","str-0xFB4_0","","","アンシルド","",,"=IF(F84=I84, ""UNTRANSLATED"", """")",""
+"string","str-0xFBF_0","","","アンシール","",,"=IF(F85=I85, ""UNTRANSLATED"", """")",""
+"string","str-0xFCA_0","","","アントルネ","",,"=IF(F86=I86, ""UNTRANSLATED"", """")",""
+"string","str-0xFD5_0","","","ドルマ","",,"=IF(F87=I87, ""UNTRANSLATED"", """")",""
+"string","str-0xFDC_0","","","フーマ","",,"=IF(F88=I88, ""UNTRANSLATED"", """")",""
+"string","str-0xFE3_0","","","フーミン","",,"=IF(F89=I89, ""UNTRANSLATED"", """")",""
+"string","str-0xFEC_0","","","イルミナ","",,"=IF(F90=I90, ""UNTRANSLATED"", """")",""
+"string","str-0xFF5_0","","","ダークス","",,"=IF(F91=I91, ""UNTRANSLATED"", """")",""
+"string","str-0xFFE_0","","","ヒーラー","",,"=IF(F92=I92, ""UNTRANSLATED"", """")",""
+"string","str-0x1007_0","","","ヒール","",,"=IF(F93=I93, ""UNTRANSLATED"", """")",""
+"string","str-0x100E_0","","","キューリー","",,"=IF(F94=I94, ""UNTRANSLATED"", """")",""
+"string","str-0x1019_0","","","アンボルド","",,"=IF(F95=I95, ""UNTRANSLATED"", """")",""
+"string","str-0x1024_0","","","フローズン","",,"=IF(F96=I96, ""UNTRANSLATED"", """")",""
+"string","str-0x102F_0","","","サイクロン","",,"=IF(F97=I97, ""UNTRANSLATED"", """")",""
+"string","str-0x103A_0","","","ブルザード","",,"=IF(F98=I98, ""UNTRANSLATED"", """")",""
+"string","str-0x1045_0","","","トルネード","",,"=IF(F99=I99, ""UNTRANSLATED"", """")",""
+"string","str-0x1050_0","","","ボルテス","",,"=IF(F100=I100, ""UNTRANSLATED"", """")",""
+"string","str-0x1059_0","","","シールダー","",,"=IF(F101=I101, ""UNTRANSLATED"", """")",""
+"string","str-0x1064_0","","","バキュラ","",,"=IF(F102=I102, ""UNTRANSLATED"", """")",""
+"string","str-0x106D_0","","","仲間をよぶ","",,"=IF(F103=I103, ""UNTRANSLATED"", """")",""
+"string","str-0x1078_0","","","炎１","",,"=IF(F104=I104, ""UNTRANSLATED"", """")",""
+"string","str-0x107D_0","","","炎２","",,"=IF(F105=I105, ""UNTRANSLATED"", """")",""
+"string","str-0x1082_0","","","毒","",,"=IF(F106=I106, ""UNTRANSLATED"", """")",""

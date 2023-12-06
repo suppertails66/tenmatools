@@ -1,0 +1,206 @@
+,,,,"//==================================
+// generic text (item use, etc.)
+//==================================",,,
+string,str-0x0_0,,,マップ用スタックのエラーです,Error in map stack.,,
+string,str-0x1D_0,,,敵ナンバーのエラーです,Enemy number error.,,
+string,str-0x34_0,[color]<$01>,,とくに　かわったことは　ない,There's nothing out of the ordinary.,"NOTE: using ""check"" command on an empty square",
+string,str-0x53_0,[color]<$01>,,"術は　もう持てません\n
+なにか捨てますか","Unable to hold any more jutsu.\n
+Drop something?",,
+string,str-0x7B_0,[color]<$01>,,"道具は　もう持てません\n
+なにか捨てますか","Unable to hold any more items.\n
+Drop something?",,
+string,str-0xA5_0,[color]<$01>,,"[string]は\n
+[string]を　つかった！",[string] used the [string]!,,
+string,str-0xBB_0,[color]<$01>,,コガマは　いません,Kogama isn't here.,,
+string,str-0xD0_0,[color]<$01>,,ここでは　つかえません,You can't use that here.,,
+string,str-0xE9_0,[color]<$01>,,[number]両を　手に入れた！,Obtained 両[number]!,,
+string,str-0xFF_0,[color]<$01>,,なにもありません,Nothing available.,"NOTE: this is used in many different contexts (not holding items, not holding techniques, etc.) and needs to work for all of them",
+string,str-0x112_1,,,"[string]を手に入れます\n
+誰が持ちますか","Obtained [string].\n
+Who will hold it?",,
+string,str-0x134_0,[color]<$01>,,[string]を手に入れます,Obtained [string].,,
+string,str-0x146_1,,,誰を　回復しますか,Recover whom?,,
+string,str-0x15C_0,[color]<$01>,,いまは　つかえない,You can't use that now.,,
+string,str-0x171_0,[color]<$01>,,技の力が　たりない,Not enough TP.,,
+string,str-0x186_0,[color]<$01>,,しかし　何も　おこらなかった！,But nothing happened!,,
+string,str-0x1A7_0,[color]<$01>,,"[string]の　体の力が\n
+[number]ポイント　回復した！",[string] recovered [number] HP!,,
+string,str-0x1CD_0,[color]<$01>,,"[string]の　技の力が\n
+[number]ポイント　回復した！",[string] recovered [number] TP!,,
+string,str-0x1F3_0,[color]<$01>,,"[string]の　体の力が\n
+尽きてしまった！",[string] has lost all HP!,,
+string,str-0x214_0,[color]<$01>,,[string]を捨ててよろしいですか,Is it okay to throw away [string]?,,
+string,str-0x232_0,[color]<$01>,,"[string]が[string]を\n
+持ちます",[string] took [string].,,
+string,str-0x244_1,,,"[string]の[string]を\n
+誰に　わたしますか",Who will take [string]'s [string]?,,
+string,str-0x261_0,[color]<$01>,,[string]は持てません,[string] can't hold it.,NOTE: trying to give something to a character with a full inventory,
+string,str-0x271_0,[color]<$01>,,[string]は術をてばなしません,[string] won't give away his jutsu.,"NOTE: trying to transfer orochimaru's techniques to another character, which the game doesn't allow",
+string,str-0x289_0,[color]<$01>,,[string]は　てばなせない,You can't get rid of the [string].,NOTE: trying to drop a key item,
+string,str-0x29D_0,[color]<$01>,,"[string]の　体から\n
+毒が　消えさった！",The poison was purged from [string]'s body!,,
+string,str-0x2BE_0,[color]<$01>,,清水の術をつかった,Used the Kiyomizu jutsu.,,
+string,str-0x2D3_0,[color]<$01>,,[number]ポイントの　徳を　つんだ！,Acquired [number] Virtue!,,
+string,str-0x2F1_0,[color]<$01>,,"[string]の段があがった！！\n
+[number]段に　なった！！",[string] rose to level [number]!,,
+string,str-0x319_0,[color]<$01>,,攻撃力が　[number]ポイント　ふえた！！,Gained [number] Attack!,,
+string,str-0x33B_0,[color]<$01>,,守備力が　[number]ポイント　ふえた！！,Gained [number] Defense!,,
+string,str-0x35D_0,[color]<$01>,,すばやさが　[number]ポイント　ふえた！！,Gained [number] Speed!,,
+string,str-0x381_0,[color]<$01>,,"体の力　技の力が　全回復した！\n
+大門教打倒に\n
+また　一歩　近づいた","HP and TP fully restored!\n
+You're one step closer to bringing down the Cult of Daimon.",,
+string,str-0x3C4_0,[color]<$01>,,"飲みなれない　ワインのために\n
+すっかり　よっぱらってしまった！",The party got totally drunk from being unused to wine!,"NOTE: has to work for both male and female party members... or so I thought, but this is actually displayed outside of battle, and the effect (scrambling your controls) applies to the whole party rather than a specific character.",
+string,str-0x404_0,[color]<$01>,,"３人は　プディングを　食べた！\n
+全員の　体の力が\n
+１００ポイント　回復した！！","The party ate the pudding!\n
+Everybody recovered 100 HP!!",,
+string,str-0x404_3,,,"という気が　しただけで\n
+プディングは　くさっていた！","...Or so they thought, but the pudding was spoiled!",,
+string,str-0x404_5,,,"ジライアは　おなかをこわした！\n
+オロチ丸は　おなかをこわした！","Ziria got a stomachache!\n
+Orochimaru got a stomachache!",,
+string,str-0x404_7,,,"しかし　ツナデは\n
+まったく　平気だった！",But Tsunade was just fine!,,
+string,str-0x404_9,,,"おなかが　すいていたので\n
+ジライアと　オロチ丸の　分も\n
+食べてしまった！","She was hungry, so she ate Ziria and Orochimaru's share too!",,
+string,str-0x538_0,[color]<$01>,,清水の　術の効果が　きれた！,The effect of the Kiyomizu jutsu wore off!,,
+string,str-0x557_0,,,手にもつ,In hands,NOTE: messages shown when prompting player to equip an item,
+string,str-0x560_0,,,体にきる,On body,,
+string,str-0x569_0,,,頭にかぶる,On head,,
+string,str-0x574_0,,,足にはく,On feet,,
+string,str-0x57D_0,,,本当に　ありがとう,Thank you so much.,"NOTE: as a lazy way to cut down on the amount of dialogue, almost every NPC with lines referencing the local crisis that the player has to solve will switch to one of these two generic ""thank you"" lines once the situation is resolved",
+string,str-0x590_0,,,ありがとうございます,Thank you.,,
+string,str-0x5A5_0,,,ジライア,Ziria,NOTE: party member names shown in menu messages,
+string,str-0x5AE_0,,,オロチ丸,Orochimaru,"NOTE: the game does some very hack-y stuff to handle the sequence where Orochimaru is disguised as ""Black Shadow"", which is why his name is here twice",
+string,str-0x5B7_0,,,オロチ丸,Orochimaru,DUPE: F49,
+string,str-0x5C0_0,,,ツナデ,Tsunade,,
+string,str-0x5C7_0,,,黒い影,Black Shadow,,
+,,,,"//==================================
+// more use messages, plus placeholders?
+//==================================",,,
+string,str-0x64F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,NOTE: obvious placeholder messages that aren't actually used for anything. i assume the programmer wanted to reserve a certain amount of space in case more text needed to be added later.,
+string,str-0x6BF_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x72F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x79F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x80F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x87F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x8EF_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x95F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0x9CF_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0xA3F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0xAAF_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0xB1F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0xB8F_0,,,"０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７\n
+０１２３４５６７８９０１２３４５６７",x,DUPE: F54,
+string,str-0xBFF_0,,,"[string]は\n
+[string]を　投げた！",[string] threw the [string]!,,
+string,str-0xC12_0,,,"[string]に\n
+みごと　突きささった！",It stabbed [string] dead-on!,,
+string,str-0xC2E_0,,,かやく玉は　爆発した！,The Gunpowder Orb exploded!,,
+string,str-0xC46_0,,,"[string]は\n
+粉を　吸い込み\n
+たちまち　ねむりこんだ！",[string] inhaled the powder and instantly fell asleep!,,
+string,str-0xC73_0,,,"[string]は\n
+妖刀村正を　ふりかざした！\n
+刀から　まばゆい光が　あふれ出した！",[string] held the Demon Sword Muramasa aloft! Dazzling light welled from the blade!,,
+string,str-0xCB8_0,,,"[string]を\n
+光が　つつみこんだ！",[string] was enveloped in light!,,
+string,str-0xCD2_0,,,"[string]は\n
+鬼神のオノを　ふりかざした！\n
+暗雲から　雷鳴が　とどろいた！",[string] held the Kishin Axe aloft! Thunder resounded from the dark clouds!,,
+string,str-0xD13_0,,,"[string]に\n
+雷が　落ちた！",[string] was struck by lightning!,,
+string,str-0xD27_0,,,"[string]を\n
+炎が　つつみこんだ！",[string] was enveloped by flames!,,
+string,str-0xD41_0,,,"[string]は\n
+大カナヅチを　振り上げた！",[string] held the Great Hammer aloft!,,
+string,str-0xD61_0,,,"[string]を\n
+ぶんなぐった！",Struck a major blow to [string]!,,
+string,str-0xD75_0,,,"ガマ玉から\n
+巨大な炎が\n
+いきおいよく　ふき出した！",Enormous flames spouted furiously from the Toad Orb!,,
+string,str-0xDA7_0,,,"ナメクジ玉から\n
+二筋の光がはなたれ\n
+敵の前で　合わさった！",Twin streams of light flew from the Slug Orb and joined together before the enemy!,,
+string,str-0xDE1_0,,,"ヘビ玉から　おびただしい\n
+霊気が　ほとばしった！",Innummerable strange presences gushed from the Snake Orb!,,
+string,str-0xE12_0,,,"[string]は\n
+冷気で　凍りつき\n
+動かなくなった！",[string] was frozen by a blast of cold and rendered immobile!,,
+string,str-0xE39_0,,,"石は　目のくらむような　光を　放ち\n
+幻王丸の魔法を　封じこめた！",The stone released a blinding light and sealed Genoumaru's magic!,,
+string,str-0xE7A_0,,,"[string]は\n
+てっぽうを　撃った！",[string] fired the Gun!,,
+string,str-0xE94,,,,,,
+string,str-0xE96_0,,,"[string]の\n
+守備力が　もとにもどった！",[string]'s Defense returned to normal!,,
+string,str-0xEB6_0,,,"マントーは　あとさきを　考えず\n
+強力な魔法を　使ってしまったため\n
+いきなり　魔力を　使い果たした！","Thanks to casting all those powerful spells without any planning, Manto is out of magic power!",,
+,,,,"//==================================
+// enemy spell/technique names
+//==================================",,,
+string,str-0xF6B_0,,,？,?,"NOTE: the enemy spells correspond exactly to player jutsu, so i've listed each spell's jutsu equivalent below. as you can see, the spell names generally mirror the theme of the jutsu in a ""westernized"" style...but not always.",
+string,str-0xF6E_0,,,マーゴ,Mago,Konabi,
+string,str-0xF75_0,,,マグミー,Magmy,Katen,
+string,str-0xF7E_0,,,マグナルド,Magnold,Jinen,
+string,str-0xF89_0,,,エレカ,Eleca,Raikou,
+string,str-0xF90_0,,,エレドン,Eledon,Jinrai,
+string,str-0xF99_0,,,サンドラ,Thundra,Tenrai,
+string,str-0xFA2_0,,,スライプ,Slype,Tsukine,
+string,str-0xFAB_0,,,スリーパ,Sleepa,Hoshine,
+string,str-0xFB4_0,,,アンシルド,Unshell,Rakka,
+string,str-0xFBF_0,,,アンシール,Unshield,Rakuyou,
+string,str-0xFCA_0,,,アントルネ,Untorna,"Doromushi
+NOTE: can't figure out what トルネ is supposed to be here. i originally thought ""tornado"", but that doesn't make much sense for a speed debuff...",
+string,str-0xFD5_0,,,ドルマ,Draima,"Kumogiri
+NOTE: again, unsure of meaning (effect is to steal tp). ""drain""?",
+string,str-0xFDC_0,,,フーマ,Sealma,"Kinin
+NOTE: unlike most others, these two are clearly using Japanese as the basis for the name (封 = seal)",
+string,str-0xFE3_0,,,フーミン,Sealmin,Kinju,
+string,str-0xFEC_0,,,イルミナ,Illumina,Unkai,
+string,str-0xFF5_0,,,ダークス,Darks,Awagumo,
+string,str-0xFFE_0,,,ヒーラー,Healer,Wakakusa,
+string,str-0x1007_0,,,ヒール,Heal,Ibuki,
+string,str-0x100E_0,,,キューリー,Curie,Ariake,
+string,str-0x1019_0,,,アンボルド,Unbold,Shunkou,
+string,str-0x1024_0,,,フローズン,Frozun,Hyouryuu,
+string,str-0x102F_0,,,サイクロン,Cyclon,Uryuu,
+string,str-0x103A_0,,,ブルザード,Bluzzard,Touryuu,
+string,str-0x1045_0,,,トルネード,Tornado,Kazahebi,
+string,str-0x1050_0,,,ボルテス,Volteth,Hihebi,
+string,str-0x1059_0,,,シールダー,Shielder,Ishihebi,
+string,str-0x1064_0,,,バキュラ,Bacura,Harukaze,
+string,str-0x106D_0,,,仲間をよぶ,Call Ally,,
+string,str-0x1078_0,,,炎１,Fire 1,,
+string,str-0x107D_0,,,炎２,Fire 2,,
+string,str-0x1082_0,,,毒,Poison,,

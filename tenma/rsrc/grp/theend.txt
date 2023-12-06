@@ -1,0 +1,12 @@
+set basepattern=0x180
+set patternoffset=0
+
+set xorigin=128
+set yorigin=114
+
+# original kanji
+add x=0x60  y=0x50 w=32 h=64 pri=1 pal=3
+add x=0x80  y=0x50 w=32 h=64 pri=1 pal=3
+
+outputSprites "out/grp/theend_kanji.bin"
+#outputPreviewGrp "test_preview.png"

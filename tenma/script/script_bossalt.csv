@@ -1,0 +1,293 @@
+,,,,"//==================================
+// ??? altboss 0xABD dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xABD_intro_0,,,[f7]<$75>よせ！俺、おまえと戦いたくないよ！,[f7]<$75>Stop! I don't want to fight you!,,
+,,,,"//==================================
+// ??? altboss 0xAC0 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAC0_intro_0,,,勝負しようぜ！,Let's do this!,,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAC0_lose_0,,,"どうってことねえな\n
+いつでも相手になってやるぜ\n
+待ってるぜ","That was easy.\n
+I'll fight you anytime you want.",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAC0_win_0,,,"うへぇまいったまいった\n
+俺の師匠は塚原ト伝様だ\n
+おまえもならうといいぜ","Whew! I give up!\n
+My master is Tsukahara Bokuden.\n
+You should ask him to teach you, too.",,
+string,boss_0xAC0_win_2,,,"さきに行って話しといてやる\n
+気むずかし屋だがいい先生だ\n
+じゃあな・・・","I'll tell him about you.\n
+He's hard to please, but he's a great teacher. Well, see ya.",,
+,,,,"//==================================
+// ??? altboss 0xAC1 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAC1_intro_0,,,"ほほうガマ仙人の育てていたガキかい！\n
+どんだけ強くなったか見てやろうぞい！","Ah, you must be that kid raised by the Toad Hermit. Show me how strong you are!",,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAC1_lose_0,,,"まだ修行が足らんぞい！\n
+出なおせ！\n
+出なおせ！","You need more training!\n
+Try again!",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAC1_win_0,,,"まいった、まいった\n
+これだけ強ければ\n
+毛の国でも修行ができるじゃろう","I concede! With your current strength, you should be able to train in Keno as well.",,
+string,boss_0xAC1_win_2,,,"行ってこい　小僧！！\n
+ほれ　タヌキのワラジを履かせてやろう\n
+これがあれば山あるきができるぞい！","Go forth, young one! Here, take these Tanuki Sandals. You should be able to cross the mountain with them!",,
+string,boss_0xAC1_win_4,,,"けんど山んなかにゃ\n
+怪物がウヨウヨでるで\n
+気いつけにゃいかんぞい",There are monsters up there. Be careful.,,
+,,,,"//==================================
+// ??? altboss 0xAC2 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAC2_intro_0,,,"カッパと戦ったと\n
+ほほうムム・・もしや\n
+お主ガマ仙人の弟子か","You fought the kappa?\n
+I see... You must be the disciple of the Toad Hermit.",,
+string,boss_0xAC2_intro_2,,,よし一手指南してやろう,Very well. I'll spar with you.,,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAC2_lose_0,,,"まだまだ修行が\n
+足りないようだのお\n
+出直してきなさい",You clearly need more training. Try again.,,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAC2_win_0,,,"なかなかいい手スジじゃ！\n
+鹿島新当流一の太刀を\n
+さずけるぞ！",Not bad! You have earned the sword of the Kashima Shinto-ryu!,,
+,,,,"//==================================
+// ??? altboss 0xAC5 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAC5_intro_0,,,"佐竹のヤツラは許せん\n
+おまえも佐竹の者か！\n
+死ね！！","I'll never forgive the Satake!\n
+Hey, you! Are you with the Satake?!\n
+Then die!",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAC5_win_0,,,"ウッ！ワシは火の一族のマツエイじゃ\n
+城に奪われた火の紋章を取り返えせず\n
+辻斬りをしてウラミをはらしておった","Urgh... I'm Matsuei of the Fire Clan.\n
+I was venting my anger for losing the Fire Emblem by attacking passersby.",,
+string,boss_0xAC5_win_2,,,"おヌシ、ガマ族の者らしいな\n
+ガマもまた、火の一族の血を引く者\n
+同じ火の一族のマツエイじゃ","Are you from the Toad clan?\n
+Then the blood of the Fire Clan flows in your veins.",,
+string,boss_0xAC5_win_4,,,"この紋章さえあれば\n
+幻の火の術が使えるという\n
+奪え！　火の紋章を奪ってくれい",They say the emblem will let you use fire jutsu. You must take it!,,
+,,,,"//==================================
+// ??? altboss 0xAC6 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAC6_intro_0,,,見たな！　きさま！！,Serves you right!,,
+,,,,"//==================================
+// ??? altboss 0xAC9 dialogue?
+//==================================",,,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAC9_lose_0,,,"ざまあ見ろ！\n
+二度と来るなよ\n
+ワハハハハ・・・","Serves you right!\n
+And don't come back! Bwahahaha!",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAC9_win_0,,,"ま・・・まいりました！\n
+どうかカンベンしてください\n
+これはほんの気持ちでござる","I give up! Please forgive me! Here, take this!",,
+,,,,"//==================================
+// ??? altboss 0xACF dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xACF_intro_0,,,"[f7]<$D3>われこそは　たまも姫\n
+口おしや！　よくもわれのたくらみを\n
+ジャマをしてたもうたな！！",[f7]<$D3>I am Tamamohime! How dare you interfere with my scheme?!,,
+string,boss_0xACF_intro_2,,,"小僧！　かくごしよ！\n
+ギャオーン！","Prepare to die, you brat! ROAAAR!",,
+,,,,"//==================================
+// ??? altboss 0xAD0 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAD0_intro_0,,,"[f7]<$D4>コーン　コンコン！\n
+われはこの世にかくれ住む\n
+九尾の狐なり！","[f7]<$D4>Yip yiiip!\n
+I am the nine-tailed fox, secretly living in this world!",,
+string,boss_0xAD0_intro_2,,,"この姿　見たなー\n
+生かしておかぬぞ！","Now that you've seen my true form, I cannot let you live!",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAD0_win_0,,,"[f7]<$D5>うううーん　くちおしや\n
+われは殺硝石となりて\n
+汝のゆくてにあだなさん！",[f7]<$D5>Urgh... Curse you... I shall become a Sesshouseki stone and block your way!,,
+,,,,"//==================================
+// ??? altboss 0xAD5 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAD5_intro_0,,,見たな〜,So you've seen it!,,
+string,boss_0xAD5_intro_2,,,"今こそ我ら鬼族が\n
+恨みをはらす戦の時\n
+武器をそろえん！！",Now is the time for the Oni clan to gather our weapons and get our revenge!,,
+string,boss_0xAD5_intro_4,,,"その為には何をおいても軍資金\n
+安達ヶ原の一つ家は\n
+事をなすためのワナと知れ",But war requires funds. The house in Adachigahara is a trap to acquire them!,,
+,,,,"//==================================
+// ??? altboss 0xAD9 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAD9_intro_0,,,"誰だ！ここは大門教の教会となったんだ\n
+みだりに入る者には\n
+バールダイモン様の天罰が下るぞ！","Who are you?! This is the church of the Cult of Daimon! Our God, Ba'al Daimon, will punish you for your impudence!",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAD9_win_0,,,ひえっ！覚えていろ！,Eeep! You'll pay for this!,,
+,,,,"//==================================
+// ??? altboss 0xAE0 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAE0_intro_0,,,"あなたは剣術を使いますね\n
+夢想流居合いの術の創始者　林崎甚介！\n
+一手お相手いたしましょう！","You appear to be a swordsman.\n
+I am Hayashizaki Jinsuke, founder of the Musou Ryu Iaido! I wish to spar with you!",,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAE0_lose_0,,,"まだまだ修行がたりないようですね\n
+また　来てください\n
+いつでも　お相手いたしましょう","It appears you need more training.\n
+Come back whenever you want.\n
+I'll gladly give you a rematch.",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAE0_win_0,,,"みごとです　わたしのあみ出した\n
+月崩しの技を教えましょう\n
+しかしこの技を持っても弾正のネズミの","Well done! I will teach you my technique, the Moon Breaker. However, I'm afraid my technique won't be enough to deal with",,
+string,boss_0xAE0_win_2,,,"妖術は破れないのです・・・\n
+ネズミの妖術を破る方法を\n
+何とか見つけなくては・・・",Danjou's rat magic. You'll have to find another way to break through his spells...,,
+,,,,"//==================================
+// ??? altboss 0xAE2 dialogue?
+//==================================",,,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAE2_lose_0,,,"[f7]<$64>ガマがネズミに勝てるものか！\n
+はははは・・・",[f7]<$64>A toad will never beat a rat! Bwahahaha!,,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAE2_win_0,,,[f7]<$63>よ　よ　よくもーっ・・・,[f7]<$63>H-How dare you...!,,
+,,,,"//==================================
+// ??? altboss 0xAE4 dialogue?
+//==================================",,,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAE4_lose_0,,,"[f7]<$3B>まだまだ力がたりぬなガマの者よ\n
+ワシは何度でも受けてたつ\n
+また来るがいい","[f7]<$3B>You're not strong enough, descendant of the Toad. Come back whenever you're ready.",,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAE4_win_0,,,"[f7]<$3A>見事だ！\n
+ガマ族の若者よ！\n
+いやさ！自来也！","[f7]<$3A>A perfect display, descendant of the Toad -- No, Ziria!",,
+string,boss_0xAE4_win_2,,,"人間どもが鬼と言うのは　おのが\n
+邪悪な部分をうとましく思うがゆえ\n
+我らを鬼と呼んで滅ぼそうとするのだ","Humans call us Oni because they hate their own wicked hearts, and they wish to make us their scapegoats.",,
+string,boss_0xAE4_win_4,,,"ガマの者にも我らが血が流れておる\n
+人間の卑劣さになじむなよ\n
+これを持って行くがよい","Our blood flows in the veins of the Toad clan. Steer clear from human cowardice. Here, take this.",,
+string,boss_0xAE4_win_6,,,"その鬼のはちがねが\n
+おまえの身を守ってくれるだろう\n
+さらばじゃ！　自来也！","May this Oni Headband protect you.\n
+Farewell, Ziria!",,
+,,,,"//==================================
+// ??? altboss 0xAEE dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAEE_intro_0,,,"眠りをさますのは誰ぞ\n
+我は汝らがために\n
+宝を守るものぞ！",Who has awakened me from my slumber? I am here to guard this treasure!,,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAEE_win_0,,,"氷の巻物は戦闘でも使うことができるが\n
+この陸奥を無事に抜けた後も\n
+必要だろう",The ice scroll can also be used in battle. You may find it useful even after you leave Mutsu.,,
+,,,,"//==================================
+// ??? altboss 0xAF7 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAF7_intro_0,,,"おめェツガルアメ\n
+持ってるだべエ！\n
+くれェー！",You got some Tsugaru candy?! Gimme!,,
+,,,,"//==================================
+// ??? altboss 0xAF9 dialogue?
+//==================================",,,
+,,,,"//=====
+// intro
+//=====",,,
+string,boss_0xAF9_intro_0,,,いくぜ！,Here we go!,,
+,,,,"//=====
+// player lose
+//=====",,,
+string,boss_0xAF9_lose_0,,,"どうってことないな\n
+それじゃあ大門教に\n
+勝てないぜ",That's it? You'll never beat the Cult of Daimon like this!,,
+,,,,"//=====
+// player win
+//=====",,,
+string,boss_0xAF9_win_0,,,"なかなかやるな・・・\n
+大門教は手ごわいそうだぞ！\n
+煙の巻だこいつをやろう！","Not bad! The Cult of Daimon is strong. Here, I'll give you the smokescreen scroll!",,

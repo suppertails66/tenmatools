@@ -1,0 +1,13 @@
+set basepattern=0x198
+set patternoffset=0
+
+set xorigin=128
+set yorigin=114
+
+add x=0x40  y=0xA0 w=32 h=16 pri=1 pal=3
+add x=0x60  y=0xA0 w=32 h=16 pri=1 pal=3
+add x=0x80  y=0xA0 w=32 h=16 pri=1 pal=3
+add x=0xA0  y=0xA0 w=32 h=16 pri=1 pal=3
+
+outputSprites "out/grp/theend_fade_1.bin"
+#outputPreviewGrp "test_preview.png"

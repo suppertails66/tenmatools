@@ -1,0 +1,318 @@
+string,subtitle_0,,,,,
+string,subtitle_1,,,ジライア：俺は犬になんかならねぇ,I'm nobody's dog!,"NOTE: The first few voice clips here actually come from ""deleted scenes"" that don't appear anywhere in the main game. They were used in an earlier incarnation of the game, and a few of the scenes from that version were retained for the title demo reel."
+string,subtitle_2,,,,,
+string,subtitle_3,,,ジライア：うわーっ！体がっ・・・動かない！,I...I can't move!,
+string,subtitle_4,,,,,
+string,subtitle_5,,,ジライア：ば、ばかヤロー！離せよ！お前、カエルが嫌いなんだろ？,"L-Lemme go, you idiot!",
+string,subtitle_6,,,,I thought you hated toads!,
+string,subtitle_7,,,ジライア：じゃあなって…おい、オロチ丸！オロチ丸！！,{Farewell}? Huh--?,
+string,subtitle_8,,,,"Hey, Orochimaru?! OROCHIMARU!",
+string,subtitle_9,,,ジライア：幻王丸、生きていたのか！,Genoumaru! You're still alive!,
+string,subtitle_10,,,,,
+string,subtitle_11,,,ジライア：俺は誰の命令も受ける気は無いねぇ,I don't take orders from anyone!,
+string,subtitle_12,,,,,
+string,subtitle_13,,,"ジライア！！\n
+それで　わしは　おまえに　今まで\n
+苦しい修行を　あたえてきたのだ！！","Ziria! It is for this that I have put you\n
+through such harsh training up until now!",NOTE: All clips from this point on come from the finished game and correspond to lines in the regular script. This one is map-0x118B-0x373_1
+string,subtitle_14,,,,,
+string,subtitle_15,,,グウグウ　わしゃねむい,So sleepy...,NOTE: map-0x126B-0x263_1
+string,subtitle_16,,,,,
+string,subtitle_17,,,(clanging sounds),,NOTE: hoteimaru making thunder orb
+string,subtitle_18,,,,,
+string,subtitle_19,,,"ええい！こしぬけめ！！\n
+さっさと　かえれ！","Tch! Coward!\n
+Get out of my sight!",NOTE: map-0x1383-0x157_1
+string,subtitle_20,,,,,
+string,subtitle_21,,,"これで　この国も　あんしんじゃ\n
+アッパレ！　アッパレ！！","My lands are finally safe!\n
+Well done, well done!",NOTE: map-0x3264-0x33F_1
+string,subtitle_22,,,,,
+string,subtitle_23,,,"３人そろわねば\n
+ジパングを　すくえないのに","Alas, Jipang can only be saved if the three heroes join forces...",NOTE: map-0x2904-0x708_4
+string,subtitle_24,,,,,
+string,subtitle_25,,,(sound effect),,NOTE: lake suwa freezing
+string,subtitle_26,,,,,
+string,subtitle_27,,,"みんなで　力を　あわせるのじゃ！\n
+行け！　ジライア！！","You must all fight together!\n
+Go forth, young Ziria!",NOTE: map-0x1A27-0x4EA_1
+string,subtitle_28,,,,,
+string,subtitle_29,,,"あなた　勇者！　マサカド　たおす！\n
+わたし　ソレ　おてつだいします！\n
+また　会いましょう　バーイ！","You are brave! You defeat Masakado!\n
+I help!",NOTE: map-0x1C3B-0x64E_7
+string,subtitle_30,,,,"See you soon, byeee!",
+string,subtitle_31,,,"勇者ジライアよ！！\n
+おれの　子どもを　その力で\n
+助け出してくれないか","Brave Ziria!\n
+I beg of you to rescue my son!",NOTE: map-0x2568-0x73F_7
+string,subtitle_32,,,,,
+string,subtitle_33,,,"オニさんが　ついてきて\n
+くれるなら　こころづよいね\n
+ジライア！！","It's so cool that Oni Guy joined us!\n
+Right, Ziria?",NOTE: map-0x2568-0x935_1
+string,subtitle_34,,,,,
+string,subtitle_35,,,ポンポコリン！,Ponpokorin!,"NOTE: map-0x124F-0x31A_1 (probably, they had plenty of clips of this to choose from)"
+string,subtitle_36,,,,,
+string,subtitle_37,,,"わしは　なまぐさ　坊主じゃ\n
+大門教が　キライでの　あんたらと\n
+いっしょに　戦うことにした",I'm a corrupt priest who hates the Cult of Daimon.,NOTE: map-0x560B-0x2CD_1
+string,subtitle_38,,,,I'm coming with you.,
+string,subtitle_39,,,"あなたが　ウワサの勇者ですね！\n
+ドーマンは　この奥にいます\n
+わたしも　戦いますよ　ジライアさん！","You must be the famous hero!\n
+Douman is hiding inside.",NOTE: map-0x3E39-0x44E_1
+string,subtitle_40,,,,"Allow me to assist, Ziria-san!",
+string,subtitle_41,,,"あんたが　火の勇者として\n
+大門教の　デーモンたちと　戦うなら\n
+かならずや　ちからになるぜ！！","If you're going up against the demons of the Cult of Daimon,",NOTE: map-0x150B-0x173_4
+string,subtitle_42,,,,I'll be behind you all the way!,
+string,subtitle_43,,,"うむ！　伝説は　ほんとう　だった！！\n
+やはり　火の勇者だけの　ことはある","The tales were true:\n
+you ARE the Fire Heroes!",NOTE: map-0x3F51-0x5E0_1
+string,subtitle_44,,,,,
+string,subtitle_45,,,"あたしたちには　神さまが\n
+ついてるんだ！　ジパングの　人が\n
+みんな　オーエンして　くれてるんだ！",We have the Gods on our side! And the people of Jipang are counting on us!,NOTE: map-0xE50B-0x746_1
+string,subtitle_46,,,,,
+string,subtitle_47,,,"かならず　ダンジョウを　たおしてね\n
+おとうさん　ジライアさん",Father! Ziria-san! I know you can defeat Danjou once and for all!,NOTE: map-0x2728-0x724_7
+string,subtitle_48,,,,,
+string,subtitle_49,,,"あなたは　ジライアさんね\n
+ウワサは　きいて　いるわ\n
+じつは　サルのボスって　大門教なのよ","Ziria-san, I presume?\n
+I've heard an interesting rumor.",NOTE: map-0x3520-0x5A7_1
+string,subtitle_50,,,,"Apparently, the new monkey boss is a Daimonist.",
+string,subtitle_51,,,"わるいこと　いいまへんがな\n
+ワテも　入会しとる　大門教に\n
+はいりなはれ","Just a li'l word of advice, neighbor:\n
+Join the Cult of Daimon!",NOTE: map-0x32F0-0x3BF_4
+string,subtitle_52,,,,,
+string,subtitle_53,,,"やつらを　たおせるのは　ジライアよ！\n
+そちたち　火の勇者のみじゃ！",Ziria! Only Fire Heroes such as yourself stand a chance!,NOTE: map-0x134B-0x378_10
+string,subtitle_54,,,,,
+string,subtitle_55,,,"どうだ　ジライアはん！！\n
+その　ツナデ　１０００両で\n
+売りまへんか？","How 'bout it, Ziria?\n
+What say ya sells her to me for 両1,000?",NOTE: map-0x4929-0x7C5_4
+string,subtitle_56,,,,,
+string,subtitle_57,,,"大門教が　かなり　ひろまってるヨ！\n
+ワタシ　ここでも　大門教　やっつける\n
+てつだいネ！　がんばってるんダヨ！","Cult of Daimon, everywhere!\n
+Am here to help beat Cult of Daimon!",NOTE: map-0x3F6D-0x350_4
+string,subtitle_58,,,,Work hard!,
+string,subtitle_59,,,(sound effect),,NOTE: sound of sesshouseki falling on checkpoint
+string,subtitle_60,,,,,
+string,subtitle_61,,,"大門教に　つかまっちまった\n
+くやしいね　そうだ　ヘヘヘ\n
+いいものを　おしえるぜ！",I can't believe I got captured by the Daimonists...,NOTE: map-0x5AA3-0x7A4_4
+string,subtitle_62,,,,"Oh, yeah! Heh heh heh!\n
+Lemme teach you something special!",
+string,subtitle_63,,,"いま　スゴイこと　考えてます\n
+大門教　やっつける\n
+カラクリの　兵隊さん　デス！",Come up with great idea!,NOTE: map-0x458D-0xEB_4
+string,subtitle_64,,,,Mechanic soldier to fight Cult of Daimon!,
+string,subtitle_65,,,"それは　こまった！\n
+このままでは\n
+ジパングが　ほろびてしまう","Ah, that is a terrible shame...\n
+Then Jipang is doomed.",NOTE: map-0x4325-0x362_1
+string,subtitle_66,,,,,
+string,subtitle_67,,,"どうか　江戸城にいる\n
+父上と　そして　江戸の町民を\n
+救って　ください！","My father is in Edo Castle.\n
+I beg of you...Save him!",NOTE: map-0x6260-0x179F_16
+string,subtitle_68,,,,Save the people of Edo!,
+string,subtitle_69,,,"ついに　ここまで　来たな　ジライア！\n
+ここからは　大門教の本拠地だ！","We're finally here, Ziria.\n
+The stronghold of the Cult of Daimon.",NOTE: map-0x5F88-0x3BB_1
+string,subtitle_70,,,,,
+string,subtitle_71,,,"ゴクッ　きんちょー　するなあ！\n
+でも　ジライア！　あたしたち三人が\n
+いれば　ぜったいに　負けないよね",Whew...Talk about nerve-wracking!,NOTE: map-0x5F88-0x465_1
+string,subtitle_72,,,,"But we got this, Ziria!\n
+We just need to stick together!",
+string,subtitle_73,,,"この　ジパングは\n
+大門教が　すべて　支配するのだ！！
+ハハハハ・・・・",Jipang will fall to the Cult of Daimon!,NOTE: map-0x620C-0x2E6_1 and map-0x620C-0x2E6_3
+string,subtitle_74,,,,,
+string,subtitle_75,,,我はマサカド！,I am Masakado!,NOTE: subtitles for masakado's voice-only line right before he's revived
+string,subtitle_76,,,ジパングの王なり！,True sovereign of Jipang!,
+string,subtitle_77,,,,,
+string,subtitle_78,,,,,
+string,subtitle_79,,,,,
+string,subtitle_80,,,,,
+string,subtitle_81,,,,,
+string,subtitle_82,,,,,
+string,subtitle_83,,,,,
+string,subtitle_84,,,,,
+string,subtitle_85,,,,,
+string,subtitle_86,,,,,
+string,subtitle_87,,,,,
+string,subtitle_88,,,,,
+string,subtitle_89,,,,,
+string,subtitle_90,,,,,
+string,subtitle_91,,,,,
+string,subtitle_92,,,,,
+string,subtitle_93,,,,,
+string,subtitle_94,,,,,
+string,subtitle_95,,,,,
+string,subtitle_96,,,,,
+string,subtitle_97,,,,,
+string,subtitle_98,,,,,
+string,subtitle_99,,,,,
+string,subtitle_100,,,,,
+string,subtitle_101,,,,,
+string,subtitle_102,,,,,
+string,subtitle_103,,,,,
+string,subtitle_104,,,,,
+string,subtitle_105,,,,,
+string,subtitle_106,,,,,
+string,subtitle_107,,,,,
+string,subtitle_108,,,,,
+string,subtitle_109,,,,,
+string,subtitle_110,,,,,
+string,subtitle_111,,,,,
+string,subtitle_112,,,,,
+string,subtitle_113,,,,,
+string,subtitle_114,,,,,
+string,subtitle_115,,,,,
+string,subtitle_116,,,,,
+string,subtitle_117,,,,,
+string,subtitle_118,,,,,
+string,subtitle_119,,,,,
+string,subtitle_120,,,,,
+string,subtitle_121,,,,,
+string,subtitle_122,,,,,
+string,subtitle_123,,,,,
+string,subtitle_124,,,,,
+string,subtitle_125,,,,,
+string,subtitle_126,,,,,
+string,subtitle_127,,,,,
+string,subtitle_128,,,,,
+string,subtitle_129,,,,,
+string,subtitle_130,,,,,
+string,subtitle_131,,,,,
+string,subtitle_132,,,,,
+string,subtitle_133,,,,,
+string,subtitle_134,,,,,
+string,subtitle_135,,,,,
+string,subtitle_136,,,,,
+string,subtitle_137,,,,,
+string,subtitle_138,,,,,
+string,subtitle_139,,,,,
+string,subtitle_140,,,,,
+string,subtitle_141,,,,,
+string,subtitle_142,,,,,
+string,subtitle_143,,,,,
+string,subtitle_144,,,,,
+string,subtitle_145,,,,,
+string,subtitle_146,,,,,
+string,subtitle_147,,,,,
+string,subtitle_148,,,,,
+string,subtitle_149,,,,,
+string,subtitle_150,,,,,
+string,subtitle_151,,,,,
+string,subtitle_152,,,,,
+string,subtitle_153,,,,,
+string,subtitle_154,,,,,
+string,subtitle_155,,,,,
+string,subtitle_156,,,,,
+string,subtitle_157,,,,,
+string,subtitle_158,,,,,
+string,subtitle_159,,,,,
+string,subtitle_160,,,,,
+string,subtitle_161,,,,,
+string,subtitle_162,,,,,
+string,subtitle_163,,,,,
+string,subtitle_164,,,,,
+string,subtitle_165,,,,,
+string,subtitle_166,,,,,
+string,subtitle_167,,,,,
+string,subtitle_168,,,,,
+string,subtitle_169,,,,,
+string,subtitle_170,,,,,
+string,subtitle_171,,,,,
+string,subtitle_172,,,,,
+string,subtitle_173,,,,,
+string,subtitle_174,,,,,
+string,subtitle_175,,,,,
+string,subtitle_176,,,,,
+string,subtitle_177,,,,,
+string,subtitle_178,,,,,
+string,subtitle_179,,,,,
+string,subtitle_180,,,,,
+string,subtitle_181,,,,,
+string,subtitle_182,,,,,
+string,subtitle_183,,,,,
+string,subtitle_184,,,,,
+string,subtitle_185,,,,,
+string,subtitle_186,,,,,
+string,subtitle_187,,,,,
+string,subtitle_188,,,,,
+string,subtitle_189,,,,,
+string,subtitle_190,,,,,
+string,subtitle_191,,,,,
+string,subtitle_192,,,,,
+string,subtitle_193,,,,,
+string,subtitle_194,,,,,
+string,subtitle_195,,,,,
+string,subtitle_196,,,,,
+string,subtitle_197,,,,,
+string,subtitle_198,,,,,
+string,subtitle_199,,,,,
+string,subtitle_200,,,,,
+string,subtitle_201,,,,,
+string,subtitle_202,,,,,
+string,subtitle_203,,,,,
+string,subtitle_204,,,,,
+string,subtitle_205,,,,,
+string,subtitle_206,,,,,
+string,subtitle_207,,,,,
+string,subtitle_208,,,,,
+string,subtitle_209,,,,,
+string,subtitle_210,,,,,
+string,subtitle_211,,,,,
+string,subtitle_212,,,,,
+string,subtitle_213,,,,,
+string,subtitle_214,,,,,
+string,subtitle_215,,,,,
+string,subtitle_216,,,,,
+string,subtitle_217,,,,,
+string,subtitle_218,,,,,
+string,subtitle_219,,,,,
+string,subtitle_220,,,,,
+string,subtitle_221,,,,,
+string,subtitle_222,,,,,
+string,subtitle_223,,,,,
+string,subtitle_224,,,,,
+string,subtitle_225,,,,,
+string,subtitle_226,,,,,
+string,subtitle_227,,,,,
+string,subtitle_228,,,,,
+string,subtitle_229,,,,,
+string,subtitle_230,,,,,
+string,subtitle_231,,,,,
+string,subtitle_232,,,,,
+string,subtitle_233,,,,,
+string,subtitle_234,,,,,
+string,subtitle_235,,,,,
+string,subtitle_236,,,,,
+string,subtitle_237,,,,,
+string,subtitle_238,,,,,
+string,subtitle_239,,,,,
+string,subtitle_240,,,,,
+string,subtitle_241,,,,,
+string,subtitle_242,,,,,
+string,subtitle_243,,,,,
+string,subtitle_244,,,,,
+string,subtitle_245,,,,,
+string,subtitle_246,,,,,
+string,subtitle_247,,,,,
+string,subtitle_248,,,,,
+string,subtitle_249,,,,,
+string,subtitle_250,,,,,
+string,subtitle_251,,,,,
+string,subtitle_252,,,,,
+string,subtitle_253,,,,,
+string,subtitle_254,,,,,
+string,subtitle_255,,,,,

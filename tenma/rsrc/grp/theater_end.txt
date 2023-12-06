@@ -1,0 +1,11 @@
+set basepattern=0x1FC
+set patternoffset=0
+
+set xorigin=128
+set yorigin=127
+
+add x=0x60  y=0xA0 w=32 h=16 pri=1 pal=0
+add x=0x80  y=0xA0 w=32 h=16 pri=1 pal=0
+
+outputSprites "out/grp/theater_end_sprite.bin"
+#outputPreviewGrp "test_preview.png"

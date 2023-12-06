@@ -1,0 +1,161 @@
+[Properties]
+#numChars=96
+#numChars=92
+numChars=96
+charsPerRow=16
+gridW=8
+gridH=12
+noKerning=1
+
+# space
+
+[char0000]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=3
+advanceWidth=3
+
+# digits
+
+[char0001]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0002]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0003]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0004]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0005]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0006]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0007]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0008]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char0009]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+[char000A]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=6
+
+# 'i'
+[char002D]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=4
+
+# 'l'
+[char0030]
+noKerningIfFirst=1
+noKerningIfSecond=1
+#advanceWidth=4
+
+# '.'
+#[char003F]
+#noKerningIfFirst=1
+#noKerningIfSecond=1
+#advanceWidth=3
+
+# ','
+#[char0040]
+#noKerningIfFirst=1
+#noKerningIfSecond=1
+#advanceWidth=4
+
+# fixed spaces
+
+#[char005E]
+#advanceWidth=12
+
+#[char005F]
+#advanceWidth=8
+
+#[char0056]
+#advanceWidth=4
+
+#[char0058]
+#advanceWidth=1
+
+#[char005B]
+#advanceWidth=8
+
+# space1px
+
+[char004F]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=1
+
+# single quote close
+
+[char0056]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=4
+
+# space8px
+
+[char0058]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=8
+
+# dot
+
+[char0059]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=8
+
+# space4px
+
+[char005D]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=4
+
+# nbsp
+
+[char005E]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=4
+
+# font emph toggle
+# (special-cased in code to never be printed;
+# this is just so the text wrapper properly ignores it)
+
+[char005F]
+noKerningIfFirst=1
+noKerningIfSecond=1
+advanceWidth=0
+

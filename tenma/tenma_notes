@@ -1,0 +1,576 @@
+
+*** THIS APPLIES TO REV7 ***
+
+
+=== memory ===
+  2000 = game mode?
+            00 = overworld?
+            02 = battle?
+            04 = save screen?
+  2001 = "previous" game mode?
+  200A = ?
+            saved and restored at start/end of overworld mode
+  202B = src for script data?
+  2059 = player x-coord on map?
+  205A = player y-coord on map?
+  207B = src for text data?
+  20F7 = current video register being accessed?
+  27C0 = player money
+  3095-3097 = src sector num for current map's data (0xD000 bytes?)
+  309C = if nonzero, random battles disabled?
+  33C7-33C8 = e.g. codepoint for target font char
+  33CD = dst for font data read from bios
+          see getFontChar at $6276
+  33ED = text x-pos?
+  33EE = text y-pos?
+  33EF = ?
+  33F0 = text fine x-offset
+  33F1 = ?
+  33FB = array of substring print targets.
+         each use of text op FC prints the current item,
+         then increments the index ($33FF) so that the next use of
+         op FC will print the next item (if any).
+         (max 2 entries)
+  3415 = ziria inventory
+  341E = ziria technique inventory
+         - techniques start from item id 0xB1
+  34C3 = array of 3 16-bit values indicating money gain for each enemy
+         in current battle
+  34C9 = array of 3 16-bit values indicating experience gain for each enemy
+         in current battle
+  3522 = enemy hp array, low byte?
+  3529 = enemy hp array, high byte?
+  386D = enemy names in battle?
+         appears to be a 0x30-byte block for the maximum of three names
+         combined?
+         all regular enemies seem to have names of at most 7 characters
+          = 15 bytes with terminator.
+         some bosses (which appear alone) have longer names.
+  38B7? = warehouse inventory (32 bytes)
+  3C0E-3C0F = current tile offset into 12x12 free print area?
+  ~$3E80+ looks like it might be unused
+
+=== data ===
+  == boot_9 ==
+    - loaded from IPL, seems to remain loaded afterwards,
+      so presumably also contains base game resources
+    - ~0x26D9 = some sort of list of ? item names?
+                each entry 0xFF-terminated
+    - i see some backup memory strings in there too: TENGAI1, !BM FORMAT!
+    - oh, and はい and いいえ for whatever reason
+      (give me bonus points if they're for an error for nonexistent backup memory)
+    - there are several wrappers for bios adpcm functions.
+      it seems that the v1.0 bios was either missing some functions,
+      or they were bugged in some way?
+      there are a number of checks for "if bios version not 1.0, call this
+      bios function; otherwise, run a local reimplementation of that function"
+      47A0 = E033 = AD_TRANS = read from cd to adpcm buffer
+      47A3 = 8E85 = AD_READ = readAdpcmBufToMem
+                    read from ADPCM buffer to memory using previously set up
+                    parameters, via AD_READ or equivalent
+      47A6 = E039 = AD_WRITE = write from memory to adpcm buffer
+      47A9 = 8F7F = AD_PLAY (or equivalent reimplementation if on v1.0 bios)
+    5011 = use load specifier list to read from cd to adpcm buffer
+    509F = use load specifier list to read from adpcm buffer to memory
+           (via calls to readAdpcmBufToMem)
+    5B71 = printStdTextBox?
+           full printing, including op (EF-FE) support
+
+** map format **
+  - maps consist (primarily?) of a 0xD000-byte chunk, which is initially loaded
+    directly from CD to the ADPCM buffer and from there distributed to memory
+    as needed.
+  - block 0 = 0x0-0x1FFF: text?
+    - has a header, which appears to consist of some number of pointers
+      (at least 14?) into the slot where this block is ultimately loaded,
+      MPR6 (i.e. $C000-DFFF).
+      known values:
+        - +0x10 = ? pointer past end of header
+        - +0x16 = pointer to location name string?
+                  (though the first byte doesn't seem to be sjis...)
+
+** map text **
+  - message strings normally (always?) begin with a type specifier:
+    ; types:
+    ;   - 00 = fullscreen?
+    ;     - 2b param = pointer to src sector data for voiceover(?)
+    ;                  OR pointer to FF * * if none?
+    ;   - 01 = voiced with small portrait?
+    ;     - 2b param = pointer to src sector data?
+    ;   - 02 = nonvoiced?
+    ;     - no params
+    ;   - 03 = ?
+    ;     - no params
+    ;   - 04 = ?
+    ;     - ??? "0"
+    ;   - 05 = ?
+    ;     - ??? "0"
+  - anything that references a message string points to its type specifier?
+    - including things like the map name pointer in the header
+
+** 8x8 font **
+  - 8x8 stuff is specified using a 1-byte encoding with respect to tile 0x90
+    in VRAM. this includes not only the font, but also window borders,
+    a character icon, etc.
+  - lol, it's half-width sjis encoding for hiragana.
+    all signs are pointing to these tilescripts being typed directly into
+    the assembler.
+    - also, as a consequence, the game is in fact incapable of printing
+      8x8 katakana through the normal system despite having a whole
+      font for it (that range is mapped to SJIS 12x12 text instead)
+
+boot data from IPL: sector 9, 0xA sectors, to 0x4000, and boot from same
+
+apparently, the game handles map loading by abusing the ADPCM buffer as a buffer
+for non-audio data read from the cd, which is then copied where needed.
+
+13a0000
+
+map data (always a block of 0x1A sectors?)
+on valid maps, first 17(? no, less. 14?) words should be pointers in the C000-DFFF range,
+or zero?
+the first map may or may not be located at 1137,
+with subsequent maps spaced at 0x1C-sector intervals thereafter.
+(what are these two extra sectors that aren't loaded to the ADPCM buffer?)
+there are 64 such maps in this block
+  1137 = 0x89B800 = ?
+  1153 = 0x8a9800 = overworld 1
+  116F = starting mountain outside
+  118B = starting mountain inside
+  11A7 = first town
+  11C3 = first town armor shop
+  11DF = first town inn
+  11FB = first town house 1
+  1217 = first town house 2
+  1233 = first town general store
+  124F = 0x927800 = first cave b1f
+  126B = 0x935800 = first cave b2f
+  1287 = 0x943800 = second town
+  ...
+  181B = ???
+after those 64 maps, things briefly go to hell, with a bunch of unidentifiable
+stuff that doesn't fit the previous pattern of maps, and no apparent text.
+the next sign of text appears to be
+sector 19B7, where we have a potentially map-like header followed by text.
+but one bank later in sector 19BB, we have more of the same (which doesn't fit
+the pattern of the map block above, where the first sector alone
+is the text block?)
+  - or, uh, i guess i imagined this???
+okay, so after that we continue for another 69 maps following the same
+pattern of 0x1C-sector blocks, with the last valid map at sector 2127.
+then for some reason we have one sector of ~unknown data~,
+followed by an immediate resumption of maps in the regular pattern at 2144.
+those continue through 2240.
+THEN we go into some non-maps that contain text, starting at 2273.
+  - these seem to simply be 1-sector clusters of text (for shops?)
+only a few of those, apparently...
+then nothing until 2434?
+*** okay there are lots of interruptions... ***
+and eventually, it appears maps cap out at 6554.
+i've identified 604 (!!) of them in total.
+i desperately hope some of those are repeats or something...
+
+0x8a9800
+text block for map seems to come at the start.
+
+some maps seem to have "uninitialized" sectors of the text block
+filled with bits of text from another map (see e.g. 0x63CC)?
+  - in particular, many maps duplicate the material beginning at
+    0x800 in map 0x1DFB, starting from exactly that position, partway through
+    a line:
+    ライアさん！\n
+    ...
+    そういえば　トウベイさんが\n
+    コマ犬の　前に\n
+    なんか　うめてたようだなぁ
+  - in general, this seems to occur when only the first sector is used?
+    in which case the contents of the second sector are taken from
+    some other map (usually the previous one in sequence but not necessarily --
+    see e.g. map-0x6378-0x7CC
+    - actually, this probably applies to all sequential sectors after the
+      last used one.
+      i suppose the map generator wrote each map to a buffer sequentially,
+      only initializing the sectors that were used and inheriting the
+      existing contents for the rest?
+      maps were generated
+    - so to deal with this, i guess we'll have to do something stupid...
+      - before dumping maps, take hash of each of the 4 sectors of the
+        text block for each map and individually index them
+      - when preparing to dump map, take hash of second sector.
+        if it matches anything, do a full sector comparison to verify.
+        if it's a true match, check if the first sectors of the two maps
+        also match.
+        if not, throw out everything from the second sector on for the new map.
+        otherwise, repeat this algorithm for the third and fourth sectors.
+      - lol this was all a dumb idea and i wasted hours on it
+    - to further add to the chaos, some strings that appear in sector filler
+      are not actually used as part of any map.
+      see e.g. the block at 0x800 in map 0x643C,
+      beginning with みんな　殺されちまった・・
+      this same text appears much later in the iso, so it may be used somewhere
+
+- fix space + adpcm command interaction in map 0xE6CB messages
+
+quick and hacky way to get to a target map:
+  - set breakpoint on 9969.
+    some maps seem to manually set the player's x/y position, and for those,
+    setting a breakpoint on 9D17 is necessary if you don't want the default.
+  - trigger map transition
+  - when first breakpoint is triggered, set $3095-$3097 to desired map's
+    starting sector (L/M/H)
+  - set $59/$5A to desired initial X/Y position on target map
+storge = 0x1AB3
+
+walk through walls: change 95BA from 0x0E to 0x10
+(changes branch distance in overw)
+
+map structure block header:
+  +0 = 2b pointer to layout metablock pointer array
+          each entry points to the compressed structure for a
+          16x16(?) metablock, ordered from left to right across map?
+  +2 = 2b pointer to metatile structure data
+          each entry is:
+          - 1b UL tile offset
+                  add to 0x4B0 to get tile num, but if palette is >= 8,
+                  add an additional 0x100 (and treat palette as (palette & 0x7))
+          - 1b UR
+          - 1b LL
+          - 1b LR
+          - 2b palette + tile high bit nybbles (big endian -- UL, UR, LL, LR)
+               low 3 bits are palette, high bit selects from first/second half
+               of pattern table at $4B0 in VRAM
+  +4 = 2b same as above?
+  +6 = 2b pointer to solidity byte array?
+  +8 = 2b pointer to palette?
+          the first 0xE0 bytes are sent to the tile palette?
+          what about the remaining data?
+
+; map adpcm->memory transfer specifier
+; transfer 1 (script area):
+;   src = 0x0000
+;   size = 0x2000 bytes
+;   via = mpr6
+;   dst bank = 5 ($85)
+; transfer 2:
+;   src = 0x8000
+;   size = 0x4000 bytes
+;   dst = vram
+;   dstaddr = $4B00
+; transfer 3:
+;   src = 0xC000
+;   size = 0x1000 bytes
+;   dst = vram
+;   dstaddr = $4300
+; transfer 4 (structure area?):
+;   src = 0x2000
+;   size = 0x2000 bytes
+;   via = mpr6
+;   dst bank = 4 ($84)
+;
+; note that the 0x4000 bytes at $4000 in the buffer are not transferred.
+; these seem to be the area's music/sound data, and i guess must be
+; handled separately later on.
+
+iso segment breakdown:
+  0x1000-??? = probably bootup and stuff
+  0x4800-0x9800 = kernel
+  0x9800-0xC800 = overworld
+  0xC800-0xE800(?) = shop?
+  0xE800-0x11800 = battle
+  0x11800-0x13800 = ???
+  0x13800-0x16800 = ? some additional battle resources, at least
+    - does not contain code
+    - ~0x15c30+ is list of enemy names --
+      needed ones for encounter are copied to main memory
+  0x16800-0x19800? = battle(-specific?) messages (and related resources?)
+    - possibly extends to 0x1A800; 0xFF-fill continues to there
+  0x1A800-0x1D800 = ??? data only takes up first couple of sectors
+  0x1D800-0x22800 = new game intro sequence?
+  0x22800-0x25800 = save/load menu
+  0x25800-0x27800? = various "generic" text strings
+  0x27800?-0x28800 = credits text(?)
+  0x28800-0x2B800 = ? includes save message for entering 獄門島
+  0x2B800-0x2D800 = ???
+  0x2D800-0x2F800 = resources for item/technique info menu
+  ...
+  ~0x55E844+: some character dialogue related to battle;
+    i don't recognize any of these off hand.
+    not the messages for losing to an opponent, i think, since those are
+    later in the rom?
+  ...
+  ~0x77e2019+: enemy-specific dialogue blocks (extra messages for bosses, etc.)
+
+0x4C1D
+
+== known misdetections ==
+
+map-0x657F-0x3E5_0
+焼愼[f6]<$2F>・・おまえがうらやましい・・\n
+オレもおまえの様に生きてみたい\n
+信じなくてもいいいが
+- i can't make sense of how this would fit in with the dialogue format
+  as i understand it (seemingly no message header?), but i'm not sure
+  this map is actually used -- the dialogue uses the 自来也 spelling
+  from older versions of the game instead of writing it out in kana
+  like the final. possibly using an out-of-date format?
+
+map-0x2B33-0x4D3_0
+[garbage]税[f7]<$F1>バショウじゃよ\n
+悪路王退治の活躍みごとなものじゃ！\n
+ここからみる松島　美しい景色よな
+- is this valid? バショウ was supposed to be a character of some importance
+  per pre-release coverage, but seems to have been cut from the final.
+  this is the only reference to him, at least as バショウ...
+
+map-0x4B75-0x1D5_0
+[f7]<$80>月姫！！　早く逃げろ！
+- the misdetection is probably legitimate (2 bytes further ahead and this would
+  have a valid message type 2 header), but i believe the map itself is unused
+  (a scrapped event involving tsuki-hime and some sort of brothel/nightclub
+  location, i think? would have made her less utterly superfluous to the plot,
+  i guess.)
+
+TODO: when dumping map strings, ignore initial non-inlineable ops
+      in case they're misdetections?
+      if they're not going to be changed anyway, there's no need to dump
+      them in the first place.
+- un-inline [color] commands at start of strings?
+  almost all messages just use a single color for the whole thing
+  (though some do not, so we can't just uninline all of them)
+- verify that printing a character whose start is within the last 0xC pixels
+  of the line behaves as expected (it probably doesn't)
+
+map size misdetection in 0x1A43...
+
+battle_extra = enemy data
+- 193 structs total
+- each struct is 0x30 bytes
+  - 0x0-0x1 = raw adpcm buffer pointer for name string.
+              battle_extra is loaded to 0x5000 in the buffer,
+              so add that to the raw file offset of the name
+              to compute this.
+  - 0x29 = length of name in bytes
+
+map 0x1B23 script 0x20C
+
+=IF(A1="", "", LEN(E1))
+=IF(A1="", "", IF(G1="", LEN(E1),""))
+=SUM(J1:J***)
+
+
+character counts:
+  - dialogue: 125656
+    (including duplicates: 165142 = deduplicated count is 76.09% of original,
+    a 31.42% increase)
+
+176
+196
+194
+
+34C3
+
+13 1a 0a 78
+
+41 patterns
+
+31.875
+0: 0x00
+1: 0x1F
+2: 0x3F
+3: 0x5F
+7: 0xDF
+
+36.4285714286
+0: 0x00 = 0x000
+1: 0x24 = 0x049
+2: 0x48 = 0x92
+3: 0x6D = 0xDB
+4: 0x91 = 0x124
+5: 0xB6 = 0x16D
+6: 0xDA = 0x1B6
+7: 0xFF = 0x1FF
+
+A85E = theater staff roll obj base x (from obj script)
+theater staff roll sprite data = 0x637E800
+
+battle_1D:       adpcm 0x0000 -> 0x9000 (0x3000 bytes)
+battle_text2_31: adpcm 0xA000 -> 0xC000 (0x1800 bytes)
+unknown1_23:     adpcm 0x3000 -> 0xD800 (0x800 bytes)
+battle_text_2D:  adpcm 0x8000 -> 0xC000 (0x2000 bytes)
+then pairs of reads from battle_extra_27 (adpcm buffer 0x5000-0x8000)
+corresponding to enemies?
+iirc this is the enemy stat and name table.
+all together, this covers the full contents of the loaded data.
+after that the battle windows get drawn, then we start loading in graphics
+from separately loaded data.
+
+obj place:
+  x y ??? ??? scriptpos
+  
+weird stuff in edo (extra earthquake event, extra stonecutter event)
+depends on ($2724 & 0x40) being set
+this will occur in the 見せ物小屋 when "talk" is used on the npc at
+x/y coordinates (0xC, 0x11) -- the one green-robed character in the left half
+of the crowd -- and the following conditions are met:
+  - ($2724 & 0x80) == 0
+    - this is the flag that indicates that you are allowed to sleep at the
+      large inn and proceed to the endgame.
+      it's set when you do any of the following in the tent:
+      - leave
+      - talk to the crowd "npcs"
+      - talk to the performer
+      thus, you must not do any of these things before activating the
+      easter egg.
+      incidentally, setting this flag is the ONLY requirement for being
+      able to sleep at the inn. the only thing you have to do is go in and
+      out of the show tent. you don't even have to talk to tsukihime!
+  - ($2725 & 0x08) != 0
+    - this is set on the same map when you talk to the NPC at (0xF, 0x13) --
+      the "box" in the entry area -- while ($2724 & 0x80) is zero.
+      this will also create a "fountain" on the same spot.
+  - ($2702 & 0x08) == 0 (must not have freed the white deer)
+if all trigger conditions are met, then the game will display the normal
+message for using "talk" on the crowd ("hey ziria, they're all so quiet")
+and the easter egg flag will be set. otherwise, nothing will happen.
+on a side note, the ONLY thing you have to do to be able to 
+
+0E 24 27 40
+
+- stonemason guy
+- earthquake mushrooms
+- kabuki dev room
+- casket 1up
+
+bytes 0xA-0xB of map header are "check" point list pointer.
+each entry is:
+  - 1b x
+  - 1b y
+  - 2b script to run if checked
+list terminated with 0xFF.
+
+bytes 0xE-0xF are "walk" point list pointer.
+same format as 0xA-0xB, but for scripts which start automatically
+when the player walks over them.
+
+intro voice-only lines
+(partially copied from http://blog.livedoor.jp/pompo009/archives/50871637.html)
+ジライア：俺は犬になんかならねぇ
+ジライア：うわーっ！体がっ・・・動かない！
+ジライア：ば、ばかヤロー！離せよ！お前、カエルが嫌いなんだろ？
+ジライア：じゃあなって…おい、オロチ丸！オロチ丸！！
+ジライア：幻王丸、生きていたのか！
+ジライア：俺は誰の命令も受ける気は無いねぇ
+
+AD_CPLAY: 26 00 00 30 00 98 66 0E
+
+C12E
+
+- keep two maps in memory: cached map + current map
+- when changing areas:
+  - if cached map is new target map, load cached map to adpcm buffer
+    rather than reading from cd, then swap current and cached maps
+  - otherwise, load new map as normal, swap current and cached maps,
+    and copy loaded map to current
+
+todo
+  - should really temporarily activate static wrapping for non-dialogue
+    files and check for box overflow
+  - "gods", "Gods"
+  - make sure attract demo subtitles match corresponding in-game text
+
+done
+  - fix generic_text str-0x261_0: should be "[string] can't hold it."
+  - fix battle str-0x1DF5_0: should be "[string] also fell asleep."
+  - battle str-0x1B24_0 is used when e.g. orochimaru's touryuu technique
+    paralyzes an enemy
+  - did i ever disable the backup data track?
+  - ensure subtitle engine is shut off when easter egg "code" is triggered
+    on title screen (mostly, make sure the adpcm clip that plays to confirm
+    code entry doesn't advance the sync counter and cause subtitles to
+    unexpectedly show up)
+  - fix empty box after map-0x1B3F-0x277_6
+  - fix map-0x27D0-0x7EF (demon statue explosion message)?
+  - fix spurious extra line after map-0x474D-0x591_2
+  - fix spurious extra line after map-0x6180-0xF7_4
+  - fix spurious extra line map-0x620C-0x130_4
+  - figure out what's going on with boss_0xF25B_win_3
+  - merge map-0x13BB-0x61_0 and map-0x13BB-0x61_2?
+  - get those interrobangs consistent
+  - bonus objective: figure out if map-0x3AF1-0x166_0 is attached to some
+    OTHER insane obscure developer easter egg
+    (no? the only thing that sets one of the flags is the unused
+    Bashou Hermitage map)
+  - "heheheh"
+  - mount tsukiyama daimon church name
+  - check sword of the divine attack increase messages
+  - long item names
+
+0x2945800
+
+rev6->rev7 differences
+- minor code differences in kernel
+  - minor optimizations such as changing jsr to bsr in some places, or moving
+    small blocks of code to allow such optimizations to be made
+  - clearCarryIfAdpcmStopped was modified, apparently to handle a bug specific
+    to the v1.0 bios
+- in rev6, save guys in hot spring inn maps are bugged.
+  they work fine if "yes" is selected to save the game, but choosing "no"
+  results in a spew of garbage dialogue.
+  (affected maps: 0x54D7, 0x5627, 0x573F)
+  there appear to be no actual text differences between (these two) versions.
+  
+
+家家家爆弾があれば丈夫な扉も
+壊すことができるらしい
+
+よくきたのう自来也
+芭蕉じゃ　そう怒るな！
+おそらくこれが最後じゃ
+
+おぬしは邪神斎に勝てぬであろう
+それほどヤツは強い
+その時は運命に身をまかせてみる事よ
+
+そこから活路が開けるじゃ
+ー荒海や　カワズ跳び込む　水の音ー
+さらばじゃ自来也！　幸運を祈るぞ
+
+
+
+THERE IS TOO MUCH UNUSED CRAP ON THIS DISC
+
+sector 0x1044 looks sort of like a map header.
+it's followed by graphics data that is very clearly for a map.
+you can punch in its sector number and the game will load the graphics.
+but it's not a valid map and it'll crash.
+this repeats numerous times?
+(thinking about this a week later, these may be for the thieving minigame)
+
+maps seem to have had unused sectors filled with "random" data from old
+versions of the game. we have script blocks (only) of old maps, random
+bits of adpcm data...
+
+C71E to 0xC8F9+: every 0x13 sectors is a "scene" animation
+from the old version of the game
+  - C89A = doesn't work?
+           no, wait, it's just the other "burning city" scene
+  - end of data = c90c?
+
+"partial" maps with no header or script block, 8 sectors apart?, at ~0xCB8E
+form of graphics or palette or structure data seems to sometimes not match
+final game?
+but rendering produces recognizably structured output
+okay, looks like these are mostly just copies of final maps.
+the one at 0xCCBE seems to be an unused dungeon, though.
+then continuing on into 0xCD38, format seems to change and we have to do
+something else to get valid dumps, and maps also appear to be old
+(too close to upper-left corner, etc.)
+
+ziria river cutscene loads some weird unused frog graphics
+
+0x1837 = start of valid scenes?
+0x1870 = hoteimaru in cave?
+0x1896
+scene 0x198D = ???
+scene 0x19B4 = ??? garbage? (yes)
+

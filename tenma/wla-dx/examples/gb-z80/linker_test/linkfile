@@ -1,0 +1,11 @@
+[definitions]
+james 10
+jessie $10
+
+[objects]
+setup.o
+main.o
+
+[definitions]
+love 11
+VALUE_FF $ff

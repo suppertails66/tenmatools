@@ -1,0 +1,330 @@
+,,,,"//==================================
+// item/technique info menu
+//==================================",,,
+string,str-0x74C_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+？","[string] [string][color]<$00>\n
+?",,
+string,str-0x75C_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+装備すると　攻撃力が\n
+[number]ポイントあがります","[string] [string][color]<$00>\n
+Increases Attack by [number] when equipped.",,
+string,str-0x75C_2,,,"ジライアが　装備すると\n
+さらに　攻撃力が\n
+[number]ポイントあがります","If Ziria equips it, Attack is additionally increased by [number].",,
+string,str-0x7CE_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+装備すると　攻撃力が\n
+[number]ポイントあがります","[string] [string][color]<$00>\n
+Increases Attack by [number] when equipped.",DUPE: F3,
+string,str-0x7CE_2,,,"オロチ丸が　装備すると\n
+さらに　攻撃力が\n
+[number]ポイントあがります","If Orochimaru equips it, Attack is additionally increased by [number].",,
+string,str-0x840_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+装備すると　攻撃力が\n
+[number]ポイントあがります","[string] [string][color]<$00>\n
+Increases Attack by [number] when equipped.",DUPE: F3,
+string,str-0x840_2,,,"ツナデが　装備すると\n
+さらに　攻撃力が\n
+[number]ポイントあがります","If Tsunade equips it, Attack is additionally increased by [number].",,
+string,str-0x8B0_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+装備すると　守備力が\n
+[number]ポイントあがります","[string] [string][color]<$00>\n
+Increases Defense by [number] when equipped.",,
+string,str-0x8E6_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+装備すると　すばやさが\n
+[number]ポイントあがります","[string] [string][color]<$00>\n
+Increases Speed by [number] when equipped.",,
+string,str-0x91E_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間１人の　体の力を\n
+[number]ポイント回復します","[string] [string][color]<$00>\n
+Restores [number] HP to one party member.",,
+string,str-0x954_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間１人の　体の力を\n
+完全回復します","[string] [string][color]<$00>\n
+Fully restores one party member's HP.",,
+string,str-0x985_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員の　体の力を\n
+[number]ポイント回復します","[string] [string][color]<$00>\n
+Restores [number] HP to all party members.",,
+string,str-0x9BB_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員の　体の力を\n
+完全回復します","[string] [string][color]<$00>\n
+Fully restores all party members' HP.",,
+string,str-0x9EC_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間１人の　技の力を\n
+[number]ポイント回復します","[string] [string][color]<$00>\n
+Restores [number] TP to one party member.",,
+string,str-0xA22_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間１人の　技の力を\n
+完全回復します","[string] [string][color]<$00>\n
+Fully restores one party member's TP.",,
+string,str-0xA53_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間１人の\n
+敵に吹きかけられた毒を　消します","[string] [string][color]<$00>\n
+Purges poison caused by an enemy from one party member.",,
+string,str-0xA8C_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹を　眠らせます","[string] [string][color]<$00>\n
+Puts one enemy to sleep.",,
+string,str-0xAAE_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員を　眠らせます","[string] [string][color]<$00>\n
+Puts all enemies to sleep.",,
+string,str-0xAD0_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+１度訪れた雲切りの里に\n
+戻れます","[string] [string][color]<$00>\n
+Can return you to any Kumogiri Village you've visited before.",,
+string,str-0xAFD_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+地下から\n
+地上に脱出できます","[string] [string][color]<$00>\n
+Allows you to escape from underground to the surface.",,
+string,str-0xB26_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+筑波の国の　地図です","[string] [string][color]<$00>\n
+A map of Tsukuba.",,
+string,str-0xB48_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+磐毛の国の　地図です","[string] [string][color]<$00>\n
+A map of Banmou.",,
+string,str-0xB6A_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+陸羽の国の　地図です","[string] [string][color]<$00>\n
+A map of Rikuu.",,
+string,str-0xB8C_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+陸奥の国の　地図です","[string] [string][color]<$00>\n
+A map of Mutsu.",,
+string,str-0xBAE_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+信濃の国の　地図です","[string] [string][color]<$00>\n
+A map of Shinano.",,
+string,str-0xBD0_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+富士の国の　地図です","[string] [string][color]<$00>\n
+A map of Fuji.",,
+string,str-0xBF2_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+相模の国の　地図です","[string] [string][color]<$00>\n
+A map of Sagami.",,
+string,str-0xC14_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+千葉の国の　地図です","[string] [string][color]<$00>\n
+A map of Chiba.",,
+string,str-0xC36_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+武蔵の国の　地図です","[string] [string][color]<$00>\n
+A map of Musashi.",,
+string,str-0xC58_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹に　平均[number]ポイントの\n
+ダメージを　あたえます","[string] [string][color]<$00>\n
+Deals an average of [number] damage to one enemy.",,
+string,str-0xC96_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員に　平均[number]ポイントの\n
+ダメージを　あたえます","[string] [string][color]<$00>\n
+Deals an average of [number] damage to all enemies.",,
+string,str-0xCD4_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員に　平均[number]ポイントの\n
+ダメージを　あたえます","[string] [string][color]<$00>\n
+Deals an average of [number] damage to all enemies.",DUPE: F32,
+string,str-0xCD4_2,,,"さらに　敵を\n
+うごけなくします","Additionally, it renders foes unable to move.",,
+string,str-0xD31_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員の　攻撃力を　倍にします","[string] [string][color]<$00>\n
+Doubles all party members' Attack.",,
+string,str-0xD5F_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員の　守備力を　倍にします","[string] [string][color]<$00>\n
+Doubles all party members' Defense.",,
+string,str-0xD8D_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹の　守備力を　半分にします","[string] [string][color]<$00>\n
+Halves one enemy's Defense.",,
+string,str-0xDBB_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員の　守備力を　半分にします","[string] [string][color]<$00>\n
+Halves all enemies' Defense.",,
+string,str-0xDE9_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹の　魔法を　封じます","[string] [string][color]<$00>\n
+Seals one enemy's magic.",,
+string,str-0xE11_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員の　魔法を　封じます","[string] [string][color]<$00>\n
+Seals all enemies' magic.",,
+string,str-0xE39_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹の　攻撃の　命中率を　さげます","[string] [string][color]<$00>\n
+Lowers one enemy's accuracy.",,
+string,str-0xE6B_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員の　攻撃の　命中率を　さげます","[string] [string][color]<$00>\n
+Lowers all enemies' accuracy.",,
+string,str-0xE9D_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員の　すばやさを　倍にします","[string] [string][color]<$00>\n
+Doubles all party members' Speed.",,
+string,str-0xECD_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵全員の　すばやさを　半分にします","[string] [string][color]<$00>\n
+Halves all enemies' Speed.",,
+string,str-0xEFD_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+一定歩数の間　毒の水の上を　歩いても\n
+体の力が　減らなくなります","[string] [string][color]<$00>\n
+Prevents damage from walking on poison water for a limited number of steps.",,
+string,str-0xF4A_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+戦闘中に　敵から\n
+逃げることができます","[string] [string][color]<$00>\n
+Allows you to escape from enemies in battle.",,
+string,str-0xF7D_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員が　敵の攻撃を\n
+うけなくなります","[string] [string][color]<$00>\n
+Shields all party members from enemy attacks.",,
+string,str-0xFB2_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間全員が\n
+敵の魔法を　受けなくなります","[string] [string][color]<$00>\n
+Shields all party members from enemy magic.",,
+string,str-0xFE7_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹の　魔力を　奪いとり\n
+自分の　技の力に　かえます","[string] [string][color]<$00>\n
+Drains MP from one enemy and turns it into your own TP.",,
+string,str-0x102A_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+敵１匹の　攻撃力を　半分にします","[string] [string][color]<$00>\n
+Halves one enemy's Attack.",,
+string,str-0x1058_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+仲間１人の　敵にかけられている\n
+魔法の効果を　消します","[string] [string][color]<$00>\n
+Dispels enemy magic from one party member.",,
+string,str-0x109B_0,[color]<$01>,,"[string]　／　[string][color]<$00>\n
+技の力を\n
+[number]ポイント　つかいます","[string] [string][color]<$00>\n
+Consumes [number] TP.",,
+string,str-0x10C7_1,,,どの説明を　見ますか,Which descriptions will you view?,,
+string,str-0x10DF_1,,,誰の道具を　見ますか,Whose items will you look at?,,
+string,str-0x10F7_1,,,誰の術を　見ますか,Whose jutsu will you look at?,,
+string,str-0x110D,,,,,,
+string,str-0x110E_0,,,あおいのけん,,"NOTE: readings for item names, originally printed alongside the kanji versions in the messages above. obviously not needed for the translation, but they ARE still printed, so leave these blank.",UNTRANSLATED
+string,str-0x111B_0,,,とのさまのけん,,,UNTRANSLATED
+string,str-0x112A_0,,,のだち,,,UNTRANSLATED
+string,str-0x1131_0,,,さむらいのかたな,,,UNTRANSLATED
+string,str-0x1142_0,,,しんげつとう,,,UNTRANSLATED
+string,str-0x114F_0,,,えんげつとう,,,UNTRANSLATED
+string,str-0x115C_0,,,いざよいとう,,,UNTRANSLATED
+string,str-0x1169_0,,,ゆうなぎのけん,,,UNTRANSLATED
+string,str-0x1178_0,,,せんぷうとう,,,UNTRANSLATED
+string,str-0x1185_0,,,ふうりんかざんけん,,,UNTRANSLATED
+string,str-0x1198_0,,,ふうじんのけん,,,UNTRANSLATED
+string,str-0x11A7_0,,,ようとうむらまさ,,,UNTRANSLATED
+string,str-0x11B8_0,,,しらはのつるぎ,,,UNTRANSLATED
+string,str-0x11C7_0,,,たいがのけん,,,UNTRANSLATED
+string,str-0x11D4_0,,,だいちのけん,,,UNTRANSLATED
+string,str-0x11E1_0,,,はくろうのつるぎ,,,UNTRANSLATED
+string,str-0x11F2_0,,,びゃっこのつるぎ,,,UNTRANSLATED
+string,str-0x1203_0,,,てんくうのけん,,,UNTRANSLATED
+string,str-0x1212_0,,,じんつうのつるぎ,,,UNTRANSLATED
+string,str-0x1223_0,,,きのゆみ,,,UNTRANSLATED
+string,str-0x122C_0,,,くれないのゆみ,,,UNTRANSLATED
+string,str-0x123B_0,,,しらはのゆみ,,,UNTRANSLATED
+string,str-0x1248_0,,,こくえんのゆみ,,,UNTRANSLATED
+string,str-0x1257_0,,,はくろうのゆみ,,,UNTRANSLATED
+string,str-0x1266_0,,,ぐれんのゆみ,,,UNTRANSLATED
+string,str-0x1273_0,,,びゃっこのゆみ,,,UNTRANSLATED
+string,str-0x1282_0,,,びゃっこうのおの,,,UNTRANSLATED
+string,str-0x1293_0,,,さんぞくのおの,,,UNTRANSLATED
+string,str-0x12A2_0,,,いくさおの,,,UNTRANSLATED
+string,str-0x12AD_0,,,ちからのおの,,,UNTRANSLATED
+string,str-0x12BA_0,,,てんちのおの,,,UNTRANSLATED
+string,str-0x12C7_0,,,しらはのおの,,,UNTRANSLATED
+string,str-0x12D4_0,,,はくろうのおの,,,UNTRANSLATED
+string,str-0x12E3_0,,,きしんのおの,,,UNTRANSLATED
+string,str-0x12F0_0,,,びゃっこのおの,,,UNTRANSLATED
+string,str-0x12FF_0,,,ぬのかたびら,,,UNTRANSLATED
+string,str-0x130C_0,,,しのびかたびら,,,UNTRANSLATED
+string,str-0x131B_0,,,いたのよろい,,,UNTRANSLATED
+string,str-0x1328_0,,,むしゃよろい,,,UNTRANSLATED
+string,str-0x1335_0,,,かっせんよろい,,,UNTRANSLATED
+string,str-0x1344_0,,,ちのよろい,,,UNTRANSLATED
+string,str-0x134F_0,,,おにのよろい,,,UNTRANSLATED
+string,str-0x135C_0,,,りゅうのよろい,,,UNTRANSLATED
+string,str-0x136B_0,,,ひのどう,,,UNTRANSLATED
+string,str-0x1374_0,,,しろじしのどう,,,UNTRANSLATED
+string,str-0x1383_0,,,かわかぶと,,,UNTRANSLATED
+string,str-0x138E_0,,,てつかぶと,,,UNTRANSLATED
+string,str-0x1399_0,,,つのかぶと,,,UNTRANSLATED
+string,str-0x13A4_0,,,ひのかぶと,,,UNTRANSLATED
+string,str-0x13AF_0,,,おにはちがね,,,UNTRANSLATED
+string,str-0x13BC_0,,,なわわらじ,,,UNTRANSLATED
+string,str-0x13C7_0,,,やまわらじ,,,UNTRANSLATED
+string,str-0x13D2_0,,,けもののわらじ,,,UNTRANSLATED
+string,str-0x13E1_0,,,はやぶさのわらじ,,,UNTRANSLATED
+string,str-0x13F2_0,,,かみかぜのくつ,,,UNTRANSLATED
+string,str-0x1401_0,,,がまのあぶら,,,UNTRANSLATED
+string,str-0x140E_0,,,しろがまのあぶら,,,UNTRANSLATED
+string,str-0x141F_0,,,しろへびのいし,,,UNTRANSLATED
+string,str-0x142E_0,,,じんつうりきのたま,,,UNTRANSLATED
+string,str-0x1441_0,,,せんたん,,,UNTRANSLATED
+string,str-0x144A_0,,,じんたん,,,UNTRANSLATED
+string,str-0x1453_0,,,どくけし,,,UNTRANSLATED
+string,str-0x145C_0,,,しゅりけん,,,UNTRANSLATED
+string,str-0x1467_0,,,とびくない,,,UNTRANSLATED
+string,str-0x1472_0,,,かやくだま,,,UNTRANSLATED
+string,str-0x147D_0,,,つきねのこな,,,UNTRANSLATED
+string,str-0x148A_0,,,じらいか,,,UNTRANSLATED
+string,str-0x1493_0,,,がまだま,,,UNTRANSLATED
+string,str-0x149C_0,,,へびだま,,,UNTRANSLATED
+string,str-0x14A5_0,,,なめくじだま,,,UNTRANSLATED
+string,str-0x14B2_0,,,かんざし,,,UNTRANSLATED
+string,str-0x14BB_0,,,へびのゆみや,,,UNTRANSLATED
+string,str-0x14C8_0,,,どぐうろぼ,,,UNTRANSLATED
+string,str-0x14D3_0,,,てんしょうのいし,,,UNTRANSLATED
+string,str-0x14E4_0,,,ておしぽんぷ,,,UNTRANSLATED
+string,str-0x14F1_0,,,はくつるのはね,,,UNTRANSLATED
+string,str-0x1500_0,,,しろきじのお,,,UNTRANSLATED
+string,str-0x150D_0,,,てがみ１,,,UNTRANSLATED
+string,str-0x1516_0,,,てがみ２,,,UNTRANSLATED
+string,str-0x151F,,,,,,
+string,str-0x1520_0,,,おるごーる,,,UNTRANSLATED
+string,str-0x152B_0,,,てつぽう,,,UNTRANSLATED
+string,str-0x1534_0,,,ぷでぃんぐ,,,UNTRANSLATED
+string,str-0x153F_0,,,わいん,,,UNTRANSLATED
+string,str-0x1546,,,,,,
+string,str-0x1547,,,,,,
+string,str-0x1548,,,,,,
+string,str-0x1549,,,,,,
+string,str-0x154A_0,,,つくばのちず,,,UNTRANSLATED
+string,str-0x1557_0,,,ばんもうのちず,,,UNTRANSLATED
+string,str-0x1566_0,,,りくうのちず,,,UNTRANSLATED
+string,str-0x1573_0,,,むつのちず,,,UNTRANSLATED
+string,str-0x157E_0,,,しなののちず,,,UNTRANSLATED
+string,str-0x158B_0,,,ふじのちず,,,UNTRANSLATED
+string,str-0x1596_0,,,さがみのちず,,,UNTRANSLATED
+string,str-0x15A3_0,,,ちばのちず,,,UNTRANSLATED
+string,str-0x15AE_0,,,むさしのちず,,,UNTRANSLATED
+string,str-0x15BB_0,,,たぬきかぎ,,,UNTRANSLATED
+string,str-0x15C6_0,,,おおひげぬき,,,UNTRANSLATED
+string,str-0x15D3_0,,,てつのかぎ,,,UNTRANSLATED
+string,str-0x15DE_0,,,えずめん,,,UNTRANSLATED
+string,str-0x15E7_0,,,おおかなづち,,,UNTRANSLATED
+string,str-0x15F4_0,,,かみなりだま,,,UNTRANSLATED
+string,str-0x1601_0,,,ねずみかぎ,,,UNTRANSLATED
+string,str-0x160C_0,,,さるざけ,,,UNTRANSLATED
+string,str-0x1615_0,,,こおりのかがみ,,,UNTRANSLATED
+string,str-0x1624_0,,,だっしゅつのかぎ,,,UNTRANSLATED
+string,str-0x1635_0,,,しまぬけかぎ,,,UNTRANSLATED
+string,str-0x1642_0,,,おうごん,,,UNTRANSLATED
+string,str-0x164B,,,,,"NOTE: technique name readings. i think it would be best to keep the technique names transliterated but provide their meanings in the descriptions, so i've repurposed these for that. can be removed with no consequences if desired.
+
+some of these are actual words, others are just kanji rammed together to suggest a meaning. for consistency, and the benefit of anyone who might be trying to learn to associate the meanings with the syllables, i'm listing the meanings of the individual kanji for all of them, with the meaning of the word they form (if any) after that.",
+string,str-0x164C_0,,,こなび,(powder-fire),"
+粉火",
+string,str-0x1653_0,,,かてん,(fire-heaven),火天,
+string,str-0x165A_0,,,じんえん,(god-flame),神炎,
+string,str-0x1663_0,,,らいこう,(thunder-light; lightning),雷光,
+string,str-0x166C_0,,,じんらい,(swift-thunder; thunderclap),迅雷,
+string,str-0x1675_0,,,てんらい,(heaven-thunder; thunder),天雷,
+string,str-0x167E_0,,,つきね,(moon-sleep),月寝,
+string,str-0x1685_0,,,ほしね,(star-sleep),星寝,
+string,str-0x168C_0,,,らっか,(drop-flower; falling petals),落花,
+string,str-0x1693_0,,,らくよう,(drop-leaf; falling leaves),落葉,
+string,str-0x169C_0,,,どろむし,(mud-bug),泥虫,
+string,str-0x16A5_0,,,くもぎり,(cloud-cut; gap in the clouds),雲切,
+string,str-0x16AE_0,,,きんいん,(forbid-seal),禁印,
+string,str-0x16B7_0,,,きんじゅ,(forbid-curse; incantation),禁呪,
+string,str-0x16C0_0,,,うんかい,(cloud-sea; sea of clouds),雲海,
+string,str-0x16C9_0,,,あわぐも,(pale-cloud),淡雲,
+string,str-0x16D2_0,,,わかくさ,(young-grass; green grass),若草,
+string,str-0x16DB_0,,,いぶき,(breath-blow; vitality),息吹,
+string,str-0x16E2_0,,,ありあけ,(have-light; dawn),有明,
+string,str-0x16EB_0,,,かげぎぬ,(shadow-garment),影衣,
+string,str-0x16F4_0,,,すずかぜ,(cool-wind; refreshing breeze),涼風,
+string,str-0x16FD_0,,,きよみず,(pure-water; clear water),清水,
+string,str-0x1706,,,,,,
+string,str-0x1707_0,,,にげみず,(escape-water; mirage),逃水,
+string,str-0x1710_0,,,しゅんこう,(spring-light; spring sunlight),春光,
+string,str-0x171B_0,,,ひょうりゅう,(ice-dragon),氷竜,
+string,str-0x1728_0,,,うりゅう,(rain-dragon),雨竜,
+string,str-0x1731_0,,,とうりゅう,(freeze-dragon),凍竜,
+string,str-0x173C_0,,,かざへび,(wind-snake),風蛇,
+string,str-0x1745_0,,,ひへび,(fire-snake),火蛇,
+string,str-0x174C_0,,,いしへび,(stone-snake),石蛇,
+string,str-0x1755_0,,,はるかぜ,(spring-wind; spring breeze),春風,
+string,str-0x175E_0,,,はなかべ,(flower-wall),花壁,
+string,str-0x1767_0,,,ゆきどけ,(snow-cancel; melting snow),雪解,

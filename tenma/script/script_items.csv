@@ -1,0 +1,215 @@
+,,,,"//==================================
+// item names (including technique scrolls)
+//==================================",,,,,
+string,str-0x26D9,,,　, ,,,,
+string,str-0x26DC,,,あおいの剣,Aoi Sword,"NOTE: noting this because i (supper) am an idiot and originally filled it in as ""blue sword"": this is an 葵の剣, referencing the three-葵 crest of the Tokugawa clan, which is famously associated with (the TV drama of) Mito Koumon, from whom you receive this item.",,,あおいのけん
+string,str-0x26E7,,,トノ様の剣,Lord's Sword,,,,とのさまのけん
+string,str-0x26F2,,,野太刀,Long Sword,,,,のだち
+string,str-0x26F9,,,侍の刀,Samurai Sword,,,,さむらいのかたな
+string,str-0x2700,,,新月刀,New Moon Sword,,,,しんげつとう
+string,str-0x2707,,,円月刀,Full Moon Sword,,,,えんげつとう
+string,str-0x270E,,,いざよい刀,Izayoi Sword,,,,いざよいとう
+string,str-0x2719,,,夕なぎの剣,Yuunagi Sword,,,,ゆうなぎのけん
+string,str-0x2724,,,旋風刀,Whirlwind Sword,,,,せんぷうとう
+string,str-0x272B,,,風林火山剣,Fuurinkazan Sword,,,,ふうりんかざんけん
+string,str-0x2736,,,風神の剣,Fuujin Sword,,,,ふうじんのけん
+string,str-0x273F,,,妖刀村正,Muramasa,,,,ようとうむらまさ
+string,str-0x2748,,,白羽の剣,White Plume Sword,,,,しらはのつるぎ
+string,str-0x2751,,,大河の剣,Taiga Sword,,,,たいがのけん
+string,str-0x275A,,,大地の剣,Daichi Sword,,,,だいちのけん
+string,str-0x2763,,,白狼の剣,White Wolf Sword,,,,はくろうのつるぎ
+string,str-0x276C,,,白虎の剣,White Tiger Sword,,,,びゃっこのつるぎ
+string,str-0x2775,,,天空の剣,Tenkuu Sword,,,,てんくうのけん
+string,str-0x277E,,,神通の剣,Sword of the Divine,,,,じんつうのつるぎ
+string,str-0x2787,,,♂,X,,,,
+string,str-0x278A,,,♂,X,DUPE: F22,,,
+string,str-0x278D,,,♂,X,DUPE: F22,,,
+string,str-0x2790,,,♂,X,DUPE: F22,,,
+string,str-0x2793,,,木の弓,Wooden Bow,,,,きのゆみ
+string,str-0x279A,,,紅の弓,Crimson Bow,,,,くれないのゆみ
+string,str-0x27A1,,,白羽の弓,White Plume Bow,,,,しらはのゆみ
+string,str-0x27AA,,,黒炎の弓,Kokuen Bow,,,,こくえんのゆみ
+string,str-0x27B3,,,白狼の弓,White Wolf Bow,,,,はくろうのゆみ
+string,str-0x27BC,,,ぐれんの弓,Guren Bow,,,,ぐれんのゆみ
+string,str-0x27C7,,,白虎の弓,White Tiger Bow,,,,びゃっこのゆみ
+string,str-0x27D0,,,♂,X,DUPE: F22,,,
+string,str-0x27D3,,,♂,X,DUPE: F22,,,
+string,str-0x27D6,,,♂,X,DUPE: F22,,,
+string,str-0x27D9,,,♂,X,DUPE: F22,,,
+string,str-0x27DC,,,白光のオノ,Byakkou Axe,,,,びゃっこうのおの
+string,str-0x27E7,,,山賊のオノ,Bandit's Axe,,,,さんぞくのおの
+string,str-0x27F2,,,いくさオノ,Battleaxe,,,,いくさおの
+string,str-0x27FD,,,力のオノ,Power Axe,,,,ちからのおの
+string,str-0x2806,,,天地のオノ,Tenchi Axe,,,,てんちのおの
+string,str-0x2811,,,白羽のオノ,White Plume Axe,,,,しらはのおの
+string,str-0x281C,,,白狼のオノ,White Wolf Axe,,,,はくろうのおの
+string,str-0x2827,,,鬼神のオノ,Kishin Axe,,,,きしんのおの
+string,str-0x2832,,,白虎のオノ,White Tiger Axe,,,,びゃっこのおの
+string,str-0x283D,,,♂,X,DUPE: F22,,,
+string,str-0x2840,,,♂,X,DUPE: F22,,,
+string,str-0x2843,,,♂,X,DUPE: F22,,,
+string,str-0x2846,,,♂,X,DUPE: F22,,,
+string,str-0x2849,,,布かたびら,Cloth Katabira,,,,ぬのかたびら
+string,str-0x2854,,,忍かたびら,Shinobi Katabira,,,,しのびかたびら
+string,str-0x285F,,,板のよろい,Plate Armor,,,,いたのよろい
+string,str-0x286A,,,武者よろい,Warrior Armor,,,,むしゃよろい
+string,str-0x2875,,,合戦よろい,Combat Armor,,,,かっせんよろい
+string,str-0x2880,,,地のよろい,Earth Armor,,,,ちのよろい
+string,str-0x288B,,,鬼のよろい,Oni Armor,,,,おにのよろい
+string,str-0x2896,,,竜のよろい,Dragon Armor,,,,りゅうのよろい
+string,str-0x28A1,,,火の胴,Fire Armor,,,,ひのどう
+string,str-0x28A8,,,白ジシの胴,White Lion Armor,,,,しろじしのどう
+string,str-0x28B3,,,♂,X,DUPE: F22,,,
+string,str-0x28B6,,,♂,X,DUPE: F22,,,
+string,str-0x28B9,,,♂,X,DUPE: F22,,,
+string,str-0x28BC,,,♂,X,DUPE: F22,,,
+string,str-0x28BF,,,皮かぶと,Leather Helmet,,,,かわかぶと
+string,str-0x28C8,,,鉄かぶと,Iron Helmet,,,,てつかぶと
+string,str-0x28D1,,,ツノかぶと,Spiked Helmet,,,,つのかぶと
+string,str-0x28DC,,,火のかぶと,Fire Helmet,,,,ひのかぶと
+string,str-0x28E7,,,鬼はちがね,Oni Headguard,,,,おにはちがね
+string,str-0x28F2,,,♂,X,DUPE: F22,,,
+string,str-0x28F5,,,♂,X,DUPE: F22,,,
+string,str-0x28F8,,,♂,X,DUPE: F22,,,
+string,str-0x28FB,,,縄わらじ,Rope Sandals,,,,なわわらじ
+string,str-0x2904,,,山わらじ,Mountain Sandals,,,,やまわらじ
+string,str-0x290D,,,獣のわらじ,Beast Sandals,,,,けもののわらじ
+string,str-0x2918,,,隼のわらじ,Falcon Sandals,,,,はやぶさのわらじ
+string,str-0x2923,,,神風のくつ,Shinpuu Shoes,,,,かみかぜのくつ
+string,str-0x292E,,,♂,X,DUPE: F22,,,
+string,str-0x2931,,,♂,X,DUPE: F22,,,
+string,str-0x2934,,,♂,X,DUPE: F22,,,
+string,str-0x2937,,,♂,X,DUPE: F22,,,
+string,str-0x293A,,,ガマの油,Toad Oil,,,,がまのあぶら
+string,str-0x2943,,,白ガマの油,White Toad Oil,,,,しろがまのあぶら
+string,str-0x294E,,,♂,X,DUPE: F22,,,
+string,str-0x2951,,,♂,X,DUPE: F22,,,
+string,str-0x2954,,,♂,X,DUPE: F22,,,
+string,str-0x2957,,,♂,X,DUPE: F22,,,
+string,str-0x295A,,,白ヘビの石,White Snake Stone,,,,しろへびのいし
+string,str-0x2965,,,神通力の玉,Supernatural Orb,,,,じんつうりきのたま
+string,str-0x2970,,,♂,X,DUPE: F22,,,
+string,str-0x2973,,,♂,X,DUPE: F22,,,
+string,str-0x2976,,,♂,X,DUPE: F22,,,
+string,str-0x2979,,,♂,X,DUPE: F22,,,
+string,str-0x297C,,,仙丹,Elixir,,,,せんたん
+string,str-0x2981,,,神丹,God Elixir,,,,じんたん
+string,str-0x2986,,,♂,X,DUPE: F22,,,
+string,str-0x2989,,,♂,X,DUPE: F22,,,
+string,str-0x298C,,,♂,X,DUPE: F22,,,
+string,str-0x298F,,,♂,X,DUPE: F22,,,
+string,str-0x2992,,,どくけし,Antidote,,,,どくけし
+string,str-0x299B,,,♂,X,DUPE: F22,,,
+string,str-0x299E,,,♂,X,DUPE: F22,,,
+string,str-0x29A1,,,♂,X,DUPE: F22,,,
+string,str-0x29A4,,,♂,X,DUPE: F22,,,
+string,str-0x29A7,,,しゅりけん,Shuriken,,,,しゅりけん
+string,str-0x29B2,,,とびくない,Kunai,,,,とびくない
+string,str-0x29BD,,,かやく玉,Gunpowder Orb,,,,かやくだま
+string,str-0x29C6,,,月寝の粉,Tsukine Powder,,,,つきねのこな
+string,str-0x29CF,,,♂,X,DUPE: F22,,,
+string,str-0x29D2,,,♂,X,DUPE: F22,,,
+string,str-0x29D5,,,♂,X,DUPE: F22,,,
+string,str-0x29D8,,,♂,X,DUPE: F22,,,
+string,str-0x29DB,,,地雷火,Land Mine,,,,じらいか
+string,str-0x29E2,,,ガマ玉,Toad Orb,,,,がまだま
+string,str-0x29E9,,,ヘビ玉,Snake Orb,,,,へびだま
+string,str-0x29F0,,,なめくじ玉,Slug Orb,,,,なめくじだま
+string,str-0x29FB,,,かんざし,Hairpin,,,,かんざし
+string,str-0x2A04,,,ヘビの弓矢,Snake Bow,,,,へびのゆみや
+string,str-0x2A0F,,,土偶ロボ,Doguu Robot,,,,どぐうろぼ
+string,str-0x2A18,,,天照の石,Amaterasu Stone,,,,てんしょうのいし
+string,str-0x2A21,,,手押ポンプ,Hand Pump,,,,ておしぽんぷ
+string,str-0x2A2C,,,白ツルの羽,White Crane Plume,,,,はくつるのはね
+string,str-0x2A37,,,白キジの尾,White Pheasant Tail,,,,しろきじのお
+string,str-0x2A42,,,手紙１,First Letter,"NOTE: opting for ""first/second letter"" rather than ""letter 1/2"" so it works better with the message shown when using the item; ""Ziria used the Letter 1!"" just isn't quite right",,,てがみ１
+string,str-0x2A49,,,手紙２,Second Letter,,,,てがみ２
+string,str-0x2A50,,,アト,Ato,,,,
+string,str-0x2A55,,,オルゴール,Music Box,,,,おるごーる
+string,str-0x2A60,,,てつぽう,Gun,NOTE: inconsistently referred to as てつぽう and てっぽう in different places. not sure if that's meant to be a joke or not.,,,てつぽう
+string,str-0x2A69,,,プディング,Pudding,,,,ぷでぃんぐ
+string,str-0x2A74,,,ワイン,Wine,,,,わいん
+string,str-0x2A7B,,,綱ギ５,Filler 5,,,,
+string,str-0x2A82,,,綱ギ６,Filler 6,,,,
+string,str-0x2A89,,,綱ギ７,Filler 7,,,,
+string,str-0x2A90,,,綱ギ８,Filler 8,,,,
+string,str-0x2A97,,,筑波の地図,Map of Tsukuba,,,,つくばのちず
+string,str-0x2AA2,,,磐毛の地図,Map of Banmou,,,,ばんもうのちず
+string,str-0x2AAD,,,陸羽の地図,Map of Rikuu,,,,りくうのちず
+string,str-0x2AB8,,,陸奥の地図,Map of Mutsu,,,,むつのちず
+string,str-0x2AC3,,,信濃の地図,Map of Shinano,,,,しなののちず
+string,str-0x2ACE,,,富士の地図,Map of Fuji,,,,ふじのちず
+string,str-0x2AD9,,,相模の地図,Map of Sagami,,,,さがみのちず
+string,str-0x2AE4,,,千葉の地図,Map of Chiba,,,,ちばのちず
+string,str-0x2AEF,,,武蔵の地図,Map of Musashi,,,,むさしのちず
+string,str-0x2AFA,,,たぬきカギ,Tanuki Key,,,,たぬきかぎ
+string,str-0x2B05,,,大ひげぬき,Giant Tweezers,,,,おおひげぬき
+string,str-0x2B10,,,鉄のカギ,Iron Key,,,,てつのかぎ
+string,str-0x2B19,,,絵図面,Plans,,,,えずめん
+string,str-0x2B20,,,大カナヅチ,Great Hammer,,,,おおかなづち
+string,str-0x2B2B,,,かみなり玉,Thunder Orb,,,,かみなりだま
+string,str-0x2B36,,,ねずみカギ,Rat Key,,,,ねずみかぎ
+string,str-0x2B41,,,さる酒,Monkey Booze,,,,さるざけ
+string,str-0x2B48,,,氷の鏡,Ice Mirror,,,,こおりのかがみ
+string,str-0x2B4F,,,脱出のカギ,Escape Key,,,,だっしゅつのかぎ
+string,str-0x2B5A,,,島ぬけカギ,Island Escape Key,,,,しまぬけかぎ
+string,str-0x2B65,,,黄金,Gold,,,,おうごん
+string,str-0x2B6A,,,♂,X,DUPE: F22,,,
+string,str-0x2B6D,,,♂,X,DUPE: F22,,,
+string,str-0x2B70,,,♂,X,DUPE: F22,,,
+string,str-0x2B73,,,♂,X,DUPE: F22,,,
+string,str-0x2B76,,,♂,X,DUPE: F22,,,
+string,str-0x2B79,,,♂,X,DUPE: F22,,,
+string,str-0x2B7C,,,♂,X,DUPE: F22,,,
+string,str-0x2B7F,,,♂,X,DUPE: F22,,,
+string,str-0x2B82,,,♂,X,DUPE: F22,,,
+string,str-0x2B85,,,♂,X,DUPE: F22,,,
+string,str-0x2B88,,,♂,X,DUPE: F22,,,
+string,str-0x2B8B,,,♂,X,DUPE: F22,,,
+string,str-0x2B8E,,,♂,X,DUPE: F22,,,
+string,str-0x2B91,,,♂,X,DUPE: F22,,,
+string,str-0x2B94,,,♂,X,DUPE: F22,,,
+string,str-0x2B97,,,♂,X,DUPE: F22,,,
+string,str-0x2B9A,,,♂,X,DUPE: F22,,,
+string,str-0x2B9D,,,♂,X,DUPE: F22,,,
+string,str-0x2BA0,,,♂,X,DUPE: F22,,,
+string,str-0x2BA3,,,♂,X,DUPE: F22,,,
+string,str-0x2BA6,,,♂,X,DUPE: F22,,,
+string,str-0x2BA9,,,♂,X,DUPE: F22,,,
+string,str-0x2BAC,,,♂,X,DUPE: F22,,,
+string,str-0x2BAF,,,♂,X,DUPE: F22,,,
+string,str-0x2BB2,,,粉火,Konabi,NOTE: technique names (techniques are internally handled as items). readings are taken from script_info.,,,こなび
+string,str-0x2BB7,,,火天,Katen,,,,かてん
+string,str-0x2BBC,,,神炎,Jinen,,,,じんえん
+string,str-0x2BC1,,,雷光,Raikou,,,,らいこう
+string,str-0x2BC6,,,迅雷,Jinrai,,,,じんらい
+string,str-0x2BCB,,,天雷,Tenrai,,,,てんらい
+string,str-0x2BD0,,,月寝,Tsukine,,,,つきね
+string,str-0x2BD5,,,星寝,Hoshine,,,,ほしね
+string,str-0x2BDA,,,落花,Rakka,,,,らっか
+string,str-0x2BDF,,,落葉,Rakuyou,,,,らくよう
+string,str-0x2BE4,,,泥虫,Doromushi,,,,どろむし
+string,str-0x2BE9,,,雲切,Kumogiri,,,,くもぎり
+string,str-0x2BEE,,,禁印,Kinin,,,,きんいん
+string,str-0x2BF3,,,禁呪,Kinju,,,,きんじゅ
+string,str-0x2BF8,,,雲海,Unkai,,,,うんかい
+string,str-0x2BFD,,,淡雲,Awagumo,,,,あわぐも
+string,str-0x2C02,,,若草,Wakakusa,,,,わかくさ
+string,str-0x2C07,,,息吹,Ibuki,,,,いぶき
+string,str-0x2C0C,,,有明,Ariake,,,,ありあけ
+string,str-0x2C11,,,影衣,Kageginu,,,,かげぎぬ
+string,str-0x2C16,,,涼風,Suzukaze,,,,すずかぜ
+string,str-0x2C1B,,,清水,Kiyomizu,,,,きよみず
+string,str-0x2C20,,,♀,Y,,,,
+string,str-0x2C23,,,逃水,Nigemizu,,,,にげみず
+string,str-0x2C28,,,春光,Shunkou,,,,しゅんこう
+string,str-0x2C2D,,,氷竜,Hyouryuu,,,,ひょうりゅう
+string,str-0x2C32,,,雨竜,Uryuu,,,,うりゅう
+string,str-0x2C37,,,凍竜,Touryuu,,,,とうりゅう
+string,str-0x2C3C,,,風蛇,Kazahebi,,,,かざへび
+string,str-0x2C41,,,火蛇,Hihebi,,,,ひへび
+string,str-0x2C46,,,石蛇,Ishihebi,,,,いしへび
+string,str-0x2C4B,,,春風,Harukaze,,,,はるかぜ
+string,str-0x2C50,,,花壁,Hanakabe,,,,はなかべ
+string,str-0x2C55,,,雪解,Yukidoke,,,,ゆきどけ
+string,str-0x2C5A,,,♀,Y,DUPE: F201,,,

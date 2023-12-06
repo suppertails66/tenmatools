@@ -1,0 +1,28 @@
+#STARTREGION("misc_yesno_prompt")
+
+#SETSIZE(-1, -1)
+//===================================
+// dialogue yes/no prompt
+//===================================
+
+#STARTSTRING("yesno_prompt")
+#SETORIGINALPOS(0x1F94, 0xD)
+#IMPORT("yesno_prompt")
+#ENDSTRING()
+
+#STARTREGION("misc_gokumon")
+
+#ADDFREESPACE(0x1A00, 0x600)
+#SETSIZE(216, 3)
+//===================================
+// sent to gokumon event
+//===================================
+
+#STARTSTRING("str-0x187E")
+#SETORIGINALPOS(0x187E, 0xA8)
+#IMPORT("str-0x187E_0")
+#BOXPAUSE()
+#IMPORT("str-0x187E_2")
+#BOXEND()
+#ENDSTRING()
+

@@ -1,0 +1,380 @@
+"","","","","//==================================
+// ally names
+//==================================","","","",""
+"string","str-0x13F0","","","ジライア","",,"=IF(F2=I2, ""UNTRANSLATED"", """")",""
+"string","str-0x13F9","","","オロチ丸","",,"=IF(F3=I3, ""UNTRANSLATED"", """")",""
+"string","str-0x1402","","","ツナデ","",,"=IF(F4=I4, ""UNTRANSLATED"", """")",""
+"string","str-0x1409","","","黒い影","",,"=IF(F5=I5, ""UNTRANSLATED"", """")",""
+"string","str-0x1410","","","あくろう王","",,"=IF(F6=I6, ""UNTRANSLATED"", """")",""
+"string","str-0x141B","","","ホテイ丸","",,"=IF(F7=I7, ""UNTRANSLATED"", """")",""
+"string","str-0x1424","","","坊主","",,"=IF(F8=I8, ""UNTRANSLATED"", """")",""
+"string","str-0x1429","","","コガマ","",,"=IF(F9=I9, ""UNTRANSLATED"", """")",""
+"string","str-0x1430","","","土偶ロボ","",,"=IF(F10=I10, ""UNTRANSLATED"", """")",""
+"string","str-0x1439","","","ジライアたち","",,"=IF(F11=I11, ""UNTRANSLATED"", """")",""
+"","","","","//==================================
+// stat/technique/magic names
+//==================================","","","",""
+"string","str-0x144C","","","攻撃力","",,"=IF(F13=I13, ""UNTRANSLATED"", """")",""
+"string","str-0x1453","","","守備力","",,"=IF(F14=I14, ""UNTRANSLATED"", """")",""
+"string","str-0x145A","","","すばやさ","",,"=IF(F15=I15, ""UNTRANSLATED"", """")",""
+"string","str-0x1463","","","術","",,"=IF(F16=I16, ""UNTRANSLATED"", """")",""
+"string","str-0x1466","","","魔法","",,"=IF(F17=I17, ""UNTRANSLATED"", """")",""
+"","","","","//==================================
+// standard messages
+//==================================","","","",""
+"string","str-0x1512_0","","","どうする？　[string]！","",,"=IF(F19=I19, ""UNTRANSLATED"", """")",""
+"string","str-0x1524_0","","","[string]の攻撃！","",,"=IF(F20=I20, ""UNTRANSLATED"", """")",""
+"string","str-0x152F_0","","","[string]に\n
+[number]ポイントのダメージ！","",,"=IF(F21=I21, ""UNTRANSLATED"", """")",""
+"string","str-0x154A_0","","","[string]を　打ち倒した！","",,"=IF(F22=I22, ""UNTRANSLATED"", """")",""
+"string","str-0x155D_0","","","[string]が現れた","",,"=IF(F23=I23, ""UNTRANSLATED"", """")",""
+"string","str-0x1569_0","","","[string]の\n
+体の力が\n
+[number]ポイント　回復した！","",,"=IF(F24=I24, ""UNTRANSLATED"", """")",""
+"string","str-0x158D_0","","","[string]に\n
+[string]の魔法が　きかない","",,"=IF(F25=I25, ""UNTRANSLATED"", """")",""
+"string","str-0x15A6_0","","","[string]は\n
+[string]の術を　つかった","",,"=IF(F26=I26, ""UNTRANSLATED"", """")",""
+"string","str-0x15BD_0","","","[string]は\n
+[string]の魔法を　つかった","",,"=IF(F27=I27, ""UNTRANSLATED"", """")",""
+"string","str-0x15D6_0","","","[string]は\n
+[string]を　つかった","",,"=IF(F28=I28, ""UNTRANSLATED"", """")",""
+"string","str-0x15E9_0","","","[string]は\n
+盗みの技を　つかった","",,"=IF(F29=I29, ""UNTRANSLATED"", """")",""
+"string","str-0x1603_0","","","[string]が　おそってきた！","",,"=IF(F30=I30, ""UNTRANSLATED"", """")",""
+"string","str-0x1618_0","","","[string]は　おそれをなして\n
+逃げ出した","",,"=IF(F31=I31, ""UNTRANSLATED"", """")",""
+"string","str-0x1638_0","","","[string]は　ウソ泣きをした！\n
+おおーっと　ついにツナデのウソ泣きが\n
+出たー！！一体何がおこるんだー！？","",,"=IF(F32=I32, ""UNTRANSLATED"", """")",""
+"string","str-0x1697_0","","","[string]は　流し目を送った！\n
+来た　来た！　背すじに来たゾー！","",,"=IF(F33=I33, ""UNTRANSLATED"", """")",""
+"string","str-0x16CF_0","","","[string]は\n
+仲間をよんだ","",,"=IF(F34=I34, ""UNTRANSLATED"", """")",""
+"string","str-0x16E2_0","","","[string]は\n
+仲間に裏切られた","",,"=IF(F35=I35, ""UNTRANSLATED"", """")",""
+"string","str-0x16F8_0","","","[string]は\n
+逃げ出した","",,"=IF(F36=I36, ""UNTRANSLATED"", """")",""
+"string","str-0x1708_0","","","[string]は\n
+追いかけてきた","",,"=IF(F37=I37, ""UNTRANSLATED"", """")",""
+"string","str-0x171C_0","","","[string]に\n
+[string]の術が　きかない","",,"=IF(F38=I38, ""UNTRANSLATED"", """")",""
+"string","str-0x1733_0","","","技の力が　たりない","",,"=IF(F39=I39, ""UNTRANSLATED"", """")",""
+"string","str-0x1747_0","","","[string]は\n
+身をかわした","",,"=IF(F40=I40, ""UNTRANSLATED"", """")",""
+"string","str-0x1759_0","","","[string]は\n
+ねむっている","",,"=IF(F41=I41, ""UNTRANSLATED"", """")",""
+"string","str-0x176B_0","","","[string]に\n
+[string]が　効かない","",,"=IF(F42=I42, ""UNTRANSLATED"", """")",""
+"string","str-0x177E_0","","","連続攻撃！！","",,"=IF(F43=I43, ""UNTRANSLATED"", """")",""
+"string","str-0x178C_0","","","痛恨の一撃！！","",,"=IF(F44=I44, ""UNTRANSLATED"", """")",""
+"string","str-0x179C_0","","","[string]を\n
+ねむらせた！","",,"=IF(F45=I45, ""UNTRANSLATED"", """")",""
+"string","str-0x17AE_0","","","[string]は\n
+目をさました！","",,"=IF(F46=I46, ""UNTRANSLATED"", """")",""
+"string","str-0x17C2_0","","","[string]は\n
+盗みに　失敗した","",,"=IF(F47=I47, ""UNTRANSLATED"", """")",""
+"string","str-0x17D8_0","","","[string]には\n
+きかなかった","",,"=IF(F48=I48, ""UNTRANSLATED"", """")",""
+"string","str-0x17EC_0","","","しかし　何も　おこらなかった！","",,"=IF(F49=I49, ""UNTRANSLATED"", """")",""
+"string","str-0x180C_0","","","魔の力が　たりない","",,"=IF(F50=I50, ""UNTRANSLATED"", """")",""
+"string","str-0x1820_0","","","[string]は　深いキズを負って\n
+たたかえなくなった","",,"=IF(F51=I51, ""UNTRANSLATED"", """")",""
+"string","str-0x184A_0","","","ジライア達は全員\n
+深いキズを負って\n
+たたかえなくなった．．．","",,"=IF(F52=I52, ""UNTRANSLATED"", """")",""
+"string","str-0x184A_2","","","ジライアは　明日のために\n
+勇気をもって退却を決断した！","",,"=IF(F53=I53, ""UNTRANSLATED"", """")",""
+"string","str-0x18BC_0","","","[string]は\n
+[number]両を　盗まれた","",,"=IF(F54=I54, ""UNTRANSLATED"", """")",""
+"string","str-0x18D1_0","","","ジライアは　盗みに失敗した！\n
+敵は　いかりくるって\n
+攻撃力が　増した！","",,"=IF(F55=I55, ""UNTRANSLATED"", """")",""
+"string","str-0x1917_0","","","[string]の魔の力を\n
+[number]ポイントうばった","",,"=IF(F56=I56, ""UNTRANSLATED"", """")",""
+"string","str-0x1936_0","","","効果が　なかった","",,"=IF(F57=I57, ""UNTRANSLATED"", """")",""
+"string","str-0x1948_0","[color]<$01>","","[string]は\n
+[number]両を手に入れた","",,"=IF(F58=I58, ""UNTRANSLATED"", """")",""
+"string","str-0x195F_0","","","[string]は\n
+気分が　わるくなった","",,"=IF(F59=I59, ""UNTRANSLATED"", """")",""
+"string","str-0x1979_0","[color]<$01>","","[string]は\n
+[string]を手に入れた","",,"=IF(F60=I60, ""UNTRANSLATED"", """")",""
+"string","str-0x198E_0","","","[string]は\n
+[string]を盗まれた","",,"=IF(F61=I61, ""UNTRANSLATED"", """")",""
+"string","str-0x199F_0","","","[string]は\n
+炎を　はいた","",,"=IF(F62=I62, ""UNTRANSLATED"", """")",""
+"string","str-0x19B1_0","","","[string]は\n
+毒を　はいた","",,"=IF(F63=I63, ""UNTRANSLATED"", """")",""
+"string","str-0x19C3_0","","","[string]は\n
+毒を　うけてしまった","",,"=IF(F64=I64, ""UNTRANSLATED"", """")",""
+"string","str-0x19DD_0","","","[string]の\n
+[string]を封じこめた","",,"=IF(F65=I65, ""UNTRANSLATED"", """")",""
+"string","str-0x19F0_0","","","[string]に　かけられていた\n
+魔法が　消え去った","",,"=IF(F66=I66, ""UNTRANSLATED"", """")",""
+"string","str-0x1A18_0","","","[string]は\n
+[string]を　封じ込められている","",,"=IF(F67=I67, ""UNTRANSLATED"", """")",""
+"string","str-0x1A35_0","","","[string]は\n
+[string]が　つかえるようになった","",,"=IF(F68=I68, ""UNTRANSLATED"", """")",""
+"string","str-0x1A54_0","","","[string]は　動くことができない","",,"=IF(F69=I69, ""UNTRANSLATED"", """")",""
+"string","str-0x1A6D","","","","",,,""
+"string","str-0x1A6F_0","","","[string]を\n
+白い光が　つつみこんだ！","",,"=IF(F71=I71, ""UNTRANSLATED"", """")",""
+"string","str-0x1A8D_0","","","[string]のまわりを\n
+暗い影が　とりまいた！","",,"=IF(F72=I72, ""UNTRANSLATED"", """")",""
+"string","str-0x1AB1_0","","","[string]の魔法が　きかない","",,"=IF(F73=I73, ""UNTRANSLATED"", """")",""
+"string","str-0x1AC6_0","","","[string]の攻撃が　きかない","",,"=IF(F74=I74, ""UNTRANSLATED"", """")",""
+"string","str-0x1ADB_0","","","ジライアは\n
+まだ　盗みを　おぼえていない","",,"=IF(F75=I75, ""UNTRANSLATED"", """")",""
+"string","str-0x1B04_0","","","ジライアは\n
+[string]から\n
+[number]両　ぬすんだ","",,"=IF(F76=I76, ""UNTRANSLATED"", """")",""
+"string","str-0x1B24_0","","","さらに\n
+動きをとめた","",,"=IF(F77=I77, ""UNTRANSLATED"", """")",""
+"string","str-0x1B39_0","","","[string]は\n
+敵の姿を見失った","",,"=IF(F78=I78, ""UNTRANSLATED"", """")",""
+"string","str-0x1B4F_0","","","[string]は\n
+なぜか　こうふうんしてしまった\n
+攻撃力が倍になった！！","",,"=IF(F79=I79, ""UNTRANSLATED"", """")",""
+"string","str-0x1B8A_0","","","[string]は\n
+ヘロヘロになった！","",,"=IF(F80=I80, ""UNTRANSLATED"", """")",""
+"string","str-0x1BA2_0","","","ツナデは\n
+[string]の術を　つかおうとしたが\n
+むずかしい字が　読めなかった！","",,"=IF(F81=I81, ""UNTRANSLATED"", """")",""
+"string","str-0x1BE5_0","","","[string]の技の力が\n
+[number]ポイント　回復した！","",,"=IF(F82=I82, ""UNTRANSLATED"", """")",""
+"string","str-0x1C08_0","","","なまぐさぼうずは\n
+「おんてき　たいさん！」と\n
+叫んだ！！","",,"=IF(F83=I83, ""UNTRANSLATED"", """")",""
+"string","str-0x1C40_0","","","てつぽうが　ぼうはつしてしまった！","",,"=IF(F84=I84, ""UNTRANSLATED"", """")",""
+"string","str-0x1C64_0","","","[string]は\n
+土偶ロボに　乗り込んだ","",,"=IF(F85=I85, ""UNTRANSLATED"", """")",""
+"string","str-0x1C80_0","","","ボクデン斬りだ！！\n
+剣が　するどさを増した！！","",,"=IF(F86=I86, ""UNTRANSLATED"", """")",""
+"string","str-0x1CAF_0","","","ムサシ斬りだ！！\n
+剣が　続けざまに\n
+敵を　切りつけた！！","",,"=IF(F87=I87, ""UNTRANSLATED"", """")",""
+"string","str-0x1CE7_0","","","ジュウベイ斬りだ！！\n
+剣が　旋風をおこし\n
+敵の　攻撃をはね返した！！","",,"=IF(F88=I88, ""UNTRANSLATED"", """")",""
+"string","str-0x1D2B_0","","","シュウサク斬りだ！！\n
+剣に　力が宿り\n
+真紅に　きらめいた！！","",,"=IF(F89=I89, ""UNTRANSLATED"", """")",""
+"string","str-0x1D67_0","","","体の力が　たりない","",,"=IF(F90=I90, ""UNTRANSLATED"", """")",""
+"string","str-0x1D7B_0","","","[string]に　かかっていた\n
+[string]の術が　とけてしまった！","",,"=IF(F91=I91, ""UNTRANSLATED"", """")",""
+"string","str-0x1DA8_0","","","[string]にかかっていた\n
+[string]の魔法が　とけた！","",,"=IF(F92=I92, ""UNTRANSLATED"", """")",""
+"string","str-0x1DCD_0","","","[string]の[string]が\n
+倍になった","",,"=IF(F93=I93, ""UNTRANSLATED"", """")",""
+"string","str-0x1DE0_0","","","[string]の[string]が\n
+半分になった","",,"=IF(F94=I94, ""UNTRANSLATED"", """")",""
+"string","str-0x1DF5_0","","","[string]も　ねむった","",,"=IF(F95=I95, ""UNTRANSLATED"", """")",""
+"string","str-0x1E04_0","","","[string]は　盗まれたものを\n
+とりかえした！","",,"=IF(F96=I96, ""UNTRANSLATED"", """")",""
+"string","str-0x1E28_0","","","[string]に　かかっていた\n
+[string]の　効果が　きれた！","",,"=IF(F97=I97, ""UNTRANSLATED"", """")",""
+"string","str-0x1E51_0","","","神通の剣に　力がやどり\n
+白く　かがやきはじめた！！\n
+攻撃力が　[number]ポイント　ふえた！！","",,"=IF(F98=I98, ""UNTRANSLATED"", """")",""
+"string","str-0x1EA4_0","","","神通の剣は　さらに　力強く\n
+白く　かがやいた！！\n
+攻撃力が　[number]ポイント　ふえた！！","",,"=IF(F99=I99, ""UNTRANSLATED"", """")",""
+"string","str-0x1EF5_0","","","[string]の技の力を\n
+[number]ポイントうばった","",,"=IF(F100=I100, ""UNTRANSLATED"", """")",""
+"string","str-0x1F14_0","","","しかし　三つの玉が\n
+マサカドの　攻撃を　防いだ！！","",,"=IF(F101=I101, ""UNTRANSLATED"", """")",""
+"string","str-0x1F47_0","","","[number]番目","",,"=IF(F102=I102, ""UNTRANSLATED"", """")",""
+"string","str-0x1F4E_0","","","ＢＧ","",,"=IF(F103=I103, ""UNTRANSLATED"", """")",""
+"string","str-0x1F54_0","","","失敗","",,"=IF(F104=I104, ""UNTRANSLATED"", """")",""
+"","","","","//==================================
+// boss combat messages
+//==================================","","","",""
+"string","str-0x19_0","","","ゴーモンは\n
+催眠術をつかった！","",,"=IF(F106=I106, ""UNTRANSLATED"", """")",""
+"string","str-0x38_0","","","ゴーモンがかけていた\n
+催眠術がとけた！","",,"=IF(F107=I107, ""UNTRANSLATED"", """")",""
+"string","str-0x5F_0","","","[string]には　きかなかった！","",,"=IF(F108=I108, ""UNTRANSLATED"", """")",""
+"string","str-0x76_0","","","ゴーモンは\n
+全身から　地下の　水分を\n
+すいとった！","",,"=IF(F109=I109, ""UNTRANSLATED"", """")",""
+"string","str-0xA8_0","","","ゴーモンは\n
+触角を　ふり回して\n
+たたきつけてきた！","",,"=IF(F110=I110, ""UNTRANSLATED"", """")",""
+"string","str-0xDA_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x109_0","","","キュウビは\n
+呪いの毛を　まきちらした","",,"=IF(F112=I112, ""UNTRANSLATED"", """")",""
+"string","str-0x12E_0","","","[string]に無数の毛が\n
+生き物のようにからみついた","",,"=IF(F113=I113, ""UNTRANSLATED"", """")",""
+"string","str-0x158_0","","","[string]は　呪いの毛を\n
+ふりほどいた！","",,"=IF(F114=I114, ""UNTRANSLATED"", """")",""
+"string","str-0x178_0","","","[string]は　呪いの毛を\n
+ふりほどいた！","=T(F114)","=""DUPE: ""&ADDRESS(ROW(F114), COLUMN(F114), 4)",,
+"string","str-0x198_0","","","キュウビは\n
+狐狸の霊を　よびよせた！","",,"=IF(F116=I116, ""UNTRANSLATED"", """")",""
+"string","str-0x1BD_0","","","[string]に\n
+霊が　とりついた！","",,"=IF(F117=I117, ""UNTRANSLATED"", """")",""
+"string","str-0x1D5_0","","","[string]は\n
+霊を　ふりほどいた！","",,"=IF(F118=I118, ""UNTRANSLATED"", """")",""
+"string","str-0x1EF_0","","","[string]は\n
+霊を　はね返した！","",,"=IF(F119=I119, ""UNTRANSLATED"", """")",""
+"string","str-0x207_0","","","キュウビは\n
+９本の　しっぽから\n
+妖気を　はなった！","",,"=IF(F120=I120, ""UNTRANSLATED"", """")",""
+"string","str-0x239_0","","","[string]は\n
+妖気を　はね返した！","",,"=IF(F121=I121, ""UNTRANSLATED"", """")",""
+"string","str-0x26B_0","","","ハーメルンは\n
+くさった　だえきを　はきかけた！","",,"=IF(F122=I122, ""UNTRANSLATED"", """")",""
+"string","str-0x29A_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x2B1_0","","","ハーメルンは\n
+けがれた　針の毛を　突き立てた！","",,"=IF(F124=I124, ""UNTRANSLATED"", """")",""
+"string","str-0x2E0_0","","","[string]は\n
+攻撃を　かわした！","",,"=IF(F125=I125, ""UNTRANSLATED"", """")",""
+"string","str-0x2F8_0","","","ハーメルンは\n
+持っていた　生肉を　食らった！","",,"=IF(F126=I126, ""UNTRANSLATED"", """")",""
+"string","str-0x33D_0","","","カーメンカーメンは\n
+生き霊の　たましいを　すいこんだ！","",,"=IF(F127=I127, ""UNTRANSLATED"", """")",""
+"string","str-0x374_0","","","カーメンカーメンは\n
+くさった息を　はいた！","",,"=IF(F128=I128, ""UNTRANSLATED"", """")",""
+"string","str-0x39F_0","","","[string]は\n
+くさった息を　ふりはらった！","",,"=IF(F129=I129, ""UNTRANSLATED"", """")",""
+"string","str-0x3C1_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x3D8_0","","","カーメンカーメンは\n
+古代の剣を　ふりかざした！","",,"=IF(F131=I131, ""UNTRANSLATED"", """")",""
+"string","str-0x407_0","","","ミイラの霊が　おそいかかった！","",,"=IF(F132=I132, ""UNTRANSLATED"", """")",""
+"string","str-0x427_0","","","[string]は\n
+霊を　かわした！","",,"=IF(F133=I133, ""UNTRANSLATED"", """")",""
+"string","str-0x455_0","","","マントーは\n
+ウマシカの魔法を　となえた！","",,"=IF(F134=I134, ""UNTRANSLATED"", """")",""
+"string","str-0x47E_0","","","ウマと　シカの霊が　あらわれ\n
+よってたかって　[string]を\n
+けとばした！","",,"=IF(F135=I135, ""UNTRANSLATED"", """")",""
+"string","str-0x4BD_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x4EC_0","","","ドーマンは\n
+魔聖水を　飲んだ！","",,"=IF(F137=I137, ""UNTRANSLATED"", """")",""
+"string","str-0x50B_0","","","ドーマンは\n
+血しぶきの　かすみを　張った！","",,"=IF(F138=I138, ""UNTRANSLATED"", """")",""
+"string","str-0x536_0","","","[string]は　かすみを\n
+ふりはらった！","",,"=IF(F139=I139, ""UNTRANSLATED"", """")",""
+"string","str-0x554_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x56B_0","","","ドーマンは\n
+あやしい　子守歌を　うたった！","",,"=IF(F141=I141, ""UNTRANSLATED"", """")",""
+"string","str-0x596_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x5C5_0","","","タランチェは\n
+ねばつく糸を　はいた！","",,"=IF(F143=I143, ""UNTRANSLATED"", """")",""
+"string","str-0x5EA_0","","","[string]は　糸を\n
+ふりほどいた！","",,"=IF(F144=I144, ""UNTRANSLATED"", """")",""
+"string","str-0x604_0","","","[string]は　糸を\n
+はね返した！","",,"=IF(F145=I145, ""UNTRANSLATED"", """")",""
+"string","str-0x61C_0","","","タランチェは\n
+８本の足を　あやしく　うごかし\n
+クモの　のろいを　かけた！","",,"=IF(F146=I146, ""UNTRANSLATED"", """")",""
+"string","str-0x664_0","","","[string]に　かかっていた\n
+クモの　のろいが　とけた！","",,"=IF(F147=I147, ""UNTRANSLATED"", """")",""
+"string","str-0x692_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x6C1_0","","","ゴーヨックは\n
+たいこ腹を　たたいた！","",,"=IF(F149=I149, ""UNTRANSLATED"", """")",""
+"string","str-0x6E6_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x715_0","","","カーミラは\n
+やいばのウロコを　とばした！","",,"=IF(F151=I151, ""UNTRANSLATED"", """")",""
+"string","str-0x73E_0","","","[string]は　\n
+ウロコをかわした！","",,"=IF(F152=I152, ""UNTRANSLATED"", """")",""
+"string","str-0x758_0","","","カーミラは　炎も　こおる\n
+冷気を　はいた！","",,"=IF(F153=I153, ""UNTRANSLATED"", """")",""
+"string","str-0x783_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0x79A_0","","","カーミラは　口から\n
+無数の　ヘビを　はいた！","",,"=IF(F155=I155, ""UNTRANSLATED"", """")",""
+"string","str-0x7C7_0","","","ヘビが　体を　しめつける！\n
+[string]は　うごけない！","",,"=IF(F156=I156, ""UNTRANSLATED"", """")",""
+"string","str-0x7F5_0","","","[string]は　こんしんの　力をこめて\n
+ヘビを　ふりほどいた！","",,"=IF(F157=I157, ""UNTRANSLATED"", """")",""
+"string","str-0x829_0","","","[string]は　ヘビを\n
+はね返した！","",,"=IF(F158=I158, ""UNTRANSLATED"", """")",""
+"string","str-0x85B_0","","","ムテキオーは\n
+結界を　張った！","",,"=IF(F159=I159, ""UNTRANSLATED"", """")",""
+"string","str-0x87A_0","","","ムテキオーの　張った　結界が\n
+とけてしまった！","",,"=IF(F160=I160, ""UNTRANSLATED"", """")",""
+"string","str-0x8A9_0","","","ムテキオーは　指先から\n
+稲妻を　ほとばしらせた！","",,"=IF(F161=I161, ""UNTRANSLATED"", """")",""
+"string","str-0x8DA_0","","","[string]は　稲妻を\n
+かわした！","",,"=IF(F162=I162, ""UNTRANSLATED"", """")",""
+"string","str-0x8F2_0","","","ムテキオーは\n
+たつまきを　よんだ！","",,"=IF(F163=I163, ""UNTRANSLATED"", """")",""
+"string","str-0x915_0","","","熱風が　[string]を　おそった！","",,"=IF(F164=I164, ""UNTRANSLATED"", """")",""
+"string","str-0x92E_0","","","[string]は　たつまきを\n
+かわした！","",,"=IF(F165=I165, ""UNTRANSLATED"", """")",""
+"string","str-0x962_0","","","クラーケンは　きゅうばんから\n
+毒のきりを　ふき出した！","",,"=IF(F166=I166, ""UNTRANSLATED"", """")",""
+"string","str-0x999_0","","","[string]は\n
+身を　かわした！","",,"=IF(F167=I167, ""UNTRANSLATED"", """")",""
+"string","str-0x9AF_0","","","クラーケンは　電気を　おびた\n
+触手を　からみつかせてきた！","",,"=IF(F168=I168, ""UNTRANSLATED"", """")",""
+"string","str-0x9EA_0","","","触手が　[string]を　しめつけ\n
+動けなくなった！","",,"=IF(F169=I169, ""UNTRANSLATED"", """")",""
+"string","str-0xA12_0","","","[string]は　こんしんの　力を　こめて\n
+触手を　ふりほどいた！","",,"=IF(F170=I170, ""UNTRANSLATED"", """")",""
+"string","str-0xA48_0","","","[string]は　触手を\n
+かわした！","",,"=IF(F171=I171, ""UNTRANSLATED"", """")",""
+"string","str-0xA60_0","","","クラーケンは\n
+にえたぎる　スミを　はいた！","",,"=IF(F172=I172, ""UNTRANSLATED"", """")",""
+"string","str-0xA8B_0","","","[string]は\n
+身を　かわした！","=T(F167)","=""DUPE: ""&ADDRESS(ROW(F167), COLUMN(F167), 4)",,
+"string","str-0xAB9_0","","","ベリエルは　異次元の　すきまに\n
+姿を　消した！","",,"=IF(F174=I174, ""UNTRANSLATED"", """")",""
+"string","str-0xAE8_0","","","[string]は　ベリエルの\n
+姿を　みつけた！","",,"=IF(F175=I175, ""UNTRANSLATED"", """")",""
+"string","str-0xB0A_0","","","ベリエルは\n
+サタンの魔法を　となえた！","",,"=IF(F176=I176, ""UNTRANSLATED"", """")",""
+"string","str-0xB31_0","","","ベリエルは\n
+墜天使の魔法を　となえた！","",,"=IF(F177=I177, ""UNTRANSLATED"", """")",""
+"string","str-0xB58_0","","","[string]に　かかっていた\n
+墜天使の魔法が　とけた！","",,"=IF(F178=I178, ""UNTRANSLATED"", """")",""
+"string","str-0xB84_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xBB3_0","","","邪神斎は\n
+手のひらを　こちらへ　向け\n
+怨霊の　邪気を　あびせた！","",,"=IF(F180=I180, ""UNTRANSLATED"", """")",""
+"string","str-0xBF3_0","","","[string]は\n
+邪気を　ふりはらった！","",,"=IF(F181=I181, ""UNTRANSLATED"", """")",""
+"string","str-0xC0F_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xC26_0","","","邪心斎は\n
+目を　ぶきみに　光らせた！","",,"=IF(F183=I183, ""UNTRANSLATED"", """")",""
+"string","str-0xC4B_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xC62_0","","","邪心斎は\n
+地獄の　霊気を　頭上にあつめ\n
+いっきに　ときはなった！","",,"=IF(F185=I185, ""UNTRANSLATED"", """")",""
+"string","str-0xCA2_0","","","[string]は\n
+霊気を　かわした！","",,"=IF(F186=I186, ""UNTRANSLATED"", """")",""
+"string","str-0xCD2_0","","","ルシフェラーは\n
+魔界の　エネルギーを　すいこんだ！","",,"=IF(F187=I187, ""UNTRANSLATED"", """")",""
+"string","str-0xD05_0","","","ルシフェラーは\n
+つばさを　広げた！","",,"=IF(F188=I188, ""UNTRANSLATED"", """")",""
+"string","str-0xD28_0","","","つばさから　しっ黒の闇が　にじみ出し\n
+あたりは　くらやみに　つつまれた！","",,"=IF(F189=I189, ""UNTRANSLATED"", """")",""
+"string","str-0xD71_0","","","[string]は　しっ黒の闇から\n
+ぬけ出した！","",,"=IF(F190=I190, ""UNTRANSLATED"", """")",""
+"string","str-0xD93_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xDAA_0","","","ルシフェラーは\n
+凍った　闇の空気を\n
+うず巻かせてきた！","",,"=IF(F192=I192, ""UNTRANSLATED"", """")",""
+"string","str-0xDE0_0","","","冷気が　とり巻く！\n
+[string]は　うごけない！","",,"=IF(F193=I193, ""UNTRANSLATED"", """")",""
+"string","str-0xE06_0","","","[string]は　こんしんの　力で\n
+冷気のうずから　ぬけだした！","",,"=IF(F194=I194, ""UNTRANSLATED"", """")",""
+"string","str-0xE3A_0","","","[string]は　すばやく\n
+身を　かわした！","",,"=IF(F195=I195, ""UNTRANSLATED"", """")",""
+"string","str-0xE72_0","","","マサカドは\n
+大地を　ゆるがす\n
+剛破の怒号を　ひびかせた！","",,"=IF(F196=I196, ""UNTRANSLATED"", """")",""
+"string","str-0xEAA_0","","","[string]を　ゆるがしていた\n
+怒号が　消え去った！","",,"=IF(F197=I197, ""UNTRANSLATED"", """")",""
+"string","str-0xED4_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xEEB_0","","","マサカドは\n
+天空を　切りさく\n
+稲妻を　はしらせた！","",,"=IF(F199=I199, ""UNTRANSLATED"", """")",""
+"string","str-0xF1D_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xF34_0","","","マサカドは\n
+天地を　おおいつくす\n
+封気の暗雲を　わきたたせた！","",,"=IF(F201=I201, ""UNTRANSLATED"", """")",""
+"string","str-0xF72_0","","","[string]には　きかなかった！","=T(F108)","=""DUPE: ""&ADDRESS(ROW(F108), COLUMN(F108), 4)",,
+"string","str-0xF89_0","","","ジライアは　ガマ玉を　かかげた！！\n
+オロチ丸は　ヘビ玉を　かかげた！！\n
+ツナデは　ナメクジ玉を　かかげた！！","",,"=IF(F203=I203, ""UNTRANSLATED"", """")",""

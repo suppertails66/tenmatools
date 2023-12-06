@@ -1,0 +1,67 @@
+set basepattern=0x5C
+set patternoffset=0
+
+set xorigin=136
+set yorigin=127
+
+# "produced by"
+add x=0x50  y=40  w=32 h=16 pri=1 pal=0
+add x=0x70  y=40  w=32 h=16 pri=1 pal=0
+add x=0x90  y=40  w=32 h=16 pri=1 pal=0
+
+# "hudson soft"
+add x=0x30  y=64  w=32 h=16 pri=1 pal=0
+add x=0x50  y=64  w=32 h=16 pri=1 pal=0
+add x=0x70  y=64  w=32 h=16 pri=1 pal=0
+add x=0x90  y=64  w=32 h=16 pri=1 pal=0
+add x=0xB0  y=64  w=32 h=16 pri=1 pal=0
+
+# "red company"
+add x=0x30  y=96  w=32 h=16 pri=1 pal=0
+add x=0x50  y=96  w=32 h=16 pri=1 pal=0
+add x=0x70  y=96  w=32 h=16 pri=1 pal=0
+add x=0x90  y=96  w=32 h=16 pri=1 pal=0
+add x=0xB0  y=96  w=32 h=16 pri=1 pal=0
+
+# "music"
+add x=0x60  y=144 w=32 h=16 pri=1 pal=0
+add x=0x80  y=144 w=32 h=16 pri=1 pal=0
+
+# "ryuichi sakamoto"
+add x=0x10  y=168 w=32 h=16 pri=1 pal=0
+add x=0x30  y=168 w=32 h=16 pri=1 pal=0
+add x=0x50  y=168 w=32 h=16 pri=1 pal=0
+set basepattern=0xE4
+set patternoffset=-30
+add x=0x70  y=168 w=32 h=16 pri=1 pal=0
+add x=0x90  y=168 w=32 h=16 pri=1 pal=0
+add x=0xB0  y=168 w=32 h=16 pri=1 pal=0
+add x=0xD0  y=168 w=32 h=16 pri=1 pal=0
+
+outputSprites "out/grp/intro_cred_sprite.bin"
+#outputPreviewGrp "test_preview.png"
+
+# # subtitle
+# #set xorigin=135
+# #set yorigin=127
+# set xorigin=128
+# set yorigin=127
+# 
+# add x=39  y=127 w=32 h=16 pri=0 pal=2
+# add x=71  y=127 w=32 h=16 pri=0 pal=2
+# add x=103 y=127 w=32 h=16 pri=0 pal=2
+# add x=135 y=127 w=32 h=16 pri=0 pal=2
+# add x=167 y=127 w=32 h=16 pri=0 pal=2
+# add x=199 y=127 w=32 h=16 pri=0 pal=2
+# add x=73  y=154 w=32 h=16 pri=0 pal=2
+# add x=105 y=154 w=32 h=16 pri=0 pal=2
+# add x=137 y=154 w=32 h=16 pri=0 pal=2
+# #add x=153 y=154 w=16 h=16 pri=0 pal=2
+# add x=169 y=154 w=16 h=16 pri=0 pal=2
+# # descenders
+# add x=163 y=143 w=16 h=16 pri=0 pal=2
+# add x=126 y=170 w=16 h=16 pri=0 pal=2
+# add x=167 y=170 w=16 h=16 pri=0 pal=2
+# 
+# outputSprites "out/grp/scene1_subtitle_spr.bin"
+# #outputPreviewGrp "test_preview.png"

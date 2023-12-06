@@ -1,0 +1,888 @@
+,,,,"//==================================
+// kernel menus
+//==================================",,,,,,,
+,,,,"//=====
+// character select menu placeholder
+//=====",,,,,,,
+string,str-0x17AB,,,"        \n
+!#      \n",,,UNTRANSLATED,,,,
+,,,,"//=====
+// character names, top row
+//=====",,,,,,,
+string,str-0x1893,,, ﾞ        ,          ,,,,,,
+string,str-0x189E,,,          ,          ,,,,,,
+string,str-0x18A9,,,   ﾞ      ,          ,,,,,,
+,,,,"//=====
+// character names, bottom row
+//=====",,,,,,,
+string,str-0x18B4,,, ｼﾗｲｱ  $2(, [ziria_1][ziria_2][ziria_3][ziria_4][ziria_5] ($2, [ziria_1][ziria_2][ziria_3][ziria_4][ziria_5] ($2,,,,,
+string,str-0x18BF,,, ｵﾛﾁﾏﾙ $2(, [orochi_1][orochi_2][orochi_3][orochi_4][orochi_5][orochi_6]($2, [orochi_1][orochi_2][orochi_3][orochi_4][orochi_5] ($2,,,,,
+string,str-0x18CA,,, ﾂﾅﾃ   $2(, [tsunade_1][tsunade_2][tsunade_3][tsunade_4][tsunade_5] ($2, [tsunade_1][tsunade_2][tsunade_3][tsunade_4][tsunade_5] ($2,,,,,
+,,,,"//=====
+// character name/HP/TP display
+//=====",,,,,,,
+string,str-0x18D5,,,          ,          ,DUPE: F6,,,,,
+string,str-0x18E0,,, ^_ $3    ,,,UNTRANSLATED,,,,
+string,str-0x18EB,,, \] $3    ,,,UNTRANSLATED,,,,
+string,str-0x18F6,,,\n,,,UNTRANSLATED,,,,
+,,,,"//==================================
+// orochimaru name patches
+//==================================",,,,,,,
+,,,,"//=====
+// bottom row normal
+//=====",,,,,,,
+string,rawstr-0xD9E,,,ｵﾛﾁﾏﾙ,[orochi_1][orochi_2][orochi_3][orochi_4][orochi_5][orochi_6],[orochi_1][orochi_2][orochi_3][orochi_4][orochi_5],,,,,
+,,,,"//=====
+// top row normal
+//=====",,,,,,,
+string,rawstr-0xDA8,,, , ,,,,,,
+,,,,"//=====
+// bottom row kuroi kage
+//=====",,,,,,,
+string,rawstr-0xDA3,,,ｸﾛｲｶｹ,[shadow_1][shadow_2][shadow_3][shadow_4][shadow_5] ,[shadow_1][shadow_2][shadow_3][shadow_4][shadow_5],,,,,
+,,,,"//=====
+// top row kuroi kage
+//=====",,,,,,,
+string,rawstr-0xDA9,,,ﾞ, ,,,,,,
+,,,,"//==================================
+// overworld menus
+//==================================",,,,,,,
+,,,,"//=====
+// ?
+//=====",,,,,,,
+string,str-0x1E6A,,,            \n,,,UNTRANSLATED,,,,
+string,str-0x1F06,,,"        \n
+#       \n",,,UNTRANSLATED,,,,
+,,,,"//=====
+// main menu
+//=====",,,,,,,
+string,str-0x2712,,,"       ﾞ  \n
+!ﾊﾅｽ !ｺｶﾏ \n
+ ﾞ ﾞ    ﾞ \n
+!ﾄｳｸ !ｿｳﾋ \n
+ ﾞ      ﾞ \n
+!ｼｭﾂ !ｼﾗﾍﾙ\n
+        ﾞ \n
+!ﾂﾖｻ !ﾓｰﾄ \n
+[end]
+
+// parameters
+<$7B><$B7>
+<$52><$BD>
+<$01><$B8>
+<$15><$B9>
+<$8D><$B7>
+<$81><$B7>
+<$43><$B9>
+<$84><$BD>","              \n
+!Talk  !Kogama\n
+\n
+!Items !Equip \n
+\n
+!Jutsu !Check \n
+\n
+!Status!Mode  \n
+[end]
+
+// parameters
+<$7B><$B7>
+<$52><$BD>
+<$01><$B8>
+<$15><$B9>
+<$8D><$B7>
+<$81><$B7>
+<$43><$B9>
+<$84><$BD>","               \n
+!Talk   !Kogama\n
+               \n
+!Item   !Equip \n
+               \n
+!Tech   !Check \n
+               \n
+!Status !Mode  \n",,,,,
+,,,,"//=====
+// use/give menu
+//=====",,,,,,,
+string,str-0x27B2,,,"    \n
+!ﾂｶｳ\n
+    \n
+!ﾜﾀｽ\n
+[end]
+
+// parameters
+<$CB><$B7>
+<$D7><$B7>","[spacemenu]<$06>\n
+!Use\n
+\n
+!Give\n
+[end]
+
+// parameters
+<$CB><$B7>
+<$D7><$B7>",,,,,,
+,,,,"//=====
+// use/give/drop menu
+//=====",,,,,,,
+string,str-0x2829,,,"    \n
+!ﾂｶｳ\n
+    \n
+!ﾜﾀｽ\n
+    \n
+!ｽﾃﾙ\n
+[end]
+
+// parameters
+<$4E><$B8>
+<$83><$B8>
+<$88><$B8>","     \n
+!Use\n
+\n
+!Give\n
+\n
+!Drop\n
+[end]
+
+// parameters
+<$4E><$B8>
+<$83><$B8>
+<$88><$B8>",,,,,,
+,,,,"//=====
+// status display: top window
+//=====",,,,,,,
+string,str-0x2B0E,,,     $3   ,,,UNTRANSLATED,,,,
+string,str-0x2B19,,,\n,,DUPE: F16,,,,,
+string,str-0x2B1B,,,  ^_ ---  ,,,UNTRANSLATED,,,,
+string,str-0x2B26,,,  \] ---  ,,,UNTRANSLATED,,,,
+,,,,"//=====
+// status display: bottom window
+//=====",,,,,,,
+string,str-0x2C2E,,,"                      \n
+ #      $2(  ","                        \n
+ #        ($2",,,,,,
+string,str-0x2C53,,,) $5   @,    $5   @,,,,,,
+string,str-0x2C5C,,,        , ,,,,,,
+string,str-0x2C65,,," \n
+   ﾞ                  \n
+ ｿｳﾋ          $7      \n
+           徳 ------- \n
+ #            $7      \n
+                      \n
+ #         攻撃力  $3  \n
+                      \n
+ #         守備力  $3  \n
+                      \n
+ #         すばやさ $3  \n","\n
+\n
+ [equip_1][equip_2][equip_3][equip_4][equip_5][equip_6][equip_7][equip_8]       $7      \n
+           
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Virtue
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+     -------\n
+ [#narrow_item]              $7      \n
+\n
+ [#narrow_item]         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Attack
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+         $3  \n
+\n
+ [#narrow_item]         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Defense
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+         $3  \n
+\n
+ [#narrow_item]         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Speed
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+         $3  \n","\n
+\n
+ Equip        $7      \n
+           徳 ------- \n
+ #            $7      \n
+\n
+ #         攻撃力  $3  \n
+\n
+ #         守備力  $3  \n
+\n
+ #         すばやさ $3  \n",,,"\n
+\n
+ Equip          $7      \n
+           
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Virtue
+[end]
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+ ------- \n
+ #            $7      \n
+\n
+ #         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Attack
+[end]
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+  $3  \n
+\n
+ #         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Defense
+[end]
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+  $3  \n
+\n
+ #         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Speed
+[end]
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+ $3  \n","\n
+\n
+ Equip         $7      \n
+             #  -------\n
+ #             $7      \n
+\n
+ #           #     $3  \n
+\n
+ #           #     $3  \n
+\n
+ #           #     $3  \n","\n
+\n
+ Equipment      $7      \n
+           
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Virtue
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+     -------\n
+ [#narrow_item]              $7      \n
+\n
+ [#narrow_item]         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Attack
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+         $3  \n
+\n
+ [#narrow_item]         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Defense
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+         $3  \n
+\n
+ [#narrow_item]         
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Speed
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+[embed]
+         $3  \n"
+,,,,"//=====
+// settings menu
+//=====",,,,,,,
+string,str-0x2D9C,,,"        \n
+!ｶｲｾﾂ   \n
+        \n
+!ｱﾙｷｶﾀ  \n
+        \n
+!ｾﾘﾌﾉﾊﾔｻ\n
+       ﾟ\n
+!ｾﾘﾌｽｷｯﾌ\n
+[end]
+
+// parameters
+<$C0><$BE>
+<$78><$BE>
+<$ED><$BD>
+<$39><$BE>","[spacemenu]<$0E>\n
+!Descriptions\n
+\n
+!Walk|Type\n
+\n
+!Text|Speed\n
+\n
+!Text|Skip\n
+[end]
+
+// parameters
+<$C0><$BE>
+<$78><$BE>
+<$ED><$BD>
+<$39><$BE>",,,,,,
+,,,,"//=====
+// text speed menu
+//=====",,,,,,,
+string,str-0x2E14,,,"    \n
+!ｵｿｲ\n
+    \n
+!ﾌﾂｳ\n
+    \n
+!ﾊﾔｲ\n
+[end]
+
+// parameters
+<$BE><$57>
+<$C1><$57>
+<$C6><$57>","[spacemenu]<$08>\n
+!Slow\n
+\n
+!Normal\n
+\n
+!Fast\n
+\n
+!Turbo\n
+[end]
+
+// parameters
+<$BE><$57>
+<$C1><$57>
+<$C6><$57>","[spacemenu]<$08>\n
+!Slow\n
+\n
+!Normal\n
+\n
+!Fast\n
+[end]
+
+// parameters
+<$BE><$57>
+<$C1><$57>
+<$C6><$57>",,,,,
+,,,,"//=====
+// setting on/off menu
+//=====",,,,,,,
+string,str-0x2E5F,,,"    \n
+!ｱﾘ \n
+    \n
+!ﾅｼ \n
+[end]
+
+// parameters
+<$BE><$57>
+<$C1><$57>","    \n
+!On\n
+\n
+!Off\n
+[end]
+
+// parameters
+<$BE><$57>
+<$C1><$57>",,,,,,
+,,,,"//=====
+// walk type menu
+//=====",,,,,,,
+string,str-0x2E97,,,"        \n
+!ﾌﾂｳ    \n
+        \n
+!ﾅﾅﾒｱﾙｷ \n
+[end]
+
+// parameters
+<$C1><$57>
+<$BE><$57>","          \n
+!Normal\n
+\n
+!Diagonal\n
+[end]
+
+// parameters
+<$C1><$57>
+<$BE><$57>",,,,,,
+,,,,"//=====
+// map name window
+//=====",,,,,,,
+string,str-0x2EFE,,,"          \n
+          \n
+ #        \n
+          \n
+ ) $5   @ \n
+          \n","            \n
+    \n
+ [#narrow_mapname]          \n
+          \n
+     $5   @ \n
+          \n","          \n
+          \n
+ #        \n
+          \n
+   $5   @ \n
+          \n",,,"          \n
+          \n
+ [#narrow_mapname]        \n
+          \n
+   $5   @ \n
+          \n",,
+,,,,"//==================================
+// shop menus
+//==================================",,,,,,,
+,,,,"//=====
+// buy/sell menu
+//=====",,,,,,,
+string,str-0x9CD,,,"        \n
+!ｳﾘﾓﾉｦｶｳ\n
+        \n
+!ﾓﾁﾓﾉｦｳﾙ\n
+[end]
+
+// parameters
+<$A7><$CA>
+<$F6><$C9>","[spacemenu]<$10>\n
+!Buy|Wares\n
+\n
+!Sell|Belongings\n
+[end]
+
+// parameters
+<$A7><$CA>
+<$F6><$C9>","[spacemenu]<$0C>\n
+!Buy|wares\n
+\n
+!Sell|items\n
+[end]
+
+// parameters
+<$A7><$CA>
+<$F6><$C9>",,,,,
+,,,,"//=====
+// buyable item list entry
+//=====",,,,,,,
+string,str-0xC53,,,"          \n
+          \n
+!#        \n
+   $5   @ \n","          \n
+          \n
+![#narrow_item]        \n
+   $5   @ \n",,,,,,
+,,,,"//=====
+// player money window
+//=====",,,,,,,
+string,str-0xD06,,,"        \n
+金$5   @\n
+[end]
+
+// parameters
+<$01><$C0><$27>","[spacemenu]<$08>\n
+ 
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Money
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+ $5   @\n
+[end]
+
+// parameters
+<$01><$C0><$27>","Money   \n
+  $5   @\n
+[end]
+
+// parameters
+<$01><$C0><$27>",,,"[spacemenu]<$06>\n
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Money
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+$5   @\n
+[end]
+
+// parameters
+<$01><$C0><$27>",,
+,,,,"//=====
+// storage menu
+//=====",,,,,,,
+string,str-0x1925,,,"            \n
+!貯金する     \n
+            \n
+!貯金おろす   \n
+            \n
+!道具　預ける  \n
+            \n
+!道具　引き取る\n
+            \n
+!術　預ける   \n
+            \n
+!術　引き取る  \n
+[end]
+
+// parameters
+<$DD><$D9>
+<$37><$DA>
+<$83><$DA>
+<$F8><$DA>
+<$22><$DB>
+<$86><$DB>","            \n
+!
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Store Money
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+!
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Withdraw Money
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+!
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Store Items
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+!
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Withdraw Items
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+!
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Store Jutsu
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+!
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Withdraw Jutsu
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+[end]
+
+// parameters
+<$DD><$D9>
+<$37><$DA>
+<$83><$DA>
+<$F8><$DA>
+<$22><$DB>
+<$86><$DB>",,,,,,
+,,,,"//=====
+// storage money window
+//=====",,,,,,,
+string,str-0x1D7A,,,"          \n
+貯金$5   @ \n
+[end]
+
+// parameters
+<$01><$C2><$27>","[spacemenu]<$08>\n
+ 
+[embed]
+#LOADTABLE(""table/tenma_std_en.tbl"")
+Savings
+#LOADTABLE(""table/tenma_menu_en.tbl"")
+\n
+\n
+ $5   @\n
+[end]
+
+// parameters
+<$01><$C2><$27>","Stored    \n
+   $5   @ \n
+[end]
+
+// parameters
+<$01><$C2><$27>",,,,,
+,,,,"//==================================
+// battle menus
+//==================================",,,,,,,
+,,,,"//=====
+// action menu: ziria
+//=====",,,,,,,
+string,str-0x131,,,"       ﾞ    \n
+!ﾀﾀｶｳ !ｼｭﾂ  \n
+ ﾞ ﾞ        \n
+!ﾄｳｸ  !ﾇｽﾑ  \n
+        ﾞ   \n
+!ﾏﾓﾙ  !ﾆｹﾙ  \n
+[end]
+
+// parameters
+<$8C><$C1>
+<$C1><$C1>
+<$DC><$C1>
+<$04><$C2>
+<$F7><$C1>
+<$21><$C2>","              \n
+!Attack!Jutsu\n
+\n
+!Item  !Steal\n
+\n
+!Defend!Flee\n
+[end]
+
+// parameters
+<$8C><$C1>
+<$C1><$C1>
+<$DC><$C1>
+<$04><$C2>
+<$F7><$C1>
+<$21><$C2>",,,,,,
+,,,,"//=====
+// action menu: orochimaru
+//=====",,,,,,,
+string,str-0x227,,,"       ﾞ    \n
+!ﾀﾀｶｳ !ｼｭﾂ  \n
+ ﾞ ﾞ    ﾞ   \n
+!ﾄｳｸ  !ﾅｶｼﾒ \n
+            \n
+!ﾏﾓﾙ        \n
+[end]
+
+// parameters
+<$8C><$C1>
+<$C1><$C1>
+<$DC><$C1>
+<$80><$C2>
+<$F7><$C1>","              \n
+!Attack!Jutsu\n
+\n
+!Item  !Flirt\n
+\n
+!Defend\n
+[end]
+
+// parameters
+<$8C><$C1>
+<$C1><$C1>
+<$DC><$C1>
+<$80><$C2>
+<$F7><$C1>",,,,,,
+,,,,"//=====
+// action menu: tsunade
+//=====",,,,,,,
+string,str-0x294,,,"       ﾞ    \n
+!ﾀﾀｶｳ !ｼｭﾂ  \n
+ ﾞ ﾞ        \n
+!ﾄｳｸ  !ｳｿﾅｷ \n
+            \n
+!ﾏﾓﾙ        \n
+[end]
+
+// parameters
+<$8C><$C1>
+<$C1><$C1>
+<$DC><$C1>
+<$ED><$C2>
+<$F7><$C1>","              \n
+!Attack!Jutsu\n
+\n
+!Item  !Cry\n
+\n
+!Defend\n
+[end]
+
+// parameters
+<$8C><$C1>
+<$C1><$C1>
+<$DC><$C1>
+<$ED><$C2>
+<$F7><$C1>",,,,,,
+,,,,"//==================================
+// save/load menus
+//==================================",,,,,,,
+,,,,"//=====
+// file continue/copy/erase menu
+//=====",,,,,,,
+string,str-0xC2C,,,"  ﾞ  \n
+!ﾊｼﾒﾙ\n
+     \n
+!ｳﾂｽ \n
+     \n
+!ｹｽ  \n
+[end]
+
+// parameters
+<$57><$9C>
+<$C2><$9C>
+<$98><$9D>","      \n
+!Start\n
+\n
+!Copy\n
+\n
+!Erase\n
+[end]
+
+// parameters
+<$57><$9C>
+<$C2><$9C>
+<$98><$9D>",,,,,,
+,,,,"//=====
+// file select menu 1
+//=====",,,,,,,
+string,str-0xFCE,,,"                       \n
+  BACKUP RAM DATA      \n
+                       \n
+                       \n
+                       \n
+!TENGAI1 #       $2(   \n
+                       \n
+                       \n
+!TENGAI2 #       $2(   \n
+                       \n
+                       \n
+!TENGAI3 #       $2(   \n
+                       \n
+                       \n
+!TENGAI4 #       $2(   \n
+                       \n
+[end]
+
+// parameters
+<$1A><$A7>
+<$00><$1F>
+<$3B><$1A><$A7>
+<$00><$20>
+<$3B><$1A>
+<$A7><$00><$21>
+<$3B><$1A>
+<$A7><$00>
+<$22><$3B><$08>
+<$A3><$08>
+<$A3><$08>
+<$A3><$08><$A3>","                       \n
+  Backup RAM Data      \n
+                       \n
+                       \n
+                       \n
+!TENGAI1 #       ($2   \n
+                       \n
+                       \n
+!TENGAI2 #       ($2   \n
+                       \n
+                       \n
+!TENGAI3 #       ($2   \n
+                       \n
+                       \n
+!TENGAI4 #       ($2   \n
+                       \n
+[end]
+
+// parameters
+<$1A><$A7>
+<$00><$1F>
+<$3B><$1A><$A7>
+<$00><$20>
+<$3B><$1A>
+<$A7><$00><$21>
+<$3B><$1A>
+<$A7><$00>
+<$22><$3B><$08>
+<$A3><$08>
+<$A3><$08>
+<$A3><$08><$A3>",,,,,,
+,,,,"//=====
+// file select menu 2
+//=====",,,,,,,
+string,str-0x116B,,,"                       \n
+  BACKUP RAM DATA      \n
+                       \n
+                       \n
+                       \n
+!TENGAI5 #       $2(   \n
+                       \n
+                       \n
+!TENGAI6 #       $2(   \n
+                       \n
+                       \n
+!TENGAI7 #       $2(   \n
+                       \n
+                       \n
+!TENGAI8 #       $2(   \n
+                       \n
+[end]
+
+// parameters
+<$1A><$A7>
+<$00><$23>
+<$3B><$1A><$A7>
+<$00><$24>
+<$3B><$1A>
+<$A7><$00><$25>
+<$3B><$1A>
+<$A7><$00>
+<$26><$3B><$08>
+<$A3><$08>
+<$A3><$08>
+<$A3><$08><$A3>","                       \n
+  Backup RAM Data      \n
+                       \n
+                       \n
+                       \n
+!TENGAI5 #       ($2   \n
+                       \n
+                       \n
+!TENGAI6 #       ($2   \n
+                       \n
+                       \n
+!TENGAI7 #       ($2   \n
+                       \n
+                       \n
+!TENGAI8 #       ($2   \n
+                       \n
+[end]
+
+// parameters
+<$1A><$A7>
+<$00><$23>
+<$3B><$1A><$A7>
+<$00><$24>
+<$3B><$1A>
+<$A7><$00><$25>
+<$3B><$1A>
+<$A7><$00>
+<$26><$3B><$08>
+<$A3><$08>
+<$A3><$08>
+<$A3><$08><$A3>",,,,,,
+,,,,"//==================================
+// item/technique info menus
+//==================================",,,,,,,
+,,,,"//=====
+// item/technique select menu
+//=====",,,,,,,
+string,str-0x6B,,,"          \n
+ﾓﾁﾓﾉ ｶｲｾﾂ \n
+ ﾞ ﾞ      \n
+!ﾄｳｸ      \n
+ ﾞ        \n
+!ｼｭﾂ      \n
+[end]
+
+// parameters
+<$B2><$C0>
+<$C6><$C0>","[spacemenu]<$0C>\n
+Descriptions\n
+\n
+!Items\n
+\n
+!Jutsu\n
+[end]
+
+// parameters
+<$B2><$C0>
+<$C6><$C0>",,,,,,
