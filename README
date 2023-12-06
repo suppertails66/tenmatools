@@ -1,0 +1,72 @@
+********************************************************************************
+*                             Tengai Makyou: Ziria                             *
+*                     English Translation Patch Materials                      *
+********************************************************************************
+
+This package contains the source materials (code/art/script) for LIPEMCO! 
+Translations' English translation project for the PC-Engine CD game Tengai 
+Makyou: Ziria.
+
+                    ****************************************
+                    *          Build Instructions          *
+                    ****************************************
+                    
+The build system is only set up for Unix-like systems, though none of the code 
+is fundamentally dependent on this and could be ported with a bit of effort. 
+You'll need GCC, libpng, and ImageMagick (the "convert" utility), as well as any 
+dependencies of wla-dx.
+
+You'll first need a disc image of Tengai Makyou: Ziria for the PC-Engine CD. It 
+should match the following specifications:
+
+  Redump name: Far East of Eden: Tengai Makyou: Ziria [NOTE: Revision 7]
+  CRC32:       ed6bc123
+  MD5:         2deae1bfcc13ffe0d4e52b59883a9376
+  SHA-1:       67fe95097fd18c0e063de947430f538f3893d3ec
+
+See http://redump.org/disc/37134/ for details.  
+
+Note that there are two different revisions of the game, Revision 6 and Revision 
+7. Revision 7 must be used to build the translation, as Revision 6 contains code 
+differences that make it incompatible. Also, do not use the Super CD version of 
+the game ("Hibaihin" in Redump); it's vastly different and totally incompatible.
+
+The disc image must be in ISO+WAV+CUE format. If you need to convert from a 
+different format, try using bchunk.
+
+Once you have an ISO+WAV+CUE image, rename the files such that every track is 
+named as "tenma_01.wav", "tenma_02.iso", and so on up through "tenma_06.iso". 
+Copy these files into the "tenma" directory. Then:
+
+$ cd tenma
+$ ./build.sh
+
+build.sh should then build all the necessary tools and output the translated ISO 
+for track 2 as "tenma_02_build.iso". Use the provided "tenma_iso_build.cue" CUE 
+sheet to run the built disc.
+
+Note that translated game text is taken from the CSV files in the "tenma/script" 
+directory. While these can be edited directly, it will probably be easier to 
+instead work with the ODS files in the same folder, which are formatted ODS 
+spreadsheet versions of the same content. Just run "convertscript.sh" before 
+"build.sh" to convert the ODS files into the CSVs automatically (requires 
+OpenOffice).
+
+If you want to modify the project, check build.sh to see where the resources 
+that get inserted into the game are coming from.
+
+                    ****************************************
+                    *              Licensing               *
+                    ****************************************
+
+See COPYING. Basically, everything by me (Supper) is GPLv3, and everything else
+is under the terms of whoever wrote it.
+
+                    ****************************************
+                    *               Credits                *
+                    ****************************************
+
+                                Supper -- Hacking                              
+                         TheMajinZenki -- Translation                          
+                                cccmar -- Testing                              
+
