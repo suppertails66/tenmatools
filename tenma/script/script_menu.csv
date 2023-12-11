@@ -5,7 +5,8 @@
 // character select menu placeholder
 //=====",,,,,,,
 string,str-0x17AB,,,"        \n
-!#      \n",,,UNTRANSLATED,,,,
+!#      \n","[spacemenu]<$0A>\n
+!#        \n",,,,,,
 ,,,,"//=====
 // character names, top row
 //=====",,,,,,,
