@@ -3439,6 +3439,7 @@
       sta mapCacheA_hi.w
       
       lda #mapCacheAMemPage
+      sta @finishMapLoad_dstOp+1.w
       bra @finishMapLoad
     @finishMapLoad_B:
       ; update map num to new src
@@ -3450,23 +3451,29 @@
       sta mapCacheB_hi.w
       
       lda #mapCacheBMemPage
+      sta @finishMapLoad_dstOp+1.w
     @finishMapLoad:
-    ; BL = dst
-    sta _BL.b
-    ; load src
-    lda $3095.w
-    sta _DL.b
-    lda $3096.w
-    sta _CH.b
-    lda $3097.w
-    sta _CL.b
-    ; DH = type = mpr6
-    lda #$06
-    sta _DH.b
-    ; AL = record count
-    lda #<(mapDataSize/$800)
-    sta _AL.b
-    jsr CD_READ
+    -:
+      ; BL = dst
+      @finishMapLoad_dstOp:
+      lda #$00
+      sta _BL.b
+      ; load src
+      lda $3095.w
+      sta _DL.b
+      lda $3096.w
+      sta _CH.b
+      lda $3097.w
+      sta _CL.b
+      ; DH = type = mpr6
+      lda #$06
+      sta _DH.b
+      ; AL = record count
+      lda #<(mapDataSize/$800)
+      sta _AL.b
+      jsr CD_READ
+      and #$FF
+      bne -
     
     rts
   
