@@ -4139,14 +4139,14 @@
           ; add first transfer size to dst
           ; (i feel compelled to note, even though i'm no longer using this code,
           ; that this is already done by the copy routine)
-/*          @firstSizeCmd:
-          lda #$00
-          clc
-          adc $7B.b
-          sta $7B.b
-          cla
-          adc $7C.b
-          sta $7C.b*/
+;          @firstSizeCmd:
+;          lda #$00
+;          clc
+;          adc $7B.b
+;          sta $7B.b
+;          cla
+;          adc $7C.b
+;          sta $7C.b
           
           ; dummy dstbank, 
           ldy #$80
