@@ -4883,6 +4883,25 @@
     jmp $40E2
 .ends
 
+;===================================
+; do not set up backup track using
+; CD_BASE at boot
+;===================================
+
+; the backup track is untranslated, and we don't want it to be used in
+; the event of a read error.
+; we have already set up the track bases ourselves at this point,
+; so we need to remove this call to CD_BASE during boot so the game doesn't
+; override our settings.
+
+.bank metabank_saveload slot std_slot
+.orga $903E
+.section "saveload: no cd_base 1" overwrite
+  nop
+  nop
+  nop
+.ends
+
 ;==============================================================================
 ; info
 ;==============================================================================
