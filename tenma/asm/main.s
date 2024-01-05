@@ -11,6 +11,8 @@
 .define THEEND_DEBUG 0
 ; enable to boot to "folk tale classics"
 .define THEATER_DEBUG 0
+; enable for debug output during map loads
+.define MAP_LOAD_DEBUG 0
 
 ; could someone please rewrite wla-dx to allow dynamic bank sizes?
 ; thanks
@@ -3002,6 +3004,478 @@
 .unbackground metabank_overw*sizeOfMetabank+$BF78 metabank_overw*sizeOfMetabank+$BFFF
 
 ;===================================
+; debug
+;===================================
+
+.macro mldMsg ARGS msgName
+  .if MAP_LOAD_DEBUG != 0
+    pha
+    phx
+      lda #<msgName
+      ldx #>msgName
+      doTrampolineCallNew3 mapLoadDebug_printStringXA
+    plx
+    pla
+  .endif
+.endm
+
+.macro mldMsg_near ARGS msgName
+  .if MAP_LOAD_DEBUG != 0
+    pha
+    phx
+      lda #<msgName
+      ldx #>msgName
+      jsr mapLoadDebug_printStringXA
+    plx
+    pla
+  .endif
+.endm
+
+.macro mldAResultMsg
+  .if MAP_LOAD_DEBUG != 0
+    pha
+    phx
+      doTrampolineCallNew3 mapLoadDebug_printStringAResult
+    plx
+    pla
+  .endif
+.endm
+
+.macro mldMsg_callReplace ARGS oldOrga,callAddr,msgName
+  .if MAP_LOAD_DEBUG != 0
+    .orga oldOrga
+    .section "mldMsg_callReplace iteration \@ 1" overwrite
+      jsr callReplaceCall\@
+    .ends
+    
+    .section "mldMsg_callReplace iteration \@ 2" free
+      callReplaceCall\@:
+        mldMsg msgName
+        jmp callAddr
+    .ends
+    
+  .endif
+.endm
+
+.macro mldMsg_callReplaceOverw ARGS oldOrga,callAddr,msgContent
+  .if MAP_LOAD_DEBUG != 0
+    .bank metabank_overw slot std_slot
+    .orga oldOrga
+    .section "mldMsg_callReplaceOverw iteration \@ 1" overwrite
+      jsr callReplaceCall\@
+    .ends
+    
+    .bank metabank_overw slot std_slot
+    .section "mldMsg_callReplaceOverw iteration \@ 2" free
+      callReplaceCall\@:
+        doTrampolineCallNew3 callReplaceSubCall\@
+        jmp callAddr
+    .ends
+    
+    .bank metabank_new3 slot std_slot
+    .section "mldMsg_callReplaceOverw iteration \@ 3" free
+      callReplaceSubCall\@:
+        mldMsg_near callReplaceMsgContent\@
+        rts
+    .ends
+    
+    .bank metabank_new3 slot std_slot
+    .section "mldMsg_callReplaceOverw iteration \@ 4" free
+      callReplaceMsgContent\@:
+        .asc msgContent
+        .db $00
+    .ends
+    
+  .endif
+.endm
+
+/*.macro mldMsg_inline ARGS msgContent
+  .if MAP_LOAD_DEBUG != 0
+      mldMsg @mldMsgInlineStr\@
+      jmp @mldMsgInlineStrEnd\@
+      
+      @mldMsgInlineStr\@:
+        .asc msgContent
+        .db $00
+      @mldMsgInlineStrEnd\@:
+  .endif
+.endm*/
+
+; NOPE!
+; can't use an argument as a label name, because that would be useful!
+; enjoy manually declaring your own sections every single goddamn time!
+/*.macro mld_makeMsg ARGS msgName,msgContent
+  .bank metabank_new3 slot std_slot
+  .section "mld_makeMsg iteration \@ 1" free
+    msgName:
+      .asc msgContent
+      .db $00
+  .ends
+.endm*/
+
+.macro mld_makeMsg ARGS msgContent
+  .asc msgContent
+  .db $00
+.endm
+
+.if MAP_LOAD_DEBUG != 0
+  .define set13toTilemapOffset $946D
+  .define transferTilemapBufferToMapScreen $9099
+  
+  .define mld_wordsPerRow $40
+  .define mld_topRow 21
+  .define mld_baseRow 26
+  .define mld_baseCol 3
+  .define mld_wordsToCopyPerRow $40
+  .define mld_baseTextPos (mld_baseRow*mld_wordsPerRow)
+  .define mld_fontBaseTile $0B0
+  
+  .asciitable
+    MAP "0" TO "9" = $10
+    MAP ":"        = $1A
+    MAP "/"        = $1B
+    MAP "A" TO "Z" = $21
+    MAP " "        = $50
+    MAP "."        = $85
+    MAP "-"        = $90
+    MAP "a" TO "z" = $91
+    
+    MAP "*" = $FE
+    MAP "#" = $FF
+  .enda
+  
+  .bank metabank_new3 slot std_slot
+  .section "new3: map load debug 1" free
+    mapLoadDebug_printStringAResult:
+      ; overwrite placeholder with A
+      sta mldmsg_result+9.w
+      lda #<mldmsg_result
+      ldx #>mldmsg_result
+      jmp mapLoadDebug_printStringXA
+    
+    ; XA = target string ptr
+    mapLoadDebug_printStringXA:
+      ; save srcptr
+;      sta mapLoadDebug_printString_src+0.w
+;      stx mapLoadDebug_printString_src+1.w
+      sta mapLoadDebug_fetchByte@mapLoadDebug_printString_srcCmd+1.w
+      stx mapLoadDebug_fetchByte@mapLoadDebug_printString_srcCmd+2.w
+      
+      phy
+        
+        ; shift old text up 1 line
+        jsr mapLoadDebug_shiftTextUp
+        
+        ; print line
+        jsr mapLoadDebug_printCurrentString
+      
+      ply
+      rts
+    
+    mapLoadDebug_printCurrentString:
+      ; set up write to currentRow
+      ; set base pos
+      jsr set13toTilemapOffset
+      ; start from baseTextPos, wrapping in X before applying Y offset
+      lda $13.b
+      and #$C0
+      sta @orCmd+1.w
+      lda $13.b
+      clc
+      adc #mld_baseCol
+      and #$3F
+      @orCmd:
+      ora #$00
+      ; apply row offset
+      clc
+      adc #<mld_baseTextPos
+      sta $13.b
+      lda #>mld_baseTextPos
+      adc $14.b
+      ; wrap vertically (at 0x800)
+      and #$07
+      sta $14.b
+      
+      @loop:
+        ; fetch next byte
+        jsr mapLoadDebug_fetchByte
+        
+        ; 00 = terminator
+        cmp #$00
+        beq @done
+        
+        ; "#" = print next byte as literal
+        cmp #$FF
+        bne +
+          jsr mapLoadDebug_fetchByte
+          @printByte:
+          jsr mapLoadDebug_printByteHex
+          bra @loop
+        +:
+        
+        ; "*" = fetch byte from following pointer and print
+        cmp #$FE
+        bne +
+          jsr mapLoadDebug_fetchByte
+          sta @pointerPrintOp+1.w
+          jsr mapLoadDebug_fetchByte
+          sta @pointerPrintOp+2.w
+          @pointerPrintOp:
+          lda $0000.w
+          bra @printByte
+        +:
+        
+        ; otherwise, print literal
+        jsr mapLoadDebug_printChar
+        
+        bra @loop
+      @done:
+        
+      rts
+    
+    mapLoadDebug_fetchByte:
+      ; self-modified to actual src
+      @mapLoadDebug_printString_srcCmd:
+      lda $0000.w
+      
+      ; increment srcptr
+      inc @mapLoadDebug_printString_srcCmd+1.w
+      bne +
+        inc @mapLoadDebug_printString_srcCmd+2.w
+      +:
+      
+      rts
+    
+    ; A = codepoint
+    mapLoadDebug_printChar:
+      pha
+        ; set up vram write at current pos
+        ; (obviously this is slow and unnecessary unless we actually wrapped
+        ; in the tilemap, but it's just for debugging anyway)
+        lda #$00
+        sta $F7.b
+        sta $0000.w
+        lda $13.b
+        sta $0002.w
+        ; ++currentPos, wrapping in X
+        ; (this operates only on one line at a time, so we need not worry
+        ; about wrapping in Y)
+        pha
+          and #$C0
+          sta @orCmd+1.w
+        pla
+        ina
+        and #$3F
+        @orCmd:
+        ora #$00
+        sta $13.b
+        lda $14.b
+        sta $0003.w
+        
+        ; start write
+        lda #$02
+        sta $F7.b
+        sta $0000.w
+      pla
+      
+      ; target value = $B0 + codepoint
+      clc
+      adc #<mld_fontBaseTile
+      sta $0002.w
+      ; high byte
+      cla
+      adc #>mld_fontBaseTile
+      ; set palette
+      ora #$F0
+      sta $0003.w
+      
+      rts
+    
+    ; A = byte value to print
+    mapLoadDebug_printByteHex:
+      ; print high nybble
+      pha
+        and #$F0
+        lsr
+        lsr
+        lsr
+        lsr
+        jsr mapLoadDebug_printNybbleHex
+      pla
+      
+      ; print low nybble
+      and #$0F
+      jsr mapLoadDebug_printNybbleHex
+      rts
+    
+    ; A = nybble value to print
+    mapLoadDebug_printNybbleHex:
+      cmp #$A
+      bcs @isLetter
+      @isDigit:
+        clc
+        adc #$10
+        bra @done
+      @isLetter:
+        clc
+        adc #$21-$A
+      @done:
+      jsr mapLoadDebug_printChar
+      rts
+    
+    ; shifts all rows from 1 up through (baseRow + 1) up by one row
+    mapLoadDebug_shiftTextUp:
+      ; set base pos
+      jsr set13toTilemapOffset
+      ; throw away x part of result
+      lda $13.b
+      and #$C0
+      ; add row offset
+      clc
+      adc #<((mld_topRow - 1)*mld_wordsPerRow)
+      sta $13.b
+      lda $14.b
+      adc #>((mld_topRow - 1)*mld_wordsPerRow)
+      and #$07
+      sta $14.b
+      
+      
+      ldx #((mld_baseRow - mld_topRow) + 3)
+      @copyLoop:
+        ; set MAWR to current row
+        lda #$00
+        sta $F7.b
+        sta $0000.w
+        lda $13.b
+        sta $0002.w
+        lda $14.b
+        sta $0003.w
+        
+        ; target MARR
+        lda #$01
+        sta $F7.b
+        sta $0000.w
+        
+        ; set MARR to ++currentRow
+        lda #<(1*mld_wordsPerRow)
+        clc
+        adc $13.b
+        sta $13.b
+        sta $0002.w
+        lda #>(1*mld_wordsPerRow)
+        adc $14.b
+        ; wrap vertically (at 0x800)
+        and #$07
+        sta $14.b
+        sta $0003.w
+        
+        ; start write
+        lda #$02
+        sta $F7.b
+        sta $0000.w
+        
+        cpx #$01
+        bne @notFinalIteration
+          ; blank final row
+          ldy #mld_wordsToCopyPerRow
+          -:
+            tia mapLoadDebug_emptyTile,$0002,2
+            dey
+            bne -
+          bra @end
+        @notFinalIteration:
+        
+        ; copy row
+        ldy #mld_wordsToCopyPerRow
+        -:
+          lda $0002.w
+          sta $0002.w
+          lda $0003.w
+          sta $0003.w
+          dey
+          bne -
+        
+        @end:
+        dex
+        bne @copyLoop
+      
+      rts
+    
+    mapLoadDebug_emptyTile:
+      .db $B0,$F0
+    
+    mldmsg_done:
+      .asc "Done",$00
+    mldmsg_result:
+      .asc "Result: #X",$00
+    mldmsg_startingMapCacheCheck:
+      .asc "Cache check:"
+      .asc " *"
+        .dw $3095
+      .asc " *"
+        .dw $3096
+      .asc " *"
+        .dw $3097
+      .asc $00
+
+    mldmsg_currentSlotNotTargetMap: mld_makeMsg "Current slot not target map"
+    mldmsg_mapCachedA: mld_makeMsg "Map is cached: slot A"
+    mldmsg_mapCachedB: mld_makeMsg "Map is cached: slot B"
+    mldmsg_startingMapLoad: mld_makeMsg "Beginning map load CD-READ"
+    mldmsg_paramList:
+      .asc "P:"
+      .asc " *"
+        .dw $20F8
+      .asc " *"
+        .dw $20F9
+      .asc " *"
+        .dw $20FA
+      .asc " *"
+        .dw $20FB
+      .asc " *"
+        .dw $20FC
+      .asc " *"
+        .dw $20FD
+      .asc " *"
+        .dw $20FE
+      .asc " *"
+        .dw $20FF
+      .asc $00
+    
+    mldmsg_copyingInMapRsrc: mld_makeMsg "Copying in resources..."
+    
+    mldmsg_copyingInMapSnd: mld_makeMsg "Copying in sound bank..."
+  
+  .ends
+.endif
+
+;===================================
+; debug messages
+;===================================
+
+.if MAP_LOAD_DEBUG != 0
+
+  mldMsg_callReplaceOverw $9B9F,$9C9B,"Handling standard map load"
+;  mldMsg_callReplaceOverw $9C9E,$9FC3,"Beginning map load"
+  mldMsg_callReplaceOverw $9CA4,$9000,"Calling map init 9000"
+;  mldMsg_callReplaceOverw $9BB2,$9D0C,"Setting up player coords"
+  mldMsg_callReplaceOverw $9BB5,$A1F0,"Running map setup script"
+  mldMsg_callReplaceOverw $9BBF,$4DAA,"Calling 4DAA"
+  
+  ; these are called e.g. every time a dialogue box closes
+;  mldMsg_callReplaceOverw $9BCF,$5115,"Calling 5115"
+;  mldMsg_callReplaceOverw $9BDA,$9D18,"Calling 9D18"
+;  mldMsg_callReplaceOverw $9BEA,$9476,"Displaying map"
+  
+  mldMsg_callReplaceOverw $9C7C,$40E7,"Reached end of map loop"
+  
+;  mldMsg_callReplaceOverw $9CD8,$826D,"Calling 826D"
+;  mldMsg_callReplaceOverw $9CFD,$8174,"Running sound init if needed"
+  mldMsg_callReplaceOverw $9CE0,$819E,"Fading out music"
+
+.endif
+
+;===================================
 ; double text speed
 ;===================================
 
@@ -3372,10 +3846,13 @@
     rts
 .ends
 
+
 .bank metabank_new1 slot std_slot
 .section "new1: map cache 5" free
   doMapCacheCheck:
 ;    stz cachedMapLoadOccurred.w
+  
+    mldMsg mldmsg_startingMapCacheCheck
     
     ; it is quite possible for the target map to be the current one.
     ; for instance, this happens after every random encounter, when the game
@@ -3388,6 +3865,8 @@
       lda currentMapCacheIndex.w
       eor #$01
       sta currentMapCacheIndex.w
+      
+      mldMsg mldmsg_currentSlotNotTargetMap
     +:
     
     ;=====
@@ -3409,6 +3888,7 @@
       bne @finishMapLoad_A
       
       ; matched
+      mldMsg mldmsg_mapCachedA
       rts
     @copyFromSlotB:
       lda $3095.w
@@ -3422,6 +3902,7 @@
       bne @finishMapLoad_B
       
       ; matched
+      mldMsg mldmsg_mapCachedB
       rts
     
     ;=====
@@ -3454,24 +3935,37 @@
       sta @finishMapLoad_dstOp+1.w
     @finishMapLoad:
     -:
-      ; BL = dst
+      ; print: "Beginning map load CD-READ"
+      mldMsg mldmsg_startingMapLoad
+      
+      ; BL = dst memory page
+      ; (self-modified based on current map slot)
       @finishMapLoad_dstOp:
       lda #$00
       sta _BL.b
-      ; load src
+      ; CL to DL = load src sector
       lda $3095.w
       sta _DL.b
       lda $3096.w
       sta _CH.b
       lda $3097.w
       sta _CL.b
-      ; DH = type = mpr6
+      ; DH = load type = transfer using mpr6 as window
       lda #$06
       sta _DH.b
       ; AL = record count
       lda #<(mapDataSize/$800)
       sta _AL.b
+      
+      ; print: "P: " followed by BIOS params ($F8-$FF)
+      mldMsg mldmsg_paramList
+      
+      ; BIOS call
       jsr CD_READ
+      
+      ; print "Result: " followed by value of A register
+      mldAResultMsg
+      
       and #$FF
       bne -
     
@@ -3552,6 +4046,8 @@
     jmp copyCurrentMapResources
   
   copyCurrentMapResources:
+    mldMsg mldmsg_copyingInMapRsrc
+    
     phy
     phx
       ; X = base bank for current map
@@ -3661,6 +4157,8 @@
       tam #$20
     plx
     ply
+    
+    mldMsg mldmsg_done
     rts
   
   mapSlotToCopy1SrcTable:
@@ -3708,6 +4206,8 @@
 ;  copyFromSlot5To6:
   
   loadMapSounds:
+    mldMsg mldmsg_copyingInMapSnd
+    
     phx
       ; X = base bank for current map
       ldx currentMapCacheIndex.w
@@ -3729,6 +4229,8 @@
       pla
       tam #$20
     plx
+    
+    mldMsg mldmsg_done
     rts
   
   ; TODO: what is page 3 of the map data used for, if anything?
