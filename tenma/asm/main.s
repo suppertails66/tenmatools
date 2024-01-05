@@ -487,7 +487,8 @@
 
 ; disused section of battle load routine
 ; TODO: i think this could be extended up to around $7E56 without issue if needed
-.unbackground metabank_kernel*sizeOfMetabank+$7E17+$10 metabank_kernel*sizeOfMetabank+$7E3D
+;.unbackground metabank_kernel*sizeOfMetabank+$7E17+$10 metabank_kernel*sizeOfMetabank+$7E3D
+.unbackground metabank_kernel*sizeOfMetabank+$7E17+$10 metabank_kernel*sizeOfMetabank+$7E43
 
 ; bios reimplementations
 .unbackground metabank_kernel*sizeOfMetabank+$8E88 metabank_kernel*sizeOfMetabank+$8F76
@@ -679,6 +680,8 @@
       lda #newArea4SrcSectorL
       sta _DL.b
       ; type = read through MPR6
+      ; (safe: this code runs out of the kernel, and we set MPR6 immediately
+      ; after the call succeeds)
       lda #6
       sta _DH.b
       ; bank num
@@ -698,29 +701,34 @@
       jmp scdErrorMsgStart
     @isScd:
     
-    -:
-      ; read new permanent resources from cd to scd memory
-      ; type = mpr6 read
-      lda #$06
-      sta _DH.b
-      ; bank num
-      lda #newArea1MemPage
-      sta _BL.b
-      ; length
-      lda #newArea1SectorCount
-      sta _AL.b
-      ; src sector
-      lda #newArea1SrcSectorH
-      sta _CL
-      lda #newArea1SrcSectorM
-      sta _CH
-      lda #newArea1SrcSectorL
-      sta _DL
-      ; load
-      jsr CD_READ
-      ; loop until read successful
-      and #$FF
-      bne -
+    ; ensure MPR6 is not trashed by CD_READ
+    tma #$40
+    pha
+      -:
+        ; read new permanent resources from cd to scd memory
+        ; type = mpr6 read
+        lda #$06
+        sta _DH.b
+        ; bank num
+        lda #newArea1MemPage
+        sta _BL.b
+        ; length
+        lda #newArea1SectorCount
+        sta _AL.b
+        ; src sector
+        lda #newArea1SrcSectorH
+        sta _CL
+        lda #newArea1SrcSectorM
+        sta _CH
+        lda #newArea1SrcSectorL
+        sta _DL
+        ; load
+        jsr CD_READ
+        ; loop until read successful
+        and #$FF
+        bne -
+    pla
+    tam #$40
     
     ; run additional init routines from loaded content
     doTrampolineCallNew1 doExtraInit_afterLoad
@@ -755,77 +763,82 @@
     sta _AL.b
     jsr CD_BASE
     
-    ; read overw module cache
-    -:
-      ; type = mpr6 read
-      lda #$06
-      sta _DH.b
-      ; bank num
-      lda #overwCacheMemPage
-      sta _BL.b
-      ; length
-      lda #overwCacheSectorCount
-      sta _AL.b
-      ; src sector
-      lda #overwCacheSrcSectorH
-      sta _CL
-      lda #overwCacheSrcSectorM
-      sta _CH
-      lda #overwCacheSrcSectorL
-      sta _DL
-      ; load
-      jsr CD_READ
-      ; loop until read successful
-      and #$FF
-      bne -
-    
-    ; read battle module cache
-    -:
-      ; type = mpr6 read
-      lda #$06
-      sta _DH.b
-      ; bank num
-      lda #battleCacheMemPage
-      sta _BL.b
-      ; length
-      lda #battleCacheSectorCount
-      sta _AL.b
-      ; src sector
-      lda #battleCacheSrcSectorH
-      sta _CL
-      lda #battleCacheSrcSectorM
-      sta _CH
-      lda #battleCacheSrcSectorL
-      sta _DL
-      ; load
-      jsr CD_READ
-      ; loop until read successful
-      and #$FF
-      bne -
-    
-    ; read new area 3
-    -:
-      ; type = mpr6 read
-      lda #$06
-      sta _DH.b
-      ; bank num
-      lda #newArea3MemPage
-      sta _BL.b
-      ; length
-      lda #newArea3SectorCount
-      sta _AL.b
-      ; src sector
-      lda #newArea3SrcSectorH
-      sta _CL
-      lda #newArea3SrcSectorM
-      sta _CH
-      lda #newArea3SrcSectorL
-      sta _DL
-      ; load
-      jsr CD_READ
-      ; loop until read successful
-      and #$FF
-      bne -
+    ; ensure MPR5 is not trashed by CD_READ
+    tma #$20
+    pha
+      ; read overw module cache
+      -:
+        ; type = mpr5 read
+        lda #$05
+        sta _DH.b
+        ; bank num
+        lda #overwCacheMemPage
+        sta _BL.b
+        ; length
+        lda #overwCacheSectorCount
+        sta _AL.b
+        ; src sector
+        lda #overwCacheSrcSectorH
+        sta _CL
+        lda #overwCacheSrcSectorM
+        sta _CH
+        lda #overwCacheSrcSectorL
+        sta _DL
+        ; load
+        jsr CD_READ
+        ; loop until read successful
+        and #$FF
+        bne -
+      
+      ; read battle module cache
+      -:
+        ; type = mpr5 read
+        lda #$05
+        sta _DH.b
+        ; bank num
+        lda #battleCacheMemPage
+        sta _BL.b
+        ; length
+        lda #battleCacheSectorCount
+        sta _AL.b
+        ; src sector
+        lda #battleCacheSrcSectorH
+        sta _CL
+        lda #battleCacheSrcSectorM
+        sta _CH
+        lda #battleCacheSrcSectorL
+        sta _DL
+        ; load
+        jsr CD_READ
+        ; loop until read successful
+        and #$FF
+        bne -
+      
+      ; read new area 3
+      -:
+        ; type = mpr5 read
+        lda #$05
+        sta _DH.b
+        ; bank num
+        lda #newArea3MemPage
+        sta _BL.b
+        ; length
+        lda #newArea3SectorCount
+        sta _AL.b
+        ; src sector
+        lda #newArea3SrcSectorH
+        sta _CL
+        lda #newArea3SrcSectorM
+        sta _CH
+        lda #newArea3SrcSectorL
+        sta _DL
+        ; load
+        jsr CD_READ
+        ; loop until read successful
+        and #$FF
+        bne -
+    pla
+    tam #$20
     rts
 .ends
 
@@ -3934,40 +3947,45 @@
       lda #mapCacheBMemPage
       sta @finishMapLoad_dstOp+1.w
     @finishMapLoad:
-    -:
-      ; print: "Beginning map load CD-READ"
-      mldMsg mldmsg_startingMapLoad
-      
-      ; BL = dst memory page
-      ; (self-modified based on current map slot)
-      @finishMapLoad_dstOp:
-      lda #$00
-      sta _BL.b
-      ; CL to DL = load src sector
-      lda $3095.w
-      sta _DL.b
-      lda $3096.w
-      sta _CH.b
-      lda $3097.w
-      sta _CL.b
-      ; DH = load type = transfer using mpr6 as window
-      lda #$06
-      sta _DH.b
-      ; AL = record count
-      lda #<(mapDataSize/$800)
-      sta _AL.b
-      
-      ; print: "P: " followed by BIOS params ($F8-$FF)
-      mldMsg mldmsg_paramList
-      
-      ; BIOS call
-      jsr CD_READ
-      
-      ; print "Result: " followed by value of A register
-      mldAResultMsg
-      
-      and #$FF
-      bne -
+    ; ensure MPR5 is not trashed by CD_READ
+    tma #$20
+    pha
+      -:
+        ; print: "Beginning map load CD-READ"
+        mldMsg mldmsg_startingMapLoad
+        
+        ; BL = dst memory page
+        ; (self-modified based on current map slot)
+        @finishMapLoad_dstOp:
+        lda #$00
+        sta _BL.b
+        ; CL to DL = load src sector
+        lda $3095.w
+        sta _DL.b
+        lda $3096.w
+        sta _CH.b
+        lda $3097.w
+        sta _CL.b
+        ; DH = load type = transfer using mpr5 as window
+        lda #$05
+        sta _DH.b
+        ; AL = record count
+        lda #<(mapDataSize/$800)
+        sta _AL.b
+        
+        ; print: "P: " followed by BIOS params ($F8-$FF)
+        mldMsg mldmsg_paramList
+        
+        ; BIOS call
+        jsr CD_READ
+        
+        ; print "Result: " followed by value of A register
+        mldAResultMsg
+        
+        and #$FF
+        bne -
+    pla
+    tam #$20
     
     rts
   
@@ -8485,30 +8503,35 @@
     sta _AL.b
     jsr CD_BASE
     
-    ; reload original kernel from backup track using same specifications as ipl
-    -:
-      ; REC H
-      lda #$00
-      sta _CL.b
-      ; REC M
-      lda #$00
-      sta _CH.b
-      ; REC L
-      lda #$09
-      sta _DL.b
-      ; type = read through MPR6
-      lda #6
-      sta _DH.b
-      ; dst bank num
-      lda #$80
-      sta _BL.b
-      ; length
-      lda #$0A
-      sta _AL.b
-      
-      jsr CD_READ
-      and #$FF
-      bne -
+    ; ensure MPR5 is not trashed by CD_READ
+    tma #$20
+    pha
+      ; reload original kernel from backup track using same specifications as ipl
+      -:
+        ; REC H
+        lda #$00
+        sta _CL.b
+        ; REC M
+        lda #$00
+        sta _CH.b
+        ; REC L
+        lda #$09
+        sta _DL.b
+        ; type = read through MPR5
+        lda #5
+        sta _DH.b
+        ; dst bank num
+        lda #$80
+        sta _BL.b
+        ; length
+        lda #$0A
+        sta _AL.b
+        
+        jsr CD_READ
+        and #$FF
+        bne -
+    pla
+    tam #$20
     
     ; hope for the best
     jmp $4000
