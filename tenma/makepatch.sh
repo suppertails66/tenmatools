@@ -1,4 +1,4 @@
-versionnum="v1.1"
+versionnum="v1.2"
 
 # filename_iso="patch/auto_patch/Tengai Makyou - Ziria EN [${versionnum}-iso].xdelta"
 # filenameredump="patch/redump_patch/Tengai Makyou Ziria EN [${versionnum}] Redump.xdelta"
